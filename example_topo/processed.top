@@ -97,22 +97,22 @@ K           19      39.10    0.0000  A   4.73602e-01  1.37235e-03
 Rb          37      85.47    0.0000  A   5.26699e-01  7.11280e-04
 Cs          55     132.91    0.0000  A   6.04920e-01  3.37230e-04
 ; spc water - use only with spc.itp & settles
-OW spc       8      15.9994  0.0000  A   3.16557e-01  6.50629e-01
-HW spc       1       1.0080  0.0000  A   0.00000e+00  0.00000e+00
+OW_spc       8      15.9994  0.0000  A   3.16557e-01  6.50629e-01
+HW_spc       1       1.0080  0.0000  A   0.00000e+00  0.00000e+00
 Li           3       6.94    0.0000  A   2.02590e-01  7.65672e-02
 Zn          30      65.4     0.0000  A   1.95998e-01  5.23000e-02
 ;tip4p-EW
-HW tip4pew   1       1.008   0.0000  A   0.00000e+00  0.00000e+00
-OW tip4pew   8      16.00    0.0000  A   3.16435e-01  6.80946e-01
+HW_tip4pew   1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4pew   8      16.00    0.0000  A   3.16435e-01  6.80946e-01
 ; tip4p
-HW tip4p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
-OW tip4p     8      16.00    0.0000  A   3.15365e-01  6.48520e-01
+HW_tip4p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4p     8      16.00    0.0000  A   3.15365e-01  6.48520e-01
 ;tip5p
-HW tip5p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
-OW tip5p     8      16.00    0.0000  A   3.12000e-01  6.69440e-01
+HW_tip5p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip5p     8      16.00    0.0000  A   3.12000e-01  6.69440e-01
 ;tip4pd
-HW tip4pd    1       1.008   0.0000  A   0.00000e+00  0.00000e+00
-OW tip4pd    8      16.00    0.0000  A   3.16500e-01  9.98989e-01
+HW_tip4pd    1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4pd    8      16.00    0.0000  A   3.16500e-01  9.98989e-01
 ; dummy defs
 ; MW=Dummy mass for tip4p/EW/5p water extra point charge
 MW           0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
@@ -7254,7 +7254,7 @@ SOL		1
 
 [ atoms ]
 ; 	at type	      res nr  res name	at name	      cg nr	charge	   mass
-1       OW tip4pd    	1	SOL	 OW		1	0        16.00000
+1       OW_tip4pd    	1	SOL	 OW		1	0        16.00000
 2	HW       	1	SOL	HW1		1	0.5900 	  1.00800
 3	HW	        1	SOL	HW2		1	0.5900 	  1.00800
 4	MW		1	SOL	MW4		1      -1.1800    0.00000
@@ -7294,7 +7294,7 @@ NA              1
 
 [ molecules ]
 ; Compound       #mols
-Protein chain A     1
+Protein_chain_A     1
 SOL             13587
 NA                  4
 CL                  3
