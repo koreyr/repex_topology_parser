@@ -7704,670 +7704,338 @@ sMNH3   ho   1       0.0269   0.0000
  CT  C1  HP     1    109.500  418.400  ; Amber99Sb-disp
 
 [ dihedraltypes ]
-C C1 N O 4 180.0 4.60240 2
-C C1 N OB 4 180.0 4.60240 2
-C C1 N H 4 180.0 4.60240 2
-C C1 N HB 4 180.0 4.60240 2
-C9 O C OH 4 180.0 43.93200 2
-CB CK N* CT 4 180.0 4.18400 2
-C CM N* CT 4 180.0 4.18400 2
-CT O C OH 4 180.0 43.93200 2
-CT CV CC NA 4 180.0 4.60240 2
-CT CW CC NB 4 180.0 4.60240 2
-CT CC CW NB 4 180.0 4.60240 2
-CT CW CC NA 4 180.0 4.60240 2
-CB CT C* CW 4 180.0 4.60240 2
-CA CA CA CT 4 180.0 4.60240 2
-C CM CM CT 4 180.0 4.60240 2
-CM N2 CA NC 4 180.0 4.60240 2
-CB N2 CA NC 4 180.0 4.60240 2
-N2 NA CA NC 4 180.0 4.60240 2
-CA CA C OH 4 180.0 4.60240 2
-CA CA CA OH 4 180.0 4.60240 2
-H5 O C OH 4 180.0 4.60240 2
-H5 O C OS 4 180.0 4.60240 2
-CM CT CM HA 4 180.0 4.60240 2
-Br CA CA CA 4 180.0 4.60240 2
-CM H4 C O 4 180.0 4.60240 2
-C CT N H 4 180.0 4.60240 2
-C CT N HB 4 180.0 4.60240 2
-C CT N O 4 180.0 4.60240 2
-C C7 N O 4 180.0 4.60240 2
-C CT N OB 4 180.0 4.60240 2
-C C7 N OB 4 180.0 4.60240 2
-C C7 N H 4 180.0 4.60240 2
-C C7 N HB 4 180.0 4.60240 2
-C5 CT N O 4 180.0 4.60240 2
-C5 CT N OB 4 180.0 4.60240 2
-C5 CT N H 4 180.0 4.60240 2
-C5 CT N HB 4 180.0 4.60240 2
-X CT N C1 4 180.0 4.18400 2
-X CT N C7 4 180.0 4.18400 2
-X O2 C6 O2 4 180.0 43.93200 2
-X O2 C O2 4 180.0 43.93200 2
-X N2 CA N2 4 180.0 43.93200 2
-X CT N CT 4 180.0 4.18400 2
-X X C O 4 180.0 43.93200 2
-X X C OB 4 180.0 43.93200 2
-X X N H 4 180.0 4.18400 2
-X X N2 H 4 180.0 4.18400 2
-X X NA H 4 180.0 4.18400 2
-X X CA HA 4 180.0 4.60240 2
-X X CW H4 4 180.0 4.60240 2
-X X CR H5 4 180.0 4.60240 2
-X X CV H4 4 180.0 4.60240 2
-X X CQ H5 4 180.0 4.60240 2
-X X CK H5 4 180.0 4.60240 2
-X X CM H4 4 180.0 4.60240 2
-X X CM HA 4 180.0 4.60240 2
-X X CA H4 4 180.0 4.60240 2
-X X CA H5 4 180.0 4.60240 2
-X X C5 O 4 180.0 43.93200 2
-C8 CT C N 9 0.0 0.83680 1
-C8 CT C N 9 0.0 0.83680 2
-C8 CT C N 9 0.0 1.67360 3
-C8 CT N C 9 0.0 8.36800 1
-C8 CT N C 9 0.0 8.36800 2
-C8 CT N C 9 0.0 1.67360 3
-C CT C8 O3 9 180.0 4.18400 1
-C CT C8 OH 9 180.0 3.76560 1
-C CT CT C4 9 0.0 2.39074 1
-C CT CT C4 9 180.0 1.49913 2
-C CT CT C4 9 0.0 0.56400 3
-C CT CT C5 9 0.0 0.71421 1
-C CT CT C5 9 180.0 2.49241 2
-C CT CT C5 9 0.0 0.49580 3
-C CT CT C5 9 180.0 1.74556 4
-C CT CT C5 9 0.0 0.43597 5
-C CT CT C5 9 180.0 0.42142 6
-C CT CT C* 9 0.0 1.21336 1
-C CT CT C9 9 0.0 1.25520 1
-C CT CT CA 9 0.0 2.17568 1
-C CT CT CC 9 0.0 2.92880 1
-C CT CT SH 9 180.0 0.66944 1
-Cl CT CT Cl 9 180.0 1.88280 1
-CM CM C O 9 180.0 9.10020 2
-CM CM C O 9 0.0 1.25520 3
-C N C1 C 9 0.0 0.35267 1
-C N C1 C 9 0.0 1.59541 2
-C N C1 C 9 180.0 0.08381 3
-C N C1 C 9 0.0 0.32396 4
-C N C7 C 9 0.0 1.12968 2
-C N C7 C 9 0.0 1.75728 3
-C N CT C 9 180.0 0.14226 1
-C N CT C 9 0.0 1.40164 2
-C N CT C 9 0.0 2.27610 3
-C N CT C 9 0.0 0.33472 4
-CT C7 C N 9 0.0 0.83680 1
-CT C7 C N 9 0.0 0.83680 2
-CT C7 C N 9 0.0 1.67360 3
-CT C7 N C 9 0.0 8.36800 1
-CT C7 N C 9 0.0 8.36800 2
-CT C7 N C 9 0.0 1.67360 3
-CT C9 C O2 9 180.0 2.51040 2
-CT C9 C O 9 180.0 2.51040 2
-CT C9 C OB 9 180.0 2.51040 2
-CT CM CM CT 9 180.0 27.82360 2
-CT CM CM CT 9 180.0 7.94960 1
-CT CT C4 CT 9 0.0 0.62760 3
-CT CT C5 O 9 180.0 4.18400 1
-CT CT C6 O2 9 180.0 0.77822 4
-CT CT C6 O2 9 180.0 1.48114 6
-CT CT C6 O2 9 180.0 3.65263 2
-CT CT C* CW 9 0.0 5.02080 1
-CT CT C N 9 0.0 0.83680 1
-CT CT C N 9 0.0 0.83680 2
-CT CT C N 9 0.0 1.67360 3
-CT CT CT C3 9 0.0 0.62760 3
-CT CT CT C7 9 0.0 0.75312 3
-CT CT CT C7 9 180.0 0.83680 1
-CT CT CT C7 9 180.0 1.04600 2
-CT CT CT CT 9 0.0 0.62760 3
-CT CT N C 9 0.0 1.67360 3
-CT CT N C 9 0.0 8.36800 1
-CT CT N C 9 0.0 8.36800 2
-CT CT OS C 9 0.0 1.60247 3
-CT CT OS C 9 180.0 3.34720 1
-CT CT OS CT 9 0.0 1.60247 3
-CT CT OS CT 9 180.0 0.41840 2
-CT CT SH HS 9 0.0 0.83680 3
-CT CT SH HS 9 0.0 2.09200 2
-CT OS CT N* 9 0.0 1.60247 3
-CT OS CT N* 9 0.0 2.71960 2
-CT OS CT OS 9 0.0 0.41840 3
-CT OS CT OS 9 180.0 3.55640 2
-CT OS CT OS 9 180.0 5.64840 1
-CT S S CT 9 0.0 14.64400 2
-CT S S CT 9 0.0 2.51040 3
-F CT CT F 9 180.0 5.02080 1
-H1 C1 C O 9 0.0 3.34720 1
-H1 C1 C O 9 180.0 0.33472 3
-H1 C7 C O 9 0.0 3.34720 1
-H1 C7 C O 9 180.0 0.33472 3
-H1 CT C O 9 0.0 3.34720 1
-H1 CT C O 9 180.0 0.33472 3
-H1 C1 C OB 9 0.0 3.34720 1
-H1 C1 C OB 9 180.0 0.33472 3
-H1 C7 C OB 9 0.0 3.34720 1
-H1 C7 C OB 9 180.0 0.33472 3
-H1 CT C OB 9 0.0 3.34720 1
-H1 CT C OB 9 180.0 0.33472 3
-H1 CT CT Br 9 0.0 2.30120 1
-H1 CT CT Cl 9 0.0 1.04600 1
-H1 CT CT F 9 0.0 0.79496 1
-H1 CT CT OH 9 0.0 1.04600 1
-H1 CT CT OS 9 0.0 1.04600 1
-HC C3 CT CT 9 0.0 0.66944 3
-HC C4 CT CT 9 0.0 0.66944 3
-HC C4 CT HC 9 0.0 0.62760 3
-HC CT C3 HC 9 0.0 0.62760 3
-HC CT C4 CT 9 0.0 0.66944 3
-HC CT C5 O 9 0.0 3.34720 1
-HC CT C5 O 9 180.0 0.33472 3
-HC CT CM CM 9 0.0 4.81160 1
-HC CT CM CM 9 180.0 1.58992 3
-HC CT C O 9 0.0 3.34720 1
-HC CT C O 9 180.0 0.33472 3
-HC CT C OB 9 0.0 3.34720 1
-HC CT C OB 9 180.0 0.33472 3
-HC CT CT Br 9 0.0 2.30120 1
-HC CT CT C3 9 0.0 0.66944 3
-HC CT CT C4 9 0.0 0.66944 3
-HC CT CT C7 9 0.0 0.66944 3
-HC CT CT Cl 9 0.0 1.04600 1
-HC CT CT CT 9 0.0 0.66944 3
-HC CT CT F 9 0.0 0.79496 1
-HC CT CT HC 9 0.0 0.62760 3
-HC CT CT OH 9 0.0 1.04600 1
-HC CT CT OS 9 0.0 1.04600 1
-H N C5 O 9 0.0 8.36800 1
-H N C5 O 9 180.0 10.46000 2
-H N C O 9 0.0 8.36800 1
-H N C O 9 180.0 10.46000 2
-HB N C OB 9 0.0 8.36800 1
-HB N C OB 9 180.0 10.46000 2
-HO O3 C8 CT 9 0.0 0.35982 1
-HO O3 C8 CT 9 0.0 0.41840 3
-HO O3 C8 CT 9 180.0 0.68199 2
-HO O3 C8 H1 9 0.0 0.41840 3
-HO OH C8 CT 9 0.0 0.25104 2
-HO OH C8 CT 9 0.0 0.83680 3
-HO OH C8 CT 9 0.0 3.13800 1
-HO OH C O 9 0.0 7.94960 1
-HO OH C O 9 180.0 9.62320 2
-HO OH CT CT 9 0.0 0.66944 3
-HO OH CT CT 9 0.0 1.04600 1
-N3 CT CT C3 9 0.0 0.81630 1
-N3 CT CT C3 9 180.0 3.53925 2
-N3 CT CT C6 9 180.0 11.02568 1
-N3 CT CT C6 9 180.0 4.98022 2
-N3 CT CT C6 9 180.0 0.02845 3
-N3 CT CT C6 9 0.0 1.76858 4
-N3 CT CT C6 9 0.0 0.96943 5
-N3 CT CT C6 9 180.0 0.89009 6
-N C1 C N 9 180.0 2.69445 1
-N C1 C N 9 180.0 6.68666 2
-N C1 C N 9 180.0 1.67111 3
-N C1 C N 9 0.0 0.31419 4
-N C5 CT CT 9 180.0 4.37772 1
-N C5 CT CT 9 180.0 0.75730 2
-N C5 CT CT 9 180.0 0.14811 3
-N C5 CT CT 9 0.0 0.41966 4
-N C5 CT CT 9 0.0 0.54308 5
-N C5 CT CT 9 180.0 0.44373 6
-N C7 C N 9 180.0 1.88280 1
-N C7 C N 9 180.0 6.61072 2
-N C7 C N 9 180.0 2.30120 3
-N CT C8 CT 9 0.0 0.25104 1
-N CT C8 CT 9 180.0 2.09200 2
-N CT C8 CT 9 0.0 0.62760 3
-N CT C8 CT 9 180.0 0.27196 4
-N CT C8 O3 9 180.0 0.33472 1
-N CT C8 OH 9 180.0 1.04600 1
-N CT C N 9 360.0 0.82425 1
-N CT C N 9 180.0 6.04588 2
-N CT C N 9 180.0 2.00414 3
-N CT C N 9 360.0 0.07991 4
-N CT C N 9 360.0 0.01674 5
-N CT CT C3 9 0.0 0.81630 1
-N CT CT C3 9 180.0 3.53925 2
-N CT CT C5 9 180.0 2.63592 1
-N CT CT C6 9 180.0 12.05410 1
-N CT CT C6 9 180.0 5.06682 2
-N CT CT C6 9 0.0 0.25941 3
-N CT CT C6 9 0.0 1.02508 4
-N CT CT C6 9 0.0 0.54810 5
-N CT CT C6 9 180.0 0.59413 6
-N CT CT C9 9 0.0 0.41840 1
-N CT CT CC 9 180.0 1.67360 1
-N CT CT SH 9 180.0 2.30120 1
-N CT CT SH 9 180.0 2.63592 2
-N CT CT SH 9 180.0 0.25104 3
-N CT CT SH 9 180.0 0.12552 4
-O C OS CT 9 180.0 5.85760 1
-O C OS CT 9 180.0 11.29680 2
-OH CT CT OH 9 0.0 0.60250 3
-OH CT CT OH 9 0.0 4.91620 2
-OH P OS CT 9 0.0 1.04600 3
-OH P OS CT 9 0.0 5.02080 2
-OS CT CT OH 9 0.0 0.60250 3
-OS CT CT OH 9 0.0 4.91620 2
-OS CT CT OS 9 0.0 4.91620 2
-OS CT CT OS 9 0.0 0.60250 3
-OS CT N* CK 9 0.0 10.46000 1
-OS CT N* CM 9 0.0 10.46000 1
-OS P OS CT 9 0.0 5.02080 2
-OS P OS CT 9 0.0 1.04600 3
-N CT CT CA 9 0.0 0.00000 0
-N CT CT C* 9 0.0 0.00000 0
-CT CT C9 S 9 0.0 0.00000 0
-CT CT C9 CT 9 0.0 0.00000 0
-X C1 N3 X 9 0.0 0.65084 3
-X C5 N X 9 180.0 10.46000 2
-X C7 CT X 9 0.0 0.65084 3
-X C7 N3 X 9 0.0 0.65084 3
-X C8 O3 X 9 0.0 0.69873 3
-X C8 OH X 9 0.0 0.69873 3
-X C9 S X 9 0.0 1.39327 3
-X CA CA X 9 180.0 15.16700 2
-X CA CB X 9 180.0 14.64400 2
-X CA CM X 9 180.0 10.66920 2
-X CA CN X 9 180.0 15.16700 2
-X CA N2 X 9 180.0 10.04160 2
-X CA NA X 9 180.0 6.27600 2
-X CA NC X 9 180.0 20.08320 2
-X CA OH X 9 180.0 3.76560 2
-X CB CB X 9 180.0 22.80280 2
-X CB CN X 9 180.0 12.55200 2
-X CB NB X 9 180.0 10.66920 2
-X CB NC X 9 180.0 17.36360 2
-X CB N* X 9 180.0 6.90360 2
-X C CA X 9 180.0 15.16700 2
-X C CB X 9 180.0 12.55200 2
-X C* CB X 9 180.0 7.00820 2
-X CC CV X 9 180.0 21.54760 2
-X CC CW X 9 180.0 22.48900 2
-X C CM X 9 180.0 9.10020 2
-X CC NA X 9 180.0 5.85760 2
-X CC NB X 9 180.0 10.04160 2
-X C* CW X 9 180.0 27.30060 2
-X C C X 9 180.0 15.16700 2
-X CK NB X 9 180.0 41.84000 2
-X CK N* X 9 180.0 7.11280 2
-X CM CM X 9 180.0 27.82360 2
-X CM N* X 9 180.0 7.74040 2
-X CM OS X 9 180.0 4.39320 2
-X C NA X 9 180.0 5.64840 2
-X C NC X 9 180.0 16.73600 2
-X CN NA X 9 180.0 6.38060 2
-X C N X 9 180.0 10.46000 2
-X C N* X 9 180.0 6.06680 2
-X C OH X 9 180.0 9.62320 2
-X C OS X 9 180.0 11.29680 2
-X C O X 9 180.0 11.71520 2
-X C OB X 9 180.0 11.71520 2
-X CQ NC X 9 180.0 28.45120 2
-X CR NA X 9 180.0 9.72780 2
-X CR NB X 9 180.0 20.92000 2
-X CT C8 X 9 0.0 0.64852 3
-X CT C9 X 9 0.0 0.64852 3
-X CT CT X 9 0.0 0.65084 3
-X CT N3 X 9 0.0 0.65084 3
-X CT OH X 9 0.0 0.69733 3
-X CT OS X 9 0.0 1.60387 3
-X CT SH X 9 0.0 1.04600 3
-X CT S X 9 0.0 1.39467 3
-X CV NB X 9 180.0 10.04160 2
-X CW NA X 9 180.0 6.27600 2
-X OH P X 9 0.0 1.04600 3
-X OS P X 9 0.0 1.04600 3
-X C1 N X 9 0.0 0.00000 0
-X C C1 X 9 0.0 0.00000 0
-X C C9 X 9 0.0 0.00000 0
-X C CT X 9 0.0 0.00000 0
-X CA CT X 9 0.0 0.00000 0
-X CC CT X 9 0.0 0.00000 0
-X CM CT X 9 0.0 0.00000 0
-X CT N X 9 0.0 0.00000 0
-X CT N* X 9 0.0 0.00000 0
-X CT N2 X 9 0.0 0.00000 0
-X C* CT X 9 0.0 0.00000 0
-X C7 N X 9 0.0 0.00000 0
-X C C7 X 9 0.0 0.00000 0
-X C5 CT X 9 0.0 0.00000 0
-X C6 CT X 9 0.0 0.00000 0
-   sC   sC1    sN    sO     4    4.60240   3.437     2
-   sC   sC1    sN   sOB     4    4.60240   3.437     2
-   sC   sC1    sN    sH     4    4.60240   3.437     2
-   sC   sC1    sN   sHB     4    4.60240   3.437     2
-  sC9    sO    sC   sOH     4    43.93200  32.810    2
-  sCB   sCK   sN*   sCT     4    4.18400   3.125     2
-   sC   sCM   sN*   sCT     4    4.18400   3.125     2
-  sCT    sO    sC   sOH     4    43.93200  32.810    2
-  sCT   sCV   sCC   sNA     4    4.60240   3.437     2
-  sCT   sCW   sCC   sNB     4    4.60240   3.437     2
-  sCT   sCC   sCW   sNB     4    4.60240   3.437     2
-  sCT   sCW   sCC   sNA     4    4.60240   3.437     2
-  sCB   sCT   sC*   sCW     4    4.60240   3.437     2
-  sCA   sCA   sCA   sCT     4    4.60240   3.437     2
-   sC   sCM   sCM   sCT     4    4.60240   3.437     2
-  sCM   sN2   sCA   sNC     4    4.60240   3.437     2
-  sCB   sN2   sCA   sNC     4    4.60240   3.437     2
-  sN2   sNA   sCA   sNC     4    4.60240   3.437     2
-  sCA   sCA    sC   sOH     4    4.60240   3.437     2
-  sCA   sCA   sCA   sOH     4    4.60240   3.437     2
-  sH5    sO    sC   sOH     4    4.60240   3.437     2
-  sH5    sO    sC   sOS     4    4.60240   3.437     2
-  sCM   sCT   sCM   sHA     4    4.60240   3.437     2
-  sBr   sCA   sCA   sCA     4    4.60240   3.437     2
-  sCM   sH4    sC    sO     4    4.60240   3.437     2
-   sC   sCT    sN    sH     4    4.60240   3.437     2
-   sC   sCT    sN   sHB     4    4.60240   3.437     2
-   sC   sCT    sN    sO     4    4.60240   3.437     2
-   sC   sC7    sN    sO     4    4.60240   3.437     2
-   sC   sCT    sN   sOB     4    4.60240   3.437     2
-   sC   sC7    sN   sOB     4    4.60240   3.437     2
-   sC   sC7    sN    sH     4    4.60240   3.437     2
-   sC   sC7    sN   sHB     4    4.60240   3.437     2
-  sC5   sCT    sN    sO     4    4.60240   3.437     2
-  sC5   sCT    sN   sOB     4    4.60240   3.437     2
-  sC5   sCT    sN    sH     4    4.60240   3.437     2
-  sC5   sCT    sN   sHB     4    4.60240   3.437     2
-    X   sCT    sN   sC1     4    4.18400   3.125     2
-    X   sCT    sN   sC7     4    4.18400   3.125     2
-    X   sO2   sC6   sO2     4    43.93200  32.810    2
-    X   sO2    sC   sO2     4    43.93200  32.810    2
-    X   sN2   sCA   sN2     4    43.93200  32.810    2
-    X   sCT    sN   sCT     4    4.18400   3.125     2
-    X     X    sC    sO     4    43.93200  32.810    2
-    X     X    sC   sOB     4    43.93200  32.810    2
-    X     X    sN    sH     4    4.18400   3.125     2
-    X     X   sN2    sH     4    4.18400   3.125     2
-    X     X   sNA    sH     4    4.18400   3.125     2
-    X     X   sCA   sHA     4    4.60240   3.437     2
-    X     X   sCW   sH4     4    4.60240   3.437     2
-    X     X   sCR   sH5     4    4.60240   3.437     2
-    X     X   sCV   sH4     4    4.60240   3.437     2
-    X     X   sCQ   sH5     4    4.60240   3.437     2
-    X     X   sCK   sH5     4    4.60240   3.437     2
-    X     X   sCM   sH4     4    4.60240   3.437     2
-    X     X   sCM   sHA     4    4.60240   3.437     2
-    X     X   sCA   sH4     4    4.60240   3.437     2
-    X     X   sCA   sH5     4    4.60240   3.437     2
-    X     X   sC5    sO     4    43.93200  32.810    2
-  sC8   sCT    sC    sN     9    0.83680   0.625     1
-  sC8   sCT    sC    sN     9    0.83680   0.625     2
-  sC8   sCT    sC    sN     9    1.67360   1.250     3
-  sC8   sCT    sN    sC     9    8.36800   6.250     1
-  sC8   sCT    sN    sC     9    8.36800   6.250     2
-  sC8   sCT    sN    sC     9    1.67360   1.250     3
-   sC   sCT   sC8   sO3     9    4.18400   3.125     1
-   sC   sCT   sC8   sOH     9    3.76560   2.812     1
-   sC   sCT   sCT   sC4     9    2.39074   1.786     1
-   sC   sCT   sCT   sC4     9    1.49913   1.120     2
-   sC   sCT   sCT   sC4     9    0.56400   0.421     3
-   sC   sCT   sCT   sC5     9    0.71421   0.533     1
-   sC   sCT   sCT   sC5     9    2.49241   1.861     2
-   sC   sCT   sCT   sC5     9    0.49580   0.370     3
-   sC   sCT   sCT   sC5     9    1.74556   1.304     4
-   sC   sCT   sCT   sC5     9    0.43597   0.326     5
-   sC   sCT   sCT   sC5     9    0.42142   0.315     6
-   sC   sCT   sCT   sC*     9    1.21336   0.906     1
-   sC   sCT   sCT   sC9     9    1.25520   0.937     1
-   sC   sCT   sCT   sCA     9    2.17568   1.625     1
-   sC   sCT   sCT   sCC     9    2.92880   2.187     1
-   sC   sCT   sCT   sSH     9    0.66944   0.500     1
-  sCl   sCT   sCT   sCl     9    1.88280   1.406     1
-  sCM   sCM    sC    sO     9    9.10020   6.796     2
-  sCM   sCM    sC    sO     9    1.25520   0.937     3
-   sC    sN   sC1    sC     9    0.35267   0.263     1
-   sC    sN   sC1    sC     9    1.59541   1.192     2
-   sC    sN   sC1    sC     9    0.08381   0.063     3
-   sC    sN   sC1    sC     9    0.32396   0.242     4
-   sC    sN   sC7    sC     9    1.12968   0.844     2
-   sC    sN   sC7    sC     9    1.75728   1.312     3
-   sC    sN   sCT    sC     9    0.14226   0.106     1
-   sC    sN   sCT    sC     9    1.40164   1.047     2
-   sC    sN   sCT    sC     9    2.27610   1.700     3
-   sC    sN   sCT    sC     9    0.33472   0.250     4
-  sCT   sC7    sC    sN     9    0.83680   0.625     1
-  sCT   sC7    sC    sN     9    0.83680   0.625     2
-  sCT   sC7    sC    sN     9    1.67360   1.250     3
-  sCT   sC7    sN    sC     9    8.36800   6.250     1
-  sCT   sC7    sN    sC     9    8.36800   6.250     2
-  sCT   sC7    sN    sC     9    1.67360   1.250     3
-  sCT   sC9    sC   sO2     9    2.51040   1.875     2
-  sCT   sC9    sC    sO     9    2.51040   1.875     2
-  sCT   sC9    sC   sOB     9    2.51040   1.875     2
-  sCT   sCM   sCM   sCT     9    27.82360  20.780    2
-  sCT   sCM   sCM   sCT     9    7.94960   5.937     1
-  sCT   sCT   sC4   sCT     9    0.62760   0.469     3
-  sCT   sCT   sC5    sO     9    4.18400   3.125     1
-  sCT   sCT   sC6   sO2     9    0.77822   0.581     4
-  sCT   sCT   sC6   sO2     9    1.48114   1.106     6
-  sCT   sCT   sC6   sO2     9    3.65263   2.728     2
-  sCT   sCT   sC*   sCW     9    5.02080   3.750     1
-  sCT   sCT    sC    sN     9    0.83680   0.625     1
-  sCT   sCT    sC    sN     9    0.83680   0.625     2
-  sCT   sCT    sC    sN     9    1.67360   1.250     3
-  sCT   sCT   sCT   sC3     9    0.62760   0.469     3
-  sCT   sCT   sCT   sC7     9    0.75312   0.562     3
-  sCT   sCT   sCT   sC7     9    0.83680   0.625     1
-  sCT   sCT   sCT   sC7     9    1.04600   0.781     2
-  sCT   sCT   sCT   sCT     9    0.62760   0.469     3
-  sCT   sCT    sN    sC     9    1.67360   1.250     3
-  sCT   sCT    sN    sC     9    8.36800   6.250     1
-  sCT   sCT    sN    sC     9    8.36800   6.250     2
-  sCT   sCT   sOS    sC     9    1.60247   1.197     3
-  sCT   sCT   sOS    sC     9    3.34720   2.500     1
-  sCT   sCT   sOS   sCT     9    1.60247   1.197     3
-  sCT   sCT   sOS   sCT     9    0.41840   0.312     2
-  sCT   sCT   sSH   sHS     9    0.83680   0.625     3
-  sCT   sCT   sSH   sHS     9    2.09200   1.562     2
-  sCT   sOS   sCT   sN*     9    1.60247   1.197     3
-  sCT   sOS   sCT   sN*     9    2.71960   2.031     2
-  sCT   sOS   sCT   sOS     9    0.41840   0.312     3
-  sCT   sOS   sCT   sOS     9    3.55640   2.656     2
-  sCT   sOS   sCT   sOS     9    5.64840   4.218     1
-  sCT    sS    sS   sCT     9    14.64400  10.937    2
-  sCT    sS    sS   sCT     9    2.51040   1.875     3
-   sF   sCT   sCT    sF     9    5.02080   3.750     1
-  sH1   sC1    sC    sO     9    3.34720   2.500     1
-  sH1   sC1    sC    sO     9    0.33472   0.250     3
-  sH1   sC7    sC    sO     9    3.34720   2.500     1
-  sH1   sC7    sC    sO     9    0.33472   0.250     3
-  sH1   sCT    sC    sO     9    3.34720   2.500     1
-  sH1   sCT    sC    sO     9    0.33472   0.250     3
-  sH1   sC1    sC   sOB     9    3.34720   2.500     1
-  sH1   sC1    sC   sOB     9    0.33472   0.250     3
-  sH1   sC7    sC   sOB     9    3.34720   2.500     1
-  sH1   sC7    sC   sOB     9    0.33472   0.250     3
-  sH1   sCT    sC   sOB     9    3.34720   2.500     1
-  sH1   sCT    sC   sOB     9    0.33472   0.250     3
-  sH1   sCT   sCT   sBr     9    2.30120   1.719     1
-  sH1   sCT   sCT   sCl     9    1.04600   0.781     1
-  sH1   sCT   sCT    sF     9    0.79496   0.594     1
-  sH1   sCT   sCT   sOH     9    1.04600   0.781     1
-  sH1   sCT   sCT   sOS     9    1.04600   0.781     1
-  sHC   sC3   sCT   sCT     9    0.66944   0.500     3
-  sHC   sC4   sCT   sCT     9    0.66944   0.500     3
-  sHC   sC4   sCT   sHC     9    0.62760   0.469     3
-  sHC   sCT   sC3   sHC     9    0.62760   0.469     3
-  sHC   sCT   sC4   sCT     9    0.66944   0.500     3
-  sHC   sCT   sC5    sO     9    3.34720   2.500     1
-  sHC   sCT   sC5    sO     9    0.33472   0.250     3
-  sHC   sCT   sCM   sCM     9    4.81160   3.594     1
-  sHC   sCT   sCM   sCM     9    1.58992   1.187     3
-  sHC   sCT    sC    sO     9    3.34720   2.500     1
-  sHC   sCT    sC    sO     9    0.33472   0.250     3
-  sHC   sCT    sC   sOB     9    3.34720   2.500     1
-  sHC   sCT    sC   sOB     9    0.33472   0.250     3
-  sHC   sCT   sCT   sBr     9    2.30120   1.719     1
-  sHC   sCT   sCT   sC3     9    0.66944   0.500     3
-  sHC   sCT   sCT   sC4     9    0.66944   0.500     3
-  sHC   sCT   sCT   sC7     9    0.66944   0.500     3
-  sHC   sCT   sCT   sCl     9    1.04600   0.781     1
-  sHC   sCT   sCT   sCT     9    0.66944   0.500     3
-  sHC   sCT   sCT    sF     9    0.79496   0.594     1
-  sHC   sCT   sCT   sHC     9    0.62760   0.469     3
-  sHC   sCT   sCT   sOH     9    1.04600   0.781     1
-  sHC   sCT   sCT   sOS     9    1.04600   0.781     1
-   sH    sN   sC5    sO     9    8.36800   6.250     1
-   sH    sN   sC5    sO     9    10.46000  7.812     2
-   sH    sN    sC    sO     9    8.36800   6.250     1
-   sH    sN    sC    sO     9    10.46000  7.812     2
-  sHB    sN    sC   sOB     9    8.36800   6.250     1
-  sHB    sN    sC   sOB     9    10.46000  7.812     2
-  sHO   sO3   sC8   sCT     9    0.35982   0.269     1
-  sHO   sO3   sC8   sCT     9    0.41840   0.312     3
-  sHO   sO3   sC8   sCT     9    0.68199   0.509     2
-  sHO   sO3   sC8   sH1     9    0.41840   0.312     3
-  sHO   sOH   sC8   sCT     9    0.25104   0.187     2
-  sHO   sOH   sC8   sCT     9    0.83680   0.625     3
-  sHO   sOH   sC8   sCT     9    3.13800   2.344     1
-  sHO   sOH    sC    sO     9    7.94960   5.937     1
-  sHO   sOH    sC    sO     9    9.62320   7.187     2
-  sHO   sOH   sCT   sCT     9    0.66944   0.500     3
-  sHO   sOH   sCT   sCT     9    1.04600   0.781     1
-  sN3   sCT   sCT   sC3     9    0.81630   0.610     1
-  sN3   sCT   sCT   sC3     9    3.53925   2.643     2
-  sN3   sCT   sCT   sC6     9    11.02568  8.234     1
-  sN3   sCT   sCT   sC6     9    4.98022   3.719     2
-  sN3   sCT   sCT   sC6     9    0.02845   0.021     3
-  sN3   sCT   sCT   sC6     9    1.76858   1.321     4
-  sN3   sCT   sCT   sC6     9    0.96943   0.724     5
-  sN3   sCT   sCT   sC6     9    0.89009   0.665     6
-   sN   sC1    sC    sN     9    2.69445   2.012     1
-   sN   sC1    sC    sN     9    6.68666   4.994     2
-   sN   sC1    sC    sN     9    1.67111   1.248     3
-   sN   sC1    sC    sN     9    0.31419   0.235     4
-   sN   sC5   sCT   sCT     9    4.37772   3.269     1
-   sN   sC5   sCT   sCT     9    0.75730   0.566     2
-   sN   sC5   sCT   sCT     9    0.14811   0.111     3
-   sN   sC5   sCT   sCT     9    0.41966   0.313     4
-   sN   sC5   sCT   sCT     9    0.54308   0.406     5
-   sN   sC5   sCT   sCT     9    0.44373   0.331     6
-   sN   sC7    sC    sN     9    1.88280   1.406     1
-   sN   sC7    sC    sN     9    6.61072   4.937     2
-   sN   sC7    sC    sN     9    2.30120   1.719     3
-   sN   sCT   sC8   sCT     9    0.25104   0.187     1
-   sN   sCT   sC8   sCT     9    2.09200   1.562     2
-   sN   sCT   sC8   sCT     9    0.62760   0.469     3
-   sN   sCT   sC8   sCT     9    0.27196   0.203     4
-   sN   sCT   sC8   sO3     9    0.33472   0.250     1
-   sN   sCT   sC8   sOH     9    1.04600   0.781     1
-   sN   sCT    sC    sN     9    0.82425   0.616     1
-   sN   sCT    sC    sN     9    6.04588   4.515     2
-   sN   sCT    sC    sN     9    2.00414   1.497     3
-   sN   sCT    sC    sN     9    0.07991   0.060     4
-   sN   sCT    sC    sN     9    0.01674   0.013     5
-   sN   sCT   sCT   sC3     9    0.81630   0.610     1
-   sN   sCT   sCT   sC3     9    3.53925   2.643     2
-   sN   sCT   sCT   sC5     9    2.63592   1.969     1
-   sN   sCT   sCT   sC6     9    12.05410  9.003     1
-   sN   sCT   sCT   sC6     9    5.06682   3.784     2
-   sN   sCT   sCT   sC6     9    0.25941   0.194     3
-   sN   sCT   sCT   sC6     9    1.02508   0.766     4
-   sN   sCT   sCT   sC6     9    0.54810   0.409     5
-   sN   sCT   sCT   sC6     9    0.59413   0.444     6
-   sN   sCT   sCT   sC9     9    0.41840   0.312     1
-   sN   sCT   sCT   sCC     9    1.67360   1.250     1
-   sN   sCT   sCT   sSH     9    2.30120   1.719     1
-   sN   sCT   sCT   sSH     9    2.63592   1.969     2
-   sN   sCT   sCT   sSH     9    0.25104   0.187     3
-   sN   sCT   sCT   sSH     9    0.12552   0.094     4
-   sO    sC   sOS   sCT     9    5.85760   4.375     1
-   sO    sC   sOS   sCT     9    11.29680  8.437     2
-  sOH   sCT   sCT   sOH     9    0.60250   0.450     3
-  sOH   sCT   sCT   sOH     9    4.91620   3.672     2
-  sOH    sP   sOS   sCT     9    1.04600   0.781     3
-  sOH    sP   sOS   sCT     9    5.02080   3.750     2
-  sOS   sCT   sCT   sOH     9    0.60250   0.450     3
-  sOS   sCT   sCT   sOH     9    4.91620   3.672     2
-  sOS   sCT   sCT   sOS     9    4.91620   3.672     2
-  sOS   sCT   sCT   sOS     9    0.60250   0.450     3
-  sOS   sCT   sN*   sCK     9    10.46000  7.812     1
-  sOS   sCT   sN*   sCM     9    10.46000  7.812     1
-  sOS    sP   sOS   sCT     9    5.02080   3.750     2
-  sOS    sP   sOS   sCT     9    1.04600   0.781     3
-   sN   sCT   sCT   sCA     9    0.00000   0.000     0
-   sN   sCT   sCT   sC*     9    0.00000   0.000     0
-  sCT   sCT   sC9    sS     9    0.00000   0.000     0
-  sCT   sCT   sC9   sCT     9    0.00000   0.000     0
-    X   sC1   sN3     X     9    0.65084   0.486     3
-    X   sC5    sN     X     9    10.46000  7.812     2
-    X   sC7   sCT     X     9    0.65084   0.486     3
-    X   sC7   sN3     X     9    0.65084   0.486     3
-    X   sC8   sO3     X     9    0.69873   0.522     3
-    X   sC8   sOH     X     9    0.69873   0.522     3
-    X   sC9    sS     X     9    1.39327   1.041     3
-    X   sCA   sCA     X     9    15.16700  11.327    2
-    X   sCA   sCB     X     9    14.64400  10.937    2
-    X   sCA   sCM     X     9    10.66920  7.968     2
-    X   sCA   sCN     X     9    15.16700  11.327    2
-    X   sCA   sN2     X     9    10.04160  7.499     2
-    X   sCA   sNA     X     9    6.27600   4.687     2
-    X   sCA   sNC     X     9    20.08320  14.999    2
-    X   sCA   sOH     X     9    3.76560   2.812     2
-    X   sCB   sCB     X     9    22.80280  17.030    2
-    X   sCB   sCN     X     9    12.55200  9.374     2
-    X   sCB   sNB     X     9    10.66920  7.968     2
-    X   sCB   sNC     X     9    17.36360  12.968    2
-    X   sCB   sN*     X     9    6.90360   5.156     2
-    X    sC   sCA     X     9    15.16700  11.327    2
-    X    sC   sCB     X     9    12.55200  9.374     2
-    X   sC*   sCB     X     9    7.00820   5.234     2
-    X   sCC   sCV     X     9    21.54760  16.093    2
-    X   sCC   sCW     X     9    22.48900  16.796    2
-    X    sC   sCM     X     9    9.10020   6.796     2
-    X   sCC   sNA     X     9    5.85760   4.375     2
-    X   sCC   sNB     X     9    10.04160  7.499     2
-    X   sC*   sCW     X     9    27.30060  20.389    2
-    X    sC    sC     X     9    15.16700  11.327    2
-    X   sCK   sNB     X     9    41.84000  31.248    2
-    X   sCK   sN*     X     9    7.11280   5.312     2
-    X   sCM   sCM     X     9    27.82360  20.780    2
-    X   sCM   sN*     X     9    7.74040   5.781     2
-    X   sCM   sOS     X     9    4.39320   3.281     2
-    X    sC   sNA     X     9    5.64840   4.218     2
-    X    sC   sNC     X     9    16.73600  12.499    2
-    X   sCN   sNA     X     9    6.38060   4.765     2
-    X    sC    sN     X     9    10.46000  7.812     2
-    X    sC   sN*     X     9    6.06680   4.531     2
-    X    sC   sOH     X     9    9.62320   7.187     2
-    X    sC   sOS     X     9    11.29680  8.437     2
-    X    sC    sO     X     9    11.71520  8.749     2
-    X    sC   sOB     X     9    11.71520  8.749     2
-    X   sCQ   sNC     X     9    28.45120  21.249    2
-    X   sCR   sNA     X     9    9.72780   7.265     2
-    X   sCR   sNB     X     9    20.92000  15.624    2
-    X   sCT   sC8     X     9    0.64852   0.484     3
-    X   sCT   sC9     X     9    0.64852   0.484     3
-    X   sCT   sCT     X     9    0.65084   0.486     3
-    X   sCT   sN3     X     9    0.65084   0.486     3
-    X   sCT   sOH     X     9    0.69733   0.521     3
-    X   sCT   sOS     X     9    1.60387   1.198     3
-    X   sCT   sSH     X     9    1.04600   0.781     3
-    X   sCT    sS     X     9    1.39467   1.042     3
-    X   sCV   sNB     X     9    10.04160  7.499     2
-    X   sCW   sNA     X     9    6.27600   4.687     2
-    X   sOH    sP     X     9    1.04600   0.781     3
-    X   sOS    sP     X     9    1.04600   0.781     3
-    X   sC1    sN     X     9    0.00000   0.000     0
-    X    sC   sC1     X     9    0.00000   0.000     0
-    X    sC   sC9     X     9    0.00000   0.000     0
-    X    sC   sCT     X     9    0.00000   0.000     0
-    X   sCA   sCT     X     9    0.00000   0.000     0
-    X   sCC   sCT     X     9    0.00000   0.000     0
-    X   sCM   sCT     X     9    0.00000   0.000     0
-    X   sCT    sN     X     9    0.00000   0.000     0
-    X   sCT   sN*     X     9    0.00000   0.000     0
-    X   sCT   sN2     X     9    0.00000   0.000     0
-    X   sC*   sCT     X     9    0.00000   0.000     0
-    X   sC7    sN     X     9    0.00000   0.000     0
-    X    sC   sC7     X     9    0.00000   0.000     0
-    X   sC5   sCT     X     9    0.00000   0.000     0
-    X   sC6   sCT     X     9    0.00000   0.000     0
+sC    sC1   sN    sO        4    180.0     3.43727   2
+sC    sC1   sN    sOB       4    180.0     3.43727   2
+sC    sC1   sN    sH        4    180.0     3.43727   2
+sC    sC1   sN    sHB       4    180.0     3.43727   2
+sC9   sO    sC    sOH       4    180.0     32.81030  2
+sCB   sCK   sN*   sCT       4    180.0     3.12479   2
+sC    sCM   sN*   sCT       4    180.0     3.12479   2
+sCT   sO    sC    sOH       4    180.0     32.81030  2
+sCT   sCV   sCC   sNA       4    180.0     3.43727   2
+sCT   sCW   sCC   sNB       4    180.0     3.43727   2
+sCT   sCC   sCW   sNB       4    180.0     3.43727   2
+sCT   sCW   sCC   sNA       4    180.0     3.43727   2
+sCB   sCT   sC*   sCW       4    180.0     3.43727   2
+sCA   sCA   sCA   sCT       4    180.0     3.43727   2
+sC    sCM   sCM   sCT       4    180.0     3.43727   2
+sCM   sN2   sCA   sNC       4    180.0     3.43727   2
+sCB   sN2   sCA   sNC       4    180.0     3.43727   2
+sN2   sNA   sCA   sNC       4    180.0     3.43727   2
+sCA   sCA   sC    sOH       4    180.0     3.43727   2
+sCA   sCA   sCA   sOH       4    180.0     3.43727   2
+sH5   sO    sC    sOH       4    180.0     3.43727   2
+sH5   sO    sC    sOS       4    180.0     3.43727   2
+sCM   sCT   sCM   sHA       4    180.0     3.43727   2
+sBr   sCA   sCA   sCA       4    180.0     3.43727   2
+sCM   sH4   sC    sO        4    180.0     3.43727   2
+sC    sCT   sN    sH        4    180.0     3.43727   2
+sC    sCT   sN    sHB       4    180.0     3.43727   2
+sC    sCT   sN    sO        4    180.0     3.43727   2
+sC    sC7   sN    sO        4    180.0     3.43727   2
+sC    sCT   sN    sOB       4    180.0     3.43727   2
+sC    sC7   sN    sOB       4    180.0     3.43727   2
+sC    sC7   sN    sH        4    180.0     3.43727   2
+sC    sC7   sN    sHB       4    180.0     3.43727   2
+sC5   sCT   sN    sO        4    180.0     3.43727   2
+sC5   sCT   sN    sOB       4    180.0     3.43727   2
+sC5   sCT   sN    sH        4    180.0     3.43727   2
+sC5   sCT   sN    sHB       4    180.0     3.43727   2
+X     sCT   sN    sC1       4    180.0     3.12479   2
+X     sCT   sN    sC7       4    180.0     3.12479   2
+X     sO2   sC6   sO2       4    180.0     32.81030  2
+X     sO2   sC    sO2       4    180.0     32.81030  2
+X     sN2   sCA   sN2       4    180.0     32.81030  2
+X     sCT   sN    sCT       4    180.0     3.12479   2
+X     X     sC    sO        4    180.0     32.81030  2
+X     X     sC    sOB       4    180.0     32.81030  2
+X     X     sN    sH        4    180.0     3.12479   2
+X     X     sN2   sH        4    180.0     3.12479   2
+X     X     sNA   sH        4    180.0     3.12479   2
+X     X     sCA   sHA       4    180.0     3.43727   2
+X     X     sCW   sH4       4    180.0     3.43727   2
+X     X     sCR   sH5       4    180.0     3.43727   2
+X     X     sCV   sH4       4    180.0     3.43727   2
+X     X     sCQ   sH5       4    180.0     3.43727   2
+X     X     sCK   sH5       4    180.0     3.43727   2
+X     X     sCM   sH4       4    180.0     3.43727   2
+X     X     sCM   sHA       4    180.0     3.43727   2
+X     X     sCA   sH4       4    180.0     3.43727   2
+X     X     sCA   sH5       4    180.0     3.43727   2
+X     X     sC5   sO        4    180.0     32.81030  2
+sC8   sCT   sC    sN        9    0.0       0.62496   1
+sC8   sCT   sC    sN        9    0.0       0.62496   2
+sC8   sCT   sC    sN        9    0.0       1.24992   3
+sC8   sCT   sN    sC        9    0.0       6.24958   1
+sC8   sCT   sN    sC        9    0.0       6.24958   2
+sC8   sCT   sN    sC        9    0.0       1.24992   3
+sC    sCT   sC8   sO3       9    180.0     3.12479   1
+sC    sCT   sC8   sOH       9    180.0     2.81231   1
+sC    sCT   sCT   sC4       9    0.0       1.78551   1
+sC    sCT   sCT   sC4       9    180.0     1.11961   2
+sC    sCT   sCT   sC4       9    0.0       0.42122   3
+sC    sCT   sCT   sC5       9    0.0       0.53340   1
+sC    sCT   sCT   sC5       9    180.0     1.86144   2
+sC    sCT   sCT   sC5       9    0.0       0.37028   3
+sC    sCT   sCT   sC5       9    180.0     1.30366   4
+sC    sCT   sCT   sC5       9    0.0       0.32560   5
+sC    sCT   sCT   sC5       9    180.0     0.31473   6
+sC    sCT   sCT   sC*       9    0.0       0.90619   1
+sC    sCT   sCT   sC9       9    0.0       0.93744   1
+sC    sCT   sCT   sCA       9    0.0       1.62489   1
+sC    sCT   sCT   sCC       9    0.0       2.18735   1
+sC    sCT   sCT   sSH       9    180.0     0.49997   1
+sCl   sCT   sCT   sCl       9    180.0     1.40616   1
+sCM   sCM   sC    sO        9    180.0     6.79642   2
+sCM   sCM   sC    sO        9    0.0       0.93744   3
+sC    sN    sC1   sC        9    0.0       0.26339   1
+sC    sN    sC1   sC        9    0.0       1.19152   2
+sC    sN    sC1   sC        9    180.0     0.06259   3
+sC    sN    sC1   sC        9    0.0       0.24195   4
+sC    sN    sC7   sC        9    0.0       0.84369   2
+sC    sN    sC7   sC        9    0.0       1.31241   3
+sC    sN    sCT   sC        9    180.0     0.10625   1
+sC    sN    sCT   sC        9    0.0       1.04680   2
+sC    sN    sCT   sC        9    0.0       1.69989   3
+sC    sN    sCT   sC        9    0.0       0.24998   4
+sCT   sC7   sC    sN        9    0.0       0.62496   1
+sCT   sC7   sC    sN        9    0.0       0.62496   2
+sCT   sC7   sC    sN        9    0.0       1.24992   3
+sCT   sC7   sN    sC        9    0.0       6.24958   1
+sCT   sC7   sN    sC        9    0.0       6.24958   2
+sCT   sC7   sN    sC        9    0.0       1.24992   3
+sCT   sC9   sC    sO2       9    180.0     1.87487   2
+sCT   sC9   sC    sO        9    180.0     1.87487   2
+sCT   sC9   sC    sOB       9    180.0     1.87487   2
+sCT   sCM   sCM   sCT       9    180.0     20.77986  2
+sCT   sCM   sCM   sCT       9    180.0     5.93710   1
+sCT   sCT   sC4   sCT       9    0.0       0.46872   3
+sCT   sCT   sC5   sO        9    180.0     3.12479   1
+sCT   sCT   sC6   sO2       9    180.0     0.58121   4
+sCT   sCT   sC6   sO2       9    180.0     1.10618   6
+sCT   sCT   sC6   sO2       9    180.0     2.72794   2
+sCT   sCT   sC*   sCW       9    0.0       3.74975   1
+sCT   sCT   sC    sN        9    0.0       0.62496   1
+sCT   sCT   sC    sN        9    0.0       0.62496   2
+sCT   sCT   sC    sN        9    0.0       1.24992   3
+sCT   sCT   sCT   sC3       9    0.0       0.46872   3
+sCT   sCT   sCT   sC7       9    0.0       0.56246   3
+sCT   sCT   sCT   sC7       9    180.0     0.62496   1
+sCT   sCT   sCT   sC7       9    180.0     0.78120   2
+sCT   sCT   sCT   sCT       9    0.0       0.46872   3
+sCT   sCT   sN    sC        9    0.0       1.24992   3
+sCT   sCT   sN    sC        9    0.0       6.24958   1
+sCT   sCT   sN    sC        9    0.0       6.24958   2
+sCT   sCT   sOS   sC        9    0.0       1.19679   3
+sCT   sCT   sOS   sC        9    180.0     2.49983   1
+sCT   sCT   sOS   sCT       9    0.0       1.19679   3
+sCT   sCT   sOS   sCT       9    180.0     0.31248   2
+sCT   sCT   sSH   sHS       9    0.0       0.62496   3
+sCT   sCT   sSH   sHS       9    0.0       1.56240   2
+sCT   sOS   sCT   sN*       9    0.0       1.19679   3
+sCT   sOS   sCT   sN*       9    0.0       2.03111   2
+sCT   sOS   sCT   sOS       9    0.0       0.31248   3
+sCT   sOS   sCT   sOS       9    180.0     2.65607   2
+sCT   sOS   sCT   sOS       9    180.0     4.21847   1
+sCT   sS    sS    sCT       9    0.0       10.93677  2
+sCT   sS    sS    sCT       9    0.0       1.87487   3
+sF    sCT   sCT   sF        9    180.0     3.74975   1
+sH1   sC1   sC    sO        9    0.0       2.49983   1
+sH1   sC1   sC    sO        9    180.0     0.24998   3
+sH1   sC7   sC    sO        9    0.0       2.49983   1
+sH1   sC7   sC    sO        9    180.0     0.24998   3
+sH1   sCT   sC    sO        9    0.0       2.49983   1
+sH1   sCT   sC    sO        9    180.0     0.24998   3
+sH1   sC1   sC    sOB       9    0.0       2.49983   1
+sH1   sC1   sC    sOB       9    180.0     0.24998   3
+sH1   sC7   sC    sOB       9    0.0       2.49983   1
+sH1   sC7   sC    sOB       9    180.0     0.24998   3
+sH1   sCT   sC    sOB       9    0.0       2.49983   1
+sH1   sCT   sC    sOB       9    180.0     0.24998   3
+sH1   sCT   sCT   sBr       9    0.0       1.71863   1
+sH1   sCT   sCT   sCl       9    0.0       0.78120   1
+sH1   sCT   sCT   sF        9    0.0       0.59371   1
+sH1   sCT   sCT   sOH       9    0.0       0.78120   1
+sH1   sCT   sCT   sOS       9    0.0       0.78120   1
+sHC   sC3   sCT   sCT       9    0.0       0.49997   3
+sHC   sC4   sCT   sCT       9    0.0       0.49997   3
+sHC   sC4   sCT   sHC       9    0.0       0.46872   3
+sHC   sCT   sC3   sHC       9    0.0       0.46872   3
+sHC   sCT   sC4   sCT       9    0.0       0.49997   3
+sHC   sCT   sC5   sO        9    0.0       2.49983   1
+sHC   sCT   sC5   sO        9    180.0     0.24998   3
+sHC   sCT   sCM   sCM       9    0.0       3.59351   1
+sHC   sCT   sCM   sCM       9    180.0     1.18742   3
+sHC   sCT   sC    sO        9    0.0       2.49983   1
+sHC   sCT   sC    sO        9    180.0     0.24998   3
+sHC   sCT   sC    sOB       9    0.0       2.49983   1
+sHC   sCT   sC    sOB       9    180.0     0.24998   3
+sHC   sCT   sCT   sBr       9    0.0       1.71863   1
+sHC   sCT   sCT   sC3       9    0.0       0.49997   3
+sHC   sCT   sCT   sC4       9    0.0       0.49997   3
+sHC   sCT   sCT   sC7       9    0.0       0.49997   3
+sHC   sCT   sCT   sCl       9    0.0       0.78120   1
+sHC   sCT   sCT   sCT       9    0.0       0.49997   3
+sHC   sCT   sCT   sF        9    0.0       0.59371   1
+sHC   sCT   sCT   sHC       9    0.0       0.46872   3
+sHC   sCT   sCT   sOH       9    0.0       0.78120   1
+sHC   sCT   sCT   sOS       9    0.0       0.78120   1
+sH    sN    sC5   sO        9    0.0       6.24958   1
+sH    sN    sC5   sO        9    180.0     7.81198   2
+sH    sN    sC    sO        9    0.0       6.24958   1
+sH    sN    sC    sO        9    180.0     7.81198   2
+sHB   sN    sC    sOB       9    0.0       6.24958   1
+sHB   sN    sC    sOB       9    180.0     7.81198   2
+sHO   sO3   sC8   sCT       9    0.0       0.26873   1
+sHO   sO3   sC8   sCT       9    0.0       0.31248   3
+sHO   sO3   sC8   sCT       9    180.0     0.50934   2
+sHO   sO3   sC8   sH1       9    0.0       0.31248   3
+sHO   sOH   sC8   sCT       9    0.0       0.18749   2
+sHO   sOH   sC8   sCT       9    0.0       0.62496   3
+sHO   sOH   sC8   sCT       9    0.0       2.34359   1
+sHO   sOH   sC    sO        9    0.0       5.93710   1
+sHO   sOH   sC    sO        9    180.0     7.18702   2
+sHO   sOH   sCT   sCT       9    0.0       0.49997   3
+sHO   sOH   sCT   sCT       9    0.0       0.78120   1
+sN3   sCT   sCT   sC3       9    0.0       0.60965   1
+sN3   sCT   sCT   sC3       9    180.0     2.64326   2
+sN3   sCT   sCT   sC6       9    180.0     8.23445   1
+sN3   sCT   sCT   sC6       9    180.0     3.71944   2
+sN3   sCT   sCT   sC6       9    180.0     0.02125   3
+sN3   sCT   sCT   sC6       9    0.0       1.32085   4
+sN3   sCT   sCT   sC6       9    0.0       0.72401   5
+sN3   sCT   sCT   sC6       9    180.0     0.66476   6
+sN    sC1   sC    sN        9    180.0     2.01233   1
+sN    sC1   sC    sN        9    180.0     4.99388   2
+sN    sC1   sC    sN        9    180.0     1.24806   3
+sN    sC1   sC    sN        9    0.0       0.23465   4
+sN    sC5   sCT   sCT       9    180.0     3.26947   1
+sN    sC5   sCT   sCT       9    180.0     0.56558   2
+sN    sC5   sCT   sCT       9    180.0     0.11061   3
+sN    sC5   sCT   sCT       9    0.0       0.31342   4
+sN    sC5   sCT   sCT       9    0.0       0.40560   5
+sN    sC5   sCT   sCT       9    180.0     0.33140   6
+sN    sC7   sC    sN        9    180.0     1.40616   1
+sN    sC7   sC    sN        9    180.0     4.93717   2
+sN    sC7   sC    sN        9    180.0     1.71863   3
+sN    sCT   sC8   sCT       9    0.0       0.18749   1
+sN    sCT   sC8   sCT       9    180.0     1.56240   2
+sN    sCT   sC8   sCT       9    0.0       0.46872   3
+sN    sCT   sC8   sCT       9    180.0     0.20311   4
+sN    sCT   sC8   sO3       9    180.0     0.24998   1
+sN    sCT   sC8   sOH       9    180.0     0.78120   1
+sN    sCT   sC    sN        9    360.0     0.61559   1
+sN    sCT   sC    sN        9    180.0     4.51532   2
+sN    sCT   sC    sN        9    180.0     1.49678   3
+sN    sCT   sC    sN        9    360.0     0.05968   4
+sN    sCT   sC    sN        9    360.0     0.01250   5
+sN    sCT   sCT   sC3       9    0.0       0.60965   1
+sN    sCT   sCT   sC3       9    180.0     2.64326   2
+sN    sCT   sCT   sC5       9    180.0     1.96862   1
+sN    sCT   sCT   sC6       9    180.0     9.00252   1
+sN    sCT   sCT   sC6       9    180.0     3.78412   2
+sN    sCT   sCT   sC6       9    0.0       0.19374   3
+sN    sCT   sCT   sC6       9    0.0       0.76557   4
+sN    sCT   sCT   sC6       9    0.0       0.40934   5
+sN    sCT   sCT   sC6       9    180.0     0.44372   6
+sN    sCT   sCT   sC9       9    0.0       0.31248   1
+sN    sCT   sCT   sCC       9    180.0     1.24992   1
+sN    sCT   sCT   sSH       9    180.0     1.71863   1
+sN    sCT   sCT   sSH       9    180.0     1.96862   2
+sN    sCT   sCT   sSH       9    180.0     0.18749   3
+sN    sCT   sCT   sSH       9    180.0     0.09374   4
+sO    sC    sOS   sCT       9    180.0     4.37471   1
+sO    sC    sOS   sCT       9    180.0     8.43694   2
+sOH   sCT   sCT   sOH       9    0.0       0.44997   3
+sOH   sCT   sCT   sOH       9    0.0       3.67163   2
+sOH   sP    sOS   sCT       9    0.0       0.78120   3
+sOH   sP    sOS   sCT       9    0.0       3.74975   2
+sOS   sCT   sCT   sOH       9    0.0       0.44997   3
+sOS   sCT   sCT   sOH       9    0.0       3.67163   2
+sOS   sCT   sCT   sOS       9    0.0       3.67163   2
+sOS   sCT   sCT   sOS       9    0.0       0.44997   3
+sOS   sCT   sN*   sCK       9    0.0       7.81198   1
+sOS   sCT   sN*   sCM       9    0.0       7.81198   1
+sOS   sP    sOS   sCT       9    0.0       3.74975   2
+sOS   sP    sOS   sCT       9    0.0       0.78120   3
+sN    sCT   sCT   sCA       9    0.0       0.00000   0
+sN    sCT   sCT   sC*       9    0.0       0.00000   0
+sCT   sCT   sC9   sS        9    0.0       0.00000   0
+sCT   sCT   sC9   sCT       9    0.0       0.00000   0
+X     sC1   sN3   X         9    0.0       0.48608   3
+X     sC5   sN    X         9    180.0     7.81198   2
+X     sC7   sCT   X         9    0.0       0.48608   3
+X     sC7   sN3   X         9    0.0       0.48608   3
+X     sC8   sO3   X         9    0.0       0.52184   3
+X     sC8   sOH   X         9    0.0       0.52184   3
+X     sC9   sS    X         9    0.0       1.04055   3
+X     sCA   sCA   X         9    180.0     11.32737  2
+X     sCA   sCB   X         9    180.0     10.93677  2
+X     sCA   sCM   X         9    180.0     7.96822   2
+X     sCA   sCN   X         9    180.0     11.32737  2
+X     sCA   sN2   X         9    180.0     7.49950   2
+X     sCA   sNA   X         9    180.0     4.68719   2
+X     sCA   sNC   X         9    180.0     14.99900  2
+X     sCA   sOH   X         9    180.0     2.81231   2
+X     sCB   sCB   X         9    180.0     17.03011  2
+X     sCB   sCN   X         9    180.0     9.37437   2
+X     sCB   sNB   X         9    180.0     7.96822   2
+X     sCB   sNC   X         9    180.0     12.96788  2
+X     sCB   sN*   X         9    180.0     5.15590   2
+X     sC    sCA   X         9    180.0     11.32737  2
+X     sC    sCB   X         9    180.0     9.37437   2
+X     sC*   sCB   X         9    180.0     5.23402   2
+X     sCC   sCV   X         9    180.0     16.09267  2
+X     sCC   sCW   X         9    180.0     16.79575  2
+X     sC    sCM   X         9    180.0     6.79642   2
+X     sCC   sNA   X         9    180.0     4.37471   2
+X     sCC   sNB   X         9    180.0     7.49950   2
+X     sC*   sCW   X         9    180.0     20.38926  2
+X     sC    sC    X         9    180.0     11.32737  2
+X     sCK   sNB   X         9    180.0     31.24791  2
+X     sCK   sN*   X         9    180.0     5.31214   2
+X     sCM   sCM   X         9    180.0     20.77986  2
+X     sCM   sN*   X         9    180.0     5.78086   2
+X     sCM   sOS   X         9    180.0     3.28103   2
+X     sC    sNA   X         9    180.0     4.21847   2
+X     sC    sNC   X         9    180.0     12.49916  2
+X     sCN   sNA   X         9    180.0     4.76531   2
+X     sC    sN    X         9    180.0     7.81198   2
+X     sC    sN*   X         9    180.0     4.53095   2
+X     sC    sOH   X         9    180.0     7.18702   2
+X     sC    sOS   X         9    180.0     8.43694   2
+X     sC    sO    X         9    180.0     8.74941   2
+X     sC    sOB   X         9    180.0     8.74941   2
+X     sCQ   sNC   X         9    180.0     21.24858  2
+X     sCR   sNA   X         9    180.0     7.26514   2
+X     sCR   sNB   X         9    180.0     15.62395  2
+X     sCT   sC8   X         9    0.0       0.48434   3
+X     sCT   sC9   X         9    0.0       0.48434   3
+X     sCT   sCT   X         9    0.0       0.48608   3
+X     sCT   sN3   X         9    0.0       0.48608   3
+X     sCT   sOH   X         9    0.0       0.52080   3
+X     sCT   sOS   X         9    0.0       1.19784   3
+X     sCT   sSH   X         9    0.0       0.78120   3
+X     sCT   sS    X         9    0.0       1.04160   3
+X     sCV   sNB   X         9    180.0     7.49950   2
+X     sCW   sNA   X         9    180.0     4.68719   2
+X     sOH   sP    X         9    0.0       0.78120   3
+X     sOS   sP    X         9    0.0       0.78120   3
+X     sC1   sN    X         9    0.0       0.00000   0
+X     sC    sC1   X         9    0.0       0.00000   0
+X     sC    sC9   X         9    0.0       0.00000   0
+X     sC    sCT   X         9    0.0       0.00000   0
+X     sCA   sCT   X         9    0.0       0.00000   0
+X     sCC   sCT   X         9    0.0       0.00000   0
+X     sCM   sCT   X         9    0.0       0.00000   0
+X     sCT   sN    X         9    0.0       0.00000   0
+X     sCT   sN*   X         9    0.0       0.00000   0
+X     sCT   sN2   X         9    0.0       0.00000   0
+X     sC*   sCT   X         9    0.0       0.00000   0
+X     sC7   sN    X         9    0.0       0.00000   0
+X     sC    sC7   X         9    0.0       0.00000   0
+X     sC5   sCT   X         9    0.0       0.00000   0
+X     sC6   sCT   X         9    0.0       0.00000   0
 
 [ moleculetype ]
 ; Name            nrexcl
@@ -13006,6 +12674,11 @@ CL              1
 [ moleculetype ]
 ; molname       nrexcl
 NA              1
+
+[ atoms ]
+   1    Na                  1       NA             NA      1   1.00000
+   
+
 
  [ system ] 
 ; Name
