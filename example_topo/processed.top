@@ -7288,6 +7288,11 @@ CL              1
 ; molname       nrexcl
 NA              1
 
+[ atoms ]
+; id    at type         res nr  residu name     at name  cg nr  charge
+   1    Na                  1       NA             NA      1   1.00000
+   
+
 [ system ]
 ; Name
 1,6-hexanediol+FUS in disp water
