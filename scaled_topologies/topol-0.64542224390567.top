@@ -9120,640 +9120,647 @@ sMNH3   hn   1       0.0535   0.0000
  C   C1  HP     1    109.500  418.400  ; Amber99Sb-disp
  CT  C1  HP     1    109.500  418.400  ; Amber99Sb-disp
 
-[ dihedraltypes ]
-sC    sC1   sN    sO        4    180.0     2.97049   2
-sC    sC1   sN    sOB       4    180.0     2.97049   2
-sC    sC1   sN    sH        4    180.0     2.97049   2
-sC    sC1   sN    sHB       4    180.0     2.97049   2
-sC9   sO    sC    sOH       4    180.0     28.35469  2
-sCB   sCK   sN*   sCT       4    180.0     2.70045   2
-sC    sCM   sN*   sCT       4    180.0     2.70045   2
-sCT   sO    sC    sOH       4    180.0     28.35469  2
-sCT   sCV   sCC   sNA       4    180.0     2.97049   2
-sCT   sCW   sCC   sNB       4    180.0     2.97049   2
-sCT   sCC   sCW   sNB       4    180.0     2.97049   2
-sCT   sCW   sCC   sNA       4    180.0     2.97049   2
-sCB   sCT   sC*   sCW       4    180.0     2.97049   2
-sCA   sCA   sCA   sCT       4    180.0     2.97049   2
-sC    sCM   sCM   sCT       4    180.0     2.97049   2
-sCM   sN2   sCA   sNC       4    180.0     2.97049   2
-sCB   sN2   sCA   sNC       4    180.0     2.97049   2
-sN2   sNA   sCA   sNC       4    180.0     2.97049   2
-sCA   sCA   sC    sOH       4    180.0     2.97049   2
-sCA   sCA   sCA   sOH       4    180.0     2.97049   2
-sH5   sO    sC    sOH       4    180.0     2.97049   2
-sH5   sO    sC    sOS       4    180.0     2.97049   2
-sCM   sCT   sCM   sHA       4    180.0     2.97049   2
-sBr   sCA   sCA   sCA       4    180.0     2.97049   2
-sCM   sH4   sC    sO        4    180.0     2.97049   2
-sC    sCT   sN    sH        4    180.0     2.97049   2
-sC    sCT   sN    sHB       4    180.0     2.97049   2
-sC    sCT   sN    sO        4    180.0     2.97049   2
-sC    sC7   sN    sO        4    180.0     2.97049   2
-sC    sCT   sN    sOB       4    180.0     2.97049   2
-sC    sC7   sN    sOB       4    180.0     2.97049   2
-sC    sC7   sN    sH        4    180.0     2.97049   2
-sC    sC7   sN    sHB       4    180.0     2.97049   2
-sC5   sCT   sN    sO        4    180.0     2.97049   2
-sC5   sCT   sN    sOB       4    180.0     2.97049   2
-sC5   sCT   sN    sH        4    180.0     2.97049   2
-sC5   sCT   sN    sHB       4    180.0     2.97049   2
-X     sCT   sN    sC1       4    180.0     2.70045   2
-X     sCT   sN    sC7       4    180.0     2.70045   2
-X     sO2   sC6   sO2       4    180.0     28.35469  2
-X     sO2   sC    sO2       4    180.0     28.35469  2
-X     sN2   sCA   sN2       4    180.0     28.35469  2
-X     sCT   sN    sCT       4    180.0     2.70045   2
-X     X     sC    sO        4    180.0     28.35469  2
-X     X     sC    sOB       4    180.0     28.35469  2
-X     X     sN    sH        4    180.0     2.70045   2
-X     X     sN2   sH        4    180.0     2.70045   2
-X     X     sNA   sH        4    180.0     2.70045   2
-X     X     sCA   sHA       4    180.0     2.97049   2
-X     X     sCW   sH4       4    180.0     2.97049   2
-X     X     sCR   sH5       4    180.0     2.97049   2
-X     X     sCV   sH4       4    180.0     2.97049   2
-X     X     sCQ   sH5       4    180.0     2.97049   2
-X     X     sCK   sH5       4    180.0     2.97049   2
-X     X     sCM   sH4       4    180.0     2.97049   2
-X     X     sCM   sHA       4    180.0     2.97049   2
-X     X     sCA   sH4       4    180.0     2.97049   2
-X     X     sCA   sH5       4    180.0     2.97049   2
-X     X     sC5   sO        4    180.0     28.35469  2
-sC8   sCT   sC    sN        9    0.0       0.54009   1
-sC8   sCT   sC    sN        9    0.0       0.54009   2
-sC8   sCT   sC    sN        9    0.0       1.08018   3
-sC8   sCT   sN    sC        9    0.0       5.40089   1
-sC8   sCT   sN    sC        9    0.0       5.40089   2
-sC8   sCT   sN    sC        9    0.0       1.08018   3
-sC    sCT   sC8   sO3       9    180.0     2.70045   1
-sC    sCT   sC8   sOH       9    180.0     2.43040   1
-sC    sCT   sCT   sC4       9    0.0       1.54304   1
-sC    sCT   sCT   sC4       9    180.0     0.96757   2
-sC    sCT   sCT   sC4       9    0.0       0.36402   3
-sC    sCT   sCT   sC5       9    0.0       0.46097   1
-sC    sCT   sCT   sC5       9    180.0     1.60866   2
-sC    sCT   sCT   sC5       9    0.0       0.32000   3
-sC    sCT   sCT   sC5       9    180.0     1.12662   4
-sC    sCT   sCT   sC5       9    0.0       0.28138   5
-sC    sCT   sCT   sC5       9    180.0     0.27199   6
-sC    sCT   sCT   sC*       9    0.0       0.78313   1
-sC    sCT   sCT   sC9       9    0.0       0.81013   1
-sC    sCT   sCT   sCA       9    0.0       1.40423   1
-sC    sCT   sCT   sCC       9    0.0       1.89031   1
-sC    sCT   sCT   sSH       9    180.0     0.43207   1
-sCl   sCT   sCT   sCl       9    180.0     1.21520   1
-sCM   sCM   sC    sO        9    180.0     5.87347   2
-sCM   sCM   sC    sO        9    0.0       0.81013   3
-sC    sN    sC1   sC        9    0.0       0.22762   1
-sC    sN    sC1   sC        9    0.0       1.02971   2
-sC    sN    sC1   sC        9    180.0     0.05409   3
-sC    sN    sC1   sC        9    0.0       0.20909   4
-sC    sN    sC7   sC        9    0.0       0.72912   2
-sC    sN    sC7   sC        9    0.0       1.13419   3
-sC    sN    sCT   sC        9    180.0     0.09182   1
-sC    sN    sCT   sC        9    0.0       0.90465   2
-sC    sN    sCT   sC        9    0.0       1.46905   3
-sC    sN    sCT   sC        9    0.0       0.21604   4
-sCT   sC7   sC    sN        9    0.0       0.54009   1
-sCT   sC7   sC    sN        9    0.0       0.54009   2
-sCT   sC7   sC    sN        9    0.0       1.08018   3
-sCT   sC7   sN    sC        9    0.0       5.40089   1
-sCT   sC7   sN    sC        9    0.0       5.40089   2
-sCT   sC7   sN    sC        9    0.0       1.08018   3
-sCT   sC9   sC    sO2       9    180.0     1.62027   2
-sCT   sC9   sC    sO        9    180.0     1.62027   2
-sCT   sC9   sC    sOB       9    180.0     1.62027   2
-sCT   sCM   sCM   sCT       9    180.0     17.95797  2
-sCT   sCM   sCM   sCT       9    180.0     5.13085   1
-sCT   sCT   sC4   sCT       9    0.0       0.40507   3
-sCT   sCT   sC5   sO        9    180.0     2.70045   1
-sCT   sCT   sC6   sO2       9    180.0     0.50228   4
-sCT   sCT   sC6   sO2       9    180.0     0.95596   6
-sCT   sCT   sC6   sO2       9    180.0     2.35749   2
-sCT   sCT   sC*   sCW       9    0.0       3.24054   1
-sCT   sCT   sC    sN        9    0.0       0.54009   1
-sCT   sCT   sC    sN        9    0.0       0.54009   2
-sCT   sCT   sC    sN        9    0.0       1.08018   3
-sCT   sCT   sCT   sC3       9    0.0       0.40507   3
-sCT   sCT   sCT   sC7       9    0.0       0.48608   3
-sCT   sCT   sCT   sC7       9    180.0     0.54009   1
-sCT   sCT   sCT   sC7       9    180.0     0.67511   2
-sCT   sCT   sCT   sCT       9    0.0       0.40507   3
-sCT   sCT   sN    sC        9    0.0       1.08018   3
-sCT   sCT   sN    sC        9    0.0       5.40089   1
-sCT   sCT   sN    sC        9    0.0       5.40089   2
-sCT   sCT   sOS   sC        9    0.0       1.03427   3
-sCT   sCT   sOS   sC        9    180.0     2.16036   1
-sCT   sCT   sOS   sCT       9    0.0       1.03427   3
-sCT   sCT   sOS   sCT       9    180.0     0.27004   2
-sCT   sCT   sSH   sHS       9    0.0       0.54009   3
-sCT   sCT   sSH   sHS       9    0.0       1.35022   2
-sCT   sOS   sCT   sN*       9    0.0       1.03427   3
-sCT   sOS   sCT   sN*       9    0.0       1.75529   2
-sCT   sOS   sCT   sOS       9    0.0       0.27004   3
-sCT   sOS   sCT   sOS       9    180.0     2.29538   2
-sCT   sOS   sCT   sOS       9    180.0     3.64560   1
-sCT   sS    sS    sCT       9    0.0       9.45156   2
-sCT   sS    sS    sCT       9    0.0       1.62027   3
-sF    sCT   sCT   sF        9    180.0     3.24054   1
-sH1   sC1   sC    sO        9    0.0       2.16036   1
-sH1   sC1   sC    sO        9    180.0     0.21604   3
-sH1   sC7   sC    sO        9    0.0       2.16036   1
-sH1   sC7   sC    sO        9    180.0     0.21604   3
-sH1   sCT   sC    sO        9    0.0       2.16036   1
-sH1   sCT   sC    sO        9    180.0     0.21604   3
-sH1   sC1   sC    sOB       9    0.0       2.16036   1
-sH1   sC1   sC    sOB       9    180.0     0.21604   3
-sH1   sC7   sC    sOB       9    0.0       2.16036   1
-sH1   sC7   sC    sOB       9    180.0     0.21604   3
-sH1   sCT   sC    sOB       9    0.0       2.16036   1
-sH1   sCT   sC    sOB       9    180.0     0.21604   3
-sH1   sCT   sCT   sBr       9    0.0       1.48525   1
-sH1   sCT   sCT   sCl       9    0.0       0.67511   1
-sH1   sCT   sCT   sF        9    0.0       0.51308   1
-sH1   sCT   sCT   sOH       9    0.0       0.67511   1
-sH1   sCT   sCT   sOS       9    0.0       0.67511   1
-sHC   sC3   sCT   sCT       9    0.0       0.43207   3
-sHC   sC4   sCT   sCT       9    0.0       0.43207   3
-sHC   sC4   sCT   sHC       9    0.0       0.40507   3
-sHC   sCT   sC3   sHC       9    0.0       0.40507   3
-sHC   sCT   sC4   sCT       9    0.0       0.43207   3
-sHC   sCT   sC5   sO        9    0.0       2.16036   1
-sHC   sCT   sC5   sO        9    180.0     0.21604   3
-sHC   sCT   sCM   sCM       9    0.0       3.10551   1
-sHC   sCT   sCM   sCM       9    180.0     1.02617   3
-sHC   sCT   sC    sO        9    0.0       2.16036   1
-sHC   sCT   sC    sO        9    180.0     0.21604   3
-sHC   sCT   sC    sOB       9    0.0       2.16036   1
-sHC   sCT   sC    sOB       9    180.0     0.21604   3
-sHC   sCT   sCT   sBr       9    0.0       1.48525   1
-sHC   sCT   sCT   sC3       9    0.0       0.43207   3
-sHC   sCT   sCT   sC4       9    0.0       0.43207   3
-sHC   sCT   sCT   sC7       9    0.0       0.43207   3
-sHC   sCT   sCT   sCl       9    0.0       0.67511   1
-sHC   sCT   sCT   sCT       9    0.0       0.43207   3
-sHC   sCT   sCT   sF        9    0.0       0.51308   1
-sHC   sCT   sCT   sHC       9    0.0       0.40507   3
-sHC   sCT   sCT   sOH       9    0.0       0.67511   1
-sHC   sCT   sCT   sOS       9    0.0       0.67511   1
-sH    sN    sC5   sO        9    0.0       5.40089   1
-sH    sN    sC5   sO        9    180.0     6.75112   2
-sH    sN    sC    sO        9    0.0       5.40089   1
-sH    sN    sC    sO        9    180.0     6.75112   2
-sHB   sN    sC    sOB       9    0.0       5.40089   1
-sHB   sN    sC    sOB       9    180.0     6.75112   2
-sHO   sO3   sC8   sCT       9    0.0       0.23224   1
-sHO   sO3   sC8   sCT       9    0.0       0.27004   3
-sHO   sO3   sC8   sCT       9    180.0     0.44017   2
-sHO   sO3   sC8   sH1       9    0.0       0.27004   3
-sHO   sOH   sC8   sCT       9    0.0       0.16203   2
-sHO   sOH   sC8   sCT       9    0.0       0.54009   3
-sHO   sOH   sC8   sCT       9    0.0       2.02534   1
-sHO   sOH   sC    sO        9    0.0       5.13085   1
-sHO   sOH   sC    sO        9    180.0     6.21103   2
-sHO   sOH   sCT   sCT       9    0.0       0.43207   3
-sHO   sOH   sCT   sCT       9    0.0       0.67511   1
-sN3   sCT   sCT   sC3       9    0.0       0.52686   1
-sN3   sCT   sCT   sC3       9    180.0     2.28431   2
-sN3   sCT   sCT   sC6       9    180.0     7.11622   1
-sN3   sCT   sCT   sC6       9    180.0     3.21434   2
-sN3   sCT   sCT   sC6       9    180.0     0.01836   3
-sN3   sCT   sCT   sC6       9    0.0       1.14148   4
-sN3   sCT   sCT   sC6       9    0.0       0.62569   5
-sN3   sCT   sCT   sC6       9    180.0     0.57448   6
-sN    sC1   sC    sN        9    180.0     1.73906   1
-sN    sC1   sC    sN        9    180.0     4.31572   2
-sN    sC1   sC    sN        9    180.0     1.07857   3
-sN    sC1   sC    sN        9    0.0       0.20279   4
-sN    sC5   sCT   sCT       9    180.0     2.82548   1
-sN    sC5   sCT   sCT       9    180.0     0.48878   2
-sN    sC5   sCT   sCT       9    180.0     0.09559   3
-sN    sC5   sCT   sCT       9    0.0       0.27086   4
-sN    sC5   sCT   sCT       9    0.0       0.35052   5
-sN    sC5   sCT   sCT       9    180.0     0.28639   6
-sN    sC7   sC    sN        9    180.0     1.21520   1
-sN    sC7   sC    sN        9    180.0     4.26671   2
-sN    sC7   sC    sN        9    180.0     1.48525   3
-sN    sCT   sC8   sCT       9    0.0       0.16203   1
-sN    sCT   sC8   sCT       9    180.0     1.35022   2
-sN    sCT   sC8   sCT       9    0.0       0.40507   3
-sN    sCT   sC8   sCT       9    180.0     0.17553   4
-sN    sCT   sC8   sO3       9    180.0     0.21604   1
-sN    sCT   sC8   sOH       9    180.0     0.67511   1
-sN    sCT   sC    sN        9    360.0     0.53199   1
-sN    sCT   sC    sN        9    180.0     3.90215   2
-sN    sCT   sC    sN        9    180.0     1.29352   3
-sN    sCT   sC    sN        9    360.0     0.05158   4
-sN    sCT   sC    sN        9    360.0     0.01080   5
-sN    sCT   sCT   sC3       9    0.0       0.52686   1
-sN    sCT   sCT   sC3       9    180.0     2.28431   2
-sN    sCT   sCT   sC5       9    180.0     1.70128   1
-sN    sCT   sCT   sC6       9    180.0     7.77998   1
-sN    sCT   sCT   sC6       9    180.0     3.27024   2
-sN    sCT   sCT   sC6       9    0.0       0.16743   3
-sN    sCT   sCT   sC6       9    0.0       0.66161   4
-sN    sCT   sCT   sC6       9    0.0       0.35376   5
-sN    sCT   sCT   sC6       9    180.0     0.38346   6
-sN    sCT   sCT   sC9       9    0.0       0.27004   1
-sN    sCT   sCT   sCC       9    180.0     1.08018   1
-sN    sCT   sCT   sSH       9    180.0     1.48525   1
-sN    sCT   sCT   sSH       9    180.0     1.70128   2
-sN    sCT   sCT   sSH       9    180.0     0.16203   3
-sN    sCT   sCT   sSH       9    180.0     0.08101   4
-sO    sC    sOS   sCT       9    180.0     3.78063   1
-sO    sC    sOS   sCT       9    180.0     7.29121   2
-sOH   sCT   sCT   sOH       9    0.0       0.38887   3
-sOH   sCT   sCT   sOH       9    0.0       3.17302   2
-sOH   sP    sOS   sCT       9    0.0       0.67511   3
-sOH   sP    sOS   sCT       9    0.0       3.24054   2
-sOS   sCT   sCT   sOH       9    0.0       0.38887   3
-sOS   sCT   sCT   sOH       9    0.0       3.17302   2
-sOS   sCT   sCT   sOS       9    0.0       3.17302   2
-sOS   sCT   sCT   sOS       9    0.0       0.38887   3
-sOS   sCT   sN*   sCK       9    0.0       6.75112   1
-sOS   sCT   sN*   sCM       9    0.0       6.75112   1
-sOS   sP    sOS   sCT       9    0.0       3.24054   2
-sOS   sP    sOS   sCT       9    0.0       0.67511   3
-sN    sCT   sCT   sCA       9    0.0       0.00000   0
-sN    sCT   sCT   sC*       9    0.0       0.00000   0
-sCT   sCT   sC9   sS        9    0.0       0.00000   0
-sCT   sCT   sC9   sCT       9    0.0       0.00000   0
-X     sC1   sN3   X         9    0.0       0.42007   3
-X     sC5   sN    X         9    180.0     6.75112   2
-X     sC7   sCT   X         9    0.0       0.42007   3
-X     sC7   sN3   X         9    0.0       0.42007   3
-X     sC8   sO3   X         9    0.0       0.45098   3
-X     sC8   sOH   X         9    0.0       0.45098   3
-X     sC9   sS    X         9    0.0       0.89925   3
-X     sCA   sCA   X         9    180.0     9.78912   2
-X     sCA   sCB   X         9    180.0     9.45156   2
-X     sCA   sCM   X         9    180.0     6.88614   2
-X     sCA   sCN   X         9    180.0     9.78912   2
-X     sCA   sN2   X         9    180.0     6.48107   2
-X     sCA   sNA   X         9    180.0     4.05067   2
-X     sCA   sNC   X         9    180.0     12.96214  2
-X     sCA   sOH   X         9    180.0     2.43040   2
-X     sCB   sCB   X         9    180.0     14.71743  2
-X     sCB   sCN   X         9    180.0     8.10134   2
-X     sCB   sNB   X         9    180.0     6.88614   2
-X     sCB   sNC   X         9    180.0     11.20685  2
-X     sCB   sN*   X         9    180.0     4.45574   2
-X     sC    sCA   X         9    180.0     9.78912   2
-X     sC    sCB   X         9    180.0     8.10134   2
-X     sC*   sCB   X         9    180.0     4.52325   2
-X     sCC   sCV   X         9    180.0     13.90730  2
-X     sCC   sCW   X         9    180.0     14.51490  2
-X     sC    sCM   X         9    180.0     5.87347   2
-X     sCC   sNA   X         9    180.0     3.78063   2
-X     sCC   sNB   X         9    180.0     6.48107   2
-X     sC*   sCW   X         9    180.0     17.62041  2
-X     sC    sC    X         9    180.0     9.78912   2
-X     sCK   sNB   X         9    180.0     27.00447  2
-X     sCK   sN*   X         9    180.0     4.59076   2
-X     sCM   sCM   X         9    180.0     17.95797  2
-X     sCM   sN*   X         9    180.0     4.99583   2
-X     sCM   sOS   X         9    180.0     2.83547   2
-X     sC    sNA   X         9    180.0     3.64560   2
-X     sC    sNC   X         9    180.0     10.80179  2
-X     sCN   sNA   X         9    180.0     4.11818   2
-X     sC    sN    X         9    180.0     6.75112   2
-X     sC    sN*   X         9    180.0     3.91565   2
-X     sC    sOH   X         9    180.0     6.21103   2
-X     sC    sOS   X         9    180.0     7.29121   2
-X     sC    sO    X         9    180.0     7.56125   2
-X     sC    sOB   X         9    180.0     7.56125   2
-X     sCQ   sNC   X         9    180.0     18.36304  2
-X     sCR   sNA   X         9    180.0     6.27854   2
-X     sCR   sNB   X         9    180.0     13.50223  2
-X     sCT   sC8   X         9    0.0       0.41857   3
-X     sCT   sC9   X         9    0.0       0.41857   3
-X     sCT   sCT   X         9    0.0       0.42007   3
-X     sCT   sN3   X         9    0.0       0.42007   3
-X     sCT   sOH   X         9    0.0       0.45007   3
-X     sCT   sOS   X         9    0.0       1.03517   3
-X     sCT   sSH   X         9    0.0       0.67511   3
-X     sCT   sS    X         9    0.0       0.90015   3
-X     sCV   sNB   X         9    180.0     6.48107   2
-X     sCW   sNA   X         9    180.0     4.05067   2
-X     sOH   sP    X         9    0.0       0.67511   3
-X     sOS   sP    X         9    0.0       0.67511   3
-X     sC1   sN    X         9    0.0       0.00000   0
-X     sC    sC1   X         9    0.0       0.00000   0
-X     sC    sC9   X         9    0.0       0.00000   0
-X     sC    sCT   X         9    0.0       0.00000   0
-X     sCA   sCT   X         9    0.0       0.00000   0
-X     sCC   sCT   X         9    0.0       0.00000   0
-X     sCM   sCT   X         9    0.0       0.00000   0
-X     sCT   sN    X         9    0.0       0.00000   0
-X     sCT   sN*   X         9    0.0       0.00000   0
-X     sCT   sN2   X         9    0.0       0.00000   0
-X     sC*   sCT   X         9    0.0       0.00000   0
-X     sC7   sN    X         9    0.0       0.00000   0
-X     sC    sC7   X         9    0.0       0.00000   0
-X     sC5   sCT   X         9    0.0       0.00000   0
-X     sC6   sCT   X         9    0.0       0.00000   0
+ [ dihedraltypes ] 
+;i  j   k  l	 func      phase      kd      pn
+ C   C1  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C9  O   C   OH    4     180.0     43.93200     2  ; Amber99Sb-disp
+ CB  CK  N*  CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ C   CM  N*  CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ CT  O   C   OH    4     180.0     43.93200     2  ; Amber99Sb-disp
+ CT  CV  CC  NA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CW  CC  NB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CC  CW  NB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CW  CC  NA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CB  CT  C*  CW    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  CA  CT    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CM  CM  CT    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  N2  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CB  N2  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ N2  NA  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  C   OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  CA  OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ H5  O   C   OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ H5  O   C   OS    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  CT  CM  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ Br  CA  CA  CA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  H4  C   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   CT  N   C1    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   CT  N   C7    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   O2  C6  O2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   O2  C   O2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   N2  CA  N2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   CT  N   CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   C   O     4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   X   C   OB    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   X   N   H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   N2  H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   NA  H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   CA  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CW  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CR  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CV  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CQ  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CK  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CM  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CM  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CA  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CA  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   C5  O     4     180.0     43.93200     2  ; Amber99Sb-disp
+;i   j   k   l	   func	
+ C8  CT  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ C8  CT  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ C8  CT  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ C   CT  C8  O3    9     180.0      4.18400     1  ; Amber99Sb-disp
+ C   CT  C8  OH    9     180.0      3.76560     1  ; Amber99Sb-disp
+ C   CT  CT  C4    9       0.0      2.39074     1  ; Amber99Sb-disp
+ C   CT  CT  C4    9     180.0      1.49913     2  ; Amber99Sb-disp
+ C   CT  CT  C4    9       0.0      0.56400     3  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.71421     1  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      2.49241     2  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.49580     3  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      1.74556     4  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.43597     5  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      0.42142     6  ; Amber99Sb-disp
+ C   CT  CT  C*    9       0.0      1.21336     1  ; Amber99Sb-disp
+ C   CT  CT  C9    9       0.0      1.25520     1  ; Amber99Sb-disp
+ C   CT  CT  CA    9       0.0      2.17568     1  ; Amber99Sb-disp
+ C   CT  CT  CC    9       0.0      2.92880     1  ; Amber99Sb-disp
+ C   CT  CT  SH    9     180.0      0.66944     1  ; Amber99Sb-disp
+ Cl  CT  CT  Cl    9     180.0      1.88280     1  ; Amber99Sb-disp
+ CM  CM  C   O     9     180.0      9.10020     2  ; Amber99Sb-disp
+ CM  CM  C   O     9       0.0      1.25520     3  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      0.35267     1  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      1.59541     2  ; Amber99Sb-disp
+ C   N   C1  C     9     180.0      0.08381     3  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      0.32396     4  ; Amber99Sb-disp
+ C   N   C7  C     9       0.0      1.12968     2  ; Amber99Sb-disp
+ C   N   C7  C     9       0.0      1.75728     3  ; Amber99Sb-disp
+ C   N   CT  C     9     180.0      0.14226     1  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      1.40164     2  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      2.27610     3  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      0.33472     4  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9     180.0      0.83680     1  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9     180.0      1.04600     2  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9       0.0      0.75312     3  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  C9  C   O2    9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  C9  C   O     9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  C9  C   OB    9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  CM  CM  CT    9     180.0     27.82360     2  ; Amber99Sb-disp
+ CT  CM  CM  CT    9     180.0      7.94960     1  ; Amber99Sb-disp
+ CT  CT  C4  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  C5  O     9     180.0      4.18400     1  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      0.77822     4  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      1.48114     6  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      3.65263     2  ; Amber99Sb-disp
+ CT  CT  C*  CW    9       0.0      5.02080     1  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  CT  CT  C3    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  CT  C7    9       0.0      0.75312     3  ; Amber99Sb-disp
+ CT  CT  CT  C7    9     180.0      0.83680     1  ; Amber99Sb-disp
+ CT  CT  CT  C7    9     180.0      1.04600     2  ; Amber99Sb-disp
+ CT  CT  CT  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ CT  CT  OS  C     9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  CT  OS  C     9     180.0      3.34720     1  ; Amber99Sb-disp
+ CT  CT  OS  CT    9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  CT  OS  CT    9     180.0      0.41840     2  ; Amber99Sb-disp
+ CT  CT  SH  HS    9       0.0      0.83680     3  ; Amber99Sb-disp
+ CT  CT  SH  HS    9       0.0      2.09200     2  ; Amber99Sb-disp
+ CT  OS  CT  N*    9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  OS  CT  N*    9       0.0      2.71960     2  ; Amber99Sb-disp
+ CT  OS  CT  OS    9       0.0      0.41840     3  ; Amber99Sb-disp
+ CT  OS  CT  OS    9     180.0      3.55640     2  ; Amber99Sb-disp
+ CT  OS  CT  OS    9     180.0      5.64840     1  ; Amber99Sb-disp
+ CT  S   S   CT    9       0.0     14.64400     2  ; Amber99Sb-disp
+ CT  S   S   CT    9       0.0      2.51040     3  ; Amber99Sb-disp
+ F   CT  CT  F     9     180.0      5.02080     1  ; Amber99Sb-disp
+ H1  C1  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C1  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C7  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C7  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  CT  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C1  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C1  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C7  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C7  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  CT  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  CT  Br    9       0.0      2.30120     1  ; Amber99Sb-disp
+ H1  CT  CT  Cl    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H1  CT  CT  F     9       0.0      0.79496     1  ; Amber99Sb-disp
+ H1  CT  CT  OH    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H1  CT  CT  OS    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  C3  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  C4  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  C4  CT  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  C3  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  C4  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  C5  O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C5  O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  CM  CM    9       0.0      4.81160     1  ; Amber99Sb-disp
+ HC  CT  CM  CM    9     180.0      1.58992     3  ; Amber99Sb-disp
+ HC  CT  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  CT  Br    9       0.0      2.30120     1  ; Amber99Sb-disp
+ HC  CT  CT  C3    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  C4    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  C7    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  Cl    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  CT  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  F     9       0.0      0.79496     1  ; Amber99Sb-disp
+ HC  CT  CT  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  CT  OH    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  CT  CT  OS    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H   N   C5  O     9       0.0      8.36800     1  ; Amber99Sb-disp
+ H   N   C5  O     9     180.0     10.46000     2  ; Amber99Sb-disp
+ H   N   C   O     9       0.0      8.36800     1  ; Amber99Sb-disp
+ H   N   C   O     9     180.0     10.46000     2  ; Amber99Sb-disp
+ HB  N   C   OB    9       0.0      8.36800     1  ; Amber99Sb-disp
+ HB  N   C   OB    9     180.0     10.46000     2  ; Amber99Sb-disp
+ HO  O3  C8  CT    9       0.0      0.35982     1  ; Amber99Sb-disp
+ HO  O3  C8  CT    9       0.0      0.41840     3  ; Amber99Sb-disp
+ HO  O3  C8  CT    9     180.0      0.68199     2  ; Amber99Sb-disp
+ HO  O3  C8  H1    9       0.0      0.41840     3  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      0.25104     2  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      0.83680     3  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      3.13800     1  ; Amber99Sb-disp
+ HO  OH  C   O     9       0.0      7.94960     1  ; Amber99Sb-disp
+ HO  OH  C   O     9     180.0      9.62320     2  ; Amber99Sb-disp
+ HO  OH  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HO  OH  CT  CT    9       0.0      1.04600     1  ; Amber99Sb-disp
+ N3  CT  CT  C3    9       0.0      0.81630     1  ; Amber99Sb-disp
+ N3  CT  CT  C3    9     180.0      3.53925     2  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0     11.02568     1  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      4.98022     2  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      0.02845     3  ; Amber99Sb-disp
+ N3  CT  CT  C6    9       0.0      1.76858     4  ; Amber99Sb-disp
+ N3  CT  CT  C6    9       0.0      0.96943     5  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      0.89009     6  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      2.69445     1  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      6.68666     2  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      1.67111     3  ; Amber99Sb-disp
+ N   C1  C   N     9       0.0      0.31419     4  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      4.37772     1  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.75730     2  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.14811     3  ; Amber99Sb-disp
+ N   C5  CT  CT    9       0.0      0.41966     4  ; Amber99Sb-disp
+ N   C5  CT  CT    9       0.0      0.54308     5  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.44373     6  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      1.88280     1  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      6.61072     2  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      2.30120     3  ; Amber99Sb-disp
+ N   CT  C8  CT    9       0.0      0.25104     1  ; Amber99Sb-disp
+ N   CT  C8  CT    9     180.0      2.09200     2  ; Amber99Sb-disp
+ N   CT  C8  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ N   CT  C8  CT    9     180.0      0.27196     4  ; Amber99Sb-disp
+ N   CT  C8  O3    9     180.0      0.33472     1  ; Amber99Sb-disp
+ N   CT  C8  OH    9     180.0      1.04600     1  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.82425     1  ; Amber99Sb-disp
+ N   CT  C   N     9     180.0      6.04588     2  ; Amber99Sb-disp
+ N   CT  C   N     9     180.0      2.00414     3  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.07991     4  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.01674     5  ; Amber99Sb-disp
+ N   CT  CT  C3    9       0.0      0.81630     1  ; Amber99Sb-disp
+ N   CT  CT  C3    9     180.0      3.53925     2  ; Amber99Sb-disp
+ N   CT  CT  C5    9     180.0      2.63592     1  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0     12.05410     1  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0      5.06682     2  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      0.25941     3  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      1.02508     4  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      0.54810     5  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0      0.59413     6  ; Amber99Sb-disp
+ N   CT  CT  C9    9       0.0      0.41840     1  ; Amber99Sb-disp
+ N   CT  CT  CC    9     180.0      1.67360     1  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      2.30120     1  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      2.63592     2  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      0.25104     3  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      0.12552     4  ; Amber99Sb-disp
+ O   C   OS  CT    9     180.0      5.85760     1  ; Amber99Sb-disp
+ O   C   OS  CT    9     180.0     11.29680     2  ; Amber99Sb-disp
+ OH  CT  CT  OH    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OH  CT  CT  OH    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OH  P   OS  CT    9       0.0      1.04600     3  ; Amber99Sb-disp
+ OH  P   OS  CT    9       0.0      5.02080     2  ; Amber99Sb-disp
+ OS  CT  CT  OH    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OS  CT  CT  OH    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OS  CT  CT  OS    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OS  CT  CT  OS    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OS  CT  N*  CK    9       0.0     10.46000     1  ; Amber99Sb-disp
+ OS  CT  N*  CM    9       0.0     10.46000     1  ; Amber99Sb-disp
+ OS  P   OS  CT    9       0.0      5.02080     2  ; Amber99Sb-disp
+ OS  P   OS  CT    9       0.0      1.04600     3  ; Amber99Sb-disp
+ N   CT  CT  CA    9       0.0      0.00000     0  ; Amber99Sb-disp
+ N   CT  CT  C*    9       0.0      0.00000     0  ; Amber99Sb-disp
+ CT  CT  C9  S     9       0.0      0.00000     0  ; Amber99Sb-disp
+ CT  CT  C9  CT    9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C1  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C5  N   X     9     180.0     10.46000     2  ; Amber99Sb-disp
+ X   C7  CT  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C7  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C8  O3  X     9       0.0      0.69873     3  ; Amber99Sb-disp
+ X   C8  OH  X     9       0.0      0.69873     3  ; Amber99Sb-disp
+ X   C9  S   X     9       0.0      1.39327     3  ; Amber99Sb-disp
+ X   CA  CA  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CA  CB  X     9     180.0     14.64400     2  ; Amber99Sb-disp
+ X   CA  CM  X     9     180.0     10.66920     2  ; Amber99Sb-disp
+ X   CA  CN  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CA  N2  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   CA  NA  X     9     180.0      6.27600     2  ; Amber99Sb-disp
+ X   CA  NC  X     9     180.0     20.08320     2  ; Amber99Sb-disp
+ X   CA  OH  X     9     180.0      3.76560     2  ; Amber99Sb-disp
+ X   CB  CB  X     9     180.0     22.80280     2  ; Amber99Sb-disp
+ X   CB  CN  X     9     180.0     12.55200     2  ; Amber99Sb-disp
+ X   CB  NB  X     9     180.0     10.66920     2  ; Amber99Sb-disp
+ X   CB  NC  X     9     180.0     17.36360     2  ; Amber99Sb-disp
+ X   CB  N*  X     9     180.0      6.90360     2  ; Amber99Sb-disp
+ X   C   CA  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   C   CB  X     9     180.0     12.55200     2  ; Amber99Sb-disp
+ X   C*  CB  X     9     180.0      7.00820     2  ; Amber99Sb-disp
+ X   CC  CV  X     9     180.0     21.54760     2  ; Amber99Sb-disp
+ X   CC  CW  X     9     180.0     22.48900     2  ; Amber99Sb-disp
+ X   C   CM  X     9     180.0      9.10020     2  ; Amber99Sb-disp
+ X   CC  NA  X     9     180.0      5.85760     2  ; Amber99Sb-disp
+ X   CC  NB  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   C*  CW  X     9     180.0     27.30060     2  ; Amber99Sb-disp
+ X   C   C   X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CK  NB  X     9     180.0     41.84000     2  ; Amber99Sb-disp
+ X   CK  N*  X     9     180.0      7.11280     2  ; Amber99Sb-disp
+ X   CM  CM  X     9     180.0     27.82360     2  ; Amber99Sb-disp
+ X   CM  N*  X     9     180.0      7.74040     2  ; Amber99Sb-disp
+ X   CM  OS  X     9     180.0      4.39320     2  ; Amber99Sb-disp
+ X   C   NA  X     9     180.0      5.64840     2  ; Amber99Sb-disp
+ X   C   NC  X     9     180.0     16.73600     2  ; Amber99Sb-disp
+ X   CN  NA  X     9     180.0      6.38060     2  ; Amber99Sb-disp
+ X   C   N   X     9     180.0     10.46000     2  ; Amber99Sb-disp
+ X   C   N*  X     9     180.0      6.06680     2  ; Amber99Sb-disp
+ X   C   OH  X     9     180.0      9.62320     2  ; Amber99Sb-disp
+ X   C   OS  X     9     180.0     11.29680     2  ; Amber99Sb-disp
+ X   C   O   X     9     180.0     11.71520     2  ; Amber99Sb-disp
+ X   C   OB  X     9     180.0     11.71520     2  ; Amber99Sb-disp
+ X   CQ  NC  X     9     180.0     28.45120     2  ; Amber99Sb-disp
+ X   CR  NA  X     9     180.0      9.72780     2  ; Amber99Sb-disp
+ X   CR  NB  X     9     180.0     20.92000     2  ; Amber99Sb-disp
+ X   CT  C8  X     9       0.0      0.64852     3  ; Amber99Sb-disp
+ X   CT  C9  X     9       0.0      0.64852     3  ; Amber99Sb-disp
+ X   CT  CT  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   CT  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   CT  OH  X     9       0.0      0.69733     3  ; Amber99Sb-disp
+ X   CT  OS  X     9       0.0      1.60387     3  ; Amber99Sb-disp
+ X   CT  SH  X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   CT  S   X     9       0.0      1.39467     3  ; Amber99Sb-disp
+ X   CV  NB  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   CW  NA  X     9     180.0      6.27600     2  ; Amber99Sb-disp
+ X   OH  P   X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   OS  P   X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   C1  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C1  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C9  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CA  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CC  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CM  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N*  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N2  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C*  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C7  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C7  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C5  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C6  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+; L47_GMX.top created by acpype (v: 2022.1.3) on Wed Jun  8 14:36:52 2022
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+;1               2               yes             0.5     0.8333
 
 [ moleculetype ]
 ; Name            nrexcl
 Protein_chain_A     3
 
 [ atoms ]
-     1         N3    121   NASP      N      1     0.0782      14.01
-     2          H    121   NASP     H1      2       0.22      1.008
-     3          H    121   NASP     H2      3       0.22      1.008
-     4          H    121   NASP     H3      4       0.22      1.008
-     5         CT    121   NASP     CA      5     0.0292      12.01
-     6         HP    121   NASP     HA      6     0.1141      1.008
-     7         CT    121   NASP     CB      7    -0.0235      12.01
-     8         HC    121   NASP    HB1      8    -0.0169      1.008
-     9         HC    121   NASP    HB2      9    -0.0169      1.008
-    10         C6    121   NASP     CG     10     0.8194      12.01
-    11         O2    121   NASP    OD1     11    -0.8084         16
-    12         O2    121   NASP    OD2     12    -0.8084         16
-    13          C    121   NASP      C     13     0.5621      12.01
-    14         OB    121   NASP      O     14    -0.5889         16   ; qtot 0
-    15          N    122    ASN      N     15    -0.4157      14.01
-    16         HB    122    ASN      H     16     0.2719      1.008
-    17         CT    122    ASN     CA     17     0.0143      12.01
-    18         H1    122    ASN     HA     18     0.1048      1.008
-    19         CT    122    ASN     CB     19    -0.2041      12.01
-    20         HC    122    ASN    HB1     20     0.0797      1.008
-    21         HC    122    ASN    HB2     21     0.0797      1.008
-    22         C5    122    ASN     CG     22      0.713      12.01
-    23          O    122    ASN    OD1     23    -0.5931         16
-    24          N    122    ASN    ND2     24    -0.9191      14.01
-    25          H    122    ASN   HD21     25     0.4196      1.008
-    26          H    122    ASN   HD22     26     0.4196      1.008
-    27          C    122    ASN      C     27     0.5973      12.01
-    28         OB    122    ASN      O     28    -0.5679         16   ; qtot 0
-    29          N    123    GLU      N     29    -0.4157      14.01
-    30         HB    123    GLU      H     30     0.2719      1.008
-    31         CT    123    GLU     CA     31  -0.227583      12.01
-    32         H1    123    GLU     HA     32   0.154545      1.008
-    33         CT    123    GLU     CB     33    0.11601      12.01
-    34         HC    123    GLU    HB1     34  -0.006217      1.008
-    35         HC    123    GLU    HB2     35  -0.006217      1.008
-    36         C9    123    GLU     CG     36  -0.081794      12.01
-    37         HC    123    GLU    HG1     37  -0.006154      1.008
-    38         HC    123    GLU    HG2     38  -0.006154      1.008
-    39          C    123    GLU     CD     39   0.728614      12.01
-    40         O2    123    GLU    OE1     40  -0.775325         16
-    41         O2    123    GLU    OE2     41  -0.775325         16
-    42          C    123    GLU      C     42     0.5973      12.01
-    43         OB    123    GLU      O     43    -0.5679         16   ; qtot -1
-    44          N    124    ALA      N     44    -0.4157      14.01
-    45         HB    124    ALA      H     45     0.2719      1.008
-    46         CT    124    ALA     CA     46     0.0337      12.01
-    47         H1    124    ALA     HA     47     0.0823      1.008
-    48         CT    124    ALA     CB     48    -0.1825      12.01
-    49         HC    124    ALA    HB1     49     0.0603      1.008
-    50         HC    124    ALA    HB2     50     0.0603      1.008
-    51         HC    124    ALA    HB3     51     0.0603      1.008
-    52          C    124    ALA      C     52     0.5973      12.01
-    53         OB    124    ALA      O     53    -0.5679         16   ; qtot -1
-    54          N    125    TYR      N     54    -0.4157      14.01
-    55         HB    125    TYR      H     55     0.2719      1.008
-    56         CT    125    TYR     CA     56    -0.0014      12.01
-    57         H1    125    TYR     HA     57     0.0876      1.008
-    58         CT    125    TYR     CB     58    -0.0152      12.01
-    59         HC    125    TYR    HB1     59     0.0295      1.008
-    60         HC    125    TYR    HB2     60     0.0295      1.008
-    61         CA    125    TYR     CG     61    -0.0011      12.01
-    62         CA    125    TYR    CD1     62    -0.1906      12.01
-    63         HA    125    TYR    HD1     63     0.1699      1.008
-    64         CA    125    TYR    CE1     64    -0.2341      12.01
-    65         HA    125    TYR    HE1     65     0.1656      1.008
-    66          C    125    TYR     CZ     66     0.3226      12.01
-    67         OH    125    TYR     OH     67    -0.5579         16
-    68         HO    125    TYR     HH     68     0.3992      1.008
-    69         CA    125    TYR    CE2     69    -0.2341      12.01
-    70         HA    125    TYR    HE2     70     0.1656      1.008
-    71         CA    125    TYR    CD2     71    -0.1906      12.01
-    72         HA    125    TYR    HD2     72     0.1699      1.008
-    73          C    125    TYR      C     73     0.5973      12.01
-    74         OB    125    TYR      O     74    -0.5679         16   ; qtot -1
-    75          N    126    GLU      N     75    -0.4157      14.01
-    76         HB    126    GLU      H     76     0.2719      1.008
-    77         CT    126    GLU     CA     77  -0.227583      12.01
-    78         H1    126    GLU     HA     78   0.154545      1.008
-    79         CT    126    GLU     CB     79    0.11601      12.01
-    80         HC    126    GLU    HB1     80  -0.006217      1.008
-    81         HC    126    GLU    HB2     81  -0.006217      1.008
-    82         C9    126    GLU     CG     82  -0.081794      12.01
-    83         HC    126    GLU    HG1     83  -0.006154      1.008
-    84         HC    126    GLU    HG2     84  -0.006154      1.008
-    85          C    126    GLU     CD     85   0.728614      12.01
-    86         O2    126    GLU    OE1     86  -0.775325         16
-    87         O2    126    GLU    OE2     87  -0.775325         16
-    88          C    126    GLU      C     88     0.5973      12.01
-    89         OB    126    GLU      O     89    -0.5679         16   ; qtot -2
-    90          N    127    MET      N     90    -0.4157      14.01
-    91         HB    127    MET      H     91     0.2719      1.008
-    92         CT    127    MET     CA     92    -0.0237      12.01
-    93         H1    127    MET     HA     93      0.088      1.008
-    94         CT    127    MET     CB     94     0.0342      12.01
-    95         HC    127    MET    HB1     95     0.0241      1.008
-    96         HC    127    MET    HB2     96     0.0241      1.008
-    97         C9    127    MET     CG     97     0.0018      12.01
-    98         H1    127    MET    HG1     98      0.044      1.008
-    99         H1    127    MET    HG2     99      0.044      1.008
-   100          S    127    MET     SD    100    -0.2737      32.06
-   101         CT    127    MET     CE    101    -0.0536      12.01
-   102         H1    127    MET    HE1    102     0.0684      1.008
-   103         H1    127    MET    HE2    103     0.0684      1.008
-   104         H1    127    MET    HE3    104     0.0684      1.008
-   105          C    127    MET      C    105     0.5973      12.01
-   106         OB    127    MET      O    106    -0.5679         16   ; qtot -2
-   107          N    128    PRO      N    107    -0.2548      14.01
-   108         CT    128    PRO     CD    108     0.0192      12.01
-   109         H1    128    PRO    HD1    109     0.0391      1.008
-   110         H1    128    PRO    HD2    110     0.0391      1.008
-   111         CT    128    PRO     CG    111     0.0189      12.01
-   112         HC    128    PRO    HG1    112     0.0213      1.008
-   113         HC    128    PRO    HG2    113     0.0213      1.008
-   114         CT    128    PRO     CB    114     -0.007      12.01
-   115         HC    128    PRO    HB1    115     0.0253      1.008
-   116         HC    128    PRO    HB2    116     0.0253      1.008
-   117         C7    128    PRO     CA    117    -0.0266      12.01
-   118         H1    128    PRO     HA    118     0.0641      1.008
-   119          C    128    PRO      C    119     0.5896      12.01
-   120         OB    128    PRO      O    120    -0.5748         16   ; qtot -2
-   121          N    129    SER      N    121    -0.4157      14.01
-   122         HB    129    SER      H    122     0.2719      1.008
-   123         CT    129    SER     CA    123    -0.0249      12.01
-   124         H1    129    SER     HA    124     0.0843      1.008
-   125         C8    129    SER     CB    125     0.2117      12.01
-   126         H1    129    SER    HB1    126     0.0352      1.008
-   127         H1    129    SER    HB2    127     0.0352      1.008
-   128         OH    129    SER     OG    128    -0.6546         16
-   129         HO    129    SER    HG1    129     0.4275      1.008
-   130          C    129    SER      C    130     0.5973      12.01
-   131         OB    129    SER      O    131    -0.5679         16   ; qtot -1.573
-   132          N    130    GLU      N    132    -0.4157      14.01
-   133         HB    130    GLU      H    133     0.2719      1.008
-   134         CT    130    GLU     CA    134  -0.227583      12.01
-   135         H1    130    GLU     HA    135   0.154545      1.008
-   136         CT    130    GLU     CB    136    0.11601      12.01
-   137         HC    130    GLU    HB1    137  -0.006217      1.008
-   138         HC    130    GLU    HB2    138  -0.006217      1.008
-   139         C9    130    GLU     CG    139  -0.081794      12.01
-   140         HC    130    GLU    HG1    140  -0.006154      1.008
-   141         HC    130    GLU    HG2    141  -0.006154      1.008
-   142          C    130    GLU     CD    142   0.728614      12.01
-   143         O2    130    GLU    OE1    143  -0.775325         16
-   144         O2    130    GLU    OE2    144  -0.775325         16
-   145          C    130    GLU      C    145     0.5973      12.01
-   146         OB    130    GLU      O    146    -0.5679         16   ; qtot -2.573
-   147          N    131    GLU      N    147    -0.4157      14.01
-   148         HB    131    GLU      H    148     0.2719      1.008
-   149         CT    131    GLU     CA    149  -0.227583      12.01
-   150         H1    131    GLU     HA    150   0.154545      1.008
-   151         CT    131    GLU     CB    151    0.11601      12.01
-   152         HC    131    GLU    HB1    152  -0.006217      1.008
-   153         HC    131    GLU    HB2    153  -0.006217      1.008
-   154         C9    131    GLU     CG    154  -0.081794      12.01
-   155         HC    131    GLU    HG1    155  -0.006154      1.008
-   156         HC    131    GLU    HG2    156  -0.006154      1.008
-   157          C    131    GLU     CD    157   0.728614      12.01
-   158         O2    131    GLU    OE1    158  -0.775325         16
-   159         O2    131    GLU    OE2    159  -0.775325         16
-   160          C    131    GLU      C    160     0.5973      12.01
-   161         OB    131    GLU      O    161    -0.5679         16   ; qtot -3.573
-   162          N    132    GLY      N    162    -0.4157      14.01
-   163         HB    132    GLY      H    163     0.2719      1.008
-   164         C1    132    GLY     CA    164    -0.0252      12.01
-   165         H1    132    GLY    HA1    165     0.0698      1.008
-   166         H1    132    GLY    HA2    166     0.0698      1.008
-   167          C    132    GLY      C    167     0.5973      12.01
-   168         OB    132    GLY      O    168    -0.5679         16   ; qtot -3.573
-   169          N    133    TYR      N    169    -0.4157      14.01
-   170         HB    133    TYR      H    170     0.2719      1.008
-   171         CT    133    TYR     CA    171    -0.0014      12.01
-   172         H1    133    TYR     HA    172     0.0876      1.008
-   173         CT    133    TYR     CB    173    -0.0152      12.01
-   174         HC    133    TYR    HB1    174     0.0295      1.008
-   175         HC    133    TYR    HB2    175     0.0295      1.008
-   176         CA    133    TYR     CG    176    -0.0011      12.01
-   177         CA    133    TYR    CD1    177    -0.1906      12.01
-   178         HA    133    TYR    HD1    178     0.1699      1.008
-   179         CA    133    TYR    CE1    179    -0.2341      12.01
-   180         HA    133    TYR    HE1    180     0.1656      1.008
-   181          C    133    TYR     CZ    181     0.3226      12.01
-   182         OH    133    TYR     OH    182    -0.5579         16
-   183         HO    133    TYR     HH    183     0.3992      1.008
-   184         CA    133    TYR    CE2    184    -0.2341      12.01
-   185         HA    133    TYR    HE2    185     0.1656      1.008
-   186         CA    133    TYR    CD2    186    -0.1906      12.01
-   187         HA    133    TYR    HD2    187     0.1699      1.008
-   188          C    133    TYR      C    188     0.5973      12.01
-   189         OB    133    TYR      O    189    -0.5679         16   ; qtot -3.573
-   190          N    134    GLN      N    190    -0.4157      14.01
-   191         HB    134    GLN      H    191     0.2719      1.008
-   192         CT    134    GLN     CA    192    -0.0031      12.01
-   193         H1    134    GLN     HA    193      0.085      1.008
-   194         CT    134    GLN     CB    194    -0.0036      12.01
-   195         HC    134    GLN    HB1    195     0.0171      1.008
-   196         HC    134    GLN    HB2    196     0.0171      1.008
-   197         C9    134    GLN     CG    197    -0.0645      12.01
-   198         HC    134    GLN    HG1    198     0.0352      1.008
-   199         HC    134    GLN    HG2    199     0.0352      1.008
-   200          C    134    GLN     CD    200     0.6951      12.01
-   201          O    134    GLN    OE1    201    -0.6086         16
-   202          N    134    GLN    NE2    202    -0.9407      14.01
-   203          H    134    GLN   HE21    203     0.4251      1.008
-   204          H    134    GLN   HE22    204     0.4251      1.008
-   205          C    134    GLN      C    205     0.5973      12.01
-   206         OB    134    GLN      O    206    -0.5679         16   ; qtot -3.573
-   207          N    135    ASP      N    207    -0.4157      14.01
-   208         HB    135    ASP      H    208     0.2719      1.008
-   209         CT    135    ASP     CA    209  -0.224564      12.01
-   210         H1    135    ASP     HA    210   0.146193      1.008
-   211         CT    135    ASP     CB    211   0.003572      12.01
-   212         HC    135    ASP    HB1    212  -0.015579      1.008
-   213         HC    135    ASP    HB2    213  -0.015579      1.008
-   214         C6    135    ASP     CG    214   0.762867      12.01
-   215         O2    135    ASP    OD1    215  -0.771255         16
-   216         O2    135    ASP    OD2    216  -0.771255         16
-   217          C    135    ASP      C    217     0.5973      12.01
-   218         OB    135    ASP      O    218    -0.5679         16   ; qtot -4.573
-   219          N    136    TYR      N    219    -0.4157      14.01
-   220         HB    136    TYR      H    220     0.2719      1.008
-   221         CT    136    TYR     CA    221    -0.0014      12.01
-   222         H1    136    TYR     HA    222     0.0876      1.008
-   223         CT    136    TYR     CB    223    -0.0152      12.01
-   224         HC    136    TYR    HB1    224     0.0295      1.008
-   225         HC    136    TYR    HB2    225     0.0295      1.008
-   226         CA    136    TYR     CG    226    -0.0011      12.01
-   227         CA    136    TYR    CD1    227    -0.1906      12.01
-   228         HA    136    TYR    HD1    228     0.1699      1.008
-   229         CA    136    TYR    CE1    229    -0.2341      12.01
-   230         HA    136    TYR    HE1    230     0.1656      1.008
-   231          C    136    TYR     CZ    231     0.3226      12.01
-   232         OH    136    TYR     OH    232    -0.5579         16
-   233         HO    136    TYR     HH    233     0.3992      1.008
-   234         CA    136    TYR    CE2    234    -0.2341      12.01
-   235         HA    136    TYR    HE2    235     0.1656      1.008
-   236         CA    136    TYR    CD2    236    -0.1906      12.01
-   237         HA    136    TYR    HD2    237     0.1699      1.008
-   238          C    136    TYR      C    238     0.5973      12.01
-   239         OB    136    TYR      O    239    -0.5679         16   ; qtot -4.573
-   240          N    137    GLU      N    240    -0.4157      14.01
-   241         HB    137    GLU      H    241     0.2719      1.008
-   242         CT    137    GLU     CA    242  -0.227583      12.01
-   243         H1    137    GLU     HA    243   0.154545      1.008
-   244         CT    137    GLU     CB    244    0.11601      12.01
-   245         HC    137    GLU    HB1    245  -0.006217      1.008
-   246         HC    137    GLU    HB2    246  -0.006217      1.008
-   247         C9    137    GLU     CG    247  -0.081794      12.01
-   248         HC    137    GLU    HG1    248  -0.006154      1.008
-   249         HC    137    GLU    HG2    249  -0.006154      1.008
-   250          C    137    GLU     CD    250   0.728614      12.01
-   251         O2    137    GLU    OE1    251  -0.775325         16
-   252         O2    137    GLU    OE2    252  -0.775325         16
-   253          C    137    GLU      C    253     0.5973      12.01
-   254         OB    137    GLU      O    254    -0.5679         16   ; qtot -5.573
-   255          N    138    PRO      N    255    -0.2548      14.01
-   256         CT    138    PRO     CD    256     0.0192      12.01
-   257         H1    138    PRO    HD1    257     0.0391      1.008
-   258         H1    138    PRO    HD2    258     0.0391      1.008
-   259         CT    138    PRO     CG    259     0.0189      12.01
-   260         HC    138    PRO    HG1    260     0.0213      1.008
-   261         HC    138    PRO    HG2    261     0.0213      1.008
-   262         CT    138    PRO     CB    262     -0.007      12.01
-   263         HC    138    PRO    HB1    263     0.0253      1.008
-   264         HC    138    PRO    HB2    264     0.0253      1.008
-   265         C7    138    PRO     CA    265    -0.0266      12.01
-   266         H1    138    PRO     HA    266     0.0641      1.008
-   267          C    138    PRO      C    267     0.5896      12.01
-   268         OB    138    PRO      O    268    -0.5748         16   ; qtot -5.573
-   269          N    139    GLU      N    269    -0.4157      14.01
-   270         HB    139    GLU      H    270     0.2719      1.008
-   271         CT    139    GLU     CA    271  -0.227583      12.01
-   272         H1    139    GLU     HA    272   0.154545      1.008
-   273         CT    139    GLU     CB    273    0.11601      12.01
-   274         HC    139    GLU    HB1    274  -0.006217      1.008
-   275         HC    139    GLU    HB2    275  -0.006217      1.008
-   276         C9    139    GLU     CG    276  -0.081794      12.01
-   277         HC    139    GLU    HG1    277  -0.006154      1.008
-   278         HC    139    GLU    HG2    278  -0.006154      1.008
-   279          C    139    GLU     CD    279   0.728614      12.01
-   280         O2    139    GLU    OE1    280  -0.775325         16
-   281         O2    139    GLU    OE2    281  -0.775325         16
-   282          C    139    GLU      C    282     0.5973      12.01
-   283         OB    139    GLU      O    283    -0.5679         16   ; qtot -6.573
-   284          N    140   CALA      N    284    -0.3821      14.01
-   285         HB    140   CALA      H    285     0.2681      1.008
-   286         CT    140   CALA     CA    286    -0.1747      12.01
-   287         H1    140   CALA     HA    287     0.1067      1.008
-   288         CT    140   CALA     CB    288    -0.2093      12.01
-   289         HC    140   CALA    HB1    289     0.0764      1.008
-   290         HC    140   CALA    HB2    290     0.0764      1.008
-   291         HC    140   CALA    HB3    291     0.0764      1.008
-   292          C    140   CALA      C    292     0.7731      12.01
-   293         O2    140   CALA    OC1    293    -0.8055         16
-   294         O2    140   CALA    OC2    294    -0.8055         16   ; qtot -7.573
-
+     1        sN3    121   NASP      N      1     0.0628      14.01
+     2         sH    121   NASP     H1      2     0.1767       1.01
+     3         sH    121   NASP     H2      3     0.1767       1.01
+     4         sH    121   NASP     H3      4     0.1767       1.01
+     5        sCT    121   NASP     CA      5     0.0235      12.01
+     6        sHP    121   NASP     HA      6     0.0917       1.01
+     7        sCT    121   NASP     CB      7    -0.0189      12.01
+     8        sHC    121   NASP    HB1      8    -0.0136       1.01
+     9        sHC    121   NASP    HB2      9    -0.0136       1.01
+    10        sC6    121   NASP     CG     10     0.6583      12.01
+    11        sO2    121   NASP    OD1     11    -0.6495      16.00
+    12        sO2    121   NASP    OD2     12    -0.6495      16.00
+    13         sC    121   NASP      C     13     0.4516      12.01
+    14        sOB    121   NASP      O     14    -0.4731      16.00
+    15         sN    122    ASN      N     15    -0.3340      14.01
+    16        sHB    122    ASN      H     16     0.2184       1.01
+    17        sCT    122    ASN     CA     17     0.0115      12.01
+    18        sH1    122    ASN     HA     18     0.0842       1.01
+    19        sCT    122    ASN     CB     19    -0.1640      12.01
+    20        sHC    122    ASN    HB1     20     0.0640       1.01
+    21        sHC    122    ASN    HB2     21     0.0640       1.01
+    22        sC5    122    ASN     CG     22     0.5728      12.01
+    23         sO    122    ASN    OD1     23    -0.4765      16.00
+    24         sN    122    ASN    ND2     24    -0.7384      14.01
+    25         sH    122    ASN   HD21     25     0.3371       1.01
+    26         sH    122    ASN   HD22     26     0.3371       1.01
+    27         sC    122    ASN      C     27     0.4799      12.01
+    28        sOB    122    ASN      O     28    -0.4562      16.00
+    29         sN    123    GLU      N     29    -0.3340      14.01
+    30        sHB    123    GLU      H     30     0.2184       1.01
+    31        sCT    123    GLU     CA     31    -0.1828      12.01
+    32        sH1    123    GLU     HA     32     0.1242       1.01
+    33        sCT    123    GLU     CB     33     0.0932      12.01
+    34        sHC    123    GLU    HB1     34    -0.0050       1.01
+    35        sHC    123    GLU    HB2     35    -0.0050       1.01
+    36        sC9    123    GLU     CG     36    -0.0657      12.01
+    37        sHC    123    GLU    HG1     37    -0.0049       1.01
+    38        sHC    123    GLU    HG2     38    -0.0049       1.01
+    39         sC    123    GLU     CD     39     0.5854      12.01
+    40        sO2    123    GLU    OE1     40    -0.6229      16.00
+    41        sO2    123    GLU    OE2     41    -0.6229      16.00
+    42         sC    123    GLU      C     42     0.4799      12.01
+    43        sOB    123    GLU      O     43    -0.4562      16.00
+    44         sN    124    ALA      N     44    -0.3340      14.01
+    45        sHB    124    ALA      H     45     0.2184       1.01
+    46        sCT    124    ALA     CA     46     0.0271      12.01
+    47        sH1    124    ALA     HA     47     0.0661       1.01
+    48        sCT    124    ALA     CB     48    -0.1466      12.01
+    49        sHC    124    ALA    HB1     49     0.0484       1.01
+    50        sHC    124    ALA    HB2     50     0.0484       1.01
+    51        sHC    124    ALA    HB3     51     0.0484       1.01
+    52         sC    124    ALA      C     52     0.4799      12.01
+    53        sOB    124    ALA      O     53    -0.4562      16.00
+    54         sN    125    TYR      N     54    -0.3340      14.01
+    55        sHB    125    TYR      H     55     0.2184       1.01
+    56        sCT    125    TYR     CA     56    -0.0011      12.01
+    57        sH1    125    TYR     HA     57     0.0704       1.01
+    58        sCT    125    TYR     CB     58    -0.0122      12.01
+    59        sHC    125    TYR    HB1     59     0.0237       1.01
+    60        sHC    125    TYR    HB2     60     0.0237       1.01
+    61        sCA    125    TYR     CG     61    -0.0009      12.01
+    62        sCA    125    TYR    CD1     62    -0.1531      12.01
+    63        sHA    125    TYR    HD1     63     0.1365       1.01
+    64        sCA    125    TYR    CE1     64    -0.1881      12.01
+    65        sHA    125    TYR    HE1     65     0.1330       1.01
+    66         sC    125    TYR     CZ     66     0.2592      12.01
+    67        sOH    125    TYR     OH     67    -0.4482      16.00
+    68        sHO    125    TYR     HH     68     0.3207       1.01
+    69        sCA    125    TYR    CE2     69    -0.1881      12.01
+    70        sHA    125    TYR    HE2     70     0.1330       1.01
+    71        sCA    125    TYR    CD2     71    -0.1531      12.01
+    72        sHA    125    TYR    HD2     72     0.1365       1.01
+    73         sC    125    TYR      C     73     0.4799      12.01
+    74        sOB    125    TYR      O     74    -0.4562      16.00
+    75         sN    126    GLU      N     75    -0.3340      14.01
+    76        sHB    126    GLU      H     76     0.2184       1.01
+    77        sCT    126    GLU     CA     77    -0.1828      12.01
+    78        sH1    126    GLU     HA     78     0.1242       1.01
+    79        sCT    126    GLU     CB     79     0.0932      12.01
+    80        sHC    126    GLU    HB1     80    -0.0050       1.01
+    81        sHC    126    GLU    HB2     81    -0.0050       1.01
+    82        sC9    126    GLU     CG     82    -0.0657      12.01
+    83        sHC    126    GLU    HG1     83    -0.0049       1.01
+    84        sHC    126    GLU    HG2     84    -0.0049       1.01
+    85         sC    126    GLU     CD     85     0.5854      12.01
+    86        sO2    126    GLU    OE1     86    -0.6229      16.00
+    87        sO2    126    GLU    OE2     87    -0.6229      16.00
+    88         sC    126    GLU      C     88     0.4799      12.01
+    89        sOB    126    GLU      O     89    -0.4562      16.00
+    90         sN    127    MET      N     90    -0.3340      14.01
+    91        sHB    127    MET      H     91     0.2184       1.01
+    92        sCT    127    MET     CA     92    -0.0190      12.01
+    93        sH1    127    MET     HA     93     0.0707       1.01
+    94        sCT    127    MET     CB     94     0.0275      12.01
+    95        sHC    127    MET    HB1     95     0.0194       1.01
+    96        sHC    127    MET    HB2     96     0.0194       1.01
+    97        sC9    127    MET     CG     97     0.0014      12.01
+    98        sH1    127    MET    HG1     98     0.0353       1.01
+    99        sH1    127    MET    HG2     99     0.0353       1.01
+   100         sS    127    MET     SD    100    -0.2199      32.06
+   101        sCT    127    MET     CE    101    -0.0431      12.01
+   102        sH1    127    MET    HE1    102     0.0550       1.01
+   103        sH1    127    MET    HE2    103     0.0550       1.01
+   104        sH1    127    MET    HE3    104     0.0550       1.01
+   105         sC    127    MET      C    105     0.4799      12.01
+   106        sOB    127    MET      O    106    -0.4562      16.00
+   107         sN    128    PRO      N    107    -0.2047      14.01
+   108        sCT    128    PRO     CD    108     0.0154      12.01
+   109        sH1    128    PRO    HD1    109     0.0314       1.01
+   110        sH1    128    PRO    HD2    110     0.0314       1.01
+   111        sCT    128    PRO     CG    111     0.0152      12.01
+   112        sHC    128    PRO    HG1    112     0.0171       1.01
+   113        sHC    128    PRO    HG2    113     0.0171       1.01
+   114        sCT    128    PRO     CB    114    -0.0056      12.01
+   115        sHC    128    PRO    HB1    115     0.0203       1.01
+   116        sHC    128    PRO    HB2    116     0.0203       1.01
+   117        sC7    128    PRO     CA    117    -0.0214      12.01
+   118        sH1    128    PRO     HA    118     0.0515       1.01
+   119         sC    128    PRO      C    119     0.4737      12.01
+   120        sOB    128    PRO      O    120    -0.4618      16.00
+   121         sN    129    SER      N    121    -0.3340      14.01
+   122        sHB    129    SER      H    122     0.2184       1.01
+   123        sCT    129    SER     CA    123    -0.0200      12.01
+   124        sH1    129    SER     HA    124     0.0677       1.01
+   125        sC8    129    SER     CB    125     0.1701      12.01
+   126        sH1    129    SER    HB1    126     0.0283       1.01
+   127        sH1    129    SER    HB2    127     0.0283       1.01
+   128        sOH    129    SER     OG    128    -0.5259      16.00
+   129        sHO    129    SER    HG1    129     0.3434       1.01
+   130         sC    129    SER      C    130     0.4799      12.01
+   131        sOB    129    SER      O    131    -0.4562      16.00
+   132         sN    130    GLU      N    132    -0.3340      14.01
+   133        sHB    130    GLU      H    133     0.2184       1.01
+   134        sCT    130    GLU     CA    134    -0.1828      12.01
+   135        sH1    130    GLU     HA    135     0.1242       1.01
+   136        sCT    130    GLU     CB    136     0.0932      12.01
+   137        sHC    130    GLU    HB1    137    -0.0050       1.01
+   138        sHC    130    GLU    HB2    138    -0.0050       1.01
+   139        sC9    130    GLU     CG    139    -0.0657      12.01
+   140        sHC    130    GLU    HG1    140    -0.0049       1.01
+   141        sHC    130    GLU    HG2    141    -0.0049       1.01
+   142         sC    130    GLU     CD    142     0.5854      12.01
+   143        sO2    130    GLU    OE1    143    -0.6229      16.00
+   144        sO2    130    GLU    OE2    144    -0.6229      16.00
+   145         sC    130    GLU      C    145     0.4799      12.01
+   146        sOB    130    GLU      O    146    -0.4562      16.00
+   147         sN    131    GLU      N    147    -0.3340      14.01
+   148        sHB    131    GLU      H    148     0.2184       1.01
+   149        sCT    131    GLU     CA    149    -0.1828      12.01
+   150        sH1    131    GLU     HA    150     0.1242       1.01
+   151        sCT    131    GLU     CB    151     0.0932      12.01
+   152        sHC    131    GLU    HB1    152    -0.0050       1.01
+   153        sHC    131    GLU    HB2    153    -0.0050       1.01
+   154        sC9    131    GLU     CG    154    -0.0657      12.01
+   155        sHC    131    GLU    HG1    155    -0.0049       1.01
+   156        sHC    131    GLU    HG2    156    -0.0049       1.01
+   157         sC    131    GLU     CD    157     0.5854      12.01
+   158        sO2    131    GLU    OE1    158    -0.6229      16.00
+   159        sO2    131    GLU    OE2    159    -0.6229      16.00
+   160         sC    131    GLU      C    160     0.4799      12.01
+   161        sOB    131    GLU      O    161    -0.4562      16.00
+   162         sN    132    GLY      N    162    -0.3340      14.01
+   163        sHB    132    GLY      H    163     0.2184       1.01
+   164        sC1    132    GLY     CA    164    -0.0202      12.01
+   165        sH1    132    GLY    HA1    165     0.0561       1.01
+   166        sH1    132    GLY    HA2    166     0.0561       1.01
+   167         sC    132    GLY      C    167     0.4799      12.01
+   168        sOB    132    GLY      O    168    -0.4562      16.00
+   169         sN    133    TYR      N    169    -0.3340      14.01
+   170        sHB    133    TYR      H    170     0.2184       1.01
+   171        sCT    133    TYR     CA    171    -0.0011      12.01
+   172        sH1    133    TYR     HA    172     0.0704       1.01
+   173        sCT    133    TYR     CB    173    -0.0122      12.01
+   174        sHC    133    TYR    HB1    174     0.0237       1.01
+   175        sHC    133    TYR    HB2    175     0.0237       1.01
+   176        sCA    133    TYR     CG    176    -0.0009      12.01
+   177        sCA    133    TYR    CD1    177    -0.1531      12.01
+   178        sHA    133    TYR    HD1    178     0.1365       1.01
+   179        sCA    133    TYR    CE1    179    -0.1881      12.01
+   180        sHA    133    TYR    HE1    180     0.1330       1.01
+   181         sC    133    TYR     CZ    181     0.2592      12.01
+   182        sOH    133    TYR     OH    182    -0.4482      16.00
+   183        sHO    133    TYR     HH    183     0.3207       1.01
+   184        sCA    133    TYR    CE2    184    -0.1881      12.01
+   185        sHA    133    TYR    HE2    185     0.1330       1.01
+   186        sCA    133    TYR    CD2    186    -0.1531      12.01
+   187        sHA    133    TYR    HD2    187     0.1365       1.01
+   188         sC    133    TYR      C    188     0.4799      12.01
+   189        sOB    133    TYR      O    189    -0.4562      16.00
+   190         sN    134    GLN      N    190    -0.3340      14.01
+   191        sHB    134    GLN      H    191     0.2184       1.01
+   192        sCT    134    GLN     CA    192    -0.0025      12.01
+   193        sH1    134    GLN     HA    193     0.0683       1.01
+   194        sCT    134    GLN     CB    194    -0.0029      12.01
+   195        sHC    134    GLN    HB1    195     0.0137       1.01
+   196        sHC    134    GLN    HB2    196     0.0137       1.01
+   197        sC9    134    GLN     CG    197    -0.0518      12.01
+   198        sHC    134    GLN    HG1    198     0.0283       1.01
+   199        sHC    134    GLN    HG2    199     0.0283       1.01
+   200         sC    134    GLN     CD    200     0.5584      12.01
+   201         sO    134    GLN    OE1    201    -0.4889      16.00
+   202         sN    134    GLN    NE2    202    -0.7557      14.01
+   203         sH    134    GLN   HE21    203     0.3415       1.01
+   204         sH    134    GLN   HE22    204     0.3415       1.01
+   205         sC    134    GLN      C    205     0.4799      12.01
+   206        sOB    134    GLN      O    206    -0.4562      16.00
+   207         sN    135    ASP      N    207    -0.3340      14.01
+   208        sHB    135    ASP      H    208     0.2184       1.01
+   209        sCT    135    ASP     CA    209    -0.1804      12.01
+   210        sH1    135    ASP     HA    210     0.1174       1.01
+   211        sCT    135    ASP     CB    211     0.0029      12.01
+   212        sHC    135    ASP    HB1    212    -0.0125       1.01
+   213        sHC    135    ASP    HB2    213    -0.0125       1.01
+   214        sC6    135    ASP     CG    214     0.6129      12.01
+   215        sO2    135    ASP    OD1    215    -0.6196      16.00
+   216        sO2    135    ASP    OD2    216    -0.6196      16.00
+   217         sC    135    ASP      C    217     0.4799      12.01
+   218        sOB    135    ASP      O    218    -0.4562      16.00
+   219         sN    136    TYR      N    219    -0.3340      14.01
+   220        sHB    136    TYR      H    220     0.2184       1.01
+   221        sCT    136    TYR     CA    221    -0.0011      12.01
+   222        sH1    136    TYR     HA    222     0.0704       1.01
+   223        sCT    136    TYR     CB    223    -0.0122      12.01
+   224        sHC    136    TYR    HB1    224     0.0237       1.01
+   225        sHC    136    TYR    HB2    225     0.0237       1.01
+   226        sCA    136    TYR     CG    226    -0.0009      12.01
+   227        sCA    136    TYR    CD1    227    -0.1531      12.01
+   228        sHA    136    TYR    HD1    228     0.1365       1.01
+   229        sCA    136    TYR    CE1    229    -0.1881      12.01
+   230        sHA    136    TYR    HE1    230     0.1330       1.01
+   231         sC    136    TYR     CZ    231     0.2592      12.01
+   232        sOH    136    TYR     OH    232    -0.4482      16.00
+   233        sHO    136    TYR     HH    233     0.3207       1.01
+   234        sCA    136    TYR    CE2    234    -0.1881      12.01
+   235        sHA    136    TYR    HE2    235     0.1330       1.01
+   236        sCA    136    TYR    CD2    236    -0.1531      12.01
+   237        sHA    136    TYR    HD2    237     0.1365       1.01
+   238         sC    136    TYR      C    238     0.4799      12.01
+   239        sOB    136    TYR      O    239    -0.4562      16.00
+   240         sN    137    GLU      N    240    -0.3340      14.01
+   241        sHB    137    GLU      H    241     0.2184       1.01
+   242        sCT    137    GLU     CA    242    -0.1828      12.01
+   243        sH1    137    GLU     HA    243     0.1242       1.01
+   244        sCT    137    GLU     CB    244     0.0932      12.01
+   245        sHC    137    GLU    HB1    245    -0.0050       1.01
+   246        sHC    137    GLU    HB2    246    -0.0050       1.01
+   247        sC9    137    GLU     CG    247    -0.0657      12.01
+   248        sHC    137    GLU    HG1    248    -0.0049       1.01
+   249        sHC    137    GLU    HG2    249    -0.0049       1.01
+   250         sC    137    GLU     CD    250     0.5854      12.01
+   251        sO2    137    GLU    OE1    251    -0.6229      16.00
+   252        sO2    137    GLU    OE2    252    -0.6229      16.00
+   253         sC    137    GLU      C    253     0.4799      12.01
+   254        sOB    137    GLU      O    254    -0.4562      16.00
+   255         sN    138    PRO      N    255    -0.2047      14.01
+   256        sCT    138    PRO     CD    256     0.0154      12.01
+   257        sH1    138    PRO    HD1    257     0.0314       1.01
+   258        sH1    138    PRO    HD2    258     0.0314       1.01
+   259        sCT    138    PRO     CG    259     0.0152      12.01
+   260        sHC    138    PRO    HG1    260     0.0171       1.01
+   261        sHC    138    PRO    HG2    261     0.0171       1.01
+   262        sCT    138    PRO     CB    262    -0.0056      12.01
+   263        sHC    138    PRO    HB1    263     0.0203       1.01
+   264        sHC    138    PRO    HB2    264     0.0203       1.01
+   265        sC7    138    PRO     CA    265    -0.0214      12.01
+   266        sH1    138    PRO     HA    266     0.0515       1.01
+   267         sC    138    PRO      C    267     0.4737      12.01
+   268        sOB    138    PRO      O    268    -0.4618      16.00
+   269         sN    139    GLU      N    269    -0.3340      14.01
+   270        sHB    139    GLU      H    270     0.2184       1.01
+   271        sCT    139    GLU     CA    271    -0.1828      12.01
+   272        sH1    139    GLU     HA    272     0.1242       1.01
+   273        sCT    139    GLU     CB    273     0.0932      12.01
+   274        sHC    139    GLU    HB1    274    -0.0050       1.01
+   275        sHC    139    GLU    HB2    275    -0.0050       1.01
+   276        sC9    139    GLU     CG    276    -0.0657      12.01
+   277        sHC    139    GLU    HG1    277    -0.0049       1.01
+   278        sHC    139    GLU    HG2    278    -0.0049       1.01
+   279         sC    139    GLU     CD    279     0.5854      12.01
+   280        sO2    139    GLU    OE1    280    -0.6229      16.00
+   281        sO2    139    GLU    OE2    281    -0.6229      16.00
+   282         sC    139    GLU      C    282     0.4799      12.01
+   283        sOB    139    GLU      O    283    -0.4562      16.00
+   284         sN    140   CALA      N    284    -0.3070      14.01
+   285        sHB    140   CALA      H    285     0.2154       1.01
+   286        sCT    140   CALA     CA    286    -0.1404      12.01
+   287        sH1    140   CALA     HA    287     0.0857       1.01
+   288        sCT    140   CALA     CB    288    -0.1681      12.01
+   289        sHC    140   CALA    HB1    289     0.0614       1.01
+   290        sHC    140   CALA    HB2    290     0.0614       1.01
+   291        sHC    140   CALA    HB3    291     0.0614       1.01
+   292         sC    140   CALA      C    292     0.6211      12.01
+   293        sO2    140   CALA    OC1    293    -0.6471      16.00
+   294        sO2    140   CALA    OC2    294    -0.6471      16.00
 
 [ bonds ]
     1     2     1
@@ -11357,969 +11364,1428 @@ Protein_chain_A     3
 
 
 [ dihedrals ]
-    2     1     5     6     9
-    2     1     5     7     9
-    2     1     5    13     9
-    3     1     5     6     9
-    3     1     5     7     9
-    3     1     5    13     9
-    4     1     5     6     9
-    4     1     5     7     9
-    4     1     5    13     9
-    1     5     7     8     9
-    1     5     7     9     9
-    1     5     7    10     9
-    6     5     7     8     9
-    6     5     7     9     9
-    6     5     7    10     9
-   13     5     7     8     9
-   13     5     7     9     9
-   13     5     7    10     9
-    1     5    13    14     9
-    1     5    13    15     9
-    6     5    13    14     9
-    6     5    13    15     9
-    7     5    13    14     9
-    7     5    13    15     9
-    5     7    10    11     9
-    5     7    10    12     9
-    8     7    10    11     9
-    8     7    10    12     9
-    9     7    10    11     9
-    9     7    10    12     9
-    5    13    15    16     9
-    5    13    15    17     9
-   14    13    15    16     9
-   14    13    15    17     9
-   13    15    17    18     9
-   13    15    17    19     9
-   13    15    17    27     9
-   16    15    17    18     9
-   16    15    17    19     9
-   16    15    17    27     9
-   15    17    19    20     9
-   15    17    19    21     9
-   15    17    19    22     9
-   18    17    19    20     9
-   18    17    19    21     9
-   18    17    19    22     9
-   27    17    19    20     9
-   27    17    19    21     9
-   27    17    19    22     9
-   15    17    27    28     9
-   15    17    27    29     9
-   18    17    27    28     9
-   18    17    27    29     9
-   19    17    27    28     9
-   19    17    27    29     9
-   17    19    22    23     9
-   17    19    22    24     9
-   20    19    22    23     9
-   20    19    22    24     9
-   21    19    22    23     9
-   21    19    22    24     9
-   19    22    24    25     9
-   19    22    24    26     9
-   23    22    24    25     9
-   23    22    24    26     9
-   17    27    29    30     9
-   17    27    29    31     9
-   28    27    29    30     9
-   28    27    29    31     9
-   27    29    31    32     9
-   27    29    31    33     9
-   27    29    31    42     9
-   30    29    31    32     9
-   30    29    31    33     9
-   30    29    31    42     9
-   29    31    33    34     9
-   29    31    33    35     9
-   29    31    33    36     9
-   32    31    33    34     9
-   32    31    33    35     9
-   32    31    33    36     9
-   42    31    33    34     9
-   42    31    33    35     9
-   42    31    33    36     9
-   29    31    42    43     9
-   29    31    42    44     9
-   32    31    42    43     9
-   32    31    42    44     9
-   33    31    42    43     9
-   33    31    42    44     9
-   31    33    36    37     9
-   31    33    36    38     9
-   31    33    36    39     9
-   34    33    36    37     9
-   34    33    36    38     9
-   34    33    36    39     9
-   35    33    36    37     9
-   35    33    36    38     9
-   35    33    36    39     9
-   33    36    39    40     9
-   33    36    39    41     9
-   37    36    39    40     9
-   37    36    39    41     9
-   38    36    39    40     9
-   38    36    39    41     9
-   31    42    44    45     9
-   31    42    44    46     9
-   43    42    44    45     9
-   43    42    44    46     9
-   42    44    46    47     9
-   42    44    46    48     9
-   42    44    46    52     9
-   45    44    46    47     9
-   45    44    46    48     9
-   45    44    46    52     9
-   44    46    48    49     9
-   44    46    48    50     9
-   44    46    48    51     9
-   47    46    48    49     9
-   47    46    48    50     9
-   47    46    48    51     9
-   52    46    48    49     9
-   52    46    48    50     9
-   52    46    48    51     9
-   44    46    52    53     9
-   44    46    52    54     9
-   47    46    52    53     9
-   47    46    52    54     9
-   48    46    52    53     9
-   48    46    52    54     9
-   46    52    54    55     9
-   46    52    54    56     9
-   53    52    54    55     9
-   53    52    54    56     9
-   52    54    56    57     9
-   52    54    56    58     9
-   52    54    56    73     9
-   55    54    56    57     9
-   55    54    56    58     9
-   55    54    56    73     9
-   54    56    58    59     9
-   54    56    58    60     9
-   54    56    58    61     9
-   57    56    58    59     9
-   57    56    58    60     9
-   57    56    58    61     9
-   73    56    58    59     9
-   73    56    58    60     9
-   73    56    58    61     9
-   54    56    73    74     9
-   54    56    73    75     9
-   57    56    73    74     9
-   57    56    73    75     9
-   58    56    73    74     9
-   58    56    73    75     9
-   56    58    61    62     9
-   56    58    61    71     9
-   59    58    61    62     9
-   59    58    61    71     9
-   60    58    61    62     9
-   60    58    61    71     9
-   58    61    62    63     9
-   58    61    62    64     9
-   71    61    62    63     9
-   71    61    62    64     9
-   58    61    71    69     9
-   58    61    71    72     9
-   62    61    71    69     9
-   62    61    71    72     9
-   61    62    64    65     9
-   61    62    64    66     9
-   63    62    64    65     9
-   63    62    64    66     9
-   62    64    66    67     9
-   62    64    66    69     9
-   65    64    66    67     9
-   65    64    66    69     9
-   64    66    67    68     9
-   69    66    67    68     9
-   64    66    69    70     9
-   64    66    69    71     9
-   67    66    69    70     9
-   67    66    69    71     9
-   66    69    71    61     9
-   66    69    71    72     9
-   70    69    71    61     9
-   70    69    71    72     9
-   56    73    75    76     9
-   56    73    75    77     9
-   74    73    75    76     9
-   74    73    75    77     9
-   73    75    77    78     9
-   73    75    77    79     9
-   73    75    77    88     9
-   76    75    77    78     9
-   76    75    77    79     9
-   76    75    77    88     9
-   75    77    79    80     9
-   75    77    79    81     9
-   75    77    79    82     9
-   78    77    79    80     9
-   78    77    79    81     9
-   78    77    79    82     9
-   88    77    79    80     9
-   88    77    79    81     9
-   88    77    79    82     9
-   75    77    88    89     9
-   75    77    88    90     9
-   78    77    88    89     9
-   78    77    88    90     9
-   79    77    88    89     9
-   79    77    88    90     9
-   77    79    82    83     9
-   77    79    82    84     9
-   77    79    82    85     9
-   80    79    82    83     9
-   80    79    82    84     9
-   80    79    82    85     9
-   81    79    82    83     9
-   81    79    82    84     9
-   81    79    82    85     9
-   79    82    85    86     9
-   79    82    85    87     9
-   83    82    85    86     9
-   83    82    85    87     9
-   84    82    85    86     9
-   84    82    85    87     9
-   77    88    90    91     9
-   77    88    90    92     9
-   89    88    90    91     9
-   89    88    90    92     9
-   88    90    92    93     9
-   88    90    92    94     9
-   88    90    92   105     9
-   91    90    92    93     9
-   91    90    92    94     9
-   91    90    92   105     9
-   90    92    94    95     9
-   90    92    94    96     9
-   90    92    94    97     9
-   93    92    94    95     9
-   93    92    94    96     9
-   93    92    94    97     9
-  105    92    94    95     9
-  105    92    94    96     9
-  105    92    94    97     9
-   90    92   105   106     9
-   90    92   105   107     9
-   93    92   105   106     9
-   93    92   105   107     9
-   94    92   105   106     9
-   94    92   105   107     9
-   92    94    97    98     9
-   92    94    97    99     9
-   92    94    97   100     9
-   95    94    97    98     9
-   95    94    97    99     9
-   95    94    97   100     9
-   96    94    97    98     9
-   96    94    97    99     9
-   96    94    97   100     9
-   94    97   100   101     9
-   98    97   100   101     9
-   99    97   100   101     9
-   97   100   101   102     9
-   97   100   101   103     9
-   97   100   101   104     9
-   92   105   107   108     9
-   92   105   107   117     9
-  106   105   107   108     9
-  106   105   107   117     9
-  105   107   108   109     9
-  105   107   108   110     9
-  105   107   108   111     9
-  117   107   108   109     9
-  117   107   108   110     9
-  117   107   108   111     9
-  105   107   117   114     9
-  105   107   117   118     9
-  105   107   117   119     9
-  108   107   117   114     9
-  108   107   117   118     9
-  108   107   117   119     9
-  107   108   111   112     9
-  107   108   111   113     9
-  107   108   111   114     9
-  109   108   111   112     9
-  109   108   111   113     9
-  109   108   111   114     9
-  110   108   111   112     9
-  110   108   111   113     9
-  110   108   111   114     9
-  108   111   114   115     9
-  108   111   114   116     9
-  108   111   114   117     9
-  112   111   114   115     9
-  112   111   114   116     9
-  112   111   114   117     9
-  113   111   114   115     9
-  113   111   114   116     9
-  113   111   114   117     9
-  111   114   117   107     9
-  111   114   117   118     9
-  111   114   117   119     9
-  115   114   117   107     9
-  115   114   117   118     9
-  115   114   117   119     9
-  116   114   117   107     9
-  116   114   117   118     9
-  116   114   117   119     9
-  107   117   119   120     9
-  107   117   119   121     9
-  114   117   119   120     9
-  114   117   119   121     9
-  118   117   119   120     9
-  118   117   119   121     9
-  117   119   121   122     9
-  117   119   121   123     9
-  120   119   121   122     9
-  120   119   121   123     9
-  119   121   123   124     9
-  119   121   123   125     9
-  119   121   123   130     9
-  122   121   123   124     9
-  122   121   123   125     9
-  122   121   123   130     9
-  121   123   125   126     9
-  121   123   125   127     9
-  121   123   125   128     9
-  124   123   125   126     9
-  124   123   125   127     9
-  124   123   125   128     9
-  130   123   125   126     9
-  130   123   125   127     9
-  130   123   125   128     9
-  121   123   130   131     9
-  121   123   130   132     9
-  124   123   130   131     9
-  124   123   130   132     9
-  125   123   130   131     9
-  125   123   130   132     9
-  123   125   128   129     9
-  126   125   128   129     9
-  127   125   128   129     9
-  123   130   132   133     9
-  123   130   132   134     9
-  131   130   132   133     9
-  131   130   132   134     9
-  130   132   134   135     9
-  130   132   134   136     9
-  130   132   134   145     9
-  133   132   134   135     9
-  133   132   134   136     9
-  133   132   134   145     9
-  132   134   136   137     9
-  132   134   136   138     9
-  132   134   136   139     9
-  135   134   136   137     9
-  135   134   136   138     9
-  135   134   136   139     9
-  145   134   136   137     9
-  145   134   136   138     9
-  145   134   136   139     9
-  132   134   145   146     9
-  132   134   145   147     9
-  135   134   145   146     9
-  135   134   145   147     9
-  136   134   145   146     9
-  136   134   145   147     9
-  134   136   139   140     9
-  134   136   139   141     9
-  134   136   139   142     9
-  137   136   139   140     9
-  137   136   139   141     9
-  137   136   139   142     9
-  138   136   139   140     9
-  138   136   139   141     9
-  138   136   139   142     9
-  136   139   142   143     9
-  136   139   142   144     9
-  140   139   142   143     9
-  140   139   142   144     9
-  141   139   142   143     9
-  141   139   142   144     9
-  134   145   147   148     9
-  134   145   147   149     9
-  146   145   147   148     9
-  146   145   147   149     9
-  145   147   149   150     9
-  145   147   149   151     9
-  145   147   149   160     9
-  148   147   149   150     9
-  148   147   149   151     9
-  148   147   149   160     9
-  147   149   151   152     9
-  147   149   151   153     9
-  147   149   151   154     9
-  150   149   151   152     9
-  150   149   151   153     9
-  150   149   151   154     9
-  160   149   151   152     9
-  160   149   151   153     9
-  160   149   151   154     9
-  147   149   160   161     9
-  147   149   160   162     9
-  150   149   160   161     9
-  150   149   160   162     9
-  151   149   160   161     9
-  151   149   160   162     9
-  149   151   154   155     9
-  149   151   154   156     9
-  149   151   154   157     9
-  152   151   154   155     9
-  152   151   154   156     9
-  152   151   154   157     9
-  153   151   154   155     9
-  153   151   154   156     9
-  153   151   154   157     9
-  151   154   157   158     9
-  151   154   157   159     9
-  155   154   157   158     9
-  155   154   157   159     9
-  156   154   157   158     9
-  156   154   157   159     9
-  149   160   162   163     9
-  149   160   162   164     9
-  161   160   162   163     9
-  161   160   162   164     9
-  160   162   164   165     9
-  160   162   164   166     9
-  160   162   164   167     9
-  163   162   164   165     9
-  163   162   164   166     9
-  163   162   164   167     9
-  162   164   167   168     9
-  162   164   167   169     9
-  165   164   167   168     9
-  165   164   167   169     9
-  166   164   167   168     9
-  166   164   167   169     9
-  164   167   169   170     9
-  164   167   169   171     9
-  168   167   169   170     9
-  168   167   169   171     9
-  167   169   171   172     9
-  167   169   171   173     9
-  167   169   171   188     9
-  170   169   171   172     9
-  170   169   171   173     9
-  170   169   171   188     9
-  169   171   173   174     9
-  169   171   173   175     9
-  169   171   173   176     9
-  172   171   173   174     9
-  172   171   173   175     9
-  172   171   173   176     9
-  188   171   173   174     9
-  188   171   173   175     9
-  188   171   173   176     9
-  169   171   188   189     9
-  169   171   188   190     9
-  172   171   188   189     9
-  172   171   188   190     9
-  173   171   188   189     9
-  173   171   188   190     9
-  171   173   176   177     9
-  171   173   176   186     9
-  174   173   176   177     9
-  174   173   176   186     9
-  175   173   176   177     9
-  175   173   176   186     9
-  173   176   177   178     9
-  173   176   177   179     9
-  186   176   177   178     9
-  186   176   177   179     9
-  173   176   186   184     9
-  173   176   186   187     9
-  177   176   186   184     9
-  177   176   186   187     9
-  176   177   179   180     9
-  176   177   179   181     9
-  178   177   179   180     9
-  178   177   179   181     9
-  177   179   181   182     9
-  177   179   181   184     9
-  180   179   181   182     9
-  180   179   181   184     9
-  179   181   182   183     9
-  184   181   182   183     9
-  179   181   184   185     9
-  179   181   184   186     9
-  182   181   184   185     9
-  182   181   184   186     9
-  181   184   186   176     9
-  181   184   186   187     9
-  185   184   186   176     9
-  185   184   186   187     9
-  171   188   190   191     9
-  171   188   190   192     9
-  189   188   190   191     9
-  189   188   190   192     9
-  188   190   192   193     9
-  188   190   192   194     9
-  188   190   192   205     9
-  191   190   192   193     9
-  191   190   192   194     9
-  191   190   192   205     9
-  190   192   194   195     9
-  190   192   194   196     9
-  190   192   194   197     9
-  193   192   194   195     9
-  193   192   194   196     9
-  193   192   194   197     9
-  205   192   194   195     9
-  205   192   194   196     9
-  205   192   194   197     9
-  190   192   205   206     9
-  190   192   205   207     9
-  193   192   205   206     9
-  193   192   205   207     9
-  194   192   205   206     9
-  194   192   205   207     9
-  192   194   197   198     9
-  192   194   197   199     9
-  192   194   197   200     9
-  195   194   197   198     9
-  195   194   197   199     9
-  195   194   197   200     9
-  196   194   197   198     9
-  196   194   197   199     9
-  196   194   197   200     9
-  194   197   200   201     9
-  194   197   200   202     9
-  198   197   200   201     9
-  198   197   200   202     9
-  199   197   200   201     9
-  199   197   200   202     9
-  197   200   202   203     9
-  197   200   202   204     9
-  201   200   202   203     9
-  201   200   202   204     9
-  192   205   207   208     9
-  192   205   207   209     9
-  206   205   207   208     9
-  206   205   207   209     9
-  205   207   209   210     9
-  205   207   209   211     9
-  205   207   209   217     9
-  208   207   209   210     9
-  208   207   209   211     9
-  208   207   209   217     9
-  207   209   211   212     9
-  207   209   211   213     9
-  207   209   211   214     9
-  210   209   211   212     9
-  210   209   211   213     9
-  210   209   211   214     9
-  217   209   211   212     9
-  217   209   211   213     9
-  217   209   211   214     9
-  207   209   217   218     9
-  207   209   217   219     9
-  210   209   217   218     9
-  210   209   217   219     9
-  211   209   217   218     9
-  211   209   217   219     9
-  209   211   214   215     9
-  209   211   214   216     9
-  212   211   214   215     9
-  212   211   214   216     9
-  213   211   214   215     9
-  213   211   214   216     9
-  209   217   219   220     9
-  209   217   219   221     9
-  218   217   219   220     9
-  218   217   219   221     9
-  217   219   221   222     9
-  217   219   221   223     9
-  217   219   221   238     9
-  220   219   221   222     9
-  220   219   221   223     9
-  220   219   221   238     9
-  219   221   223   224     9
-  219   221   223   225     9
-  219   221   223   226     9
-  222   221   223   224     9
-  222   221   223   225     9
-  222   221   223   226     9
-  238   221   223   224     9
-  238   221   223   225     9
-  238   221   223   226     9
-  219   221   238   239     9
-  219   221   238   240     9
-  222   221   238   239     9
-  222   221   238   240     9
-  223   221   238   239     9
-  223   221   238   240     9
-  221   223   226   227     9
-  221   223   226   236     9
-  224   223   226   227     9
-  224   223   226   236     9
-  225   223   226   227     9
-  225   223   226   236     9
-  223   226   227   228     9
-  223   226   227   229     9
-  236   226   227   228     9
-  236   226   227   229     9
-  223   226   236   234     9
-  223   226   236   237     9
-  227   226   236   234     9
-  227   226   236   237     9
-  226   227   229   230     9
-  226   227   229   231     9
-  228   227   229   230     9
-  228   227   229   231     9
-  227   229   231   232     9
-  227   229   231   234     9
-  230   229   231   232     9
-  230   229   231   234     9
-  229   231   232   233     9
-  234   231   232   233     9
-  229   231   234   235     9
-  229   231   234   236     9
-  232   231   234   235     9
-  232   231   234   236     9
-  231   234   236   226     9
-  231   234   236   237     9
-  235   234   236   226     9
-  235   234   236   237     9
-  221   238   240   241     9
-  221   238   240   242     9
-  239   238   240   241     9
-  239   238   240   242     9
-  238   240   242   243     9
-  238   240   242   244     9
-  238   240   242   253     9
-  241   240   242   243     9
-  241   240   242   244     9
-  241   240   242   253     9
-  240   242   244   245     9
-  240   242   244   246     9
-  240   242   244   247     9
-  243   242   244   245     9
-  243   242   244   246     9
-  243   242   244   247     9
-  253   242   244   245     9
-  253   242   244   246     9
-  253   242   244   247     9
-  240   242   253   254     9
-  240   242   253   255     9
-  243   242   253   254     9
-  243   242   253   255     9
-  244   242   253   254     9
-  244   242   253   255     9
-  242   244   247   248     9
-  242   244   247   249     9
-  242   244   247   250     9
-  245   244   247   248     9
-  245   244   247   249     9
-  245   244   247   250     9
-  246   244   247   248     9
-  246   244   247   249     9
-  246   244   247   250     9
-  244   247   250   251     9
-  244   247   250   252     9
-  248   247   250   251     9
-  248   247   250   252     9
-  249   247   250   251     9
-  249   247   250   252     9
-  242   253   255   256     9
-  242   253   255   265     9
-  254   253   255   256     9
-  254   253   255   265     9
-  253   255   256   257     9
-  253   255   256   258     9
-  253   255   256   259     9
-  265   255   256   257     9
-  265   255   256   258     9
-  265   255   256   259     9
-  253   255   265   262     9
-  253   255   265   266     9
-  253   255   265   267     9
-  256   255   265   262     9
-  256   255   265   266     9
-  256   255   265   267     9
-  255   256   259   260     9
-  255   256   259   261     9
-  255   256   259   262     9
-  257   256   259   260     9
-  257   256   259   261     9
-  257   256   259   262     9
-  258   256   259   260     9
-  258   256   259   261     9
-  258   256   259   262     9
-  256   259   262   263     9
-  256   259   262   264     9
-  256   259   262   265     9
-  260   259   262   263     9
-  260   259   262   264     9
-  260   259   262   265     9
-  261   259   262   263     9
-  261   259   262   264     9
-  261   259   262   265     9
-  259   262   265   255     9
-  259   262   265   266     9
-  259   262   265   267     9
-  263   262   265   255     9
-  263   262   265   266     9
-  263   262   265   267     9
-  264   262   265   255     9
-  264   262   265   266     9
-  264   262   265   267     9
-  255   265   267   268     9
-  255   265   267   269     9
-  262   265   267   268     9
-  262   265   267   269     9
-  266   265   267   268     9
-  266   265   267   269     9
-  265   267   269   270     9
-  265   267   269   271     9
-  268   267   269   270     9
-  268   267   269   271     9
-  267   269   271   272     9
-  267   269   271   273     9
-  267   269   271   282     9
-  270   269   271   272     9
-  270   269   271   273     9
-  270   269   271   282     9
-  269   271   273   274     9
-  269   271   273   275     9
-  269   271   273   276     9
-  272   271   273   274     9
-  272   271   273   275     9
-  272   271   273   276     9
-  282   271   273   274     9
-  282   271   273   275     9
-  282   271   273   276     9
-  269   271   282   283     9
-  269   271   282   284     9
-  272   271   282   283     9
-  272   271   282   284     9
-  273   271   282   283     9
-  273   271   282   284     9
-  271   273   276   277     9
-  271   273   276   278     9
-  271   273   276   279     9
-  274   273   276   277     9
-  274   273   276   278     9
-  274   273   276   279     9
-  275   273   276   277     9
-  275   273   276   278     9
-  275   273   276   279     9
-  273   276   279   280     9
-  273   276   279   281     9
-  277   276   279   280     9
-  277   276   279   281     9
-  278   276   279   280     9
-  278   276   279   281     9
-  271   282   284   285     9
-  271   282   284   286     9
-  283   282   284   285     9
-  283   282   284   286     9
-  282   284   286   287     9
-  282   284   286   288     9
-  282   284   286   292     9
-  285   284   286   287     9
-  285   284   286   288     9
-  285   284   286   292     9
-  284   286   288   289     9
-  284   286   288   290     9
-  284   286   288   291     9
-  287   286   288   289     9
-  287   286   288   290     9
-  287   286   288   291     9
-  292   286   288   289     9
-  292   286   288   290     9
-  292   286   288   291     9
-  284   286   292   293     9
-  284   286   292   294     9
-  287   286   292   293     9
-  287   286   292   294     9
-  288   286   292   293     9
-  288   286   292   294     9
-
-    5    15    13    14     4  
-    7    11    10    12     4  
-   13    17    15    16     4  
-   13    15    17    27     4     90.0        1.67360    2
-   15    17    27    29     4     90.0        0.2385     3
-   15    17    27    29     4     90.0        0.1046     4
-   15    17    27    29     4     90.0        -0.0460    5
-   15    17    27    29     4     160.888      2.71960    1
-   15    17    27    29     4     90.0        -1.0669    1
-   15    17    27    29     4     90.0        0.3138     2
-   17    29    27    28     4  
-   19    24    22    23     4  
-   22    25    24    26     4  
-   27    31    29    30     4  
-   27    29    31    42     4     90.0        1.67360    2
-   29    31    42    44     4     160.888      2.71960    1
-   29    31    42    44     4     90.0        -1.0669    1
-   29    31    42    44     4     90.0        0.3138     2
-   29    31    42    44     4     90.0        0.2385     3
-   29    31    42    44     4     90.0        0.1046     4
-   29    31    42    44     4     90.0        -0.0460    5
-   31    44    42    43     4  
-   36    40    39    41     4  
-   42    46    44    45     4  
-   42    44    46    52     4     90.0        1.67360    2
-   44    46    52    54     4     90.0        0.3138     2
-   44    46    52    54     4     90.0        0.1046     4
-   44    46    52    54     4     90.0        -0.0460    5
-   44    46    52    54     4     90.0        0.2385     3
-   44    46    52    54     4     160.888      2.71960    1
-   44    46    52    54     4     90.0        -1.0669    1
-   46    54    52    53     4  
-   52    56    54    55     4  
-   52    54    56    73     4     90.0        1.67360    2
-   54    56    73    75     4     90.0        -1.0669    1
-   54    56    73    75     4     90.0        0.3138     2
-   54    56    73    75     4     90.0        0.2385     3
-   54    56    73    75     4     90.0        0.1046     4
-   54    56    73    75     4     90.0        -0.0460    5
-   54    56    73    75     4     160.888      2.71960    1
-   56    75    73    74     4  
-   58    61    71    62     4  
-   61    64    62    63     4  
-   61    69    71    72     4  
-   62    66    64    65     4  
-   64    69    66    67     4  
-   66    71    69    70     4  
-   73    77    75    76     4  
-   73    75    77    88     4     90.0        1.67360    2
-   75    77    88    90     4     160.888      2.71960    1
-   75    77    88    90     4     90.0        -1.0669    1
-   75    77    88    90     4     90.0        0.3138     2
-   75    77    88    90     4     90.0        0.1046     4
-   75    77    88    90     4     90.0        -0.0460    5
-   75    77    88    90     4     90.0        0.2385     3
-   77    90    88    89     4  
-   82    86    85    87     4  
-   88    92    90    91     4  
-   88    90    92   105     4     90.0        1.67360    2
-   90    92   105   107     4     90.0        -1.0669    1
-   90    92   105   107     4     90.0        0.3138     2
-   90    92   105   107     4     90.0        0.2385     3
-   90    92   105   107     4     90.0        0.1046     4
-   90    92   105   107     4     90.0        -0.0460    5
-   90    92   105   107     4     160.888      2.71960    1
-   92   107   105   106     4  
-  105   108   107   117     4  
-  117   121   119   120     4  
-  119   123   121   122     4  
-  119   121   123   130     4     90.0        1.67360    2
-  121   123   130   132     4     90.0        0.1046     4
-  121   123   130   132     4     90.0        -0.0460    5
-  121   123   130   132     4     90.0        0.2385     3
-  121   123   130   132     4     160.888      2.71960    1
-  121   123   130   132     4     90.0        -1.0669    1
-  121   123   130   132     4     90.0        0.3138     2
-  123   132   130   131     4  
-  130   134   132   133     4  
-  130   132   134   145     4     90.0        1.67360    2
-  132   134   145   147     4     90.0        -1.0669    1
-  132   134   145   147     4     90.0        0.3138     2
-  132   134   145   147     4     90.0        0.2385     3
-  132   134   145   147     4     90.0        0.1046     4
-  132   134   145   147     4     90.0        -0.0460    5
-  132   134   145   147     4     160.888      2.71960    1
-  134   147   145   146     4  
-  139   143   142   144     4  
-  145   149   147   148     4  
-  145   147   149   160     4     90.0        1.67360    2
-  147   149   160   162     4     90.0        -1.0669    1
-  147   149   160   162     4     90.0        0.3138     2
-  147   149   160   162     4     90.0        0.2385     3
-  147   149   160   162     4     90.0        0.1046     4
-  147   149   160   162     4     90.0        -0.0460    5
-  147   149   160   162     4     160.888      2.71960    1
-  149   162   160   161     4  
-  154   158   157   159     4  
-  160   164   162   163     4  
-  164   169   167   168     4  
-  167   171   169   170     4  
-  167   169   171   188     4     90.0        1.67360    2
-  169   171   188   190     4     160.888      2.71960    1
-  169   171   188   190     4     90.0        -1.0669    1
-  169   171   188   190     4     90.0        0.3138     2
-  169   171   188   190     4     90.0        0.2385     3
-  169   171   188   190     4     90.0        0.1046     4
-  169   171   188   190     4     90.0        -0.0460    5
-  171   190   188   189     4  
-  173   176   186   177     4  
-  176   179   177   178     4  
-  176   184   186   187     4  
-  177   181   179   180     4  
-  179   184   181   182     4  
-  181   186   184   185     4  
-  188   192   190   191     4  
-  188   190   192   205     4     90.0        1.67360    2
-  190   192   205   207     4     90.0        -1.0669    1
-  190   192   205   207     4     160.888      2.71960    1
-  190   192   205   207     4     90.0        0.3138     2
-  190   192   205   207     4     90.0        0.2385     3
-  190   192   205   207     4     90.0        0.1046     4
-  190   192   205   207     4     90.0        -0.0460    5
-  192   207   205   206     4  
-  197   202   200   201     4  
-  200   203   202   204     4  
-  205   209   207   208     4  
-  205   207   209   217     4     90.0        1.67360    2
-  207   209   217   219     4     160.888      2.71960    1
-  207   209   217   219     4     90.0        0.2385     3
-  207   209   217   219     4     90.0        0.1046     4
-  207   209   217   219     4     90.0        -0.0460    5
-  207   209   217   219     4     90.0        0.3138     2
-  207   209   217   219     4     90.0        -1.0669    1
-  209   219   217   218     4  
-  211   215   214   216     4  
-  217   221   219   220     4  
-  217   219   221   238     4     90.0        1.67360    2
-  219   221   238   240     4     90.0        0.3138     2
-  219   221   238   240     4     160.888      2.71960    1
-  219   221   238   240     4     90.0        -1.0669    1
-  219   221   238   240     4     90.0        0.2385     3
-  219   221   238   240     4     90.0        0.1046     4
-  219   221   238   240     4     90.0        -0.0460    5
-  221   240   238   239     4  
-  223   226   236   227     4  
-  226   229   227   228     4  
-  226   234   236   237     4  
-  227   231   229   230     4  
-  229   234   231   232     4  
-  231   236   234   235     4  
-  238   242   240   241     4  
-  238   240   242   253     4     90.0        1.67360    2
-  240   242   253   255     4     90.0        0.3138     2
-  240   242   253   255     4     90.0        0.2385     3
-  240   242   253   255     4     90.0        0.1046     4
-  240   242   253   255     4     90.0        -0.0460    5
-  240   242   253   255     4     160.888      2.71960    1
-  240   242   253   255     4     90.0        -1.0669    1
-  242   255   253   254     4  
-  247   251   250   252     4  
-  253   256   255   265     4  
-  265   269   267   268     4  
-  267   271   269   270     4  
-  267   269   271   282     4     90.0        1.67360    2
-  269   271   282   284     4     160.888      2.71960    1
-  269   271   282   284     4     90.0        -1.0669    1
-  269   271   282   284     4     90.0        0.3138     2
-  269   271   282   284     4     90.0        0.2385     3
-  269   271   282   284     4     90.0        0.1046     4
-  269   271   282   284     4     90.0        -0.0460    5
-  271   284   282   283     4  
-  276   280   279   281     4  
-  282   286   284   285     4  
-  282   284   286   292     4     90.0        1.67360    2
-  286   293   292   294     4  
-
-
-
-
+2         1     5     6     9    0.0       0.42007   3
+2         1     5     7     9    0.0       0.42007   3
+2         1     5    13     9    0.0       0.42007   3
+3         1     5     6     9    0.0       0.42007   3
+3         1     5     7     9    0.0       0.42007   3
+3         1     5    13     9    0.0       0.42007   3
+4         1     5     6     9    0.0       0.42007   3
+4         1     5     7     9    0.0       0.42007   3
+4         1     5    13     9    0.0       0.42007   3
+1         5     7     8     9    0.0       0.42007   3
+1         5     7     9     9    0.0       0.42007   3
+1         5     7    10     9    180.0     7.11622   1
+1         5     7    10     9    180.0     3.21434   2
+1         5     7    10     9    180.0     0.01836   3
+1         5     7    10     9    0.0       1.14148   4
+1         5     7    10     9    0.0       0.62569   5
+1         5     7    10     9    180.0     0.57448   6
+1         5     7    10     9    0.0       0.42007   3
+6         5     7     8     9    0.0       0.42007   3
+6         5     7     9     9    0.0       0.42007   3
+6         5     7    10     9    0.0       0.42007   3
+13        5     7     8     9    0.0       0.42007   3
+13        5     7     9     9    0.0       0.42007   3
+13        5     7    10     9    0.0       0.42007   3
+1         5    13    14     9    0.0       0.00000   0
+1         5    13    15     9    0.0       0.00000   0
+6         5    13    14     9    0.0       0.00000   0
+6         5    13    15     9    0.0       0.00000   0
+7         5    13    14     9    0.0       0.00000   0
+7         5    13    15     9    0.0       0.54009   1
+7         5    13    15     9    0.0       0.54009   2
+7         5    13    15     9    0.0       1.08018   3
+7         5    13    15     9    0.0       0.00000   0
+5         7    10    11     9    180.0     0.50228   4
+5         7    10    11     9    180.0     0.95596   6
+5         7    10    11     9    180.0     2.35749   2
+5         7    10    11     9    0.0       0.00000   0
+5         7    10    12     9    180.0     0.50228   4
+5         7    10    12     9    180.0     0.95596   6
+5         7    10    12     9    180.0     2.35749   2
+5         7    10    12     9    0.0       0.00000   0
+8         7    10    11     9    0.0       0.00000   0
+8         7    10    12     9    0.0       0.00000   0
+9         7    10    11     9    0.0       0.00000   0
+9         7    10    12     9    0.0       0.00000   0
+5        13    15    16     9    180.0     6.75112   2
+5        13    15    17     9    180.0     6.75112   2
+14       13    15    16     9    0.0       5.40089   1
+14       13    15    16     9    180.0     6.75112   2
+14       13    15    16     9    180.0     6.75112   2
+14       13    15    17     9    180.0     6.75112   2
+13       15    17    18     9    0.0       0.00000   0
+13       15    17    19     9    0.0       1.08018   3
+13       15    17    19     9    0.0       5.40089   1
+13       15    17    19     9    0.0       5.40089   2
+13       15    17    19     9    0.0       0.00000   0
+13       15    17    27     9    180.0     0.09182   1
+13       15    17    27     9    0.0       0.90465   2
+13       15    17    27     9    0.0       1.46905   3
+13       15    17    27     9    0.0       0.21604   4
+13       15    17    27     9    0.0       0.00000   0
+16       15    17    18     9    0.0       0.00000   0
+16       15    17    19     9    0.0       0.00000   0
+16       15    17    27     9    0.0       0.00000   0
+15       17    19    20     9    0.0       0.42007   3
+15       17    19    21     9    0.0       0.42007   3
+15       17    19    22     9    180.0     1.70128   1
+15       17    19    22     9    0.0       0.42007   3
+18       17    19    20     9    0.0       0.42007   3
+18       17    19    21     9    0.0       0.42007   3
+18       17    19    22     9    0.0       0.42007   3
+27       17    19    20     9    0.0       0.42007   3
+27       17    19    21     9    0.0       0.42007   3
+27       17    19    22     9    0.0       0.46097   1
+27       17    19    22     9    180.0     1.60866   2
+27       17    19    22     9    0.0       0.32000   3
+27       17    19    22     9    180.0     1.12662   4
+27       17    19    22     9    0.0       0.28138   5
+27       17    19    22     9    180.0     0.27199   6
+27       17    19    22     9    0.0       0.42007   3
+15       17    27    28     9    0.0       0.00000   0
+15       17    27    29     9    360.0     0.53199   1
+15       17    27    29     9    180.0     3.90215   2
+15       17    27    29     9    180.0     1.29352   3
+15       17    27    29     9    360.0     0.05158   4
+15       17    27    29     9    360.0     0.01080   5
+15       17    27    29     9    0.0       0.00000   0
+18       17    27    28     9    0.0       2.16036   1
+18       17    27    28     9    180.0     0.21604   3
+18       17    27    28     9    0.0       0.00000   0
+18       17    27    29     9    0.0       0.00000   0
+19       17    27    28     9    0.0       0.00000   0
+19       17    27    29     9    0.0       0.54009   1
+19       17    27    29     9    0.0       0.54009   2
+19       17    27    29     9    0.0       1.08018   3
+19       17    27    29     9    0.0       0.00000   0
+17       19    22    23     9    180.0     2.70045   1
+17       19    22    23     9    0.0       0.00000   0
+17       19    22    24     9    180.0     2.82548   1
+17       19    22    24     9    180.0     0.48878   2
+17       19    22    24     9    180.0     0.09559   3
+17       19    22    24     9    0.0       0.27086   4
+17       19    22    24     9    0.0       0.35052   5
+17       19    22    24     9    180.0     0.28639   6
+17       19    22    24     9    0.0       0.00000   0
+20       19    22    23     9    0.0       2.16036   1
+20       19    22    23     9    180.0     0.21604   3
+20       19    22    23     9    0.0       0.00000   0
+20       19    22    24     9    0.0       0.00000   0
+21       19    22    23     9    0.0       2.16036   1
+21       19    22    23     9    180.0     0.21604   3
+21       19    22    23     9    0.0       0.00000   0
+21       19    22    24     9    0.0       0.00000   0
+19       22    24    25     9    180.0     6.75112   2
+19       22    24    26     9    180.0     6.75112   2
+23       22    24    25     9    0.0       5.40089   1
+23       22    24    25     9    180.0     6.75112   2
+23       22    24    25     9    180.0     6.75112   2
+23       22    24    26     9    0.0       5.40089   1
+23       22    24    26     9    180.0     6.75112   2
+23       22    24    26     9    180.0     6.75112   2
+17       27    29    30     9    180.0     6.75112   2
+17       27    29    31     9    180.0     6.75112   2
+28       27    29    30     9    0.0       5.40089   1
+28       27    29    30     9    180.0     6.75112   2
+28       27    29    30     9    180.0     6.75112   2
+28       27    29    31     9    180.0     6.75112   2
+27       29    31    32     9    0.0       0.00000   0
+27       29    31    33     9    0.0       1.08018   3
+27       29    31    33     9    0.0       5.40089   1
+27       29    31    33     9    0.0       5.40089   2
+27       29    31    33     9    0.0       0.00000   0
+27       29    31    42     9    180.0     0.09182   1
+27       29    31    42     9    0.0       0.90465   2
+27       29    31    42     9    0.0       1.46905   3
+27       29    31    42     9    0.0       0.21604   4
+27       29    31    42     9    0.0       0.00000   0
+30       29    31    32     9    0.0       0.00000   0
+30       29    31    33     9    0.0       0.00000   0
+30       29    31    42     9    0.0       0.00000   0
+29       31    33    34     9    0.0       0.42007   3
+29       31    33    35     9    0.0       0.42007   3
+29       31    33    36     9    0.0       0.27004   1
+29       31    33    36     9    0.0       0.42007   3
+32       31    33    34     9    0.0       0.42007   3
+32       31    33    35     9    0.0       0.42007   3
+32       31    33    36     9    0.0       0.42007   3
+42       31    33    34     9    0.0       0.42007   3
+42       31    33    35     9    0.0       0.42007   3
+42       31    33    36     9    0.0       0.81013   1
+42       31    33    36     9    0.0       0.42007   3
+29       31    42    43     9    0.0       0.00000   0
+29       31    42    44     9    360.0     0.53199   1
+29       31    42    44     9    180.0     3.90215   2
+29       31    42    44     9    180.0     1.29352   3
+29       31    42    44     9    360.0     0.05158   4
+29       31    42    44     9    360.0     0.01080   5
+29       31    42    44     9    0.0       0.00000   0
+32       31    42    43     9    0.0       2.16036   1
+32       31    42    43     9    180.0     0.21604   3
+32       31    42    43     9    0.0       0.00000   0
+32       31    42    44     9    0.0       0.00000   0
+33       31    42    43     9    0.0       0.00000   0
+33       31    42    44     9    0.0       0.54009   1
+33       31    42    44     9    0.0       0.54009   2
+33       31    42    44     9    0.0       1.08018   3
+33       31    42    44     9    0.0       0.00000   0
+31       33    36    37     9    0.0       0.41857   3
+31       33    36    38     9    0.0       0.41857   3
+31       33    36    39     9    0.0       0.41857   3
+34       33    36    37     9    0.0       0.41857   3
+34       33    36    38     9    0.0       0.41857   3
+34       33    36    39     9    0.0       0.41857   3
+35       33    36    37     9    0.0       0.41857   3
+35       33    36    38     9    0.0       0.41857   3
+35       33    36    39     9    0.0       0.41857   3
+33       36    39    40     9    180.0     1.62027   2
+33       36    39    40     9    0.0       0.00000   0
+33       36    39    41     9    180.0     1.62027   2
+33       36    39    41     9    0.0       0.00000   0
+37       36    39    40     9    0.0       0.00000   0
+37       36    39    41     9    0.0       0.00000   0
+38       36    39    40     9    0.0       0.00000   0
+38       36    39    41     9    0.0       0.00000   0
+31       42    44    45     9    180.0     6.75112   2
+31       42    44    46     9    180.0     6.75112   2
+43       42    44    45     9    0.0       5.40089   1
+43       42    44    45     9    180.0     6.75112   2
+43       42    44    45     9    180.0     6.75112   2
+43       42    44    46     9    180.0     6.75112   2
+42       44    46    47     9    0.0       0.00000   0
+42       44    46    48     9    0.0       1.08018   3
+42       44    46    48     9    0.0       5.40089   1
+42       44    46    48     9    0.0       5.40089   2
+42       44    46    48     9    0.0       0.00000   0
+42       44    46    52     9    180.0     0.09182   1
+42       44    46    52     9    0.0       0.90465   2
+42       44    46    52     9    0.0       1.46905   3
+42       44    46    52     9    0.0       0.21604   4
+42       44    46    52     9    0.0       0.00000   0
+45       44    46    47     9    0.0       0.00000   0
+45       44    46    48     9    0.0       0.00000   0
+45       44    46    52     9    0.0       0.00000   0
+44       46    48    49     9    0.0       0.42007   3
+44       46    48    50     9    0.0       0.42007   3
+44       46    48    51     9    0.0       0.42007   3
+47       46    48    49     9    0.0       0.42007   3
+47       46    48    50     9    0.0       0.42007   3
+47       46    48    51     9    0.0       0.42007   3
+52       46    48    49     9    0.0       0.42007   3
+52       46    48    50     9    0.0       0.42007   3
+52       46    48    51     9    0.0       0.42007   3
+44       46    52    53     9    0.0       0.00000   0
+44       46    52    54     9    360.0     0.53199   1
+44       46    52    54     9    180.0     3.90215   2
+44       46    52    54     9    180.0     1.29352   3
+44       46    52    54     9    360.0     0.05158   4
+44       46    52    54     9    360.0     0.01080   5
+44       46    52    54     9    0.0       0.00000   0
+47       46    52    53     9    0.0       2.16036   1
+47       46    52    53     9    180.0     0.21604   3
+47       46    52    53     9    0.0       0.00000   0
+47       46    52    54     9    0.0       0.00000   0
+48       46    52    53     9    0.0       0.00000   0
+48       46    52    54     9    0.0       0.54009   1
+48       46    52    54     9    0.0       0.54009   2
+48       46    52    54     9    0.0       1.08018   3
+48       46    52    54     9    0.0       0.00000   0
+46       52    54    55     9    180.0     6.75112   2
+46       52    54    56     9    180.0     6.75112   2
+53       52    54    55     9    0.0       5.40089   1
+53       52    54    55     9    180.0     6.75112   2
+53       52    54    55     9    180.0     6.75112   2
+53       52    54    56     9    180.0     6.75112   2
+52       54    56    57     9    0.0       0.00000   0
+52       54    56    58     9    0.0       1.08018   3
+52       54    56    58     9    0.0       5.40089   1
+52       54    56    58     9    0.0       5.40089   2
+52       54    56    58     9    0.0       0.00000   0
+52       54    56    73     9    180.0     0.09182   1
+52       54    56    73     9    0.0       0.90465   2
+52       54    56    73     9    0.0       1.46905   3
+52       54    56    73     9    0.0       0.21604   4
+52       54    56    73     9    0.0       0.00000   0
+55       54    56    57     9    0.0       0.00000   0
+55       54    56    58     9    0.0       0.00000   0
+55       54    56    73     9    0.0       0.00000   0
+54       56    58    59     9    0.0       0.42007   3
+54       56    58    60     9    0.0       0.42007   3
+54       56    58    61     9    0.0       0.00000   0
+54       56    58    61     9    0.0       0.42007   3
+57       56    58    59     9    0.0       0.42007   3
+57       56    58    60     9    0.0       0.42007   3
+57       56    58    61     9    0.0       0.42007   3
+73       56    58    59     9    0.0       0.42007   3
+73       56    58    60     9    0.0       0.42007   3
+73       56    58    61     9    0.0       1.40423   1
+73       56    58    61     9    0.0       0.42007   3
+54       56    73    74     9    0.0       0.00000   0
+54       56    73    75     9    360.0     0.53199   1
+54       56    73    75     9    180.0     3.90215   2
+54       56    73    75     9    180.0     1.29352   3
+54       56    73    75     9    360.0     0.05158   4
+54       56    73    75     9    360.0     0.01080   5
+54       56    73    75     9    0.0       0.00000   0
+57       56    73    74     9    0.0       2.16036   1
+57       56    73    74     9    180.0     0.21604   3
+57       56    73    74     9    0.0       0.00000   0
+57       56    73    75     9    0.0       0.00000   0
+58       56    73    74     9    0.0       0.00000   0
+58       56    73    75     9    0.0       0.54009   1
+58       56    73    75     9    0.0       0.54009   2
+58       56    73    75     9    0.0       1.08018   3
+58       56    73    75     9    0.0       0.00000   0
+56       58    61    62     9    0.0       0.00000   0
+56       58    61    71     9    0.0       0.00000   0
+59       58    61    62     9    0.0       0.00000   0
+59       58    61    71     9    0.0       0.00000   0
+60       58    61    62     9    0.0       0.00000   0
+60       58    61    71     9    0.0       0.00000   0
+58       61    62    63     9    180.0     9.78912   2
+58       61    62    64     9    180.0     9.78912   2
+71       61    62    63     9    180.0     9.78912   2
+71       61    62    64     9    180.0     9.78912   2
+58       61    71    69     9    180.0     9.78912   2
+58       61    71    72     9    180.0     9.78912   2
+62       61    71    69     9    180.0     9.78912   2
+62       61    71    72     9    180.0     9.78912   2
+61       62    64    65     9    180.0     9.78912   2
+61       62    64    66     9    180.0     9.78912   2
+63       62    64    65     9    180.0     9.78912   2
+63       62    64    66     9    180.0     9.78912   2
+62       64    66    67     9    180.0     9.78912   2
+62       64    66    69     9    180.0     9.78912   2
+65       64    66    67     9    180.0     9.78912   2
+65       64    66    69     9    180.0     9.78912   2
+64       66    67    68     9    180.0     6.21103   2
+69       66    67    68     9    180.0     6.21103   2
+64       66    69    70     9    180.0     9.78912   2
+64       66    69    71     9    180.0     9.78912   2
+67       66    69    70     9    180.0     9.78912   2
+67       66    69    71     9    180.0     9.78912   2
+66       69    71    61     9    180.0     9.78912   2
+66       69    71    72     9    180.0     9.78912   2
+70       69    71    61     9    180.0     9.78912   2
+70       69    71    72     9    180.0     9.78912   2
+56       73    75    76     9    180.0     6.75112   2
+56       73    75    77     9    180.0     6.75112   2
+74       73    75    76     9    0.0       5.40089   1
+74       73    75    76     9    180.0     6.75112   2
+74       73    75    76     9    180.0     6.75112   2
+74       73    75    77     9    180.0     6.75112   2
+73       75    77    78     9    0.0       0.00000   0
+73       75    77    79     9    0.0       1.08018   3
+73       75    77    79     9    0.0       5.40089   1
+73       75    77    79     9    0.0       5.40089   2
+73       75    77    79     9    0.0       0.00000   0
+73       75    77    88     9    180.0     0.09182   1
+73       75    77    88     9    0.0       0.90465   2
+73       75    77    88     9    0.0       1.46905   3
+73       75    77    88     9    0.0       0.21604   4
+73       75    77    88     9    0.0       0.00000   0
+76       75    77    78     9    0.0       0.00000   0
+76       75    77    79     9    0.0       0.00000   0
+76       75    77    88     9    0.0       0.00000   0
+75       77    79    80     9    0.0       0.42007   3
+75       77    79    81     9    0.0       0.42007   3
+75       77    79    82     9    0.0       0.27004   1
+75       77    79    82     9    0.0       0.42007   3
+78       77    79    80     9    0.0       0.42007   3
+78       77    79    81     9    0.0       0.42007   3
+78       77    79    82     9    0.0       0.42007   3
+88       77    79    80     9    0.0       0.42007   3
+88       77    79    81     9    0.0       0.42007   3
+88       77    79    82     9    0.0       0.81013   1
+88       77    79    82     9    0.0       0.42007   3
+75       77    88    89     9    0.0       0.00000   0
+75       77    88    90     9    360.0     0.53199   1
+75       77    88    90     9    180.0     3.90215   2
+75       77    88    90     9    180.0     1.29352   3
+75       77    88    90     9    360.0     0.05158   4
+75       77    88    90     9    360.0     0.01080   5
+75       77    88    90     9    0.0       0.00000   0
+78       77    88    89     9    0.0       2.16036   1
+78       77    88    89     9    180.0     0.21604   3
+78       77    88    89     9    0.0       0.00000   0
+78       77    88    90     9    0.0       0.00000   0
+79       77    88    89     9    0.0       0.00000   0
+79       77    88    90     9    0.0       0.54009   1
+79       77    88    90     9    0.0       0.54009   2
+79       77    88    90     9    0.0       1.08018   3
+79       77    88    90     9    0.0       0.00000   0
+77       79    82    83     9    0.0       0.41857   3
+77       79    82    84     9    0.0       0.41857   3
+77       79    82    85     9    0.0       0.41857   3
+80       79    82    83     9    0.0       0.41857   3
+80       79    82    84     9    0.0       0.41857   3
+80       79    82    85     9    0.0       0.41857   3
+81       79    82    83     9    0.0       0.41857   3
+81       79    82    84     9    0.0       0.41857   3
+81       79    82    85     9    0.0       0.41857   3
+79       82    85    86     9    180.0     1.62027   2
+79       82    85    86     9    0.0       0.00000   0
+79       82    85    87     9    180.0     1.62027   2
+79       82    85    87     9    0.0       0.00000   0
+83       82    85    86     9    0.0       0.00000   0
+83       82    85    87     9    0.0       0.00000   0
+84       82    85    86     9    0.0       0.00000   0
+84       82    85    87     9    0.0       0.00000   0
+77       88    90    91     9    180.0     6.75112   2
+77       88    90    92     9    180.0     6.75112   2
+89       88    90    91     9    0.0       5.40089   1
+89       88    90    91     9    180.0     6.75112   2
+89       88    90    91     9    180.0     6.75112   2
+89       88    90    92     9    180.0     6.75112   2
+88       90    92    93     9    0.0       0.00000   0
+88       90    92    94     9    0.0       1.08018   3
+88       90    92    94     9    0.0       5.40089   1
+88       90    92    94     9    0.0       5.40089   2
+88       90    92    94     9    0.0       0.00000   0
+88       90    92   105     9    180.0     0.09182   1
+88       90    92   105     9    0.0       0.90465   2
+88       90    92   105     9    0.0       1.46905   3
+88       90    92   105     9    0.0       0.21604   4
+88       90    92   105     9    0.0       0.00000   0
+91       90    92    93     9    0.0       0.00000   0
+91       90    92    94     9    0.0       0.00000   0
+91       90    92   105     9    0.0       0.00000   0
+90       92    94    95     9    0.0       0.42007   3
+90       92    94    96     9    0.0       0.42007   3
+90       92    94    97     9    0.0       0.27004   1
+90       92    94    97     9    0.0       0.42007   3
+93       92    94    95     9    0.0       0.42007   3
+93       92    94    96     9    0.0       0.42007   3
+93       92    94    97     9    0.0       0.42007   3
+105      92    94    95     9    0.0       0.42007   3
+105      92    94    96     9    0.0       0.42007   3
+105      92    94    97     9    0.0       0.81013   1
+105      92    94    97     9    0.0       0.42007   3
+90       92   105   106     9    0.0       0.00000   0
+90       92   105   107     9    360.0     0.53199   1
+90       92   105   107     9    180.0     3.90215   2
+90       92   105   107     9    180.0     1.29352   3
+90       92   105   107     9    360.0     0.05158   4
+90       92   105   107     9    360.0     0.01080   5
+90       92   105   107     9    0.0       0.00000   0
+93       92   105   106     9    0.0       2.16036   1
+93       92   105   106     9    180.0     0.21604   3
+93       92   105   106     9    0.0       0.00000   0
+93       92   105   107     9    0.0       0.00000   0
+94       92   105   106     9    0.0       0.00000   0
+94       92   105   107     9    0.0       0.54009   1
+94       92   105   107     9    0.0       0.54009   2
+94       92   105   107     9    0.0       1.08018   3
+94       92   105   107     9    0.0       0.00000   0
+92       94    97    98     9    0.0       0.41857   3
+92       94    97    99     9    0.0       0.41857   3
+92       94    97   100     9    0.0       0.00000   0
+92       94    97   100     9    0.0       0.41857   3
+95       94    97    98     9    0.0       0.41857   3
+95       94    97    99     9    0.0       0.41857   3
+95       94    97   100     9    0.0       0.41857   3
+96       94    97    98     9    0.0       0.41857   3
+96       94    97    99     9    0.0       0.41857   3
+96       94    97   100     9    0.0       0.41857   3
+94       97   100   101     9    0.0       0.89925   3
+98       97   100   101     9    0.0       0.89925   3
+99       97   100   101     9    0.0       0.89925   3
+97      100   101   102     9    0.0       0.90015   3
+97      100   101   103     9    0.0       0.90015   3
+97      100   101   104     9    0.0       0.90015   3
+92      105   107   108     9    180.0     6.75112   2
+92      105   107   117     9    180.0     6.75112   2
+106     105   107   108     9    180.0     6.75112   2
+106     105   107   117     9    180.0     6.75112   2
+105     107   108   109     9    0.0       0.00000   0
+105     107   108   110     9    0.0       0.00000   0
+105     107   108   111     9    0.0       1.08018   3
+105     107   108   111     9    0.0       5.40089   1
+105     107   108   111     9    0.0       5.40089   2
+105     107   108   111     9    0.0       0.00000   0
+117     107   108   109     9    0.0       0.00000   0
+117     107   108   110     9    0.0       0.00000   0
+117     107   108   111     9    0.0       0.00000   0
+105     107   117   114     9    0.0       5.40089   1
+105     107   117   114     9    0.0       5.40089   2
+105     107   117   114     9    0.0       1.08018   3
+105     107   117   114     9    0.0       0.00000   0
+105     107   117   118     9    0.0       0.00000   0
+105     107   117   119     9    0.0       0.72912   2
+105     107   117   119     9    0.0       1.13419   3
+105     107   117   119     9    0.0       0.00000   0
+108     107   117   114     9    0.0       0.00000   0
+108     107   117   118     9    0.0       0.00000   0
+108     107   117   119     9    0.0       0.00000   0
+107     108   111   112     9    0.0       0.42007   3
+107     108   111   113     9    0.0       0.42007   3
+107     108   111   114     9    0.0       0.42007   3
+109     108   111   112     9    0.0       0.42007   3
+109     108   111   113     9    0.0       0.42007   3
+109     108   111   114     9    0.0       0.42007   3
+110     108   111   112     9    0.0       0.42007   3
+110     108   111   113     9    0.0       0.42007   3
+110     108   111   114     9    0.0       0.42007   3
+108     111   114   115     9    0.0       0.43207   3
+108     111   114   115     9    0.0       0.42007   3
+108     111   114   116     9    0.0       0.43207   3
+108     111   114   116     9    0.0       0.42007   3
+108     111   114   117     9    0.0       0.48608   3
+108     111   114   117     9    180.0     0.54009   1
+108     111   114   117     9    180.0     0.67511   2
+108     111   114   117     9    0.0       0.42007   3
+112     111   114   115     9    0.0       0.40507   3
+112     111   114   115     9    0.0       0.40507   3
+112     111   114   115     9    0.0       0.42007   3
+112     111   114   116     9    0.0       0.40507   3
+112     111   114   116     9    0.0       0.40507   3
+112     111   114   116     9    0.0       0.42007   3
+112     111   114   117     9    0.0       0.43207   3
+112     111   114   117     9    0.0       0.42007   3
+113     111   114   115     9    0.0       0.40507   3
+113     111   114   115     9    0.0       0.40507   3
+113     111   114   115     9    0.0       0.42007   3
+113     111   114   116     9    0.0       0.40507   3
+113     111   114   116     9    0.0       0.40507   3
+113     111   114   116     9    0.0       0.42007   3
+113     111   114   117     9    0.0       0.43207   3
+113     111   114   117     9    0.0       0.42007   3
+111     114   117   107     9    0.0       0.42007   3
+111     114   117   118     9    0.0       0.42007   3
+111     114   117   119     9    0.0       0.42007   3
+115     114   117   107     9    0.0       0.42007   3
+115     114   117   118     9    0.0       0.42007   3
+115     114   117   119     9    0.0       0.42007   3
+116     114   117   107     9    0.0       0.42007   3
+116     114   117   118     9    0.0       0.42007   3
+116     114   117   119     9    0.0       0.42007   3
+107     117   119   120     9    0.0       0.00000   0
+107     117   119   121     9    180.0     1.21520   1
+107     117   119   121     9    180.0     4.26671   2
+107     117   119   121     9    180.0     1.48525   3
+107     117   119   121     9    0.0       0.00000   0
+114     117   119   120     9    0.0       0.00000   0
+114     117   119   121     9    0.0       0.54009   1
+114     117   119   121     9    0.0       0.54009   2
+114     117   119   121     9    0.0       1.08018   3
+114     117   119   121     9    0.0       0.00000   0
+118     117   119   120     9    0.0       2.16036   1
+118     117   119   120     9    180.0     0.21604   3
+118     117   119   120     9    0.0       0.00000   0
+118     117   119   121     9    0.0       0.00000   0
+117     119   121   122     9    180.0     6.75112   2
+117     119   121   123     9    180.0     6.75112   2
+120     119   121   122     9    0.0       5.40089   1
+120     119   121   122     9    180.0     6.75112   2
+120     119   121   122     9    180.0     6.75112   2
+120     119   121   123     9    180.0     6.75112   2
+119     121   123   124     9    0.0       0.00000   0
+119     121   123   125     9    0.0       5.40089   1
+119     121   123   125     9    0.0       5.40089   2
+119     121   123   125     9    0.0       1.08018   3
+119     121   123   125     9    0.0       0.00000   0
+119     121   123   130     9    180.0     0.09182   1
+119     121   123   130     9    0.0       0.90465   2
+119     121   123   130     9    0.0       1.46905   3
+119     121   123   130     9    0.0       0.21604   4
+119     121   123   130     9    0.0       0.00000   0
+122     121   123   124     9    0.0       0.00000   0
+122     121   123   125     9    0.0       0.00000   0
+122     121   123   130     9    0.0       0.00000   0
+121     123   125   126     9    0.0       0.41857   3
+121     123   125   127     9    0.0       0.41857   3
+121     123   125   128     9    180.0     0.67511   1
+121     123   125   128     9    0.0       0.41857   3
+124     123   125   126     9    0.0       0.41857   3
+124     123   125   127     9    0.0       0.41857   3
+124     123   125   128     9    0.0       0.41857   3
+130     123   125   126     9    0.0       0.41857   3
+130     123   125   127     9    0.0       0.41857   3
+130     123   125   128     9    180.0     2.43040   1
+130     123   125   128     9    0.0       0.41857   3
+121     123   130   131     9    0.0       0.00000   0
+121     123   130   132     9    360.0     0.53199   1
+121     123   130   132     9    180.0     3.90215   2
+121     123   130   132     9    180.0     1.29352   3
+121     123   130   132     9    360.0     0.05158   4
+121     123   130   132     9    360.0     0.01080   5
+121     123   130   132     9    0.0       0.00000   0
+124     123   130   131     9    0.0       2.16036   1
+124     123   130   131     9    180.0     0.21604   3
+124     123   130   131     9    0.0       0.00000   0
+124     123   130   132     9    0.0       0.00000   0
+125     123   130   131     9    0.0       0.00000   0
+125     123   130   132     9    0.0       0.54009   1
+125     123   130   132     9    0.0       0.54009   2
+125     123   130   132     9    0.0       1.08018   3
+125     123   130   132     9    0.0       0.00000   0
+123     125   128   129     9    0.0       0.16203   2
+123     125   128   129     9    0.0       0.54009   3
+123     125   128   129     9    0.0       2.02534   1
+123     125   128   129     9    0.0       0.45098   3
+126     125   128   129     9    0.0       0.45098   3
+127     125   128   129     9    0.0       0.45098   3
+123     130   132   133     9    180.0     6.75112   2
+123     130   132   134     9    180.0     6.75112   2
+131     130   132   133     9    0.0       5.40089   1
+131     130   132   133     9    180.0     6.75112   2
+131     130   132   133     9    180.0     6.75112   2
+131     130   132   134     9    180.0     6.75112   2
+130     132   134   135     9    0.0       0.00000   0
+130     132   134   136     9    0.0       1.08018   3
+130     132   134   136     9    0.0       5.40089   1
+130     132   134   136     9    0.0       5.40089   2
+130     132   134   136     9    0.0       0.00000   0
+130     132   134   145     9    180.0     0.09182   1
+130     132   134   145     9    0.0       0.90465   2
+130     132   134   145     9    0.0       1.46905   3
+130     132   134   145     9    0.0       0.21604   4
+130     132   134   145     9    0.0       0.00000   0
+133     132   134   135     9    0.0       0.00000   0
+133     132   134   136     9    0.0       0.00000   0
+133     132   134   145     9    0.0       0.00000   0
+132     134   136   137     9    0.0       0.42007   3
+132     134   136   138     9    0.0       0.42007   3
+132     134   136   139     9    0.0       0.27004   1
+132     134   136   139     9    0.0       0.42007   3
+135     134   136   137     9    0.0       0.42007   3
+135     134   136   138     9    0.0       0.42007   3
+135     134   136   139     9    0.0       0.42007   3
+145     134   136   137     9    0.0       0.42007   3
+145     134   136   138     9    0.0       0.42007   3
+145     134   136   139     9    0.0       0.81013   1
+145     134   136   139     9    0.0       0.42007   3
+132     134   145   146     9    0.0       0.00000   0
+132     134   145   147     9    360.0     0.53199   1
+132     134   145   147     9    180.0     3.90215   2
+132     134   145   147     9    180.0     1.29352   3
+132     134   145   147     9    360.0     0.05158   4
+132     134   145   147     9    360.0     0.01080   5
+132     134   145   147     9    0.0       0.00000   0
+135     134   145   146     9    0.0       2.16036   1
+135     134   145   146     9    180.0     0.21604   3
+135     134   145   146     9    0.0       0.00000   0
+135     134   145   147     9    0.0       0.00000   0
+136     134   145   146     9    0.0       0.00000   0
+136     134   145   147     9    0.0       0.54009   1
+136     134   145   147     9    0.0       0.54009   2
+136     134   145   147     9    0.0       1.08018   3
+136     134   145   147     9    0.0       0.00000   0
+134     136   139   140     9    0.0       0.41857   3
+134     136   139   141     9    0.0       0.41857   3
+134     136   139   142     9    0.0       0.41857   3
+137     136   139   140     9    0.0       0.41857   3
+137     136   139   141     9    0.0       0.41857   3
+137     136   139   142     9    0.0       0.41857   3
+138     136   139   140     9    0.0       0.41857   3
+138     136   139   141     9    0.0       0.41857   3
+138     136   139   142     9    0.0       0.41857   3
+136     139   142   143     9    180.0     1.62027   2
+136     139   142   143     9    0.0       0.00000   0
+136     139   142   144     9    180.0     1.62027   2
+136     139   142   144     9    0.0       0.00000   0
+140     139   142   143     9    0.0       0.00000   0
+140     139   142   144     9    0.0       0.00000   0
+141     139   142   143     9    0.0       0.00000   0
+141     139   142   144     9    0.0       0.00000   0
+134     145   147   148     9    180.0     6.75112   2
+134     145   147   149     9    180.0     6.75112   2
+146     145   147   148     9    0.0       5.40089   1
+146     145   147   148     9    180.0     6.75112   2
+146     145   147   148     9    180.0     6.75112   2
+146     145   147   149     9    180.0     6.75112   2
+145     147   149   150     9    0.0       0.00000   0
+145     147   149   151     9    0.0       1.08018   3
+145     147   149   151     9    0.0       5.40089   1
+145     147   149   151     9    0.0       5.40089   2
+145     147   149   151     9    0.0       0.00000   0
+145     147   149   160     9    180.0     0.09182   1
+145     147   149   160     9    0.0       0.90465   2
+145     147   149   160     9    0.0       1.46905   3
+145     147   149   160     9    0.0       0.21604   4
+145     147   149   160     9    0.0       0.00000   0
+148     147   149   150     9    0.0       0.00000   0
+148     147   149   151     9    0.0       0.00000   0
+148     147   149   160     9    0.0       0.00000   0
+147     149   151   152     9    0.0       0.42007   3
+147     149   151   153     9    0.0       0.42007   3
+147     149   151   154     9    0.0       0.27004   1
+147     149   151   154     9    0.0       0.42007   3
+150     149   151   152     9    0.0       0.42007   3
+150     149   151   153     9    0.0       0.42007   3
+150     149   151   154     9    0.0       0.42007   3
+160     149   151   152     9    0.0       0.42007   3
+160     149   151   153     9    0.0       0.42007   3
+160     149   151   154     9    0.0       0.81013   1
+160     149   151   154     9    0.0       0.42007   3
+147     149   160   161     9    0.0       0.00000   0
+147     149   160   162     9    360.0     0.53199   1
+147     149   160   162     9    180.0     3.90215   2
+147     149   160   162     9    180.0     1.29352   3
+147     149   160   162     9    360.0     0.05158   4
+147     149   160   162     9    360.0     0.01080   5
+147     149   160   162     9    0.0       0.00000   0
+150     149   160   161     9    0.0       2.16036   1
+150     149   160   161     9    180.0     0.21604   3
+150     149   160   161     9    0.0       0.00000   0
+150     149   160   162     9    0.0       0.00000   0
+151     149   160   161     9    0.0       0.00000   0
+151     149   160   162     9    0.0       0.54009   1
+151     149   160   162     9    0.0       0.54009   2
+151     149   160   162     9    0.0       1.08018   3
+151     149   160   162     9    0.0       0.00000   0
+149     151   154   155     9    0.0       0.41857   3
+149     151   154   156     9    0.0       0.41857   3
+149     151   154   157     9    0.0       0.41857   3
+152     151   154   155     9    0.0       0.41857   3
+152     151   154   156     9    0.0       0.41857   3
+152     151   154   157     9    0.0       0.41857   3
+153     151   154   155     9    0.0       0.41857   3
+153     151   154   156     9    0.0       0.41857   3
+153     151   154   157     9    0.0       0.41857   3
+151     154   157   158     9    180.0     1.62027   2
+151     154   157   158     9    0.0       0.00000   0
+151     154   157   159     9    180.0     1.62027   2
+151     154   157   159     9    0.0       0.00000   0
+155     154   157   158     9    0.0       0.00000   0
+155     154   157   159     9    0.0       0.00000   0
+156     154   157   158     9    0.0       0.00000   0
+156     154   157   159     9    0.0       0.00000   0
+149     160   162   163     9    180.0     6.75112   2
+149     160   162   164     9    180.0     6.75112   2
+161     160   162   163     9    0.0       5.40089   1
+161     160   162   163     9    180.0     6.75112   2
+161     160   162   163     9    180.0     6.75112   2
+161     160   162   164     9    180.0     6.75112   2
+160     162   164   165     9    0.0       0.00000   0
+160     162   164   166     9    0.0       0.00000   0
+160     162   164   167     9    0.0       0.22762   1
+160     162   164   167     9    0.0       1.02971   2
+160     162   164   167     9    180.0     0.05409   3
+160     162   164   167     9    0.0       0.20909   4
+160     162   164   167     9    0.0       0.00000   0
+163     162   164   165     9    0.0       0.00000   0
+163     162   164   166     9    0.0       0.00000   0
+163     162   164   167     9    0.0       0.00000   0
+162     164   167   168     9    0.0       0.00000   0
+162     164   167   169     9    180.0     1.73906   1
+162     164   167   169     9    180.0     4.31572   2
+162     164   167   169     9    180.0     1.07857   3
+162     164   167   169     9    0.0       0.20279   4
+162     164   167   169     9    0.0       0.00000   0
+165     164   167   168     9    0.0       2.16036   1
+165     164   167   168     9    180.0     0.21604   3
+165     164   167   168     9    0.0       0.00000   0
+165     164   167   169     9    0.0       0.00000   0
+166     164   167   168     9    0.0       2.16036   1
+166     164   167   168     9    180.0     0.21604   3
+166     164   167   168     9    0.0       0.00000   0
+166     164   167   169     9    0.0       0.00000   0
+164     167   169   170     9    180.0     6.75112   2
+164     167   169   171     9    180.0     6.75112   2
+168     167   169   170     9    0.0       5.40089   1
+168     167   169   170     9    180.0     6.75112   2
+168     167   169   170     9    180.0     6.75112   2
+168     167   169   171     9    180.0     6.75112   2
+167     169   171   172     9    0.0       0.00000   0
+167     169   171   173     9    0.0       1.08018   3
+167     169   171   173     9    0.0       5.40089   1
+167     169   171   173     9    0.0       5.40089   2
+167     169   171   173     9    0.0       0.00000   0
+167     169   171   188     9    180.0     0.09182   1
+167     169   171   188     9    0.0       0.90465   2
+167     169   171   188     9    0.0       1.46905   3
+167     169   171   188     9    0.0       0.21604   4
+167     169   171   188     9    0.0       0.00000   0
+170     169   171   172     9    0.0       0.00000   0
+170     169   171   173     9    0.0       0.00000   0
+170     169   171   188     9    0.0       0.00000   0
+169     171   173   174     9    0.0       0.42007   3
+169     171   173   175     9    0.0       0.42007   3
+169     171   173   176     9    0.0       0.00000   0
+169     171   173   176     9    0.0       0.42007   3
+172     171   173   174     9    0.0       0.42007   3
+172     171   173   175     9    0.0       0.42007   3
+172     171   173   176     9    0.0       0.42007   3
+188     171   173   174     9    0.0       0.42007   3
+188     171   173   175     9    0.0       0.42007   3
+188     171   173   176     9    0.0       1.40423   1
+188     171   173   176     9    0.0       0.42007   3
+169     171   188   189     9    0.0       0.00000   0
+169     171   188   190     9    360.0     0.53199   1
+169     171   188   190     9    180.0     3.90215   2
+169     171   188   190     9    180.0     1.29352   3
+169     171   188   190     9    360.0     0.05158   4
+169     171   188   190     9    360.0     0.01080   5
+169     171   188   190     9    0.0       0.00000   0
+172     171   188   189     9    0.0       2.16036   1
+172     171   188   189     9    180.0     0.21604   3
+172     171   188   189     9    0.0       0.00000   0
+172     171   188   190     9    0.0       0.00000   0
+173     171   188   189     9    0.0       0.00000   0
+173     171   188   190     9    0.0       0.54009   1
+173     171   188   190     9    0.0       0.54009   2
+173     171   188   190     9    0.0       1.08018   3
+173     171   188   190     9    0.0       0.00000   0
+171     173   176   177     9    0.0       0.00000   0
+171     173   176   186     9    0.0       0.00000   0
+174     173   176   177     9    0.0       0.00000   0
+174     173   176   186     9    0.0       0.00000   0
+175     173   176   177     9    0.0       0.00000   0
+175     173   176   186     9    0.0       0.00000   0
+173     176   177   178     9    180.0     9.78912   2
+173     176   177   179     9    180.0     9.78912   2
+186     176   177   178     9    180.0     9.78912   2
+186     176   177   179     9    180.0     9.78912   2
+173     176   186   184     9    180.0     9.78912   2
+173     176   186   187     9    180.0     9.78912   2
+177     176   186   184     9    180.0     9.78912   2
+177     176   186   187     9    180.0     9.78912   2
+176     177   179   180     9    180.0     9.78912   2
+176     177   179   181     9    180.0     9.78912   2
+178     177   179   180     9    180.0     9.78912   2
+178     177   179   181     9    180.0     9.78912   2
+177     179   181   182     9    180.0     9.78912   2
+177     179   181   184     9    180.0     9.78912   2
+180     179   181   182     9    180.0     9.78912   2
+180     179   181   184     9    180.0     9.78912   2
+179     181   182   183     9    180.0     6.21103   2
+184     181   182   183     9    180.0     6.21103   2
+179     181   184   185     9    180.0     9.78912   2
+179     181   184   186     9    180.0     9.78912   2
+182     181   184   185     9    180.0     9.78912   2
+182     181   184   186     9    180.0     9.78912   2
+181     184   186   176     9    180.0     9.78912   2
+181     184   186   187     9    180.0     9.78912   2
+185     184   186   176     9    180.0     9.78912   2
+185     184   186   187     9    180.0     9.78912   2
+171     188   190   191     9    180.0     6.75112   2
+171     188   190   192     9    180.0     6.75112   2
+189     188   190   191     9    0.0       5.40089   1
+189     188   190   191     9    180.0     6.75112   2
+189     188   190   191     9    180.0     6.75112   2
+189     188   190   192     9    180.0     6.75112   2
+188     190   192   193     9    0.0       0.00000   0
+188     190   192   194     9    0.0       1.08018   3
+188     190   192   194     9    0.0       5.40089   1
+188     190   192   194     9    0.0       5.40089   2
+188     190   192   194     9    0.0       0.00000   0
+188     190   192   205     9    180.0     0.09182   1
+188     190   192   205     9    0.0       0.90465   2
+188     190   192   205     9    0.0       1.46905   3
+188     190   192   205     9    0.0       0.21604   4
+188     190   192   205     9    0.0       0.00000   0
+191     190   192   193     9    0.0       0.00000   0
+191     190   192   194     9    0.0       0.00000   0
+191     190   192   205     9    0.0       0.00000   0
+190     192   194   195     9    0.0       0.42007   3
+190     192   194   196     9    0.0       0.42007   3
+190     192   194   197     9    0.0       0.27004   1
+190     192   194   197     9    0.0       0.42007   3
+193     192   194   195     9    0.0       0.42007   3
+193     192   194   196     9    0.0       0.42007   3
+193     192   194   197     9    0.0       0.42007   3
+205     192   194   195     9    0.0       0.42007   3
+205     192   194   196     9    0.0       0.42007   3
+205     192   194   197     9    0.0       0.81013   1
+205     192   194   197     9    0.0       0.42007   3
+190     192   205   206     9    0.0       0.00000   0
+190     192   205   207     9    360.0     0.53199   1
+190     192   205   207     9    180.0     3.90215   2
+190     192   205   207     9    180.0     1.29352   3
+190     192   205   207     9    360.0     0.05158   4
+190     192   205   207     9    360.0     0.01080   5
+190     192   205   207     9    0.0       0.00000   0
+193     192   205   206     9    0.0       2.16036   1
+193     192   205   206     9    180.0     0.21604   3
+193     192   205   206     9    0.0       0.00000   0
+193     192   205   207     9    0.0       0.00000   0
+194     192   205   206     9    0.0       0.00000   0
+194     192   205   207     9    0.0       0.54009   1
+194     192   205   207     9    0.0       0.54009   2
+194     192   205   207     9    0.0       1.08018   3
+194     192   205   207     9    0.0       0.00000   0
+192     194   197   198     9    0.0       0.41857   3
+192     194   197   199     9    0.0       0.41857   3
+192     194   197   200     9    0.0       0.41857   3
+195     194   197   198     9    0.0       0.41857   3
+195     194   197   199     9    0.0       0.41857   3
+195     194   197   200     9    0.0       0.41857   3
+196     194   197   198     9    0.0       0.41857   3
+196     194   197   199     9    0.0       0.41857   3
+196     194   197   200     9    0.0       0.41857   3
+194     197   200   201     9    180.0     1.62027   2
+194     197   200   201     9    0.0       0.00000   0
+194     197   200   202     9    0.0       0.00000   0
+198     197   200   201     9    0.0       0.00000   0
+198     197   200   202     9    0.0       0.00000   0
+199     197   200   201     9    0.0       0.00000   0
+199     197   200   202     9    0.0       0.00000   0
+197     200   202   203     9    180.0     6.75112   2
+197     200   202   204     9    180.0     6.75112   2
+201     200   202   203     9    0.0       5.40089   1
+201     200   202   203     9    180.0     6.75112   2
+201     200   202   203     9    180.0     6.75112   2
+201     200   202   204     9    0.0       5.40089   1
+201     200   202   204     9    180.0     6.75112   2
+201     200   202   204     9    180.0     6.75112   2
+192     205   207   208     9    180.0     6.75112   2
+192     205   207   209     9    180.0     6.75112   2
+206     205   207   208     9    0.0       5.40089   1
+206     205   207   208     9    180.0     6.75112   2
+206     205   207   208     9    180.0     6.75112   2
+206     205   207   209     9    180.0     6.75112   2
+205     207   209   210     9    0.0       0.00000   0
+205     207   209   211     9    0.0       1.08018   3
+205     207   209   211     9    0.0       5.40089   1
+205     207   209   211     9    0.0       5.40089   2
+205     207   209   211     9    0.0       0.00000   0
+205     207   209   217     9    180.0     0.09182   1
+205     207   209   217     9    0.0       0.90465   2
+205     207   209   217     9    0.0       1.46905   3
+205     207   209   217     9    0.0       0.21604   4
+205     207   209   217     9    0.0       0.00000   0
+208     207   209   210     9    0.0       0.00000   0
+208     207   209   211     9    0.0       0.00000   0
+208     207   209   217     9    0.0       0.00000   0
+207     209   211   212     9    0.0       0.42007   3
+207     209   211   213     9    0.0       0.42007   3
+207     209   211   214     9    180.0     7.77998   1
+207     209   211   214     9    180.0     3.27024   2
+207     209   211   214     9    0.0       0.16743   3
+207     209   211   214     9    0.0       0.66161   4
+207     209   211   214     9    0.0       0.35376   5
+207     209   211   214     9    180.0     0.38346   6
+207     209   211   214     9    0.0       0.42007   3
+210     209   211   212     9    0.0       0.42007   3
+210     209   211   213     9    0.0       0.42007   3
+210     209   211   214     9    0.0       0.42007   3
+217     209   211   212     9    0.0       0.42007   3
+217     209   211   213     9    0.0       0.42007   3
+217     209   211   214     9    0.0       0.42007   3
+207     209   217   218     9    0.0       0.00000   0
+207     209   217   219     9    360.0     0.53199   1
+207     209   217   219     9    180.0     3.90215   2
+207     209   217   219     9    180.0     1.29352   3
+207     209   217   219     9    360.0     0.05158   4
+207     209   217   219     9    360.0     0.01080   5
+207     209   217   219     9    0.0       0.00000   0
+210     209   217   218     9    0.0       2.16036   1
+210     209   217   218     9    180.0     0.21604   3
+210     209   217   218     9    0.0       0.00000   0
+210     209   217   219     9    0.0       0.00000   0
+211     209   217   218     9    0.0       0.00000   0
+211     209   217   219     9    0.0       0.54009   1
+211     209   217   219     9    0.0       0.54009   2
+211     209   217   219     9    0.0       1.08018   3
+211     209   217   219     9    0.0       0.00000   0
+209     211   214   215     9    180.0     0.50228   4
+209     211   214   215     9    180.0     0.95596   6
+209     211   214   215     9    180.0     2.35749   2
+209     211   214   215     9    0.0       0.00000   0
+209     211   214   216     9    180.0     0.50228   4
+209     211   214   216     9    180.0     0.95596   6
+209     211   214   216     9    180.0     2.35749   2
+209     211   214   216     9    0.0       0.00000   0
+212     211   214   215     9    0.0       0.00000   0
+212     211   214   216     9    0.0       0.00000   0
+213     211   214   215     9    0.0       0.00000   0
+213     211   214   216     9    0.0       0.00000   0
+209     217   219   220     9    180.0     6.75112   2
+209     217   219   221     9    180.0     6.75112   2
+218     217   219   220     9    0.0       5.40089   1
+218     217   219   220     9    180.0     6.75112   2
+218     217   219   220     9    180.0     6.75112   2
+218     217   219   221     9    180.0     6.75112   2
+217     219   221   222     9    0.0       0.00000   0
+217     219   221   223     9    0.0       1.08018   3
+217     219   221   223     9    0.0       5.40089   1
+217     219   221   223     9    0.0       5.40089   2
+217     219   221   223     9    0.0       0.00000   0
+217     219   221   238     9    180.0     0.09182   1
+217     219   221   238     9    0.0       0.90465   2
+217     219   221   238     9    0.0       1.46905   3
+217     219   221   238     9    0.0       0.21604   4
+217     219   221   238     9    0.0       0.00000   0
+220     219   221   222     9    0.0       0.00000   0
+220     219   221   223     9    0.0       0.00000   0
+220     219   221   238     9    0.0       0.00000   0
+219     221   223   224     9    0.0       0.42007   3
+219     221   223   225     9    0.0       0.42007   3
+219     221   223   226     9    0.0       0.00000   0
+219     221   223   226     9    0.0       0.42007   3
+222     221   223   224     9    0.0       0.42007   3
+222     221   223   225     9    0.0       0.42007   3
+222     221   223   226     9    0.0       0.42007   3
+238     221   223   224     9    0.0       0.42007   3
+238     221   223   225     9    0.0       0.42007   3
+238     221   223   226     9    0.0       1.40423   1
+238     221   223   226     9    0.0       0.42007   3
+219     221   238   239     9    0.0       0.00000   0
+219     221   238   240     9    360.0     0.53199   1
+219     221   238   240     9    180.0     3.90215   2
+219     221   238   240     9    180.0     1.29352   3
+219     221   238   240     9    360.0     0.05158   4
+219     221   238   240     9    360.0     0.01080   5
+219     221   238   240     9    0.0       0.00000   0
+222     221   238   239     9    0.0       2.16036   1
+222     221   238   239     9    180.0     0.21604   3
+222     221   238   239     9    0.0       0.00000   0
+222     221   238   240     9    0.0       0.00000   0
+223     221   238   239     9    0.0       0.00000   0
+223     221   238   240     9    0.0       0.54009   1
+223     221   238   240     9    0.0       0.54009   2
+223     221   238   240     9    0.0       1.08018   3
+223     221   238   240     9    0.0       0.00000   0
+221     223   226   227     9    0.0       0.00000   0
+221     223   226   236     9    0.0       0.00000   0
+224     223   226   227     9    0.0       0.00000   0
+224     223   226   236     9    0.0       0.00000   0
+225     223   226   227     9    0.0       0.00000   0
+225     223   226   236     9    0.0       0.00000   0
+223     226   227   228     9    180.0     9.78912   2
+223     226   227   229     9    180.0     9.78912   2
+236     226   227   228     9    180.0     9.78912   2
+236     226   227   229     9    180.0     9.78912   2
+223     226   236   234     9    180.0     9.78912   2
+223     226   236   237     9    180.0     9.78912   2
+227     226   236   234     9    180.0     9.78912   2
+227     226   236   237     9    180.0     9.78912   2
+226     227   229   230     9    180.0     9.78912   2
+226     227   229   231     9    180.0     9.78912   2
+228     227   229   230     9    180.0     9.78912   2
+228     227   229   231     9    180.0     9.78912   2
+227     229   231   232     9    180.0     9.78912   2
+227     229   231   234     9    180.0     9.78912   2
+230     229   231   232     9    180.0     9.78912   2
+230     229   231   234     9    180.0     9.78912   2
+229     231   232   233     9    180.0     6.21103   2
+234     231   232   233     9    180.0     6.21103   2
+229     231   234   235     9    180.0     9.78912   2
+229     231   234   236     9    180.0     9.78912   2
+232     231   234   235     9    180.0     9.78912   2
+232     231   234   236     9    180.0     9.78912   2
+231     234   236   226     9    180.0     9.78912   2
+231     234   236   237     9    180.0     9.78912   2
+235     234   236   226     9    180.0     9.78912   2
+235     234   236   237     9    180.0     9.78912   2
+221     238   240   241     9    180.0     6.75112   2
+221     238   240   242     9    180.0     6.75112   2
+239     238   240   241     9    0.0       5.40089   1
+239     238   240   241     9    180.0     6.75112   2
+239     238   240   241     9    180.0     6.75112   2
+239     238   240   242     9    180.0     6.75112   2
+238     240   242   243     9    0.0       0.00000   0
+238     240   242   244     9    0.0       1.08018   3
+238     240   242   244     9    0.0       5.40089   1
+238     240   242   244     9    0.0       5.40089   2
+238     240   242   244     9    0.0       0.00000   0
+238     240   242   253     9    180.0     0.09182   1
+238     240   242   253     9    0.0       0.90465   2
+238     240   242   253     9    0.0       1.46905   3
+238     240   242   253     9    0.0       0.21604   4
+238     240   242   253     9    0.0       0.00000   0
+241     240   242   243     9    0.0       0.00000   0
+241     240   242   244     9    0.0       0.00000   0
+241     240   242   253     9    0.0       0.00000   0
+240     242   244   245     9    0.0       0.42007   3
+240     242   244   246     9    0.0       0.42007   3
+240     242   244   247     9    0.0       0.27004   1
+240     242   244   247     9    0.0       0.42007   3
+243     242   244   245     9    0.0       0.42007   3
+243     242   244   246     9    0.0       0.42007   3
+243     242   244   247     9    0.0       0.42007   3
+253     242   244   245     9    0.0       0.42007   3
+253     242   244   246     9    0.0       0.42007   3
+253     242   244   247     9    0.0       0.81013   1
+253     242   244   247     9    0.0       0.42007   3
+240     242   253   254     9    0.0       0.00000   0
+240     242   253   255     9    360.0     0.53199   1
+240     242   253   255     9    180.0     3.90215   2
+240     242   253   255     9    180.0     1.29352   3
+240     242   253   255     9    360.0     0.05158   4
+240     242   253   255     9    360.0     0.01080   5
+240     242   253   255     9    0.0       0.00000   0
+243     242   253   254     9    0.0       2.16036   1
+243     242   253   254     9    180.0     0.21604   3
+243     242   253   254     9    0.0       0.00000   0
+243     242   253   255     9    0.0       0.00000   0
+244     242   253   254     9    0.0       0.00000   0
+244     242   253   255     9    0.0       0.54009   1
+244     242   253   255     9    0.0       0.54009   2
+244     242   253   255     9    0.0       1.08018   3
+244     242   253   255     9    0.0       0.00000   0
+242     244   247   248     9    0.0       0.41857   3
+242     244   247   249     9    0.0       0.41857   3
+242     244   247   250     9    0.0       0.41857   3
+245     244   247   248     9    0.0       0.41857   3
+245     244   247   249     9    0.0       0.41857   3
+245     244   247   250     9    0.0       0.41857   3
+246     244   247   248     9    0.0       0.41857   3
+246     244   247   249     9    0.0       0.41857   3
+246     244   247   250     9    0.0       0.41857   3
+244     247   250   251     9    180.0     1.62027   2
+244     247   250   251     9    0.0       0.00000   0
+244     247   250   252     9    180.0     1.62027   2
+244     247   250   252     9    0.0       0.00000   0
+248     247   250   251     9    0.0       0.00000   0
+248     247   250   252     9    0.0       0.00000   0
+249     247   250   251     9    0.0       0.00000   0
+249     247   250   252     9    0.0       0.00000   0
+242     253   255   256     9    180.0     6.75112   2
+242     253   255   265     9    180.0     6.75112   2
+254     253   255   256     9    180.0     6.75112   2
+254     253   255   265     9    180.0     6.75112   2
+253     255   256   257     9    0.0       0.00000   0
+253     255   256   258     9    0.0       0.00000   0
+253     255   256   259     9    0.0       1.08018   3
+253     255   256   259     9    0.0       5.40089   1
+253     255   256   259     9    0.0       5.40089   2
+253     255   256   259     9    0.0       0.00000   0
+265     255   256   257     9    0.0       0.00000   0
+265     255   256   258     9    0.0       0.00000   0
+265     255   256   259     9    0.0       0.00000   0
+253     255   265   262     9    0.0       5.40089   1
+253     255   265   262     9    0.0       5.40089   2
+253     255   265   262     9    0.0       1.08018   3
+253     255   265   262     9    0.0       0.00000   0
+253     255   265   266     9    0.0       0.00000   0
+253     255   265   267     9    0.0       0.72912   2
+253     255   265   267     9    0.0       1.13419   3
+253     255   265   267     9    0.0       0.00000   0
+256     255   265   262     9    0.0       0.00000   0
+256     255   265   266     9    0.0       0.00000   0
+256     255   265   267     9    0.0       0.00000   0
+255     256   259   260     9    0.0       0.42007   3
+255     256   259   261     9    0.0       0.42007   3
+255     256   259   262     9    0.0       0.42007   3
+257     256   259   260     9    0.0       0.42007   3
+257     256   259   261     9    0.0       0.42007   3
+257     256   259   262     9    0.0       0.42007   3
+258     256   259   260     9    0.0       0.42007   3
+258     256   259   261     9    0.0       0.42007   3
+258     256   259   262     9    0.0       0.42007   3
+256     259   262   263     9    0.0       0.43207   3
+256     259   262   263     9    0.0       0.42007   3
+256     259   262   264     9    0.0       0.43207   3
+256     259   262   264     9    0.0       0.42007   3
+256     259   262   265     9    0.0       0.48608   3
+256     259   262   265     9    180.0     0.54009   1
+256     259   262   265     9    180.0     0.67511   2
+256     259   262   265     9    0.0       0.42007   3
+260     259   262   263     9    0.0       0.40507   3
+260     259   262   263     9    0.0       0.40507   3
+260     259   262   263     9    0.0       0.42007   3
+260     259   262   264     9    0.0       0.40507   3
+260     259   262   264     9    0.0       0.40507   3
+260     259   262   264     9    0.0       0.42007   3
+260     259   262   265     9    0.0       0.43207   3
+260     259   262   265     9    0.0       0.42007   3
+261     259   262   263     9    0.0       0.40507   3
+261     259   262   263     9    0.0       0.40507   3
+261     259   262   263     9    0.0       0.42007   3
+261     259   262   264     9    0.0       0.40507   3
+261     259   262   264     9    0.0       0.40507   3
+261     259   262   264     9    0.0       0.42007   3
+261     259   262   265     9    0.0       0.43207   3
+261     259   262   265     9    0.0       0.42007   3
+259     262   265   255     9    0.0       0.42007   3
+259     262   265   266     9    0.0       0.42007   3
+259     262   265   267     9    0.0       0.42007   3
+263     262   265   255     9    0.0       0.42007   3
+263     262   265   266     9    0.0       0.42007   3
+263     262   265   267     9    0.0       0.42007   3
+264     262   265   255     9    0.0       0.42007   3
+264     262   265   266     9    0.0       0.42007   3
+264     262   265   267     9    0.0       0.42007   3
+255     265   267   268     9    0.0       0.00000   0
+255     265   267   269     9    180.0     1.21520   1
+255     265   267   269     9    180.0     4.26671   2
+255     265   267   269     9    180.0     1.48525   3
+255     265   267   269     9    0.0       0.00000   0
+262     265   267   268     9    0.0       0.00000   0
+262     265   267   269     9    0.0       0.54009   1
+262     265   267   269     9    0.0       0.54009   2
+262     265   267   269     9    0.0       1.08018   3
+262     265   267   269     9    0.0       0.00000   0
+266     265   267   268     9    0.0       2.16036   1
+266     265   267   268     9    180.0     0.21604   3
+266     265   267   268     9    0.0       0.00000   0
+266     265   267   269     9    0.0       0.00000   0
+265     267   269   270     9    180.0     6.75112   2
+265     267   269   271     9    180.0     6.75112   2
+268     267   269   270     9    0.0       5.40089   1
+268     267   269   270     9    180.0     6.75112   2
+268     267   269   270     9    180.0     6.75112   2
+268     267   269   271     9    180.0     6.75112   2
+267     269   271   272     9    0.0       0.00000   0
+267     269   271   273     9    0.0       1.08018   3
+267     269   271   273     9    0.0       5.40089   1
+267     269   271   273     9    0.0       5.40089   2
+267     269   271   273     9    0.0       0.00000   0
+267     269   271   282     9    180.0     0.09182   1
+267     269   271   282     9    0.0       0.90465   2
+267     269   271   282     9    0.0       1.46905   3
+267     269   271   282     9    0.0       0.21604   4
+267     269   271   282     9    0.0       0.00000   0
+270     269   271   272     9    0.0       0.00000   0
+270     269   271   273     9    0.0       0.00000   0
+270     269   271   282     9    0.0       0.00000   0
+269     271   273   274     9    0.0       0.42007   3
+269     271   273   275     9    0.0       0.42007   3
+269     271   273   276     9    0.0       0.27004   1
+269     271   273   276     9    0.0       0.42007   3
+272     271   273   274     9    0.0       0.42007   3
+272     271   273   275     9    0.0       0.42007   3
+272     271   273   276     9    0.0       0.42007   3
+282     271   273   274     9    0.0       0.42007   3
+282     271   273   275     9    0.0       0.42007   3
+282     271   273   276     9    0.0       0.81013   1
+282     271   273   276     9    0.0       0.42007   3
+269     271   282   283     9    0.0       0.00000   0
+269     271   282   284     9    360.0     0.53199   1
+269     271   282   284     9    180.0     3.90215   2
+269     271   282   284     9    180.0     1.29352   3
+269     271   282   284     9    360.0     0.05158   4
+269     271   282   284     9    360.0     0.01080   5
+269     271   282   284     9    0.0       0.00000   0
+272     271   282   283     9    0.0       2.16036   1
+272     271   282   283     9    180.0     0.21604   3
+272     271   282   283     9    0.0       0.00000   0
+272     271   282   284     9    0.0       0.00000   0
+273     271   282   283     9    0.0       0.00000   0
+273     271   282   284     9    0.0       0.54009   1
+273     271   282   284     9    0.0       0.54009   2
+273     271   282   284     9    0.0       1.08018   3
+273     271   282   284     9    0.0       0.00000   0
+271     273   276   277     9    0.0       0.41857   3
+271     273   276   278     9    0.0       0.41857   3
+271     273   276   279     9    0.0       0.41857   3
+274     273   276   277     9    0.0       0.41857   3
+274     273   276   278     9    0.0       0.41857   3
+274     273   276   279     9    0.0       0.41857   3
+275     273   276   277     9    0.0       0.41857   3
+275     273   276   278     9    0.0       0.41857   3
+275     273   276   279     9    0.0       0.41857   3
+273     276   279   280     9    180.0     1.62027   2
+273     276   279   280     9    0.0       0.00000   0
+273     276   279   281     9    180.0     1.62027   2
+273     276   279   281     9    0.0       0.00000   0
+277     276   279   280     9    0.0       0.00000   0
+277     276   279   281     9    0.0       0.00000   0
+278     276   279   280     9    0.0       0.00000   0
+278     276   279   281     9    0.0       0.00000   0
+271     282   284   285     9    180.0     6.75112   2
+271     282   284   286     9    180.0     6.75112   2
+283     282   284   285     9    0.0       5.40089   1
+283     282   284   285     9    180.0     6.75112   2
+283     282   284   285     9    180.0     6.75112   2
+283     282   284   286     9    180.0     6.75112   2
+282     284   286   287     9    0.0       0.00000   0
+282     284   286   288     9    0.0       1.08018   3
+282     284   286   288     9    0.0       5.40089   1
+282     284   286   288     9    0.0       5.40089   2
+282     284   286   288     9    0.0       0.00000   0
+282     284   286   292     9    180.0     0.09182   1
+282     284   286   292     9    0.0       0.90465   2
+282     284   286   292     9    0.0       1.46905   3
+282     284   286   292     9    0.0       0.21604   4
+282     284   286   292     9    0.0       0.00000   0
+285     284   286   287     9    0.0       0.00000   0
+285     284   286   288     9    0.0       0.00000   0
+285     284   286   292     9    0.0       0.00000   0
+284     286   288   289     9    0.0       0.42007   3
+284     286   288   290     9    0.0       0.42007   3
+284     286   288   291     9    0.0       0.42007   3
+287     286   288   289     9    0.0       0.42007   3
+287     286   288   290     9    0.0       0.42007   3
+287     286   288   291     9    0.0       0.42007   3
+292     286   288   289     9    0.0       0.42007   3
+292     286   288   290     9    0.0       0.42007   3
+292     286   288   291     9    0.0       0.42007   3
+284     286   292   293     9    0.0       0.00000   0
+284     286   292   294     9    0.0       0.00000   0
+287     286   292   293     9    0.0       0.00000   0
+287     286   292   294     9    0.0       0.00000   0
+288     286   292   293     9    0.0       0.00000   0
+288     286   292   294     9    0.0       0.00000   0
+5        15    13    14     4    180.0     28.35469  2
+7        11    10    12     4    180.0     28.35469  2
+13       17    15    16     4    180.0     2.97049   2
+13       15    17    27     4    90.0      1.08018   2
+15       17    27    29     4    90.0      0.15393   3
+15       17    27    29     4    90.0      0.06751   4
+15       17    27    29     4    90.0      -0.02969  5
+15       17    27    29     4    160.888   1.75529   1
+15       17    27    29     4    90.0      -0.68860  1
+15       17    27    29     4    90.0      0.20253   2
+17       29    27    28     4    180.0     28.35469  2
+19       24    22    23     4    180.0     28.35469  2
+22       25    24    26     4    180.0     2.70045   2
+27       31    29    30     4    180.0     2.97049   2
+27       29    31    42     4    90.0      1.08018   2
+29       31    42    44     4    160.888   1.75529   1
+29       31    42    44     4    90.0      -0.68860  1
+29       31    42    44     4    90.0      0.20253   2
+29       31    42    44     4    90.0      0.15393   3
+29       31    42    44     4    90.0      0.06751   4
+29       31    42    44     4    90.0      -0.02969  5
+31       44    42    43     4    180.0     28.35469  2
+36       40    39    41     4    180.0     28.35469  2
+42       46    44    45     4    180.0     2.97049   2
+42       44    46    52     4    90.0      1.08018   2
+44       46    52    54     4    90.0      0.20253   2
+44       46    52    54     4    90.0      0.06751   4
+44       46    52    54     4    90.0      -0.02969  5
+44       46    52    54     4    90.0      0.15393   3
+44       46    52    54     4    160.888   1.75529   1
+44       46    52    54     4    90.0      -0.68860  1
+46       54    52    53     4    180.0     28.35469  2
+52       56    54    55     4    180.0     2.97049   2
+52       54    56    73     4    90.0      1.08018   2
+54       56    73    75     4    90.0      -0.68860  1
+54       56    73    75     4    90.0      0.20253   2
+54       56    73    75     4    90.0      0.15393   3
+54       56    73    75     4    90.0      0.06751   4
+54       56    73    75     4    90.0      -0.02969  5
+54       56    73    75     4    160.888   1.75529   1
+56       75    73    74     4    180.0     28.35469  2
+58       61    71    62     4    180.0     2.97049   2
+61       64    62    63     4    180.0     2.97049   2
+61       69    71    72     4    180.0     2.97049   2
+62       66    64    65     4    180.0     2.97049   2
+64       69    66    67     4    180.0     2.97049   2
+66       71    69    70     4    180.0     2.97049   2
+73       77    75    76     4    180.0     2.97049   2
+73       75    77    88     4    90.0      1.08018   2
+75       77    88    90     4    160.888   1.75529   1
+75       77    88    90     4    90.0      -0.68860  1
+75       77    88    90     4    90.0      0.20253   2
+75       77    88    90     4    90.0      0.06751   4
+75       77    88    90     4    90.0      -0.02969  5
+75       77    88    90     4    90.0      0.15393   3
+77       90    88    89     4    180.0     28.35469  2
+82       86    85    87     4    180.0     28.35469  2
+88       92    90    91     4    180.0     2.97049   2
+88       90    92   105     4    90.0      1.08018   2
+90       92   105   107     4    90.0      -0.68860  1
+90       92   105   107     4    90.0      0.20253   2
+90       92   105   107     4    90.0      0.15393   3
+90       92   105   107     4    90.0      0.06751   4
+90       92   105   107     4    90.0      -0.02969  5
+90       92   105   107     4    160.888   1.75529   1
+92      107   105   106     4    180.0     28.35469  2
+105     108   107   117     4    180.0     2.70045   2
+117     121   119   120     4    180.0     28.35469  2
+119     123   121   122     4    180.0     2.97049   2
+119     121   123   130     4    90.0      1.08018   2
+121     123   130   132     4    90.0      0.06751   4
+121     123   130   132     4    90.0      -0.02969  5
+121     123   130   132     4    90.0      0.15393   3
+121     123   130   132     4    160.888   1.75529   1
+121     123   130   132     4    90.0      -0.68860  1
+121     123   130   132     4    90.0      0.20253   2
+123     132   130   131     4    180.0     28.35469  2
+130     134   132   133     4    180.0     2.97049   2
+130     132   134   145     4    90.0      1.08018   2
+132     134   145   147     4    90.0      -0.68860  1
+132     134   145   147     4    90.0      0.20253   2
+132     134   145   147     4    90.0      0.15393   3
+132     134   145   147     4    90.0      0.06751   4
+132     134   145   147     4    90.0      -0.02969  5
+132     134   145   147     4    160.888   1.75529   1
+134     147   145   146     4    180.0     28.35469  2
+139     143   142   144     4    180.0     28.35469  2
+145     149   147   148     4    180.0     2.97049   2
+145     147   149   160     4    90.0      1.08018   2
+147     149   160   162     4    90.0      -0.68860  1
+147     149   160   162     4    90.0      0.20253   2
+147     149   160   162     4    90.0      0.15393   3
+147     149   160   162     4    90.0      0.06751   4
+147     149   160   162     4    90.0      -0.02969  5
+147     149   160   162     4    160.888   1.75529   1
+149     162   160   161     4    180.0     28.35469  2
+154     158   157   159     4    180.0     28.35469  2
+160     164   162   163     4    180.0     2.97049   2
+164     169   167   168     4    180.0     28.35469  2
+167     171   169   170     4    180.0     2.97049   2
+167     169   171   188     4    90.0      1.08018   2
+169     171   188   190     4    160.888   1.75529   1
+169     171   188   190     4    90.0      -0.68860  1
+169     171   188   190     4    90.0      0.20253   2
+169     171   188   190     4    90.0      0.15393   3
+169     171   188   190     4    90.0      0.06751   4
+169     171   188   190     4    90.0      -0.02969  5
+171     190   188   189     4    180.0     28.35469  2
+173     176   186   177     4    180.0     2.97049   2
+176     179   177   178     4    180.0     2.97049   2
+176     184   186   187     4    180.0     2.97049   2
+177     181   179   180     4    180.0     2.97049   2
+179     184   181   182     4    180.0     2.97049   2
+181     186   184   185     4    180.0     2.97049   2
+188     192   190   191     4    180.0     2.97049   2
+188     190   192   205     4    90.0      1.08018   2
+190     192   205   207     4    90.0      -0.68860  1
+190     192   205   207     4    160.888   1.75529   1
+190     192   205   207     4    90.0      0.20253   2
+190     192   205   207     4    90.0      0.15393   3
+190     192   205   207     4    90.0      0.06751   4
+190     192   205   207     4    90.0      -0.02969  5
+192     207   205   206     4    180.0     28.35469  2
+197     202   200   201     4    180.0     28.35469  2
+200     203   202   204     4    180.0     2.70045   2
+205     209   207   208     4    180.0     2.97049   2
+205     207   209   217     4    90.0      1.08018   2
+207     209   217   219     4    160.888   1.75529   1
+207     209   217   219     4    90.0      0.15393   3
+207     209   217   219     4    90.0      0.06751   4
+207     209   217   219     4    90.0      -0.02969  5
+207     209   217   219     4    90.0      0.20253   2
+207     209   217   219     4    90.0      -0.68860  1
+209     219   217   218     4    180.0     28.35469  2
+211     215   214   216     4    180.0     28.35469  2
+217     221   219   220     4    180.0     2.97049   2
+217     219   221   238     4    90.0      1.08018   2
+219     221   238   240     4    90.0      0.20253   2
+219     221   238   240     4    160.888   1.75529   1
+219     221   238   240     4    90.0      -0.68860  1
+219     221   238   240     4    90.0      0.15393   3
+219     221   238   240     4    90.0      0.06751   4
+219     221   238   240     4    90.0      -0.02969  5
+221     240   238   239     4    180.0     28.35469  2
+223     226   236   227     4    180.0     2.97049   2
+226     229   227   228     4    180.0     2.97049   2
+226     234   236   237     4    180.0     2.97049   2
+227     231   229   230     4    180.0     2.97049   2
+229     234   231   232     4    180.0     2.97049   2
+231     236   234   235     4    180.0     2.97049   2
+238     242   240   241     4    180.0     2.97049   2
+238     240   242   253     4    90.0      1.08018   2
+240     242   253   255     4    90.0      0.20253   2
+240     242   253   255     4    90.0      0.15393   3
+240     242   253   255     4    90.0      0.06751   4
+240     242   253   255     4    90.0      -0.02969  5
+240     242   253   255     4    160.888   1.75529   1
+240     242   253   255     4    90.0      -0.68860  1
+242     255   253   254     4    180.0     28.35469  2
+247     251   250   252     4    180.0     28.35469  2
+253     256   255   265     4    180.0     2.70045   2
+265     269   267   268     4    180.0     28.35469  2
+267     271   269   270     4    180.0     2.97049   2
+267     269   271   282     4    90.0      1.08018   2
+269     271   282   284     4    160.888   1.75529   1
+269     271   282   284     4    90.0      -0.68860  1
+269     271   282   284     4    90.0      0.20253   2
+269     271   282   284     4    90.0      0.15393   3
+269     271   282   284     4    90.0      0.06751   4
+269     271   282   284     4    90.0      -0.02969  5
+271     284   282   283     4    180.0     28.35469  2
+276     280   279   281     4    180.0     28.35469  2
+282     286   284   285     4    180.0     2.97049   2
+282     284   286   292     4    90.0      1.08018   2
+286     293   292   294     4    180.0     28.35469  2
 
 [ moleculetype ]
 ;name            nrexcl
