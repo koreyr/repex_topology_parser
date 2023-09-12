@@ -1,0 +1,31 @@
+# This file was created Tue Sep 12 16:33:52 2023
+# Created by:
+#  :-) GROMACS - gmx energy, 2022.5-plumed_2.8.2-dev-20230203-f4e9bf68b5-dirty-unknown (double precision) (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx_d
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/jaya/work/test/async_lig47
+# Command line:
+#   gmx_d energy -f rerun_u.edr -o energy_u.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Proper Dih."
+@ s1 legend "Per. Imp. Dih."
+@ s2 legend "LJ-14"
+@ s3 legend "Coulomb-14"
+@ s4 legend "LJ (SR)"
+@ s5 legend "Coulomb (SR)"
+@ s6 legend "Potential"
+    0.000000  1002.951674  108.898388  319.507105  4522.268496  67743.048994  -540343.335610  -462476.538177
