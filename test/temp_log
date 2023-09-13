@@ -1,0 +1,36 @@
+ :-) GROMACS - gmx grompp, 2022.5-plumed_2.8.2-dev-20230203-f4e9bf68b5-dirty-unknown (-:
+
+Executable:   /usr/local/gromacs/bin/gmx_s
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/jaya/work/test/async_lig47
+Command line:
+  gmx_s grompp -f prod_now.mdp -o scalled.tpr -p scaled_topo/topol-1.0.top -r 0.gro -c 0.gro
+
+Ignoring obsolete mdp entry 'ns_type'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file prod_now.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+ERROR 1 [file topol-1.0.top, line 1008]:
+  Unknown bond_atomtype sC
+
+
+There was 1 note
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022.5-plumed_2.8.2-dev-20230203-f4e9bf68b5-dirty-unknown
+Source file: src/gromacs/gmxpreprocess/toppush.cpp (line 1030)
+
+Fatal error:
+There was 1 error in input file(s)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+Setting the LD random seed to -141623299
