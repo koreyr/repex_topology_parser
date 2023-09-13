@@ -191,6 +191,8 @@ shn          hn     0.00000  0.00000  A  1.06908e-01  1.57000e-02
 [ nonbond_params ]
   OB   HB     1      0.150   1.2552
   sOB  sHB     1      0.150   1.2552
+   OB  sHB     1      0.150   1.2552
+  sOB   HB     1      0.150   1.2552
 
  [ bondtypes ] 
 ; i    j  func       b0          kb
