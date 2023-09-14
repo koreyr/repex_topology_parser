@@ -961,7 +961,7 @@ ho             1   1.008000  0.00000000  A    0.053792465      0.0196648
 
 [ moleculetype ]
 ; Name            nrexcl
-Protein_chain_A     3
+Protein chain A     3
 
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
@@ -7263,7 +7263,7 @@ SOL		1
 ; i	funct	doh	dhh ---> same as standard tip4p
 1	1	0.09572	0.15139
 
-[ virtual_sites3 ]
+[ virtual sites3 ]
 ; Dummy from			funct	a		b
 4	1	2	3	1	0.131937768	0.131937768
 
