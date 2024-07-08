@@ -1,182 +1,132 @@
- [ defaults ] 
+;
+;   File HxD gromacs.top  was generated
+;   By user: f006nbr (541224)
+;   On host: discovery7.hpcc.dartmouth.edu
+;   At date: Thu. August  4 16:24:19 2022
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       , VERSION 3.4.3
+;   Executable:   
+;   Library dir:  /dartfs-hpc/admin/opt/common/GROMACS/share/gromacs/top
+;   Command line:
+;     
+;
+; Include a99sb-disp topology
+********************************************************************
+* The original ffamber ports were written by Eric J. Sorin,        *
+* CSU Long Beach, Dept. of Chem & Biochem, and have now been       *
+* integrated with the standard gromacs distribution.               *
+* (Please don't blame Eric for errors we might have introduced.)   *
+* For the implementation/validation, please read/cite:             * 
+* Sorin & Pande (2005). Biophys. J. 88(4), 2472-2493.              *
+* For related material and updates, please consult                 *
+* http://chemistry.csulb.edu/ffamber/                              *
+********************************************************************
+
+
+[ defaults ]
 ; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
 1               2               yes             0.5     0.8333
 
 [ atomtypes ]
-Br           35      79.90   0.0000  A  0.00000e+00  0.00000e+00
-sBr          Br      79.90   0.0000  A  0.00000e+00  0.00000e+00
-C            6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sC           C       12.01   0.0000  A  3.39967e-01  3.59824e-01
-C6           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sC6          C6      12.01   0.0000  A  3.39967e-01  3.59824e-01
-C5           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sC5          C5      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CA           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCA          CA      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CB           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCB          CB      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CC           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCC          CC      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CK           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCK          CK      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CM           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCM          CM      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CN           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCN          CN      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CQ           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCQ          CQ      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CR           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCR          CR      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CT           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sCT          CT      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C1           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC1          C1      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C3           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC3          C3      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C4           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC4          C4      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C7           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC7          C7      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C8           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC8          C8      12.01   0.0000  A  3.39967e-01  4.57730e-01
-C9           6       12.01   0.0000  A  3.39967e-01  4.57730e-01
-sC9          C9      12.01   0.0000  A  3.39967e-01  4.57730e-01
-CV           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCV          CV      12.01   0.0000  A  3.39967e-01  3.59824e-01
-CW           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sCW          CW      12.01   0.0000  A  3.39967e-01  3.59824e-01
-C*           6       12.01   0.0000  A  3.39967e-01  3.59824e-01
-sC*          C*      12.01   0.0000  A  3.39967e-01  3.59824e-01
-C0           20      40.08   0.0000  A  3.05240e-01  1.92376e+00
-sC0          C0      40.08   0.0000  A  3.05240e-01  1.92376e+00
-F            9       19.00   0.0000  A  3.11815e-01  2.55224e-01
-sF           F       19.00   0.0000  A  3.11815e-01  2.55224e-01
-H            1       1.008   0.0000  A  1.06908e-01  6.56888e-02
-sH           H       1.008   0.0000  A  1.06908e-01  6.56888e-02
-HB           1       1.008   0.0000  A  1.06908e-01  6.56888e-02
-sHB          HB      1.008   0.0000  A  1.06908e-01  6.56888e-02
-HC           1       1.008   0.0000  A  2.64953e-01  6.56888e-02
-sHC          HC      1.008   0.0000  A  2.64953e-01  6.56888e-02
-H1           1       1.008   0.0000  A  2.47135e-01  6.56888e-02
-sH1          H1      1.008   0.0000  A  2.47135e-01  6.56888e-02
-H2           1       1.008   0.0000  A  2.29317e-01  6.56888e-02
-sH2          H2      1.008   0.0000  A  2.29317e-01  6.56888e-02
-H3           1       1.008   0.0000  A  2.11499e-01  6.56888e-02
-sH3          H3      1.008   0.0000  A  2.11499e-01  6.56888e-02
-HA           1       1.008   0.0000  A  2.59964e-01  6.27600e-02
-sHA          HA      1.008   0.0000  A  2.59964e-01  6.27600e-02
-H4           1       1.008   0.0000  A  2.51055e-01  6.27600e-02
-sH4          H4      1.008   0.0000  A  2.51055e-01  6.27600e-02
-H5           1       1.008   0.0000  A  2.42146e-01  6.27600e-02
-sH5          H5      1.008   0.0000  A  2.42146e-01  6.27600e-02
-HO           1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHO          HO      1.008   0.0000  A  0.00000e+00  0.00000e+00
-HS           1       1.008   0.0000  A  1.06908e-01  6.56888e-02
-sHS          HS      1.008   0.0000  A  1.06908e-01  6.56888e-02
-HW           1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHW          HW      1.008   0.0000  A  0.00000e+00  0.00000e+00
-HP           1       1.008   0.0000  A  1.95998e-01  6.56888e-02
-sHP          HP      1.008   0.0000  A  1.95998e-01  6.56888e-02
-I            53      126.9   0.0000  A  4.18722e-01  1.67360e+00
-sI           I       126.9   0.0000  A  4.18722e-01  1.67360e+00
-Cl           17      35.45   0.0000  A  4.40104e-01  4.18400e-01
-sCl          Cl      35.45   0.0000  A  4.40104e-01  4.18400e-01
-Na           11      22.99   0.0000  A  3.32840e-01  1.15897e-02
-sNa          Na      22.99   0.0000  A  3.32840e-01  1.15897e-02
-IB           0       131.0   0.0000  A  8.90899e-01  4.18400e-01
-sIB          IB      131.0   0.0000  A  8.90899e-01  4.18400e-01
-MG           12     24.305   0.0000  A  1.41225e-01  3.74342e+00
-sMG          MG     24.305   0.0000  A  1.41225e-01  3.74342e+00
-N            7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sN           N       14.01   0.0000  A  3.25000e-01  7.11280e-01
-NA           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sNA          NA      14.01   0.0000  A  3.25000e-01  7.11280e-01
-NB           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sNB          NB      14.01   0.0000  A  3.25000e-01  7.11280e-01
-NC           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sNC          NC      14.01   0.0000  A  3.25000e-01  7.11280e-01
-N2           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sN2          N2      14.01   0.0000  A  3.25000e-01  7.11280e-01
-N3           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sN3          N3      14.01   0.0000  A  3.25000e-01  7.11280e-01
-N*           7       14.01   0.0000  A  3.25000e-01  7.11280e-01
-sN*          N*      14.01   0.0000  A  3.25000e-01  7.11280e-01
-O            8       16.00   0.0000  A  2.95992e-01  8.78640e-01
-sO           O       16.00   0.0000  A  2.95992e-01  8.78640e-01
-OB           8       16.00   0.0000  A  2.95992e-01  8.78640e-01
-sOB          OB      16.00   0.0000  A  2.95992e-01  8.78640e-01
-OW           8       16.00   0.0000  A  3.15061e-01  6.36386e-01
-sOW          OW      16.00   0.0000  A  3.15061e-01  6.36386e-01
-OH           8       16.00   0.0000  A  3.06647e-01  8.80314e-01
-sOH          OH      16.00   0.0000  A  3.06647e-01  8.80314e-01
-O3           8       16.00   0.0000  A  3.06647e-01  8.80314e-01
-sO3          O3      16.00   0.0000  A  3.06647e-01  8.80314e-01
-OS           8       16.00   0.0000  A  3.00001e-01  7.11280e-01
-sOS          OS      16.00   0.0000  A  3.00001e-01  7.11280e-01
-O2           8       16.00   0.0000  A  2.95992e-01  8.78640e-01
-sO2          O2      16.00   0.0000  A  2.95992e-01  8.78640e-01
-P            15      30.97   0.0000  A  3.74177e-01  8.36800e-01
-sP           P       30.97   0.0000  A  3.74177e-01  8.36800e-01
-S            16      32.06   0.0000  A  3.56359e-01  1.04600e+00
-sS           S       32.06   0.0000  A  3.56359e-01  1.04600e+00
-SH           16      32.06   0.0000  A  3.56359e-01  1.04600e+00
-sSH          SH      32.06   0.0000  A  3.56359e-01  1.04600e+00
-CU           29      63.55   0.0000  A  3.39967e-01  3.59824e-01
-sCU          CU      63.55   0.0000  A  3.39967e-01  3.59824e-01
-FE           26      55.00   0.0000  A  0.00000e+00  0.00000e+00
-sFE          FE      55.00   0.0000  A  0.00000e+00  0.00000e+00
-K            19      39.10   0.0000  A  4.73602e-01  1.37235e-03
-sK           K       39.10   0.0000  A  4.73602e-01  1.37235e-03
-Rb           37      85.47   0.0000  A  5.26699e-01  7.11280e-04
-sRb          Rb      85.47   0.0000  A  5.26699e-01  7.11280e-04
-Cs           55     132.91   0.0000  A  6.04920e-01  3.37230e-04
-sCs          Cs     132.91   0.0000  A  6.04920e-01  3.37230e-04
-OW_spc       8      15.9994   0.0000  A  3.16557e-01  6.50629e-01
-sOW_spc      OW_spc 15.9994   0.0000  A  3.16557e-01  6.50629e-01
-HW_spc       1      1.0080   0.0000  A  0.00000e+00  0.00000e+00
-sHW_spc      HW_spc 1.0080   0.0000  A  0.00000e+00  0.00000e+00
-Li           3        6.94   0.0000  A  2.02590e-01  7.65672e-02
-sLi          Li       6.94   0.0000  A  2.02590e-01  7.65672e-02
-Zn           30       65.4   0.0000  A  1.95998e-01  5.23000e-02
-sZn          Zn       65.4   0.0000  A  1.95998e-01  5.23000e-02
-HW_tip4pew   1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHW_tip4pew  HW_tip4pew  1.008   0.0000  A  0.00000e+00  0.00000e+00
-OW_tip4pew   8       16.00   0.0000  A  3.16435e-01  6.80946e-01
-sOW_tip4pew  OW_tip4pew  16.00   0.0000  A  3.16435e-01  6.80946e-01
-HW_tip4p     1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHW_tip4p    HW_tip4p  1.008   0.0000  A  0.00000e+00  0.00000e+00
-OW_tip4p     8       16.00   0.0000  A  3.15365e-01  6.48520e-01
-sOW_tip4p    OW_tip4p  16.00   0.0000  A  3.15365e-01  6.48520e-01
-HW_tip5p     1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHW_tip5p    HW_tip5p  1.008   0.0000  A  0.00000e+00  0.00000e+00
-OW_tip5p     8       16.00   0.0000  A  3.12000e-01  6.69440e-01
-sOW_tip5p    OW_tip5p  16.00   0.0000  A  3.12000e-01  6.69440e-01
-HW_tip4pd    1       1.008   0.0000  A  0.00000e+00  0.00000e+00
-sHW_tip4pd   HW_tip4pd  1.008   0.0000  A  0.00000e+00  0.00000e+00
-OW_tip4pd    8       16.00   0.0000  A  3.16500e-01  9.98989e-01
-sOW_tip4pd   OW_tip4pd  16.00   0.0000  A  3.16500e-01  9.98989e-01
-MW           0      0.0000   0.0000  A  0.00000e+00  0.00000e+00
-sMW          MW     0.0000   0.0000  A  0.00000e+00  0.00000e+00
-MCH3         0      0.0000   0.0000  A  0.00000e+00  0.00000e+00
-sMCH3        MCH3   0.0000   0.0000  A  0.00000e+00  0.00000e+00
-MNH3         0      0.0000   0.0000  A  0.00000e+00  0.00000e+00
-sMNH3        MNH3   0.0000   0.0000  A  0.00000e+00  0.00000e+00
-c3           6      12.010000 0.00000000  A   0.33977095    0.4510352
-sc3          c3     12.010000 0.00000000  A   0.33977095  4.51035e-01
-oh           8      16.000000 0.00000000  A   0.32428713     0.389112
-soh          oh     16.000000 0.00000000  A   0.32428713  3.89112e-01
-h1           1      1.008000 0.00000000  A   0.24219973    0.0870272
-sh1          h1     1.008000 0.00000000  A   0.24219973  8.70272e-02
-hc           1      1.008000 0.00000000  A    0.2600177    0.0870272
-shc          hc     1.008000 0.00000000  A    0.2600177  8.70272e-02
-ho           1      1.008000 0.00000000  A  0.053792465    0.0196648
-sho          ho     1.008000 0.00000000  A  0.053792465  1.96648e-02
+; name      at.num  mass     charge ptype  sigma      epsilon
+Br          35      79.90    0.0000  A   0.00000e+00  0.00000e+00
+C            6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+C6           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+C5           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CA           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CB           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CC           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CK           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CM           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CN           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CQ           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CR           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CT           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C1           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C3           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C4           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C7           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C8           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+C9           6      12.01    0.0000  A   3.39967e-01  4.57730e-01
+CV           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+CW           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+C*           6      12.01    0.0000  A   3.39967e-01  3.59824e-01
+C0          20      40.08    0.0000  A   3.05240e-01  1.92376e+00
+F            9      19.00    0.0000  A   3.11815e-01  2.55224e-01
+H            1       1.008   0.0000  A   1.06908e-01  6.56888e-02
+HB           1       1.008   0.0000  A   1.06908e-01  6.56888e-02
+HC           1       1.008   0.0000  A   2.64953e-01  6.56888e-02
+H1           1       1.008   0.0000  A   2.47135e-01  6.56888e-02
+H2           1       1.008   0.0000  A   2.29317e-01  6.56888e-02
+H3           1       1.008   0.0000  A   2.11499e-01  6.56888e-02
+HA           1       1.008   0.0000  A   2.59964e-01  6.27600e-02
+H4           1       1.008   0.0000  A   2.51055e-01  6.27600e-02
+H5           1       1.008   0.0000  A   2.42146e-01  6.27600e-02
+HO           1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+HS           1       1.008   0.0000  A   1.06908e-01  6.56888e-02
+HW           1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+HP           1       1.008   0.0000  A   1.95998e-01  6.56888e-02
+I           53     126.9     0.0000  A   4.18722e-01  1.67360e+00
+Cl          17      35.45    0.0000  A   4.40104e-01  4.18400e-01 ; SUB
+Na          11      22.99    0.0000  A   3.32840e-01  1.15897e-02 ; SUB
+IB           0     131.0     0.0000  A   8.90899e-01  4.18400e-01
+MG          12      24.305   0.0000  A   1.41225e-01  3.74342e+00
+N            7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+NA           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+NB           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+NC           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+N2           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+N3           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+N*           7      14.01    0.0000  A   3.25000e-01  7.11280e-01
+O            8      16.00    0.0000  A   2.95992e-01  8.78640e-01
+OB           8      16.00    0.0000  A   2.95992e-01  8.78640e-01
+OW           8      16.00    0.0000  A   3.15061e-01  6.36386e-01
+OH           8      16.00    0.0000  A   3.06647e-01  8.80314e-01
+O3           8      16.00    0.0000  A   3.06647e-01  8.80314e-01
+OS           8      16.00    0.0000  A   3.00001e-01  7.11280e-01
+O2           8      16.00    0.0000  A   2.95992e-01  8.78640e-01
+P           15      30.97    0.0000  A   3.74177e-01  8.36800e-01
+S           16      32.06    0.0000  A   3.56359e-01  1.04600e+00
+SH          16      32.06    0.0000  A   3.56359e-01  1.04600e+00
+CU          29      63.55    0.0000  A   3.39967e-01  3.59824e-01
+FE          26      55.00    0.0000  A   0.00000e+00  0.00000e+00
+K           19      39.10    0.0000  A   4.73602e-01  1.37235e-03
+Rb          37      85.47    0.0000  A   5.26699e-01  7.11280e-04
+Cs          55     132.91    0.0000  A   6.04920e-01  3.37230e-04
+; spc water - use only with spc.itp & settles
+OW_spc       8      15.9994  0.0000  A   3.16557e-01  6.50629e-01
+HW_spc       1       1.0080  0.0000  A   0.00000e+00  0.00000e+00
+Li           3       6.94    0.0000  A   2.02590e-01  7.65672e-02
+Zn          30      65.4     0.0000  A   1.95998e-01  5.23000e-02
+;tip4p-EW
+HW_tip4pew   1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4pew   8      16.00    0.0000  A   3.16435e-01  6.80946e-01
+; tip4p
+HW_tip4p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4p     8      16.00    0.0000  A   3.15365e-01  6.48520e-01
+;tip5p
+HW_tip5p     1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip5p     8      16.00    0.0000  A   3.12000e-01  6.69440e-01
+;tip4pd
+HW_tip4pd    1       1.008   0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4pd    8      16.00    0.0000  A   3.16500e-01  SUB1 ; 9.98989e-01
+; dummy defs
+; MW=Dummy mass for tip4p/EW/5p water extra point charge
+MW           0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
+; Dummy masses for rigid CH3 and NH3 groups
+MCH3         0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
+MNH3         0       0.0000  0.0000  A   0.00000e+00  0.00000e+00
 
 [ nonbond_params ]
+; i    j    funct    sigma   epsilon
   OB   HB     1      0.150   1.2552
-  sOB  sHB     1      0.150   1.2552
+  OW_tip4pd Cl 1 ; SUB
+  OW_tip4pd Na 1 ; SUB
 
- [ bondtypes ] 
+[ bondtypes ]
 ; i    j  func       b0          kb
  C   C1      1    0.15220  265265.6  ; Amber99Sb-disp
  C1  H1      1    0.10900  284512.0  ; Amber99Sb-disp
@@ -309,8 +259,9 @@ sho          ho     1.008000 0.00000000  A  0.053792465  1.96648e-02
  C6  CT      1    0.15220  265265.6  ; Amber99Sb-disp
  C1  HP      1    0.10900  284512.0  ; Amber99Sb-disp
 
- [ constrainttypes ] 
+[ constrainttypes ]
 ; this section is implemented manually from bond * angle values
+
 ; constraints for rigid CH3 groups
  MCH3   CT      2    0.166426
  MCH3   S       2    0.193875
@@ -318,6 +269,7 @@ sho          ho     1.008000 0.00000000  A  0.053792465  1.96648e-02
 ; constraints for rigid NH3 groups
  MNH3   CT      2    0.158254
  MNH3   MNH3    2    0.080229
+
 ; angle-derived constraints for OH and SH groups in proteins
 ; The constraint A-C is calculated from the angle A-B-C and bonds A-B, B-C.
   C     HO      2    0.195074
@@ -325,7 +277,8 @@ sho          ho     1.008000 0.00000000  A  0.053792465  1.96648e-02
   CT    HO      2    0.194132
   CT    HS      2    0.235935
 
- [ angletypes ] 
+
+[ angletypes ]
 ;  i    j    k  func       th0       cth
  C1  C   OH     1    110.000  669.440  ; Amber99Sb-disp
  C1  C   O      1    120.400  669.440  ; Amber99Sb-disp
@@ -657,970 +610,1034 @@ sho          ho     1.008000 0.00000000  A  0.053792465  1.96648e-02
  CT  C1  HP     1    109.500  418.400  ; Amber99Sb-disp
 
 [ dihedraltypes ]
-sC    sC1   sN    sO        4    180.0     4.60240   2
-sC    sC1   sN    sOB       4    180.0     4.60240   2
-sC    sC1   sN    sH        4    180.0     4.60240   2
-sC    sC1   sN    sHB       4    180.0     4.60240   2
-sC9   sO    sC    sOH       4    180.0     43.93200  2
-sCB   sCK   sN*   sCT       4    180.0     4.18400   2
-sC    sCM   sN*   sCT       4    180.0     4.18400   2
-sCT   sO    sC    sOH       4    180.0     43.93200  2
-sCT   sCV   sCC   sNA       4    180.0     4.60240   2
-sCT   sCW   sCC   sNB       4    180.0     4.60240   2
-sCT   sCC   sCW   sNB       4    180.0     4.60240   2
-sCT   sCW   sCC   sNA       4    180.0     4.60240   2
-sCB   sCT   sC*   sCW       4    180.0     4.60240   2
-sCA   sCA   sCA   sCT       4    180.0     4.60240   2
-sC    sCM   sCM   sCT       4    180.0     4.60240   2
-sCM   sN2   sCA   sNC       4    180.0     4.60240   2
-sCB   sN2   sCA   sNC       4    180.0     4.60240   2
-sN2   sNA   sCA   sNC       4    180.0     4.60240   2
-sCA   sCA   sC    sOH       4    180.0     4.60240   2
-sCA   sCA   sCA   sOH       4    180.0     4.60240   2
-sH5   sO    sC    sOH       4    180.0     4.60240   2
-sH5   sO    sC    sOS       4    180.0     4.60240   2
-sCM   sCT   sCM   sHA       4    180.0     4.60240   2
-sBr   sCA   sCA   sCA       4    180.0     4.60240   2
-sCM   sH4   sC    sO        4    180.0     4.60240   2
-sC    sCT   sN    sH        4    180.0     4.60240   2
-sC    sCT   sN    sHB       4    180.0     4.60240   2
-sC    sCT   sN    sO        4    180.0     4.60240   2
-sC    sC7   sN    sO        4    180.0     4.60240   2
-sC    sCT   sN    sOB       4    180.0     4.60240   2
-sC    sC7   sN    sOB       4    180.0     4.60240   2
-sC    sC7   sN    sH        4    180.0     4.60240   2
-sC    sC7   sN    sHB       4    180.0     4.60240   2
-sC5   sCT   sN    sO        4    180.0     4.60240   2
-sC5   sCT   sN    sOB       4    180.0     4.60240   2
-sC5   sCT   sN    sH        4    180.0     4.60240   2
-sC5   sCT   sN    sHB       4    180.0     4.60240   2
-X     sCT   sN    sC1       4    180.0     4.18400   2
-X     sCT   sN    sC7       4    180.0     4.18400   2
-X     sO2   sC6   sO2       4    180.0     43.93200  2
-X     sO2   sC    sO2       4    180.0     43.93200  2
-X     sN2   sCA   sN2       4    180.0     43.93200  2
-X     sCT   sN    sCT       4    180.0     4.18400   2
-X     X     sC    sO        4    180.0     43.93200  2
-X     X     sC    sOB       4    180.0     43.93200  2
-X     X     sN    sH        4    180.0     4.18400   2
-X     X     sN2   sH        4    180.0     4.18400   2
-X     X     sNA   sH        4    180.0     4.18400   2
-X     X     sCA   sHA       4    180.0     4.60240   2
-X     X     sCW   sH4       4    180.0     4.60240   2
-X     X     sCR   sH5       4    180.0     4.60240   2
-X     X     sCV   sH4       4    180.0     4.60240   2
-X     X     sCQ   sH5       4    180.0     4.60240   2
-X     X     sCK   sH5       4    180.0     4.60240   2
-X     X     sCM   sH4       4    180.0     4.60240   2
-X     X     sCM   sHA       4    180.0     4.60240   2
-X     X     sCA   sH4       4    180.0     4.60240   2
-X     X     sCA   sH5       4    180.0     4.60240   2
-X     X     sC5   sO        4    180.0     43.93200  2
-sC8   sCT   sC    sN        9    0.0       0.83680   1
-sC8   sCT   sC    sN        9    0.0       0.83680   2
-sC8   sCT   sC    sN        9    0.0       1.67360   3
-sC8   sCT   sN    sC        9    0.0       8.36800   1
-sC8   sCT   sN    sC        9    0.0       8.36800   2
-sC8   sCT   sN    sC        9    0.0       1.67360   3
-sC    sCT   sC8   sO3       9    180.0     4.18400   1
-sC    sCT   sC8   sOH       9    180.0     3.76560   1
-sC    sCT   sCT   sC4       9    0.0       2.39074   1
-sC    sCT   sCT   sC4       9    180.0     1.49913   2
-sC    sCT   sCT   sC4       9    0.0       0.56400   3
-sC    sCT   sCT   sC5       9    0.0       0.71421   1
-sC    sCT   sCT   sC5       9    180.0     2.49241   2
-sC    sCT   sCT   sC5       9    0.0       0.49580   3
-sC    sCT   sCT   sC5       9    180.0     1.74556   4
-sC    sCT   sCT   sC5       9    0.0       0.43597   5
-sC    sCT   sCT   sC5       9    180.0     0.42142   6
-sC    sCT   sCT   sC*       9    0.0       1.21336   1
-sC    sCT   sCT   sC9       9    0.0       1.25520   1
-sC    sCT   sCT   sCA       9    0.0       2.17568   1
-sC    sCT   sCT   sCC       9    0.0       2.92880   1
-sC    sCT   sCT   sSH       9    180.0     0.66944   1
-sCl   sCT   sCT   sCl       9    180.0     1.88280   1
-sCM   sCM   sC    sO        9    180.0     9.10020   2
-sCM   sCM   sC    sO        9    0.0       1.25520   3
-sC    sN    sC1   sC        9    0.0       0.35267   1
-sC    sN    sC1   sC        9    0.0       1.59541   2
-sC    sN    sC1   sC        9    180.0     0.08381   3
-sC    sN    sC1   sC        9    0.0       0.32396   4
-sC    sN    sC7   sC        9    0.0       1.12968   2
-sC    sN    sC7   sC        9    0.0       1.75728   3
-sC    sN    sCT   sC        9    180.0     0.14226   1
-sC    sN    sCT   sC        9    0.0       1.40164   2
-sC    sN    sCT   sC        9    0.0       2.27610   3
-sC    sN    sCT   sC        9    0.0       0.33472   4
-sCT   sC7   sC    sN        9    0.0       0.83680   1
-sCT   sC7   sC    sN        9    0.0       0.83680   2
-sCT   sC7   sC    sN        9    0.0       1.67360   3
-sCT   sC7   sN    sC        9    0.0       8.36800   1
-sCT   sC7   sN    sC        9    0.0       8.36800   2
-sCT   sC7   sN    sC        9    0.0       1.67360   3
-sCT   sC9   sC    sO2       9    180.0     2.51040   2
-sCT   sC9   sC    sO        9    180.0     2.51040   2
-sCT   sC9   sC    sOB       9    180.0     2.51040   2
-sCT   sCM   sCM   sCT       9    180.0     27.82360  2
-sCT   sCM   sCM   sCT       9    180.0     7.94960   1
-sCT   sCT   sC4   sCT       9    0.0       0.62760   3
-sCT   sCT   sC5   sO        9    180.0     4.18400   1
-sCT   sCT   sC6   sO2       9    180.0     0.77822   4
-sCT   sCT   sC6   sO2       9    180.0     1.48114   6
-sCT   sCT   sC6   sO2       9    180.0     3.65263   2
-sCT   sCT   sC*   sCW       9    0.0       5.02080   1
-sCT   sCT   sC    sN        9    0.0       0.83680   1
-sCT   sCT   sC    sN        9    0.0       0.83680   2
-sCT   sCT   sC    sN        9    0.0       1.67360   3
-sCT   sCT   sCT   sC3       9    0.0       0.62760   3
-sCT   sCT   sCT   sC7       9    0.0       0.75312   3
-sCT   sCT   sCT   sC7       9    180.0     0.83680   1
-sCT   sCT   sCT   sC7       9    180.0     1.04600   2
-sCT   sCT   sCT   sCT       9    0.0       0.62760   3
-sCT   sCT   sN    sC        9    0.0       1.67360   3
-sCT   sCT   sN    sC        9    0.0       8.36800   1
-sCT   sCT   sN    sC        9    0.0       8.36800   2
-sCT   sCT   sOS   sC        9    0.0       1.60247   3
-sCT   sCT   sOS   sC        9    180.0     3.34720   1
-sCT   sCT   sOS   sCT       9    0.0       1.60247   3
-sCT   sCT   sOS   sCT       9    180.0     0.41840   2
-sCT   sCT   sSH   sHS       9    0.0       0.83680   3
-sCT   sCT   sSH   sHS       9    0.0       2.09200   2
-sCT   sOS   sCT   sN*       9    0.0       1.60247   3
-sCT   sOS   sCT   sN*       9    0.0       2.71960   2
-sCT   sOS   sCT   sOS       9    0.0       0.41840   3
-sCT   sOS   sCT   sOS       9    180.0     3.55640   2
-sCT   sOS   sCT   sOS       9    180.0     5.64840   1
-sCT   sS    sS    sCT       9    0.0       14.64400  2
-sCT   sS    sS    sCT       9    0.0       2.51040   3
-sF    sCT   sCT   sF        9    180.0     5.02080   1
-sH1   sC1   sC    sO        9    0.0       3.34720   1
-sH1   sC1   sC    sO        9    180.0     0.33472   3
-sH1   sC7   sC    sO        9    0.0       3.34720   1
-sH1   sC7   sC    sO        9    180.0     0.33472   3
-sH1   sCT   sC    sO        9    0.0       3.34720   1
-sH1   sCT   sC    sO        9    180.0     0.33472   3
-sH1   sC1   sC    sOB       9    0.0       3.34720   1
-sH1   sC1   sC    sOB       9    180.0     0.33472   3
-sH1   sC7   sC    sOB       9    0.0       3.34720   1
-sH1   sC7   sC    sOB       9    180.0     0.33472   3
-sH1   sCT   sC    sOB       9    0.0       3.34720   1
-sH1   sCT   sC    sOB       9    180.0     0.33472   3
-sH1   sCT   sCT   sBr       9    0.0       2.30120   1
-sH1   sCT   sCT   sCl       9    0.0       1.04600   1
-sH1   sCT   sCT   sF        9    0.0       0.79496   1
-sH1   sCT   sCT   sOH       9    0.0       1.04600   1
-sH1   sCT   sCT   sOS       9    0.0       1.04600   1
-sHC   sC3   sCT   sCT       9    0.0       0.66944   3
-sHC   sC4   sCT   sCT       9    0.0       0.66944   3
-sHC   sC4   sCT   sHC       9    0.0       0.62760   3
-sHC   sCT   sC3   sHC       9    0.0       0.62760   3
-sHC   sCT   sC4   sCT       9    0.0       0.66944   3
-sHC   sCT   sC5   sO        9    0.0       3.34720   1
-sHC   sCT   sC5   sO        9    180.0     0.33472   3
-sHC   sCT   sCM   sCM       9    0.0       4.81160   1
-sHC   sCT   sCM   sCM       9    180.0     1.58992   3
-sHC   sCT   sC    sO        9    0.0       3.34720   1
-sHC   sCT   sC    sO        9    180.0     0.33472   3
-sHC   sCT   sC    sOB       9    0.0       3.34720   1
-sHC   sCT   sC    sOB       9    180.0     0.33472   3
-sHC   sCT   sCT   sBr       9    0.0       2.30120   1
-sHC   sCT   sCT   sC3       9    0.0       0.66944   3
-sHC   sCT   sCT   sC4       9    0.0       0.66944   3
-sHC   sCT   sCT   sC7       9    0.0       0.66944   3
-sHC   sCT   sCT   sCl       9    0.0       1.04600   1
-sHC   sCT   sCT   sCT       9    0.0       0.66944   3
-sHC   sCT   sCT   sF        9    0.0       0.79496   1
-sHC   sCT   sCT   sHC       9    0.0       0.62760   3
-sHC   sCT   sCT   sOH       9    0.0       1.04600   1
-sHC   sCT   sCT   sOS       9    0.0       1.04600   1
-sH    sN    sC5   sO        9    0.0       8.36800   1
-sH    sN    sC5   sO        9    180.0     10.46000  2
-sH    sN    sC    sO        9    0.0       8.36800   1
-sH    sN    sC    sO        9    180.0     10.46000  2
-sHB   sN    sC    sOB       9    0.0       8.36800   1
-sHB   sN    sC    sOB       9    180.0     10.46000  2
-sHO   sO3   sC8   sCT       9    0.0       0.35982   1
-sHO   sO3   sC8   sCT       9    0.0       0.41840   3
-sHO   sO3   sC8   sCT       9    180.0     0.68199   2
-sHO   sO3   sC8   sH1       9    0.0       0.41840   3
-sHO   sOH   sC8   sCT       9    0.0       0.25104   2
-sHO   sOH   sC8   sCT       9    0.0       0.83680   3
-sHO   sOH   sC8   sCT       9    0.0       3.13800   1
-sHO   sOH   sC    sO        9    0.0       7.94960   1
-sHO   sOH   sC    sO        9    180.0     9.62320   2
-sHO   sOH   sCT   sCT       9    0.0       0.66944   3
-sHO   sOH   sCT   sCT       9    0.0       1.04600   1
-sN3   sCT   sCT   sC3       9    0.0       0.81630   1
-sN3   sCT   sCT   sC3       9    180.0     3.53925   2
-sN3   sCT   sCT   sC6       9    180.0     11.02568  1
-sN3   sCT   sCT   sC6       9    180.0     4.98022   2
-sN3   sCT   sCT   sC6       9    180.0     0.02845   3
-sN3   sCT   sCT   sC6       9    0.0       1.76858   4
-sN3   sCT   sCT   sC6       9    0.0       0.96943   5
-sN3   sCT   sCT   sC6       9    180.0     0.89009   6
-sN    sC1   sC    sN        9    180.0     2.69445   1
-sN    sC1   sC    sN        9    180.0     6.68666   2
-sN    sC1   sC    sN        9    180.0     1.67111   3
-sN    sC1   sC    sN        9    0.0       0.31419   4
-sN    sC5   sCT   sCT       9    180.0     4.37772   1
-sN    sC5   sCT   sCT       9    180.0     0.75730   2
-sN    sC5   sCT   sCT       9    180.0     0.14811   3
-sN    sC5   sCT   sCT       9    0.0       0.41966   4
-sN    sC5   sCT   sCT       9    0.0       0.54308   5
-sN    sC5   sCT   sCT       9    180.0     0.44373   6
-sN    sC7   sC    sN        9    180.0     1.88280   1
-sN    sC7   sC    sN        9    180.0     6.61072   2
-sN    sC7   sC    sN        9    180.0     2.30120   3
-sN    sCT   sC8   sCT       9    0.0       0.25104   1
-sN    sCT   sC8   sCT       9    180.0     2.09200   2
-sN    sCT   sC8   sCT       9    0.0       0.62760   3
-sN    sCT   sC8   sCT       9    180.0     0.27196   4
-sN    sCT   sC8   sO3       9    180.0     0.33472   1
-sN    sCT   sC8   sOH       9    180.0     1.04600   1
-sN    sCT   sC    sN        9    360.0     0.82425   1
-sN    sCT   sC    sN        9    180.0     6.04588   2
-sN    sCT   sC    sN        9    180.0     2.00414   3
-sN    sCT   sC    sN        9    360.0     0.07991   4
-sN    sCT   sC    sN        9    360.0     0.01674   5
-sN    sCT   sCT   sC3       9    0.0       0.81630   1
-sN    sCT   sCT   sC3       9    180.0     3.53925   2
-sN    sCT   sCT   sC5       9    180.0     2.63592   1
-sN    sCT   sCT   sC6       9    180.0     12.05410  1
-sN    sCT   sCT   sC6       9    180.0     5.06682   2
-sN    sCT   sCT   sC6       9    0.0       0.25941   3
-sN    sCT   sCT   sC6       9    0.0       1.02508   4
-sN    sCT   sCT   sC6       9    0.0       0.54810   5
-sN    sCT   sCT   sC6       9    180.0     0.59413   6
-sN    sCT   sCT   sC9       9    0.0       0.41840   1
-sN    sCT   sCT   sCC       9    180.0     1.67360   1
-sN    sCT   sCT   sSH       9    180.0     2.30120   1
-sN    sCT   sCT   sSH       9    180.0     2.63592   2
-sN    sCT   sCT   sSH       9    180.0     0.25104   3
-sN    sCT   sCT   sSH       9    180.0     0.12552   4
-sO    sC    sOS   sCT       9    180.0     5.85760   1
-sO    sC    sOS   sCT       9    180.0     11.29680  2
-sOH   sCT   sCT   sOH       9    0.0       0.60250   3
-sOH   sCT   sCT   sOH       9    0.0       4.91620   2
-sOH   sP    sOS   sCT       9    0.0       1.04600   3
-sOH   sP    sOS   sCT       9    0.0       5.02080   2
-sOS   sCT   sCT   sOH       9    0.0       0.60250   3
-sOS   sCT   sCT   sOH       9    0.0       4.91620   2
-sOS   sCT   sCT   sOS       9    0.0       4.91620   2
-sOS   sCT   sCT   sOS       9    0.0       0.60250   3
-sOS   sCT   sN*   sCK       9    0.0       10.46000  1
-sOS   sCT   sN*   sCM       9    0.0       10.46000  1
-sOS   sP    sOS   sCT       9    0.0       5.02080   2
-sOS   sP    sOS   sCT       9    0.0       1.04600   3
-sN    sCT   sCT   sCA       9    0.0       0.00000   0
-sN    sCT   sCT   sC*       9    0.0       0.00000   0
-sCT   sCT   sC9   sS        9    0.0       0.00000   0
-sCT   sCT   sC9   sCT       9    0.0       0.00000   0
-X     sC1   sN3   X         9    0.0       0.65084   3
-X     sC5   sN    X         9    180.0     10.46000  2
-X     sC7   sCT   X         9    0.0       0.65084   3
-X     sC7   sN3   X         9    0.0       0.65084   3
-X     sC8   sO3   X         9    0.0       0.69873   3
-X     sC8   sOH   X         9    0.0       0.69873   3
-X     sC9   sS    X         9    0.0       1.39327   3
-X     sCA   sCA   X         9    180.0     15.16700  2
-X     sCA   sCB   X         9    180.0     14.64400  2
-X     sCA   sCM   X         9    180.0     10.66920  2
-X     sCA   sCN   X         9    180.0     15.16700  2
-X     sCA   sN2   X         9    180.0     10.04160  2
-X     sCA   sNA   X         9    180.0     6.27600   2
-X     sCA   sNC   X         9    180.0     20.08320  2
-X     sCA   sOH   X         9    180.0     3.76560   2
-X     sCB   sCB   X         9    180.0     22.80280  2
-X     sCB   sCN   X         9    180.0     12.55200  2
-X     sCB   sNB   X         9    180.0     10.66920  2
-X     sCB   sNC   X         9    180.0     17.36360  2
-X     sCB   sN*   X         9    180.0     6.90360   2
-X     sC    sCA   X         9    180.0     15.16700  2
-X     sC    sCB   X         9    180.0     12.55200  2
-X     sC*   sCB   X         9    180.0     7.00820   2
-X     sCC   sCV   X         9    180.0     21.54760  2
-X     sCC   sCW   X         9    180.0     22.48900  2
-X     sC    sCM   X         9    180.0     9.10020   2
-X     sCC   sNA   X         9    180.0     5.85760   2
-X     sCC   sNB   X         9    180.0     10.04160  2
-X     sC*   sCW   X         9    180.0     27.30060  2
-X     sC    sC    X         9    180.0     15.16700  2
-X     sCK   sNB   X         9    180.0     41.84000  2
-X     sCK   sN*   X         9    180.0     7.11280   2
-X     sCM   sCM   X         9    180.0     27.82360  2
-X     sCM   sN*   X         9    180.0     7.74040   2
-X     sCM   sOS   X         9    180.0     4.39320   2
-X     sC    sNA   X         9    180.0     5.64840   2
-X     sC    sNC   X         9    180.0     16.73600  2
-X     sCN   sNA   X         9    180.0     6.38060   2
-X     sC    sN    X         9    180.0     10.46000  2
-X     sC    sN*   X         9    180.0     6.06680   2
-X     sC    sOH   X         9    180.0     9.62320   2
-X     sC    sOS   X         9    180.0     11.29680  2
-X     sC    sO    X         9    180.0     11.71520  2
-X     sC    sOB   X         9    180.0     11.71520  2
-X     sCQ   sNC   X         9    180.0     28.45120  2
-X     sCR   sNA   X         9    180.0     9.72780   2
-X     sCR   sNB   X         9    180.0     20.92000  2
-X     sCT   sC8   X         9    0.0       0.64852   3
-X     sCT   sC9   X         9    0.0       0.64852   3
-X     sCT   sCT   X         9    0.0       0.65084   3
-X     sCT   sN3   X         9    0.0       0.65084   3
-X     sCT   sOH   X         9    0.0       0.69733   3
-X     sCT   sOS   X         9    0.0       1.60387   3
-X     sCT   sSH   X         9    0.0       1.04600   3
-X     sCT   sS    X         9    0.0       1.39467   3
-X     sCV   sNB   X         9    180.0     10.04160  2
-X     sCW   sNA   X         9    180.0     6.27600   2
-X     sOH   sP    X         9    0.0       1.04600   3
-X     sOS   sP    X         9    0.0       1.04600   3
-X     sC1   sN    X         9    0.0       0.00000   0
-X     sC    sC1   X         9    0.0       0.00000   0
-X     sC    sC9   X         9    0.0       0.00000   0
-X     sC    sCT   X         9    0.0       0.00000   0
-X     sCA   sCT   X         9    0.0       0.00000   0
-X     sCC   sCT   X         9    0.0       0.00000   0
-X     sCM   sCT   X         9    0.0       0.00000   0
-X     sCT   sN    X         9    0.0       0.00000   0
-X     sCT   sN*   X         9    0.0       0.00000   0
-X     sCT   sN2   X         9    0.0       0.00000   0
-X     sC*   sCT   X         9    0.0       0.00000   0
-X     sC7   sN    X         9    0.0       0.00000   0
-X     sC    sC7   X         9    0.0       0.00000   0
-X     sC5   sCT   X         9    0.0       0.00000   0
-X     sC6   sCT   X         9    0.0       0.00000   0
+;i  j   k  l	 func      phase      kd      pn
+ C   C1  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C1  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C9  O   C   OH    4     180.0     43.93200     2  ; Amber99Sb-disp
+ CB  CK  N*  CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ C   CM  N*  CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ CT  O   C   OH    4     180.0     43.93200     2  ; Amber99Sb-disp
+ CT  CV  CC  NA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CW  CC  NB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CC  CW  NB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CT  CW  CC  NA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CB  CT  C*  CW    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  CA  CT    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CM  CM  CT    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  N2  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CB  N2  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ N2  NA  CA  NC    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  C   OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CA  CA  CA  OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ H5  O   C   OH    4     180.0      4.60240     2  ; Amber99Sb-disp
+ H5  O   C   OS    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  CT  CM  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ Br  CA  CA  CA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ CM  H4  C   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   CT  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C   C7  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   O     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   OB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   H     4     180.0      4.60240     2  ; Amber99Sb-disp
+ C5  CT  N   HB    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   CT  N   C1    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   CT  N   C7    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   O2  C6  O2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   O2  C   O2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   N2  CA  N2    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   CT  N   CT    4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   C   O     4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   X   C   OB    4     180.0     43.93200     2  ; Amber99Sb-disp
+ X   X   N   H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   N2  H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   NA  H     4     180.0      4.18400     2  ; Amber99Sb-disp
+ X   X   CA  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CW  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CR  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CV  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CQ  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CK  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CM  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CM  HA    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CA  H4    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   CA  H5    4     180.0      4.60240     2  ; Amber99Sb-disp
+ X   X   C5  O     4     180.0     43.93200     2  ; Amber99Sb-disp
+
+[ dihedraltypes ]
+;i   j   k   l	   func	
+ C8  CT  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ C8  CT  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ C8  CT  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ C8  CT  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ C   CT  C8  O3    9     180.0      4.18400     1  ; Amber99Sb-disp
+ C   CT  C8  OH    9     180.0      3.76560     1  ; Amber99Sb-disp
+ C   CT  CT  C4    9       0.0      2.39074     1  ; Amber99Sb-disp
+ C   CT  CT  C4    9     180.0      1.49913     2  ; Amber99Sb-disp
+ C   CT  CT  C4    9       0.0      0.56400     3  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.71421     1  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      2.49241     2  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.49580     3  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      1.74556     4  ; Amber99Sb-disp
+ C   CT  CT  C5    9       0.0      0.43597     5  ; Amber99Sb-disp
+ C   CT  CT  C5    9     180.0      0.42142     6  ; Amber99Sb-disp
+ C   CT  CT  C*    9       0.0      1.21336     1  ; Amber99Sb-disp
+ C   CT  CT  C9    9       0.0      1.25520     1  ; Amber99Sb-disp
+ C   CT  CT  CA    9       0.0      2.17568     1  ; Amber99Sb-disp
+ C   CT  CT  CC    9       0.0      2.92880     1  ; Amber99Sb-disp
+ C   CT  CT  SH    9     180.0      0.66944     1  ; Amber99Sb-disp
+ Cl  CT  CT  Cl    9     180.0      1.88280     1  ; Amber99Sb-disp
+ CM  CM  C   O     9     180.0      9.10020     2  ; Amber99Sb-disp
+ CM  CM  C   O     9       0.0      1.25520     3  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      0.35267     1  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      1.59541     2  ; Amber99Sb-disp
+ C   N   C1  C     9     180.0      0.08381     3  ; Amber99Sb-disp
+ C   N   C1  C     9       0.0      0.32396     4  ; Amber99Sb-disp
+ C   N   C7  C     9       0.0      1.12968     2  ; Amber99Sb-disp
+ C   N   C7  C     9       0.0      1.75728     3  ; Amber99Sb-disp
+ C   N   CT  C     9     180.0      0.14226     1  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      1.40164     2  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      2.27610     3  ; Amber99Sb-disp
+ C   N   CT  C     9       0.0      0.33472     4  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9     180.0      0.83680     1  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9     180.0      1.04600     2  ; Amber99Sb-disp
+ ;CT  C4  CT  CT    9       0.0      0.75312     3  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ CT  C7  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ CT  C7  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  C9  C   O2    9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  C9  C   O     9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  C9  C   OB    9     180.0      2.51040     2  ; Amber99Sb-disp
+ CT  CM  CM  CT    9     180.0     27.82360     2  ; Amber99Sb-disp
+ CT  CM  CM  CT    9     180.0      7.94960     1  ; Amber99Sb-disp
+ CT  CT  C4  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  C5  O     9     180.0      4.18400     1  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      0.77822     4  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      1.48114     6  ; Amber99Sb-disp
+ CT  CT  C6  O2    9     180.0      3.65263     2  ; Amber99Sb-disp
+ CT  CT  C*  CW    9       0.0      5.02080     1  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      0.83680     1  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      0.83680     2  ; Amber99Sb-disp
+ CT  CT  C   N     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  CT  CT  C3    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  CT  C7    9       0.0      0.75312     3  ; Amber99Sb-disp
+ CT  CT  CT  C7    9     180.0      0.83680     1  ; Amber99Sb-disp
+ CT  CT  CT  C7    9     180.0      1.04600     2  ; Amber99Sb-disp
+ CT  CT  CT  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      1.67360     3  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      8.36800     1  ; Amber99Sb-disp
+ CT  CT  N   C     9       0.0      8.36800     2  ; Amber99Sb-disp
+ CT  CT  OS  C     9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  CT  OS  C     9     180.0      3.34720     1  ; Amber99Sb-disp
+ CT  CT  OS  CT    9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  CT  OS  CT    9     180.0      0.41840     2  ; Amber99Sb-disp
+ CT  CT  SH  HS    9       0.0      0.83680     3  ; Amber99Sb-disp
+ CT  CT  SH  HS    9       0.0      2.09200     2  ; Amber99Sb-disp
+ CT  OS  CT  N*    9       0.0      1.60247     3  ; Amber99Sb-disp
+ CT  OS  CT  N*    9       0.0      2.71960     2  ; Amber99Sb-disp
+ CT  OS  CT  OS    9       0.0      0.41840     3  ; Amber99Sb-disp
+ CT  OS  CT  OS    9     180.0      3.55640     2  ; Amber99Sb-disp
+ CT  OS  CT  OS    9     180.0      5.64840     1  ; Amber99Sb-disp
+ CT  S   S   CT    9       0.0     14.64400     2  ; Amber99Sb-disp
+ CT  S   S   CT    9       0.0      2.51040     3  ; Amber99Sb-disp
+ F   CT  CT  F     9     180.0      5.02080     1  ; Amber99Sb-disp
+ H1  C1  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C1  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C7  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C7  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  CT  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C1  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C1  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  C7  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  C7  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ H1  CT  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ H1  CT  CT  Br    9       0.0      2.30120     1  ; Amber99Sb-disp
+ H1  CT  CT  Cl    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H1  CT  CT  F     9       0.0      0.79496     1  ; Amber99Sb-disp
+ H1  CT  CT  OH    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H1  CT  CT  OS    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  C3  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  C4  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  C4  CT  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  C3  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  C4  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  C5  O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C5  O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  CM  CM    9       0.0      4.81160     1  ; Amber99Sb-disp
+ HC  CT  CM  CM    9     180.0      1.58992     3  ; Amber99Sb-disp
+ HC  CT  C   O     9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C   O     9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  C   OB    9       0.0      3.34720     1  ; Amber99Sb-disp
+ HC  CT  C   OB    9     180.0      0.33472     3  ; Amber99Sb-disp
+ HC  CT  CT  Br    9       0.0      2.30120     1  ; Amber99Sb-disp
+ HC  CT  CT  C3    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  C4    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  C7    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  Cl    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  CT  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HC  CT  CT  F     9       0.0      0.79496     1  ; Amber99Sb-disp
+ HC  CT  CT  HC    9       0.0      0.62760     3  ; Amber99Sb-disp
+ HC  CT  CT  OH    9       0.0      1.04600     1  ; Amber99Sb-disp
+ HC  CT  CT  OS    9       0.0      1.04600     1  ; Amber99Sb-disp
+ H   N   C5  O     9       0.0      8.36800     1  ; Amber99Sb-disp
+ H   N   C5  O     9     180.0     10.46000     2  ; Amber99Sb-disp
+ H   N   C   O     9       0.0      8.36800     1  ; Amber99Sb-disp
+ H   N   C   O     9     180.0     10.46000     2  ; Amber99Sb-disp
+ HB  N   C   OB    9       0.0      8.36800     1  ; Amber99Sb-disp
+ HB  N   C   OB    9     180.0     10.46000     2  ; Amber99Sb-disp
+ HO  O3  C8  CT    9       0.0      0.35982     1  ; Amber99Sb-disp
+ HO  O3  C8  CT    9       0.0      0.41840     3  ; Amber99Sb-disp
+ HO  O3  C8  CT    9     180.0      0.68199     2  ; Amber99Sb-disp
+ HO  O3  C8  H1    9       0.0      0.41840     3  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      0.25104     2  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      0.83680     3  ; Amber99Sb-disp
+ HO  OH  C8  CT    9       0.0      3.13800     1  ; Amber99Sb-disp
+ HO  OH  C   O     9       0.0      7.94960     1  ; Amber99Sb-disp
+ HO  OH  C   O     9     180.0      9.62320     2  ; Amber99Sb-disp
+ HO  OH  CT  CT    9       0.0      0.66944     3  ; Amber99Sb-disp
+ HO  OH  CT  CT    9       0.0      1.04600     1  ; Amber99Sb-disp
+ N3  CT  CT  C3    9       0.0      0.81630     1  ; Amber99Sb-disp
+ N3  CT  CT  C3    9     180.0      3.53925     2  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0     11.02568     1  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      4.98022     2  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      0.02845     3  ; Amber99Sb-disp
+ N3  CT  CT  C6    9       0.0      1.76858     4  ; Amber99Sb-disp
+ N3  CT  CT  C6    9       0.0      0.96943     5  ; Amber99Sb-disp
+ N3  CT  CT  C6    9     180.0      0.89009     6  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      2.69445     1  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      6.68666     2  ; Amber99Sb-disp
+ N   C1  C   N     9     180.0      1.67111     3  ; Amber99Sb-disp
+ N   C1  C   N     9       0.0      0.31419     4  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      4.37772     1  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.75730     2  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.14811     3  ; Amber99Sb-disp
+ N   C5  CT  CT    9       0.0      0.41966     4  ; Amber99Sb-disp
+ N   C5  CT  CT    9       0.0      0.54308     5  ; Amber99Sb-disp
+ N   C5  CT  CT    9     180.0      0.44373     6  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      1.88280     1  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      6.61072     2  ; Amber99Sb-disp
+ N   C7  C   N     9     180.0      2.30120     3  ; Amber99Sb-disp
+ N   CT  C8  CT    9       0.0      0.25104     1  ; Amber99Sb-disp
+ N   CT  C8  CT    9     180.0      2.09200     2  ; Amber99Sb-disp
+ N   CT  C8  CT    9       0.0      0.62760     3  ; Amber99Sb-disp
+ N   CT  C8  CT    9     180.0      0.27196     4  ; Amber99Sb-disp
+ N   CT  C8  O3    9     180.0      0.33472     1  ; Amber99Sb-disp
+ N   CT  C8  OH    9     180.0      1.04600     1  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.82425     1  ; Amber99Sb-disp
+ N   CT  C   N     9     180.0      6.04588     2  ; Amber99Sb-disp
+ N   CT  C   N     9     180.0      2.00414     3  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.07991     4  ; Amber99Sb-disp
+ N   CT  C   N     9     360.0      0.01674     5  ; Amber99Sb-disp
+ N   CT  CT  C3    9       0.0      0.81630     1  ; Amber99Sb-disp
+ N   CT  CT  C3    9     180.0      3.53925     2  ; Amber99Sb-disp
+ N   CT  CT  C5    9     180.0      2.63592     1  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0     12.05410     1  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0      5.06682     2  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      0.25941     3  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      1.02508     4  ; Amber99Sb-disp
+ N   CT  CT  C6    9       0.0      0.54810     5  ; Amber99Sb-disp
+ N   CT  CT  C6    9     180.0      0.59413     6  ; Amber99Sb-disp
+ N   CT  CT  C9    9       0.0      0.41840     1  ; Amber99Sb-disp
+ N   CT  CT  CC    9     180.0      1.67360     1  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      2.30120     1  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      2.63592     2  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      0.25104     3  ; Amber99Sb-disp
+ N   CT  CT  SH    9     180.0      0.12552     4  ; Amber99Sb-disp
+ O   C   OS  CT    9     180.0      5.85760     1  ; Amber99Sb-disp
+ O   C   OS  CT    9     180.0     11.29680     2  ; Amber99Sb-disp
+ OH  CT  CT  OH    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OH  CT  CT  OH    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OH  P   OS  CT    9       0.0      1.04600     3  ; Amber99Sb-disp
+ OH  P   OS  CT    9       0.0      5.02080     2  ; Amber99Sb-disp
+ OS  CT  CT  OH    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OS  CT  CT  OH    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OS  CT  CT  OS    9       0.0      4.91620     2  ; Amber99Sb-disp
+ OS  CT  CT  OS    9       0.0      0.60250     3  ; Amber99Sb-disp
+ OS  CT  N*  CK    9       0.0     10.46000     1  ; Amber99Sb-disp
+ OS  CT  N*  CM    9       0.0     10.46000     1  ; Amber99Sb-disp
+ OS  P   OS  CT    9       0.0      5.02080     2  ; Amber99Sb-disp
+ OS  P   OS  CT    9       0.0      1.04600     3  ; Amber99Sb-disp
+ N   CT  CT  CA    9       0.0      0.00000     0  ; Amber99Sb-disp
+ N   CT  CT  C*    9       0.0      0.00000     0  ; Amber99Sb-disp
+ CT  CT  C9  S     9       0.0      0.00000     0  ; Amber99Sb-disp
+ CT  CT  C9  CT    9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C1  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C5  N   X     9     180.0     10.46000     2  ; Amber99Sb-disp
+ X   C7  CT  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C7  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   C8  O3  X     9       0.0      0.69873     3  ; Amber99Sb-disp
+ X   C8  OH  X     9       0.0      0.69873     3  ; Amber99Sb-disp
+ X   C9  S   X     9       0.0      1.39327     3  ; Amber99Sb-disp
+ X   CA  CA  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CA  CB  X     9     180.0     14.64400     2  ; Amber99Sb-disp
+ X   CA  CM  X     9     180.0     10.66920     2  ; Amber99Sb-disp
+ X   CA  CN  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CA  N2  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   CA  NA  X     9     180.0      6.27600     2  ; Amber99Sb-disp
+ X   CA  NC  X     9     180.0     20.08320     2  ; Amber99Sb-disp
+ X   CA  OH  X     9     180.0      3.76560     2  ; Amber99Sb-disp
+ X   CB  CB  X     9     180.0     22.80280     2  ; Amber99Sb-disp
+ X   CB  CN  X     9     180.0     12.55200     2  ; Amber99Sb-disp
+ X   CB  NB  X     9     180.0     10.66920     2  ; Amber99Sb-disp
+ X   CB  NC  X     9     180.0     17.36360     2  ; Amber99Sb-disp
+ X   CB  N*  X     9     180.0      6.90360     2  ; Amber99Sb-disp
+ X   C   CA  X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   C   CB  X     9     180.0     12.55200     2  ; Amber99Sb-disp
+ X   C*  CB  X     9     180.0      7.00820     2  ; Amber99Sb-disp
+ X   CC  CV  X     9     180.0     21.54760     2  ; Amber99Sb-disp
+ X   CC  CW  X     9     180.0     22.48900     2  ; Amber99Sb-disp
+ X   C   CM  X     9     180.0      9.10020     2  ; Amber99Sb-disp
+ X   CC  NA  X     9     180.0      5.85760     2  ; Amber99Sb-disp
+ X   CC  NB  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   C*  CW  X     9     180.0     27.30060     2  ; Amber99Sb-disp
+ X   C   C   X     9     180.0     15.16700     2  ; Amber99Sb-disp
+ X   CK  NB  X     9     180.0     41.84000     2  ; Amber99Sb-disp
+ X   CK  N*  X     9     180.0      7.11280     2  ; Amber99Sb-disp
+ X   CM  CM  X     9     180.0     27.82360     2  ; Amber99Sb-disp
+ X   CM  N*  X     9     180.0      7.74040     2  ; Amber99Sb-disp
+ X   CM  OS  X     9     180.0      4.39320     2  ; Amber99Sb-disp
+ X   C   NA  X     9     180.0      5.64840     2  ; Amber99Sb-disp
+ X   C   NC  X     9     180.0     16.73600     2  ; Amber99Sb-disp
+ X   CN  NA  X     9     180.0      6.38060     2  ; Amber99Sb-disp
+ X   C   N   X     9     180.0     10.46000     2  ; Amber99Sb-disp
+ X   C   N*  X     9     180.0      6.06680     2  ; Amber99Sb-disp
+ X   C   OH  X     9     180.0      9.62320     2  ; Amber99Sb-disp
+ X   C   OS  X     9     180.0     11.29680     2  ; Amber99Sb-disp
+ X   C   O   X     9     180.0     11.71520     2  ; Amber99Sb-disp
+ X   C   OB  X     9     180.0     11.71520     2  ; Amber99Sb-disp
+ X   CQ  NC  X     9     180.0     28.45120     2  ; Amber99Sb-disp
+ X   CR  NA  X     9     180.0      9.72780     2  ; Amber99Sb-disp
+ X   CR  NB  X     9     180.0     20.92000     2  ; Amber99Sb-disp
+ X   CT  C8  X     9       0.0      0.64852     3  ; Amber99Sb-disp
+ X   CT  C9  X     9       0.0      0.64852     3  ; Amber99Sb-disp
+ X   CT  CT  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   CT  N3  X     9       0.0      0.65084     3  ; Amber99Sb-disp
+ X   CT  OH  X     9       0.0      0.69733     3  ; Amber99Sb-disp
+ X   CT  OS  X     9       0.0      1.60387     3  ; Amber99Sb-disp
+ X   CT  SH  X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   CT  S   X     9       0.0      1.39467     3  ; Amber99Sb-disp
+ X   CV  NB  X     9     180.0     10.04160     2  ; Amber99Sb-disp
+ X   CW  NA  X     9     180.0      6.27600     2  ; Amber99Sb-disp
+ X   OH  P   X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   OS  P   X     9       0.0      1.04600     3  ; Amber99Sb-disp
+ X   C1  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C1  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C9  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CA  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CC  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CM  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N*  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   CT  N2  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C*  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C7  N   X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C   C7  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C5  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+ X   C6  CT  X     9       0.0      0.00000     0  ; Amber99Sb-disp
+
+
+
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+c3             6  12.010000  0.00000000  A     0.33977095      0.4510352
+oh             8  16.000000  0.00000000  A     0.32428713       0.389112
+h1             1   1.008000  0.00000000  A     0.24219973      0.0870272
+hc             1   1.008000  0.00000000  A      0.2600177      0.0870272
+ho             1   1.008000  0.00000000  A    0.053792465      0.0196648
 
 [ moleculetype ]
 ; Name            nrexcl
-Protein chain A     3
+Protein_chain_A     3
 
 [ atoms ]
-     1        sN3      1    GLY      N      1     0.2943      14.01
-     2         sH      1    GLY     H1      2     0.1642       1.01
-     3         sH      1    GLY     H2      3     0.1642       1.01
-     4         sH      1    GLY     H3      4     0.1642       1.01
-     5        sC1      1    GLY     CA      5    -0.0100      12.01
-     6        sHP      1    GLY    HA1      6     0.0895       1.01
-     7        sHP      1    GLY    HA2      7     0.0895       1.01
-     8         sC      1    GLY      C      8     0.6163      12.01
-     9        sOB      1    GLY      O      9    -0.5722      16.00
-    10         sN      2    MET      N     10    -0.4157      14.01
-    11        sHB      2    MET      H     11     0.2719       1.01
-    12        sCT      2    MET     CA     12    -0.0237      12.01
-    13        sH1      2    MET     HA     13     0.0880       1.01
-    14        sCT      2    MET     CB     14     0.0342      12.01
-    15        sHC      2    MET    HB1     15     0.0241       1.01
-    16        sHC      2    MET    HB2     16     0.0241       1.01
-    17        sC9      2    MET     CG     17     0.0018      12.01
-    18        sH1      2    MET    HG1     18     0.0440       1.01
-    19        sH1      2    MET    HG2     19     0.0440       1.01
-    20         sS      2    MET     SD     20    -0.2737      32.06
-    21        sCT      2    MET     CE     21    -0.0536      12.01
-    22        sH1      2    MET    HE1     22     0.0684       1.01
-    23        sH1      2    MET    HE2     23     0.0684       1.01
-    24        sH1      2    MET    HE3     24     0.0684       1.01
-    25         sC      2    MET      C     25     0.5973      12.01
-    26        sOB      2    MET      O     26    -0.5679      16.00
-    27         sN      3    ALA      N     27    -0.4157      14.01
-    28        sHB      3    ALA      H     28     0.2719       1.01
-    29        sCT      3    ALA     CA     29     0.0337      12.01
-    30        sH1      3    ALA     HA     30     0.0823       1.01
-    31        sCT      3    ALA     CB     31    -0.1825      12.01
-    32        sHC      3    ALA    HB1     32     0.0603       1.01
-    33        sHC      3    ALA    HB2     33     0.0603       1.01
-    34        sHC      3    ALA    HB3     34     0.0603       1.01
-    35         sC      3    ALA      C     35     0.5973      12.01
-    36        sOB      3    ALA      O     36    -0.5679      16.00
-    37         sN      4    SER      N     37    -0.4157      14.01
-    38        sHB      4    SER      H     38     0.2719       1.01
-    39        sCT      4    SER     CA     39    -0.0249      12.01
-    40        sH1      4    SER     HA     40     0.0843       1.01
-    41        sC8      4    SER     CB     41     0.2117      12.01
-    42        sH1      4    SER    HB1     42     0.0352       1.01
-    43        sH1      4    SER    HB2     43     0.0352       1.01
-    44        sOH      4    SER     OG     44    -0.6546      16.00
-    45        sHO      4    SER     HG     45     0.4275       1.01
-    46         sC      4    SER      C     46     0.5973      12.01
-    47        sOB      4    SER      O     47    -0.5679      16.00
-    48         sN      5    ASN      N     48    -0.4157      14.01
-    49        sHB      5    ASN      H     49     0.2719       1.01
-    50        sCT      5    ASN     CA     50     0.0143      12.01
-    51        sH1      5    ASN     HA     51     0.1048       1.01
-    52        sCT      5    ASN     CB     52    -0.2041      12.01
-    53        sHC      5    ASN    HB1     53     0.0797       1.01
-    54        sHC      5    ASN    HB2     54     0.0797       1.01
-    55        sC5      5    ASN     CG     55     0.7130      12.01
-    56         sO      5    ASN    OD1     56    -0.5931      16.00
-    57         sN      5    ASN    ND2     57    -0.9191      14.01
-    58         sH      5    ASN   HD21     58     0.4196       1.01
-    59         sH      5    ASN   HD22     59     0.4196       1.01
-    60         sC      5    ASN      C     60     0.5973      12.01
-    61        sOB      5    ASN      O     61    -0.5679      16.00
-    62         sN      6    ASP      N     62    -0.4157      14.01
-    63        sHB      6    ASP      H     63     0.2719       1.01
-    64        sCT      6    ASP     CA     64    -0.2246      12.01
-    65        sH1      6    ASP     HA     65     0.1462       1.01
-    66        sCT      6    ASP     CB     66     0.0036      12.01
-    67        sHC      6    ASP    HB1     67    -0.0156       1.01
-    68        sHC      6    ASP    HB2     68    -0.0156       1.01
-    69        sC6      6    ASP     CG     69     0.7629      12.01
-    70        sO2      6    ASP    OD1     70    -0.7713      16.00
-    71        sO2      6    ASP    OD2     71    -0.7713      16.00
-    72         sC      6    ASP      C     72     0.5973      12.01
-    73        sOB      6    ASP      O     73    -0.5679      16.00
-    74         sN      7    TYR      N     74    -0.4157      14.01
-    75        sHB      7    TYR      H     75     0.2719       1.01
-    76        sCT      7    TYR     CA     76    -0.0014      12.01
-    77        sH1      7    TYR     HA     77     0.0876       1.01
-    78        sCT      7    TYR     CB     78    -0.0152      12.01
-    79        sHC      7    TYR    HB1     79     0.0295       1.01
-    80        sHC      7    TYR    HB2     80     0.0295       1.01
-    81        sCA      7    TYR     CG     81    -0.0011      12.01
-    82        sCA      7    TYR    CD1     82    -0.1906      12.01
-    83        sHA      7    TYR    HD1     83     0.1699       1.01
-    84        sCA      7    TYR    CE1     84    -0.2341      12.01
-    85        sHA      7    TYR    HE1     85     0.1656       1.01
-    86         sC      7    TYR     CZ     86     0.3226      12.01
-    87        sOH      7    TYR     OH     87    -0.5579      16.00
-    88        sHO      7    TYR     HH     88     0.3992       1.01
-    89        sCA      7    TYR    CE2     89    -0.2341      12.01
-    90        sHA      7    TYR    HE2     90     0.1656       1.01
-    91        sCA      7    TYR    CD2     91    -0.1906      12.01
-    92        sHA      7    TYR    HD2     92     0.1699       1.01
-    93         sC      7    TYR      C     93     0.5973      12.01
-    94        sOB      7    TYR      O     94    -0.5679      16.00
-    95         sN      8    THR      N     95    -0.4157      14.01
-    96        sHB      8    THR      H     96     0.2719       1.01
-    97        sCT      8    THR     CA     97    -0.0389      12.01
-    98        sH1      8    THR     HA     98     0.1007       1.01
-    99        sC8      8    THR     CB     99     0.3654      12.01
-   100        sH1      8    THR     HB    100     0.0043       1.01
-   101        sCT      8    THR    CG2    101    -0.2438      12.01
-   102        sHC      8    THR   HG21    102     0.0642       1.01
-   103        sHC      8    THR   HG22    103     0.0642       1.01
-   104        sHC      8    THR   HG23    104     0.0642       1.01
-   105        sO3      8    THR    OG1    105    -0.6761      16.00
-   106        sHO      8    THR    HG1    106     0.4102       1.01
-   107         sC      8    THR      C    107     0.5973      12.01
-   108        sOB      8    THR      O    108    -0.5679      16.00
-   109         sN      9    GLN      N    109    -0.4157      14.01
-   110        sHB      9    GLN      H    110     0.2719       1.01
-   111        sCT      9    GLN     CA    111    -0.0031      12.01
-   112        sH1      9    GLN     HA    112     0.0850       1.01
-   113        sCT      9    GLN     CB    113    -0.0036      12.01
-   114        sHC      9    GLN    HB1    114     0.0171       1.01
-   115        sHC      9    GLN    HB2    115     0.0171       1.01
-   116        sC9      9    GLN     CG    116    -0.0645      12.01
-   117        sHC      9    GLN    HG1    117     0.0352       1.01
-   118        sHC      9    GLN    HG2    118     0.0352       1.01
-   119         sC      9    GLN     CD    119     0.6951      12.01
-   120         sO      9    GLN    OE1    120    -0.6086      16.00
-   121         sN      9    GLN    NE2    121    -0.9407      14.01
-   122         sH      9    GLN   HE21    122     0.4251       1.01
-   123         sH      9    GLN   HE22    123     0.4251       1.01
-   124         sC      9    GLN      C    124     0.5973      12.01
-   125        sOB      9    GLN      O    125    -0.5679      16.00
-   126         sN     10    GLN      N    126    -0.4157      14.01
-   127        sHB     10    GLN      H    127     0.2719       1.01
-   128        sCT     10    GLN     CA    128    -0.0031      12.01
-   129        sH1     10    GLN     HA    129     0.0850       1.01
-   130        sCT     10    GLN     CB    130    -0.0036      12.01
-   131        sHC     10    GLN    HB1    131     0.0171       1.01
-   132        sHC     10    GLN    HB2    132     0.0171       1.01
-   133        sC9     10    GLN     CG    133    -0.0645      12.01
-   134        sHC     10    GLN    HG1    134     0.0352       1.01
-   135        sHC     10    GLN    HG2    135     0.0352       1.01
-   136         sC     10    GLN     CD    136     0.6951      12.01
-   137         sO     10    GLN    OE1    137    -0.6086      16.00
-   138         sN     10    GLN    NE2    138    -0.9407      14.01
-   139         sH     10    GLN   HE21    139     0.4251       1.01
-   140         sH     10    GLN   HE22    140     0.4251       1.01
-   141         sC     10    GLN      C    141     0.5973      12.01
-   142        sOB     10    GLN      O    142    -0.5679      16.00
-   143         sN     11    ALA      N    143    -0.4157      14.01
-   144        sHB     11    ALA      H    144     0.2719       1.01
-   145        sCT     11    ALA     CA    145     0.0337      12.01
-   146        sH1     11    ALA     HA    146     0.0823       1.01
-   147        sCT     11    ALA     CB    147    -0.1825      12.01
-   148        sHC     11    ALA    HB1    148     0.0603       1.01
-   149        sHC     11    ALA    HB2    149     0.0603       1.01
-   150        sHC     11    ALA    HB3    150     0.0603       1.01
-   151         sC     11    ALA      C    151     0.5973      12.01
-   152        sOB     11    ALA      O    152    -0.5679      16.00
-   153         sN     12    THR      N    153    -0.4157      14.01
-   154        sHB     12    THR      H    154     0.2719       1.01
-   155        sCT     12    THR     CA    155    -0.0389      12.01
-   156        sH1     12    THR     HA    156     0.1007       1.01
-   157        sC8     12    THR     CB    157     0.3654      12.01
-   158        sH1     12    THR     HB    158     0.0043       1.01
-   159        sCT     12    THR    CG2    159    -0.2438      12.01
-   160        sHC     12    THR   HG21    160     0.0642       1.01
-   161        sHC     12    THR   HG22    161     0.0642       1.01
-   162        sHC     12    THR   HG23    162     0.0642       1.01
-   163        sO3     12    THR    OG1    163    -0.6761      16.00
-   164        sHO     12    THR    HG1    164     0.4102       1.01
-   165         sC     12    THR      C    165     0.5973      12.01
-   166        sOB     12    THR      O    166    -0.5679      16.00
-   167         sN     13    GLN      N    167    -0.4157      14.01
-   168        sHB     13    GLN      H    168     0.2719       1.01
-   169        sCT     13    GLN     CA    169    -0.0031      12.01
-   170        sH1     13    GLN     HA    170     0.0850       1.01
-   171        sCT     13    GLN     CB    171    -0.0036      12.01
-   172        sHC     13    GLN    HB1    172     0.0171       1.01
-   173        sHC     13    GLN    HB2    173     0.0171       1.01
-   174        sC9     13    GLN     CG    174    -0.0645      12.01
-   175        sHC     13    GLN    HG1    175     0.0352       1.01
-   176        sHC     13    GLN    HG2    176     0.0352       1.01
-   177         sC     13    GLN     CD    177     0.6951      12.01
-   178         sO     13    GLN    OE1    178    -0.6086      16.00
-   179         sN     13    GLN    NE2    179    -0.9407      14.01
-   180         sH     13    GLN   HE21    180     0.4251       1.01
-   181         sH     13    GLN   HE22    181     0.4251       1.01
-   182         sC     13    GLN      C    182     0.5973      12.01
-   183        sOB     13    GLN      O    183    -0.5679      16.00
-   184         sN     14    SER      N    184    -0.4157      14.01
-   185        sHB     14    SER      H    185     0.2719       1.01
-   186        sCT     14    SER     CA    186    -0.0249      12.01
-   187        sH1     14    SER     HA    187     0.0843       1.01
-   188        sC8     14    SER     CB    188     0.2117      12.01
-   189        sH1     14    SER    HB1    189     0.0352       1.01
-   190        sH1     14    SER    HB2    190     0.0352       1.01
-   191        sOH     14    SER     OG    191    -0.6546      16.00
-   192        sHO     14    SER     HG    192     0.4275       1.01
-   193         sC     14    SER      C    193     0.5973      12.01
-   194        sOB     14    SER      O    194    -0.5679      16.00
-   195         sN     15    TYR      N    195    -0.4157      14.01
-   196        sHB     15    TYR      H    196     0.2719       1.01
-   197        sCT     15    TYR     CA    197    -0.0014      12.01
-   198        sH1     15    TYR     HA    198     0.0876       1.01
-   199        sCT     15    TYR     CB    199    -0.0152      12.01
-   200        sHC     15    TYR    HB1    200     0.0295       1.01
-   201        sHC     15    TYR    HB2    201     0.0295       1.01
-   202        sCA     15    TYR     CG    202    -0.0011      12.01
-   203        sCA     15    TYR    CD1    203    -0.1906      12.01
-   204        sHA     15    TYR    HD1    204     0.1699       1.01
-   205        sCA     15    TYR    CE1    205    -0.2341      12.01
-   206        sHA     15    TYR    HE1    206     0.1656       1.01
-   207         sC     15    TYR     CZ    207     0.3226      12.01
-   208        sOH     15    TYR     OH    208    -0.5579      16.00
-   209        sHO     15    TYR     HH    209     0.3992       1.01
-   210        sCA     15    TYR    CE2    210    -0.2341      12.01
-   211        sHA     15    TYR    HE2    211     0.1656       1.01
-   212        sCA     15    TYR    CD2    212    -0.1906      12.01
-   213        sHA     15    TYR    HD2    213     0.1699       1.01
-   214         sC     15    TYR      C    214     0.5973      12.01
-   215        sOB     15    TYR      O    215    -0.5679      16.00
-   216         sN     16    GLY      N    216    -0.4157      14.01
-   217        sHB     16    GLY      H    217     0.2719       1.01
-   218        sC1     16    GLY     CA    218    -0.0252      12.01
-   219        sH1     16    GLY    HA1    219     0.0698       1.01
-   220        sH1     16    GLY    HA2    220     0.0698       1.01
-   221         sC     16    GLY      C    221     0.5973      12.01
-   222        sOB     16    GLY      O    222    -0.5679      16.00
-   223         sN     17    ALA      N    223    -0.4157      14.01
-   224        sHB     17    ALA      H    224     0.2719       1.01
-   225        sCT     17    ALA     CA    225     0.0337      12.01
-   226        sH1     17    ALA     HA    226     0.0823       1.01
-   227        sCT     17    ALA     CB    227    -0.1825      12.01
-   228        sHC     17    ALA    HB1    228     0.0603       1.01
-   229        sHC     17    ALA    HB2    229     0.0603       1.01
-   230        sHC     17    ALA    HB3    230     0.0603       1.01
-   231         sC     17    ALA      C    231     0.5973      12.01
-   232        sOB     17    ALA      O    232    -0.5679      16.00
-   233         sN     18    TYR      N    233    -0.4157      14.01
-   234        sHB     18    TYR      H    234     0.2719       1.01
-   235        sCT     18    TYR     CA    235    -0.0014      12.01
-   236        sH1     18    TYR     HA    236     0.0876       1.01
-   237        sCT     18    TYR     CB    237    -0.0152      12.01
-   238        sHC     18    TYR    HB1    238     0.0295       1.01
-   239        sHC     18    TYR    HB2    239     0.0295       1.01
-   240        sCA     18    TYR     CG    240    -0.0011      12.01
-   241        sCA     18    TYR    CD1    241    -0.1906      12.01
-   242        sHA     18    TYR    HD1    242     0.1699       1.01
-   243        sCA     18    TYR    CE1    243    -0.2341      12.01
-   244        sHA     18    TYR    HE1    244     0.1656       1.01
-   245         sC     18    TYR     CZ    245     0.3226      12.01
-   246        sOH     18    TYR     OH    246    -0.5579      16.00
-   247        sHO     18    TYR     HH    247     0.3992       1.01
-   248        sCA     18    TYR    CE2    248    -0.2341      12.01
-   249        sHA     18    TYR    HE2    249     0.1656       1.01
-   250        sCA     18    TYR    CD2    250    -0.1906      12.01
-   251        sHA     18    TYR    HD2    251     0.1699       1.01
-   252         sC     18    TYR      C    252     0.5973      12.01
-   253        sOB     18    TYR      O    253    -0.5679      16.00
-   254         sN     19    PRO      N    254    -0.2548      14.01
-   255        sCT     19    PRO     CD    255     0.0192      12.01
-   256        sH1     19    PRO    HD1    256     0.0391       1.01
-   257        sH1     19    PRO    HD2    257     0.0391       1.01
-   258        sCT     19    PRO     CG    258     0.0189      12.01
-   259        sHC     19    PRO    HG1    259     0.0213       1.01
-   260        sHC     19    PRO    HG2    260     0.0213       1.01
-   261        sCT     19    PRO     CB    261    -0.0070      12.01
-   262        sHC     19    PRO    HB1    262     0.0253       1.01
-   263        sHC     19    PRO    HB2    263     0.0253       1.01
-   264        sC7     19    PRO     CA    264    -0.0266      12.01
-   265        sH1     19    PRO     HA    265     0.0641       1.01
-   266         sC     19    PRO      C    266     0.5896      12.01
-   267        sOB     19    PRO      O    267    -0.5748      16.00
-   268         sN     20    THR      N    268    -0.4157      14.01
-   269        sHB     20    THR      H    269     0.2719       1.01
-   270        sCT     20    THR     CA    270    -0.0389      12.01
-   271        sH1     20    THR     HA    271     0.1007       1.01
-   272        sC8     20    THR     CB    272     0.3654      12.01
-   273        sH1     20    THR     HB    273     0.0043       1.01
-   274        sCT     20    THR    CG2    274    -0.2438      12.01
-   275        sHC     20    THR   HG21    275     0.0642       1.01
-   276        sHC     20    THR   HG22    276     0.0642       1.01
-   277        sHC     20    THR   HG23    277     0.0642       1.01
-   278        sO3     20    THR    OG1    278    -0.6761      16.00
-   279        sHO     20    THR    HG1    279     0.4102       1.01
-   280         sC     20    THR      C    280     0.5973      12.01
-   281        sOB     20    THR      O    281    -0.5679      16.00
-   282         sN     21    GLN      N    282    -0.4157      14.01
-   283        sHB     21    GLN      H    283     0.2719       1.01
-   284        sCT     21    GLN     CA    284    -0.0031      12.01
-   285        sH1     21    GLN     HA    285     0.0850       1.01
-   286        sCT     21    GLN     CB    286    -0.0036      12.01
-   287        sHC     21    GLN    HB1    287     0.0171       1.01
-   288        sHC     21    GLN    HB2    288     0.0171       1.01
-   289        sC9     21    GLN     CG    289    -0.0645      12.01
-   290        sHC     21    GLN    HG1    290     0.0352       1.01
-   291        sHC     21    GLN    HG2    291     0.0352       1.01
-   292         sC     21    GLN     CD    292     0.6951      12.01
-   293         sO     21    GLN    OE1    293    -0.6086      16.00
-   294         sN     21    GLN    NE2    294    -0.9407      14.01
-   295         sH     21    GLN   HE21    295     0.4251       1.01
-   296         sH     21    GLN   HE22    296     0.4251       1.01
-   297         sC     21    GLN      C    297     0.5973      12.01
-   298        sOB     21    GLN      O    298    -0.5679      16.00
-   299         sN     22    PRO      N    299    -0.2548      14.01
-   300        sCT     22    PRO     CD    300     0.0192      12.01
-   301        sH1     22    PRO    HD1    301     0.0391       1.01
-   302        sH1     22    PRO    HD2    302     0.0391       1.01
-   303        sCT     22    PRO     CG    303     0.0189      12.01
-   304        sHC     22    PRO    HG1    304     0.0213       1.01
-   305        sHC     22    PRO    HG2    305     0.0213       1.01
-   306        sCT     22    PRO     CB    306    -0.0070      12.01
-   307        sHC     22    PRO    HB1    307     0.0253       1.01
-   308        sHC     22    PRO    HB2    308     0.0253       1.01
-   309        sC7     22    PRO     CA    309    -0.0266      12.01
-   310        sH1     22    PRO     HA    310     0.0641       1.01
-   311         sC     22    PRO      C    311     0.5896      12.01
-   312        sOB     22    PRO      O    312    -0.5748      16.00
-   313         sN     23    GLY      N    313    -0.4157      14.01
-   314        sHB     23    GLY      H    314     0.2719       1.01
-   315        sC1     23    GLY     CA    315    -0.0252      12.01
-   316        sH1     23    GLY    HA1    316     0.0698       1.01
-   317        sH1     23    GLY    HA2    317     0.0698       1.01
-   318         sC     23    GLY      C    318     0.5973      12.01
-   319        sOB     23    GLY      O    319    -0.5679      16.00
-   320         sN     24    GLN      N    320    -0.4157      14.01
-   321        sHB     24    GLN      H    321     0.2719       1.01
-   322        sCT     24    GLN     CA    322    -0.0031      12.01
-   323        sH1     24    GLN     HA    323     0.0850       1.01
-   324        sCT     24    GLN     CB    324    -0.0036      12.01
-   325        sHC     24    GLN    HB1    325     0.0171       1.01
-   326        sHC     24    GLN    HB2    326     0.0171       1.01
-   327        sC9     24    GLN     CG    327    -0.0645      12.01
-   328        sHC     24    GLN    HG1    328     0.0352       1.01
-   329        sHC     24    GLN    HG2    329     0.0352       1.01
-   330         sC     24    GLN     CD    330     0.6951      12.01
-   331         sO     24    GLN    OE1    331    -0.6086      16.00
-   332         sN     24    GLN    NE2    332    -0.9407      14.01
-   333         sH     24    GLN   HE21    333     0.4251       1.01
-   334         sH     24    GLN   HE22    334     0.4251       1.01
-   335         sC     24    GLN      C    335     0.5973      12.01
-   336        sOB     24    GLN      O    336    -0.5679      16.00
-   337         sN     25    GLY      N    337    -0.4157      14.01
-   338        sHB     25    GLY      H    338     0.2719       1.01
-   339        sC1     25    GLY     CA    339    -0.0252      12.01
-   340        sH1     25    GLY    HA1    340     0.0698       1.01
-   341        sH1     25    GLY    HA2    341     0.0698       1.01
-   342         sC     25    GLY      C    342     0.5973      12.01
-   343        sOB     25    GLY      O    343    -0.5679      16.00
-   344         sN     26    TYR      N    344    -0.4157      14.01
-   345        sHB     26    TYR      H    345     0.2719       1.01
-   346        sCT     26    TYR     CA    346    -0.0014      12.01
-   347        sH1     26    TYR     HA    347     0.0876       1.01
-   348        sCT     26    TYR     CB    348    -0.0152      12.01
-   349        sHC     26    TYR    HB1    349     0.0295       1.01
-   350        sHC     26    TYR    HB2    350     0.0295       1.01
-   351        sCA     26    TYR     CG    351    -0.0011      12.01
-   352        sCA     26    TYR    CD1    352    -0.1906      12.01
-   353        sHA     26    TYR    HD1    353     0.1699       1.01
-   354        sCA     26    TYR    CE1    354    -0.2341      12.01
-   355        sHA     26    TYR    HE1    355     0.1656       1.01
-   356         sC     26    TYR     CZ    356     0.3226      12.01
-   357        sOH     26    TYR     OH    357    -0.5579      16.00
-   358        sHO     26    TYR     HH    358     0.3992       1.01
-   359        sCA     26    TYR    CE2    359    -0.2341      12.01
-   360        sHA     26    TYR    HE2    360     0.1656       1.01
-   361        sCA     26    TYR    CD2    361    -0.1906      12.01
-   362        sHA     26    TYR    HD2    362     0.1699       1.01
-   363         sC     26    TYR      C    363     0.5973      12.01
-   364        sOB     26    TYR      O    364    -0.5679      16.00
-   365         sN     27    SER      N    365    -0.4157      14.01
-   366        sHB     27    SER      H    366     0.2719       1.01
-   367        sCT     27    SER     CA    367    -0.0249      12.01
-   368        sH1     27    SER     HA    368     0.0843       1.01
-   369        sC8     27    SER     CB    369     0.2117      12.01
-   370        sH1     27    SER    HB1    370     0.0352       1.01
-   371        sH1     27    SER    HB2    371     0.0352       1.01
-   372        sOH     27    SER     OG    372    -0.6546      16.00
-   373        sHO     27    SER     HG    373     0.4275       1.01
-   374         sC     27    SER      C    374     0.5973      12.01
-   375        sOB     27    SER      O    375    -0.5679      16.00
-   376         sN     28    GLN      N    376    -0.4157      14.01
-   377        sHB     28    GLN      H    377     0.2719       1.01
-   378        sCT     28    GLN     CA    378    -0.0031      12.01
-   379        sH1     28    GLN     HA    379     0.0850       1.01
-   380        sCT     28    GLN     CB    380    -0.0036      12.01
-   381        sHC     28    GLN    HB1    381     0.0171       1.01
-   382        sHC     28    GLN    HB2    382     0.0171       1.01
-   383        sC9     28    GLN     CG    383    -0.0645      12.01
-   384        sHC     28    GLN    HG1    384     0.0352       1.01
-   385        sHC     28    GLN    HG2    385     0.0352       1.01
-   386         sC     28    GLN     CD    386     0.6951      12.01
-   387         sO     28    GLN    OE1    387    -0.6086      16.00
-   388         sN     28    GLN    NE2    388    -0.9407      14.01
-   389         sH     28    GLN   HE21    389     0.4251       1.01
-   390         sH     28    GLN   HE22    390     0.4251       1.01
-   391         sC     28    GLN      C    391     0.5973      12.01
-   392        sOB     28    GLN      O    392    -0.5679      16.00
-   393         sN     29    GLN      N    393    -0.4157      14.01
-   394        sHB     29    GLN      H    394     0.2719       1.01
-   395        sCT     29    GLN     CA    395    -0.0031      12.01
-   396        sH1     29    GLN     HA    396     0.0850       1.01
-   397        sCT     29    GLN     CB    397    -0.0036      12.01
-   398        sHC     29    GLN    HB1    398     0.0171       1.01
-   399        sHC     29    GLN    HB2    399     0.0171       1.01
-   400        sC9     29    GLN     CG    400    -0.0645      12.01
-   401        sHC     29    GLN    HG1    401     0.0352       1.01
-   402        sHC     29    GLN    HG2    402     0.0352       1.01
-   403         sC     29    GLN     CD    403     0.6951      12.01
-   404         sO     29    GLN    OE1    404    -0.6086      16.00
-   405         sN     29    GLN    NE2    405    -0.9407      14.01
-   406         sH     29    GLN   HE21    406     0.4251       1.01
-   407         sH     29    GLN   HE22    407     0.4251       1.01
-   408         sC     29    GLN      C    408     0.5973      12.01
-   409        sOB     29    GLN      O    409    -0.5679      16.00
-   410         sN     30    SER      N    410    -0.4157      14.01
-   411        sHB     30    SER      H    411     0.2719       1.01
-   412        sCT     30    SER     CA    412    -0.0249      12.01
-   413        sH1     30    SER     HA    413     0.0843       1.01
-   414        sC8     30    SER     CB    414     0.2117      12.01
-   415        sH1     30    SER    HB1    415     0.0352       1.01
-   416        sH1     30    SER    HB2    416     0.0352       1.01
-   417        sOH     30    SER     OG    417    -0.6546      16.00
-   418        sHO     30    SER     HG    418     0.4275       1.01
-   419         sC     30    SER      C    419     0.5973      12.01
-   420        sOB     30    SER      O    420    -0.5679      16.00
-   421         sN     31    SER      N    421    -0.4157      14.01
-   422        sHB     31    SER      H    422     0.2719       1.01
-   423        sCT     31    SER     CA    423    -0.0249      12.01
-   424        sH1     31    SER     HA    424     0.0843       1.01
-   425        sC8     31    SER     CB    425     0.2117      12.01
-   426        sH1     31    SER    HB1    426     0.0352       1.01
-   427        sH1     31    SER    HB2    427     0.0352       1.01
-   428        sOH     31    SER     OG    428    -0.6546      16.00
-   429        sHO     31    SER     HG    429     0.4275       1.01
-   430         sC     31    SER      C    430     0.5973      12.01
-   431        sOB     31    SER      O    431    -0.5679      16.00
-   432         sN     32    GLN      N    432    -0.4157      14.01
-   433        sHB     32    GLN      H    433     0.2719       1.01
-   434        sCT     32    GLN     CA    434    -0.0031      12.01
-   435        sH1     32    GLN     HA    435     0.0850       1.01
-   436        sCT     32    GLN     CB    436    -0.0036      12.01
-   437        sHC     32    GLN    HB1    437     0.0171       1.01
-   438        sHC     32    GLN    HB2    438     0.0171       1.01
-   439        sC9     32    GLN     CG    439    -0.0645      12.01
-   440        sHC     32    GLN    HG1    440     0.0352       1.01
-   441        sHC     32    GLN    HG2    441     0.0352       1.01
-   442         sC     32    GLN     CD    442     0.6951      12.01
-   443         sO     32    GLN    OE1    443    -0.6086      16.00
-   444         sN     32    GLN    NE2    444    -0.9407      14.01
-   445         sH     32    GLN   HE21    445     0.4251       1.01
-   446         sH     32    GLN   HE22    446     0.4251       1.01
-   447         sC     32    GLN      C    447     0.5973      12.01
-   448        sOB     32    GLN      O    448    -0.5679      16.00
-   449         sN     33    PRO      N    449    -0.2548      14.01
-   450        sCT     33    PRO     CD    450     0.0192      12.01
-   451        sH1     33    PRO    HD1    451     0.0391       1.01
-   452        sH1     33    PRO    HD2    452     0.0391       1.01
-   453        sCT     33    PRO     CG    453     0.0189      12.01
-   454        sHC     33    PRO    HG1    454     0.0213       1.01
-   455        sHC     33    PRO    HG2    455     0.0213       1.01
-   456        sCT     33    PRO     CB    456    -0.0070      12.01
-   457        sHC     33    PRO    HB1    457     0.0253       1.01
-   458        sHC     33    PRO    HB2    458     0.0253       1.01
-   459        sC7     33    PRO     CA    459    -0.0266      12.01
-   460        sH1     33    PRO     HA    460     0.0641       1.01
-   461         sC     33    PRO      C    461     0.5896      12.01
-   462        sOB     33    PRO      O    462    -0.5748      16.00
-   463         sN     34    TYR      N    463    -0.4157      14.01
-   464        sHB     34    TYR      H    464     0.2719       1.01
-   465        sCT     34    TYR     CA    465    -0.0014      12.01
-   466        sH1     34    TYR     HA    466     0.0876       1.01
-   467        sCT     34    TYR     CB    467    -0.0152      12.01
-   468        sHC     34    TYR    HB1    468     0.0295       1.01
-   469        sHC     34    TYR    HB2    469     0.0295       1.01
-   470        sCA     34    TYR     CG    470    -0.0011      12.01
-   471        sCA     34    TYR    CD1    471    -0.1906      12.01
-   472        sHA     34    TYR    HD1    472     0.1699       1.01
-   473        sCA     34    TYR    CE1    473    -0.2341      12.01
-   474        sHA     34    TYR    HE1    474     0.1656       1.01
-   475         sC     34    TYR     CZ    475     0.3226      12.01
-   476        sOH     34    TYR     OH    476    -0.5579      16.00
-   477        sHO     34    TYR     HH    477     0.3992       1.01
-   478        sCA     34    TYR    CE2    478    -0.2341      12.01
-   479        sHA     34    TYR    HE2    479     0.1656       1.01
-   480        sCA     34    TYR    CD2    480    -0.1906      12.01
-   481        sHA     34    TYR    HD2    481     0.1699       1.01
-   482         sC     34    TYR      C    482     0.5973      12.01
-   483        sOB     34    TYR      O    483    -0.5679      16.00
-   484         sN     35    GLY      N    484    -0.4157      14.01
-   485        sHB     35    GLY      H    485     0.2719       1.01
-   486        sC1     35    GLY     CA    486    -0.0252      12.01
-   487        sH1     35    GLY    HA1    487     0.0698       1.01
-   488        sH1     35    GLY    HA2    488     0.0698       1.01
-   489         sC     35    GLY      C    489     0.5973      12.01
-   490        sOB     35    GLY      O    490    -0.5679      16.00
-   491         sN     36    GLN      N    491    -0.4157      14.01
-   492        sHB     36    GLN      H    492     0.2719       1.01
-   493        sCT     36    GLN     CA    493    -0.0031      12.01
-   494        sH1     36    GLN     HA    494     0.0850       1.01
-   495        sCT     36    GLN     CB    495    -0.0036      12.01
-   496        sHC     36    GLN    HB1    496     0.0171       1.01
-   497        sHC     36    GLN    HB2    497     0.0171       1.01
-   498        sC9     36    GLN     CG    498    -0.0645      12.01
-   499        sHC     36    GLN    HG1    499     0.0352       1.01
-   500        sHC     36    GLN    HG2    500     0.0352       1.01
-   501         sC     36    GLN     CD    501     0.6951      12.01
-   502         sO     36    GLN    OE1    502    -0.6086      16.00
-   503         sN     36    GLN    NE2    503    -0.9407      14.01
-   504         sH     36    GLN   HE21    504     0.4251       1.01
-   505         sH     36    GLN   HE22    505     0.4251       1.01
-   506         sC     36    GLN      C    506     0.5973      12.01
-   507        sOB     36    GLN      O    507    -0.5679      16.00
-   508         sN     37    GLN      N    508    -0.4157      14.01
-   509        sHB     37    GLN      H    509     0.2719       1.01
-   510        sCT     37    GLN     CA    510    -0.0031      12.01
-   511        sH1     37    GLN     HA    511     0.0850       1.01
-   512        sCT     37    GLN     CB    512    -0.0036      12.01
-   513        sHC     37    GLN    HB1    513     0.0171       1.01
-   514        sHC     37    GLN    HB2    514     0.0171       1.01
-   515        sC9     37    GLN     CG    515    -0.0645      12.01
-   516        sHC     37    GLN    HG1    516     0.0352       1.01
-   517        sHC     37    GLN    HG2    517     0.0352       1.01
-   518         sC     37    GLN     CD    518     0.6951      12.01
-   519         sO     37    GLN    OE1    519    -0.6086      16.00
-   520         sN     37    GLN    NE2    520    -0.9407      14.01
-   521         sH     37    GLN   HE21    521     0.4251       1.01
-   522         sH     37    GLN   HE22    522     0.4251       1.01
-   523         sC     37    GLN      C    523     0.5973      12.01
-   524        sOB     37    GLN      O    524    -0.5679      16.00
-   525         sN     38    SER      N    525    -0.4157      14.01
-   526        sHB     38    SER      H    526     0.2719       1.01
-   527        sCT     38    SER     CA    527    -0.0249      12.01
-   528        sH1     38    SER     HA    528     0.0843       1.01
-   529        sC8     38    SER     CB    529     0.2117      12.01
-   530        sH1     38    SER    HB1    530     0.0352       1.01
-   531        sH1     38    SER    HB2    531     0.0352       1.01
-   532        sOH     38    SER     OG    532    -0.6546      16.00
-   533        sHO     38    SER     HG    533     0.4275       1.01
-   534         sC     38    SER      C    534     0.5973      12.01
-   535        sOB     38    SER      O    535    -0.5679      16.00
-   536         sN     39    TYR      N    536    -0.4157      14.01
-   537        sHB     39    TYR      H    537     0.2719       1.01
-   538        sCT     39    TYR     CA    538    -0.0014      12.01
-   539        sH1     39    TYR     HA    539     0.0876       1.01
-   540        sCT     39    TYR     CB    540    -0.0152      12.01
-   541        sHC     39    TYR    HB1    541     0.0295       1.01
-   542        sHC     39    TYR    HB2    542     0.0295       1.01
-   543        sCA     39    TYR     CG    543    -0.0011      12.01
-   544        sCA     39    TYR    CD1    544    -0.1906      12.01
-   545        sHA     39    TYR    HD1    545     0.1699       1.01
-   546        sCA     39    TYR    CE1    546    -0.2341      12.01
-   547        sHA     39    TYR    HE1    547     0.1656       1.01
-   548         sC     39    TYR     CZ    548     0.3226      12.01
-   549        sOH     39    TYR     OH    549    -0.5579      16.00
-   550        sHO     39    TYR     HH    550     0.3992       1.01
-   551        sCA     39    TYR    CE2    551    -0.2341      12.01
-   552        sHA     39    TYR    HE2    552     0.1656       1.01
-   553        sCA     39    TYR    CD2    553    -0.1906      12.01
-   554        sHA     39    TYR    HD2    554     0.1699       1.01
-   555         sC     39    TYR      C    555     0.5973      12.01
-   556        sOB     39    TYR      O    556    -0.5679      16.00
-   557         sN     40    SER      N    557    -0.4157      14.01
-   558        sHB     40    SER      H    558     0.2719       1.01
-   559        sCT     40    SER     CA    559    -0.0249      12.01
-   560        sH1     40    SER     HA    560     0.0843       1.01
-   561        sC8     40    SER     CB    561     0.2117      12.01
-   562        sH1     40    SER    HB1    562     0.0352       1.01
-   563        sH1     40    SER    HB2    563     0.0352       1.01
-   564        sOH     40    SER     OG    564    -0.6546      16.00
-   565        sHO     40    SER     HG    565     0.4275       1.01
-   566         sC     40    SER      C    566     0.5973      12.01
-   567        sOB     40    SER      O    567    -0.5679      16.00
-   568         sN     41    GLY      N    568    -0.4157      14.01
-   569        sHB     41    GLY      H    569     0.2719       1.01
-   570        sC1     41    GLY     CA    570    -0.0252      12.01
-   571        sH1     41    GLY    HA1    571     0.0698       1.01
-   572        sH1     41    GLY    HA2    572     0.0698       1.01
-   573         sC     41    GLY      C    573     0.5973      12.01
-   574        sOB     41    GLY      O    574    -0.5679      16.00
-   575         sN     42    TYR      N    575    -0.4157      14.01
-   576        sHB     42    TYR      H    576     0.2719       1.01
-   577        sCT     42    TYR     CA    577    -0.0014      12.01
-   578        sH1     42    TYR     HA    578     0.0876       1.01
-   579        sCT     42    TYR     CB    579    -0.0152      12.01
-   580        sHC     42    TYR    HB1    580     0.0295       1.01
-   581        sHC     42    TYR    HB2    581     0.0295       1.01
-   582        sCA     42    TYR     CG    582    -0.0011      12.01
-   583        sCA     42    TYR    CD1    583    -0.1906      12.01
-   584        sHA     42    TYR    HD1    584     0.1699       1.01
-   585        sCA     42    TYR    CE1    585    -0.2341      12.01
-   586        sHA     42    TYR    HE1    586     0.1656       1.01
-   587         sC     42    TYR     CZ    587     0.3226      12.01
-   588        sOH     42    TYR     OH    588    -0.5579      16.00
-   589        sHO     42    TYR     HH    589     0.3992       1.01
-   590        sCA     42    TYR    CE2    590    -0.2341      12.01
-   591        sHA     42    TYR    HE2    591     0.1656       1.01
-   592        sCA     42    TYR    CD2    592    -0.1906      12.01
-   593        sHA     42    TYR    HD2    593     0.1699       1.01
-   594         sC     42    TYR      C    594     0.5973      12.01
-   595        sOB     42    TYR      O    595    -0.5679      16.00
-   596         sN     43    SER      N    596    -0.4157      14.01
-   597        sHB     43    SER      H    597     0.2719       1.01
-   598        sCT     43    SER     CA    598    -0.0249      12.01
-   599        sH1     43    SER     HA    599     0.0843       1.01
-   600        sC8     43    SER     CB    600     0.2117      12.01
-   601        sH1     43    SER    HB1    601     0.0352       1.01
-   602        sH1     43    SER    HB2    602     0.0352       1.01
-   603        sOH     43    SER     OG    603    -0.6546      16.00
-   604        sHO     43    SER     HG    604     0.4275       1.01
-   605         sC     43    SER      C    605     0.5973      12.01
-   606        sOB     43    SER      O    606    -0.5679      16.00
-   607         sN     44    GLN      N    607    -0.3821      14.01
-   608        sHB     44    GLN      H    608     0.2681       1.01
-   609        sCT     44    GLN     CA    609    -0.2248      12.01
-   610        sH1     44    GLN     HA    610     0.1232       1.01
-   611        sCT     44    GLN     CB    611    -0.0664      12.01
-   612        sHC     44    GLN    HB1    612     0.0452       1.01
-   613        sHC     44    GLN    HB2    613     0.0452       1.01
-   614        sCT     44    GLN     CG    614    -0.0210      12.01
-   615        sHC     44    GLN    HG1    615     0.0203       1.01
-   616        sHC     44    GLN    HG2    616     0.0203       1.01
-   617         sC     44    GLN     CD    617     0.7093      12.01
-   618         sO     44    GLN    OE1    618    -0.6098      16.00
-   619         sN     44    GLN    NE2    619    -0.9574      14.01
-   620         sH     44    GLN   HE21    620     0.4304       1.01
-   621         sH     44    GLN   HE22    621     0.4304       1.01
-   622         sC     44    GLN      C    622     0.7775      12.01
-   623        sO2     44    GLN    OC1    623    -0.8042      16.00
-   624        sO2     44    GLN    OC2    624    -0.8042      16.00
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 GLY rtp NGLY q +1.0
+     1         N3      1    GLY      N      1     0.2943      14.01
+     2          H      1    GLY     H1      2     0.1642      1.008
+     3          H      1    GLY     H2      3     0.1642      1.008
+     4          H      1    GLY     H3      4     0.1642      1.008
+     5         C1      1    GLY     CA      5      -0.01      12.01
+     6         HP      1    GLY    HA1      6     0.0895      1.008
+     7         HP      1    GLY    HA2      7     0.0895      1.008
+     8          C      1    GLY      C      8     0.6163      12.01
+     9         OB      1    GLY      O      9    -0.5722         16   ; qtot 1
+; residue   2 MET rtp MET  q  0.0
+    10          N      2    MET      N     10    -0.4157      14.01
+    11         HB      2    MET      H     11     0.2719      1.008
+    12         CT      2    MET     CA     12    -0.0237      12.01
+    13         H1      2    MET     HA     13      0.088      1.008
+    14         CT      2    MET     CB     14     0.0342      12.01
+    15         HC      2    MET    HB1     15     0.0241      1.008
+    16         HC      2    MET    HB2     16     0.0241      1.008
+    17         C9      2    MET     CG     17     0.0018      12.01
+    18         H1      2    MET    HG1     18      0.044      1.008
+    19         H1      2    MET    HG2     19      0.044      1.008
+    20          S      2    MET     SD     20    -0.2737      32.06
+    21         CT      2    MET     CE     21    -0.0536      12.01
+    22         H1      2    MET    HE1     22     0.0684      1.008
+    23         H1      2    MET    HE2     23     0.0684      1.008
+    24         H1      2    MET    HE3     24     0.0684      1.008
+    25          C      2    MET      C     25     0.5973      12.01
+    26         OB      2    MET      O     26    -0.5679         16   ; qtot 1
+; residue   3 ALA rtp ALA  q  0.0
+    27          N      3    ALA      N     27    -0.4157      14.01
+    28         HB      3    ALA      H     28     0.2719      1.008
+    29         CT      3    ALA     CA     29     0.0337      12.01
+    30         H1      3    ALA     HA     30     0.0823      1.008
+    31         CT      3    ALA     CB     31    -0.1825      12.01
+    32         HC      3    ALA    HB1     32     0.0603      1.008
+    33         HC      3    ALA    HB2     33     0.0603      1.008
+    34         HC      3    ALA    HB3     34     0.0603      1.008
+    35          C      3    ALA      C     35     0.5973      12.01
+    36         OB      3    ALA      O     36    -0.5679         16   ; qtot 1
+; residue   4 SER rtp SER  q  0.0
+    37          N      4    SER      N     37    -0.4157      14.01
+    38         HB      4    SER      H     38     0.2719      1.008
+    39         CT      4    SER     CA     39    -0.0249      12.01
+    40         H1      4    SER     HA     40     0.0843      1.008
+    41         C8      4    SER     CB     41     0.2117      12.01
+    42         H1      4    SER    HB1     42     0.0352      1.008
+    43         H1      4    SER    HB2     43     0.0352      1.008
+    44         OH      4    SER     OG     44    -0.6546         16
+    45         HO      4    SER     HG     45     0.4275      1.008
+    46          C      4    SER      C     46     0.5973      12.01
+    47         OB      4    SER      O     47    -0.5679         16   ; qtot 1
+; residue   5 ASN rtp ASN  q  0.0
+    48          N      5    ASN      N     48    -0.4157      14.01
+    49         HB      5    ASN      H     49     0.2719      1.008
+    50         CT      5    ASN     CA     50     0.0143      12.01
+    51         H1      5    ASN     HA     51     0.1048      1.008
+    52         CT      5    ASN     CB     52    -0.2041      12.01
+    53         HC      5    ASN    HB1     53     0.0797      1.008
+    54         HC      5    ASN    HB2     54     0.0797      1.008
+    55         C5      5    ASN     CG     55      0.713      12.01
+    56          O      5    ASN    OD1     56    -0.5931         16
+    57          N      5    ASN    ND2     57    -0.9191      14.01
+    58          H      5    ASN   HD21     58     0.4196      1.008
+    59          H      5    ASN   HD22     59     0.4196      1.008
+    60          C      5    ASN      C     60     0.5973      12.01
+    61         OB      5    ASN      O     61    -0.5679         16   ; qtot 1
+; residue   6 ASP rtp ASP  q -1.0
+    62          N      6    ASP      N     62    -0.4157      14.01
+    63         HB      6    ASP      H     63     0.2719      1.008
+    64         CT      6    ASP     CA     64  -0.224564      12.01
+    65         H1      6    ASP     HA     65   0.146193      1.008
+    66         CT      6    ASP     CB     66   0.003572      12.01
+    67         HC      6    ASP    HB1     67  -0.015579      1.008
+    68         HC      6    ASP    HB2     68  -0.015579      1.008
+    69         C6      6    ASP     CG     69   0.762867      12.01
+    70         O2      6    ASP    OD1     70  -0.771255         16
+    71         O2      6    ASP    OD2     71  -0.771255         16
+    72          C      6    ASP      C     72     0.5973      12.01
+    73         OB      6    ASP      O     73    -0.5679         16   ; qtot 0
+; residue   7 TYR rtp TYR  q  0.0
+    74          N      7    TYR      N     74    -0.4157      14.01
+    75         HB      7    TYR      H     75     0.2719      1.008
+    76         CT      7    TYR     CA     76    -0.0014      12.01
+    77         H1      7    TYR     HA     77     0.0876      1.008
+    78         CT      7    TYR     CB     78    -0.0152      12.01
+    79         HC      7    TYR    HB1     79     0.0295      1.008
+    80         HC      7    TYR    HB2     80     0.0295      1.008
+    81         CA      7    TYR     CG     81    -0.0011      12.01
+    82         CA      7    TYR    CD1     82    -0.1906      12.01
+    83         HA      7    TYR    HD1     83     0.1699      1.008
+    84         CA      7    TYR    CE1     84    -0.2341      12.01
+    85         HA      7    TYR    HE1     85     0.1656      1.008
+    86          C      7    TYR     CZ     86     0.3226      12.01
+    87         OH      7    TYR     OH     87    -0.5579         16
+    88         HO      7    TYR     HH     88     0.3992      1.008
+    89         CA      7    TYR    CE2     89    -0.2341      12.01
+    90         HA      7    TYR    HE2     90     0.1656      1.008
+    91         CA      7    TYR    CD2     91    -0.1906      12.01
+    92         HA      7    TYR    HD2     92     0.1699      1.008
+    93          C      7    TYR      C     93     0.5973      12.01
+    94         OB      7    TYR      O     94    -0.5679         16   ; qtot 0
+; residue   8 THR rtp THR  q  0.0
+    95          N      8    THR      N     95    -0.4157      14.01
+    96         HB      8    THR      H     96     0.2719      1.008
+    97         CT      8    THR     CA     97    -0.0389      12.01
+    98         H1      8    THR     HA     98     0.1007      1.008
+    99         C8      8    THR     CB     99     0.3654      12.01
+   100         H1      8    THR     HB    100     0.0043      1.008
+   101         CT      8    THR    CG2    101    -0.2438      12.01
+   102         HC      8    THR   HG21    102     0.0642      1.008
+   103         HC      8    THR   HG22    103     0.0642      1.008
+   104         HC      8    THR   HG23    104     0.0642      1.008
+   105         O3      8    THR    OG1    105    -0.6761         16
+   106         HO      8    THR    HG1    106     0.4102      1.008
+   107          C      8    THR      C    107     0.5973      12.01
+   108         OB      8    THR      O    108    -0.5679         16   ; qtot 0
+; residue   9 GLN rtp GLN  q  0.0
+   109          N      9    GLN      N    109    -0.4157      14.01
+   110         HB      9    GLN      H    110     0.2719      1.008
+   111         CT      9    GLN     CA    111    -0.0031      12.01
+   112         H1      9    GLN     HA    112      0.085      1.008
+   113         CT      9    GLN     CB    113    -0.0036      12.01
+   114         HC      9    GLN    HB1    114     0.0171      1.008
+   115         HC      9    GLN    HB2    115     0.0171      1.008
+   116         C9      9    GLN     CG    116    -0.0645      12.01
+   117         HC      9    GLN    HG1    117     0.0352      1.008
+   118         HC      9    GLN    HG2    118     0.0352      1.008
+   119          C      9    GLN     CD    119     0.6951      12.01
+   120          O      9    GLN    OE1    120    -0.6086         16
+   121          N      9    GLN    NE2    121    -0.9407      14.01
+   122          H      9    GLN   HE21    122     0.4251      1.008
+   123          H      9    GLN   HE22    123     0.4251      1.008
+   124          C      9    GLN      C    124     0.5973      12.01
+   125         OB      9    GLN      O    125    -0.5679         16   ; qtot 0
+; residue  10 GLN rtp GLN  q  0.0
+   126          N     10    GLN      N    126    -0.4157      14.01
+   127         HB     10    GLN      H    127     0.2719      1.008
+   128         CT     10    GLN     CA    128    -0.0031      12.01
+   129         H1     10    GLN     HA    129      0.085      1.008
+   130         CT     10    GLN     CB    130    -0.0036      12.01
+   131         HC     10    GLN    HB1    131     0.0171      1.008
+   132         HC     10    GLN    HB2    132     0.0171      1.008
+   133         C9     10    GLN     CG    133    -0.0645      12.01
+   134         HC     10    GLN    HG1    134     0.0352      1.008
+   135         HC     10    GLN    HG2    135     0.0352      1.008
+   136          C     10    GLN     CD    136     0.6951      12.01
+   137          O     10    GLN    OE1    137    -0.6086         16
+   138          N     10    GLN    NE2    138    -0.9407      14.01
+   139          H     10    GLN   HE21    139     0.4251      1.008
+   140          H     10    GLN   HE22    140     0.4251      1.008
+   141          C     10    GLN      C    141     0.5973      12.01
+   142         OB     10    GLN      O    142    -0.5679         16   ; qtot 0
+; residue  11 ALA rtp ALA  q  0.0
+   143          N     11    ALA      N    143    -0.4157      14.01
+   144         HB     11    ALA      H    144     0.2719      1.008
+   145         CT     11    ALA     CA    145     0.0337      12.01
+   146         H1     11    ALA     HA    146     0.0823      1.008
+   147         CT     11    ALA     CB    147    -0.1825      12.01
+   148         HC     11    ALA    HB1    148     0.0603      1.008
+   149         HC     11    ALA    HB2    149     0.0603      1.008
+   150         HC     11    ALA    HB3    150     0.0603      1.008
+   151          C     11    ALA      C    151     0.5973      12.01
+   152         OB     11    ALA      O    152    -0.5679         16   ; qtot 0
+; residue  12 THR rtp THR  q  0.0
+   153          N     12    THR      N    153    -0.4157      14.01
+   154         HB     12    THR      H    154     0.2719      1.008
+   155         CT     12    THR     CA    155    -0.0389      12.01
+   156         H1     12    THR     HA    156     0.1007      1.008
+   157         C8     12    THR     CB    157     0.3654      12.01
+   158         H1     12    THR     HB    158     0.0043      1.008
+   159         CT     12    THR    CG2    159    -0.2438      12.01
+   160         HC     12    THR   HG21    160     0.0642      1.008
+   161         HC     12    THR   HG22    161     0.0642      1.008
+   162         HC     12    THR   HG23    162     0.0642      1.008
+   163         O3     12    THR    OG1    163    -0.6761         16
+   164         HO     12    THR    HG1    164     0.4102      1.008
+   165          C     12    THR      C    165     0.5973      12.01
+   166         OB     12    THR      O    166    -0.5679         16   ; qtot 0
+; residue  13 GLN rtp GLN  q  0.0
+   167          N     13    GLN      N    167    -0.4157      14.01
+   168         HB     13    GLN      H    168     0.2719      1.008
+   169         CT     13    GLN     CA    169    -0.0031      12.01
+   170         H1     13    GLN     HA    170      0.085      1.008
+   171         CT     13    GLN     CB    171    -0.0036      12.01
+   172         HC     13    GLN    HB1    172     0.0171      1.008
+   173         HC     13    GLN    HB2    173     0.0171      1.008
+   174         C9     13    GLN     CG    174    -0.0645      12.01
+   175         HC     13    GLN    HG1    175     0.0352      1.008
+   176         HC     13    GLN    HG2    176     0.0352      1.008
+   177          C     13    GLN     CD    177     0.6951      12.01
+   178          O     13    GLN    OE1    178    -0.6086         16
+   179          N     13    GLN    NE2    179    -0.9407      14.01
+   180          H     13    GLN   HE21    180     0.4251      1.008
+   181          H     13    GLN   HE22    181     0.4251      1.008
+   182          C     13    GLN      C    182     0.5973      12.01
+   183         OB     13    GLN      O    183    -0.5679         16   ; qtot 0
+; residue  14 SER rtp SER  q  0.0
+   184          N     14    SER      N    184    -0.4157      14.01
+   185         HB     14    SER      H    185     0.2719      1.008
+   186         CT     14    SER     CA    186    -0.0249      12.01
+   187         H1     14    SER     HA    187     0.0843      1.008
+   188         C8     14    SER     CB    188     0.2117      12.01
+   189         H1     14    SER    HB1    189     0.0352      1.008
+   190         H1     14    SER    HB2    190     0.0352      1.008
+   191         OH     14    SER     OG    191    -0.6546         16
+   192         HO     14    SER     HG    192     0.4275      1.008
+   193          C     14    SER      C    193     0.5973      12.01
+   194         OB     14    SER      O    194    -0.5679         16   ; qtot 0
+; residue  15 TYR rtp TYR  q  0.0
+   195          N     15    TYR      N    195    -0.4157      14.01
+   196         HB     15    TYR      H    196     0.2719      1.008
+   197         CT     15    TYR     CA    197    -0.0014      12.01
+   198         H1     15    TYR     HA    198     0.0876      1.008
+   199         CT     15    TYR     CB    199    -0.0152      12.01
+   200         HC     15    TYR    HB1    200     0.0295      1.008
+   201         HC     15    TYR    HB2    201     0.0295      1.008
+   202         CA     15    TYR     CG    202    -0.0011      12.01
+   203         CA     15    TYR    CD1    203    -0.1906      12.01
+   204         HA     15    TYR    HD1    204     0.1699      1.008
+   205         CA     15    TYR    CE1    205    -0.2341      12.01
+   206         HA     15    TYR    HE1    206     0.1656      1.008
+   207          C     15    TYR     CZ    207     0.3226      12.01
+   208         OH     15    TYR     OH    208    -0.5579         16
+   209         HO     15    TYR     HH    209     0.3992      1.008
+   210         CA     15    TYR    CE2    210    -0.2341      12.01
+   211         HA     15    TYR    HE2    211     0.1656      1.008
+   212         CA     15    TYR    CD2    212    -0.1906      12.01
+   213         HA     15    TYR    HD2    213     0.1699      1.008
+   214          C     15    TYR      C    214     0.5973      12.01
+   215         OB     15    TYR      O    215    -0.5679         16   ; qtot 0
+; residue  16 GLY rtp GLY  q  0.0
+   216          N     16    GLY      N    216    -0.4157      14.01
+   217         HB     16    GLY      H    217     0.2719      1.008
+   218         C1     16    GLY     CA    218    -0.0252      12.01
+   219         H1     16    GLY    HA1    219     0.0698      1.008
+   220         H1     16    GLY    HA2    220     0.0698      1.008
+   221          C     16    GLY      C    221     0.5973      12.01
+   222         OB     16    GLY      O    222    -0.5679         16   ; qtot 0
+; residue  17 ALA rtp ALA  q  0.0
+   223          N     17    ALA      N    223    -0.4157      14.01
+   224         HB     17    ALA      H    224     0.2719      1.008
+   225         CT     17    ALA     CA    225     0.0337      12.01
+   226         H1     17    ALA     HA    226     0.0823      1.008
+   227         CT     17    ALA     CB    227    -0.1825      12.01
+   228         HC     17    ALA    HB1    228     0.0603      1.008
+   229         HC     17    ALA    HB2    229     0.0603      1.008
+   230         HC     17    ALA    HB3    230     0.0603      1.008
+   231          C     17    ALA      C    231     0.5973      12.01
+   232         OB     17    ALA      O    232    -0.5679         16   ; qtot 0
+; residue  18 TYR rtp TYR  q  0.0
+   233          N     18    TYR      N    233    -0.4157      14.01
+   234         HB     18    TYR      H    234     0.2719      1.008
+   235         CT     18    TYR     CA    235    -0.0014      12.01
+   236         H1     18    TYR     HA    236     0.0876      1.008
+   237         CT     18    TYR     CB    237    -0.0152      12.01
+   238         HC     18    TYR    HB1    238     0.0295      1.008
+   239         HC     18    TYR    HB2    239     0.0295      1.008
+   240         CA     18    TYR     CG    240    -0.0011      12.01
+   241         CA     18    TYR    CD1    241    -0.1906      12.01
+   242         HA     18    TYR    HD1    242     0.1699      1.008
+   243         CA     18    TYR    CE1    243    -0.2341      12.01
+   244         HA     18    TYR    HE1    244     0.1656      1.008
+   245          C     18    TYR     CZ    245     0.3226      12.01
+   246         OH     18    TYR     OH    246    -0.5579         16
+   247         HO     18    TYR     HH    247     0.3992      1.008
+   248         CA     18    TYR    CE2    248    -0.2341      12.01
+   249         HA     18    TYR    HE2    249     0.1656      1.008
+   250         CA     18    TYR    CD2    250    -0.1906      12.01
+   251         HA     18    TYR    HD2    251     0.1699      1.008
+   252          C     18    TYR      C    252     0.5973      12.01
+   253         OB     18    TYR      O    253    -0.5679         16   ; qtot 0
+; residue  19 PRO rtp PRO  q  0.0
+   254          N     19    PRO      N    254    -0.2548      14.01
+   255         CT     19    PRO     CD    255     0.0192      12.01
+   256         H1     19    PRO    HD1    256     0.0391      1.008
+   257         H1     19    PRO    HD2    257     0.0391      1.008
+   258         CT     19    PRO     CG    258     0.0189      12.01
+   259         HC     19    PRO    HG1    259     0.0213      1.008
+   260         HC     19    PRO    HG2    260     0.0213      1.008
+   261         CT     19    PRO     CB    261     -0.007      12.01
+   262         HC     19    PRO    HB1    262     0.0253      1.008
+   263         HC     19    PRO    HB2    263     0.0253      1.008
+   264         C7     19    PRO     CA    264    -0.0266      12.01
+   265         H1     19    PRO     HA    265     0.0641      1.008
+   266          C     19    PRO      C    266     0.5896      12.01
+   267         OB     19    PRO      O    267    -0.5748         16   ; qtot 0
+; residue  20 THR rtp THR  q  0.0
+   268          N     20    THR      N    268    -0.4157      14.01
+   269         HB     20    THR      H    269     0.2719      1.008
+   270         CT     20    THR     CA    270    -0.0389      12.01
+   271         H1     20    THR     HA    271     0.1007      1.008
+   272         C8     20    THR     CB    272     0.3654      12.01
+   273         H1     20    THR     HB    273     0.0043      1.008
+   274         CT     20    THR    CG2    274    -0.2438      12.01
+   275         HC     20    THR   HG21    275     0.0642      1.008
+   276         HC     20    THR   HG22    276     0.0642      1.008
+   277         HC     20    THR   HG23    277     0.0642      1.008
+   278         O3     20    THR    OG1    278    -0.6761         16
+   279         HO     20    THR    HG1    279     0.4102      1.008
+   280          C     20    THR      C    280     0.5973      12.01
+   281         OB     20    THR      O    281    -0.5679         16   ; qtot 0
+; residue  21 GLN rtp GLN  q  0.0
+   282          N     21    GLN      N    282    -0.4157      14.01
+   283         HB     21    GLN      H    283     0.2719      1.008
+   284         CT     21    GLN     CA    284    -0.0031      12.01
+   285         H1     21    GLN     HA    285      0.085      1.008
+   286         CT     21    GLN     CB    286    -0.0036      12.01
+   287         HC     21    GLN    HB1    287     0.0171      1.008
+   288         HC     21    GLN    HB2    288     0.0171      1.008
+   289         C9     21    GLN     CG    289    -0.0645      12.01
+   290         HC     21    GLN    HG1    290     0.0352      1.008
+   291         HC     21    GLN    HG2    291     0.0352      1.008
+   292          C     21    GLN     CD    292     0.6951      12.01
+   293          O     21    GLN    OE1    293    -0.6086         16
+   294          N     21    GLN    NE2    294    -0.9407      14.01
+   295          H     21    GLN   HE21    295     0.4251      1.008
+   296          H     21    GLN   HE22    296     0.4251      1.008
+   297          C     21    GLN      C    297     0.5973      12.01
+   298         OB     21    GLN      O    298    -0.5679         16   ; qtot 0
+; residue  22 PRO rtp PRO  q  0.0
+   299          N     22    PRO      N    299    -0.2548      14.01
+   300         CT     22    PRO     CD    300     0.0192      12.01
+   301         H1     22    PRO    HD1    301     0.0391      1.008
+   302         H1     22    PRO    HD2    302     0.0391      1.008
+   303         CT     22    PRO     CG    303     0.0189      12.01
+   304         HC     22    PRO    HG1    304     0.0213      1.008
+   305         HC     22    PRO    HG2    305     0.0213      1.008
+   306         CT     22    PRO     CB    306     -0.007      12.01
+   307         HC     22    PRO    HB1    307     0.0253      1.008
+   308         HC     22    PRO    HB2    308     0.0253      1.008
+   309         C7     22    PRO     CA    309    -0.0266      12.01
+   310         H1     22    PRO     HA    310     0.0641      1.008
+   311          C     22    PRO      C    311     0.5896      12.01
+   312         OB     22    PRO      O    312    -0.5748         16   ; qtot 0
+; residue  23 GLY rtp GLY  q  0.0
+   313          N     23    GLY      N    313    -0.4157      14.01
+   314         HB     23    GLY      H    314     0.2719      1.008
+   315         C1     23    GLY     CA    315    -0.0252      12.01
+   316         H1     23    GLY    HA1    316     0.0698      1.008
+   317         H1     23    GLY    HA2    317     0.0698      1.008
+   318          C     23    GLY      C    318     0.5973      12.01
+   319         OB     23    GLY      O    319    -0.5679         16   ; qtot 0
+; residue  24 GLN rtp GLN  q  0.0
+   320          N     24    GLN      N    320    -0.4157      14.01
+   321         HB     24    GLN      H    321     0.2719      1.008
+   322         CT     24    GLN     CA    322    -0.0031      12.01
+   323         H1     24    GLN     HA    323      0.085      1.008
+   324         CT     24    GLN     CB    324    -0.0036      12.01
+   325         HC     24    GLN    HB1    325     0.0171      1.008
+   326         HC     24    GLN    HB2    326     0.0171      1.008
+   327         C9     24    GLN     CG    327    -0.0645      12.01
+   328         HC     24    GLN    HG1    328     0.0352      1.008
+   329         HC     24    GLN    HG2    329     0.0352      1.008
+   330          C     24    GLN     CD    330     0.6951      12.01
+   331          O     24    GLN    OE1    331    -0.6086         16
+   332          N     24    GLN    NE2    332    -0.9407      14.01
+   333          H     24    GLN   HE21    333     0.4251      1.008
+   334          H     24    GLN   HE22    334     0.4251      1.008
+   335          C     24    GLN      C    335     0.5973      12.01
+   336         OB     24    GLN      O    336    -0.5679         16   ; qtot 0
+; residue  25 GLY rtp GLY  q  0.0
+   337          N     25    GLY      N    337    -0.4157      14.01
+   338         HB     25    GLY      H    338     0.2719      1.008
+   339         C1     25    GLY     CA    339    -0.0252      12.01
+   340         H1     25    GLY    HA1    340     0.0698      1.008
+   341         H1     25    GLY    HA2    341     0.0698      1.008
+   342          C     25    GLY      C    342     0.5973      12.01
+   343         OB     25    GLY      O    343    -0.5679         16   ; qtot 0
+; residue  26 TYR rtp TYR  q  0.0
+   344          N     26    TYR      N    344    -0.4157      14.01
+   345         HB     26    TYR      H    345     0.2719      1.008
+   346         CT     26    TYR     CA    346    -0.0014      12.01
+   347         H1     26    TYR     HA    347     0.0876      1.008
+   348         CT     26    TYR     CB    348    -0.0152      12.01
+   349         HC     26    TYR    HB1    349     0.0295      1.008
+   350         HC     26    TYR    HB2    350     0.0295      1.008
+   351         CA     26    TYR     CG    351    -0.0011      12.01
+   352         CA     26    TYR    CD1    352    -0.1906      12.01
+   353         HA     26    TYR    HD1    353     0.1699      1.008
+   354         CA     26    TYR    CE1    354    -0.2341      12.01
+   355         HA     26    TYR    HE1    355     0.1656      1.008
+   356          C     26    TYR     CZ    356     0.3226      12.01
+   357         OH     26    TYR     OH    357    -0.5579         16
+   358         HO     26    TYR     HH    358     0.3992      1.008
+   359         CA     26    TYR    CE2    359    -0.2341      12.01
+   360         HA     26    TYR    HE2    360     0.1656      1.008
+   361         CA     26    TYR    CD2    361    -0.1906      12.01
+   362         HA     26    TYR    HD2    362     0.1699      1.008
+   363          C     26    TYR      C    363     0.5973      12.01
+   364         OB     26    TYR      O    364    -0.5679         16   ; qtot 0
+; residue  27 SER rtp SER  q  0.0
+   365          N     27    SER      N    365    -0.4157      14.01
+   366         HB     27    SER      H    366     0.2719      1.008
+   367         CT     27    SER     CA    367    -0.0249      12.01
+   368         H1     27    SER     HA    368     0.0843      1.008
+   369         C8     27    SER     CB    369     0.2117      12.01
+   370         H1     27    SER    HB1    370     0.0352      1.008
+   371         H1     27    SER    HB2    371     0.0352      1.008
+   372         OH     27    SER     OG    372    -0.6546         16
+   373         HO     27    SER     HG    373     0.4275      1.008
+   374          C     27    SER      C    374     0.5973      12.01
+   375         OB     27    SER      O    375    -0.5679         16   ; qtot 0
+; residue  28 GLN rtp GLN  q  0.0
+   376          N     28    GLN      N    376    -0.4157      14.01
+   377         HB     28    GLN      H    377     0.2719      1.008
+   378         CT     28    GLN     CA    378    -0.0031      12.01
+   379         H1     28    GLN     HA    379      0.085      1.008
+   380         CT     28    GLN     CB    380    -0.0036      12.01
+   381         HC     28    GLN    HB1    381     0.0171      1.008
+   382         HC     28    GLN    HB2    382     0.0171      1.008
+   383         C9     28    GLN     CG    383    -0.0645      12.01
+   384         HC     28    GLN    HG1    384     0.0352      1.008
+   385         HC     28    GLN    HG2    385     0.0352      1.008
+   386          C     28    GLN     CD    386     0.6951      12.01
+   387          O     28    GLN    OE1    387    -0.6086         16
+   388          N     28    GLN    NE2    388    -0.9407      14.01
+   389          H     28    GLN   HE21    389     0.4251      1.008
+   390          H     28    GLN   HE22    390     0.4251      1.008
+   391          C     28    GLN      C    391     0.5973      12.01
+   392         OB     28    GLN      O    392    -0.5679         16   ; qtot 0
+; residue  29 GLN rtp GLN  q  0.0
+   393          N     29    GLN      N    393    -0.4157      14.01
+   394         HB     29    GLN      H    394     0.2719      1.008
+   395         CT     29    GLN     CA    395    -0.0031      12.01
+   396         H1     29    GLN     HA    396      0.085      1.008
+   397         CT     29    GLN     CB    397    -0.0036      12.01
+   398         HC     29    GLN    HB1    398     0.0171      1.008
+   399         HC     29    GLN    HB2    399     0.0171      1.008
+   400         C9     29    GLN     CG    400    -0.0645      12.01
+   401         HC     29    GLN    HG1    401     0.0352      1.008
+   402         HC     29    GLN    HG2    402     0.0352      1.008
+   403          C     29    GLN     CD    403     0.6951      12.01
+   404          O     29    GLN    OE1    404    -0.6086         16
+   405          N     29    GLN    NE2    405    -0.9407      14.01
+   406          H     29    GLN   HE21    406     0.4251      1.008
+   407          H     29    GLN   HE22    407     0.4251      1.008
+   408          C     29    GLN      C    408     0.5973      12.01
+   409         OB     29    GLN      O    409    -0.5679         16   ; qtot 0
+; residue  30 SER rtp SER  q  0.0
+   410          N     30    SER      N    410    -0.4157      14.01
+   411         HB     30    SER      H    411     0.2719      1.008
+   412         CT     30    SER     CA    412    -0.0249      12.01
+   413         H1     30    SER     HA    413     0.0843      1.008
+   414         C8     30    SER     CB    414     0.2117      12.01
+   415         H1     30    SER    HB1    415     0.0352      1.008
+   416         H1     30    SER    HB2    416     0.0352      1.008
+   417         OH     30    SER     OG    417    -0.6546         16
+   418         HO     30    SER     HG    418     0.4275      1.008
+   419          C     30    SER      C    419     0.5973      12.01
+   420         OB     30    SER      O    420    -0.5679         16   ; qtot 0
+; residue  31 SER rtp SER  q  0.0
+   421          N     31    SER      N    421    -0.4157      14.01
+   422         HB     31    SER      H    422     0.2719      1.008
+   423         CT     31    SER     CA    423    -0.0249      12.01
+   424         H1     31    SER     HA    424     0.0843      1.008
+   425         C8     31    SER     CB    425     0.2117      12.01
+   426         H1     31    SER    HB1    426     0.0352      1.008
+   427         H1     31    SER    HB2    427     0.0352      1.008
+   428         OH     31    SER     OG    428    -0.6546         16
+   429         HO     31    SER     HG    429     0.4275      1.008
+   430          C     31    SER      C    430     0.5973      12.01
+   431         OB     31    SER      O    431    -0.5679         16   ; qtot 0
+; residue  32 GLN rtp GLN  q  0.0
+   432          N     32    GLN      N    432    -0.4157      14.01
+   433         HB     32    GLN      H    433     0.2719      1.008
+   434         CT     32    GLN     CA    434    -0.0031      12.01
+   435         H1     32    GLN     HA    435      0.085      1.008
+   436         CT     32    GLN     CB    436    -0.0036      12.01
+   437         HC     32    GLN    HB1    437     0.0171      1.008
+   438         HC     32    GLN    HB2    438     0.0171      1.008
+   439         C9     32    GLN     CG    439    -0.0645      12.01
+   440         HC     32    GLN    HG1    440     0.0352      1.008
+   441         HC     32    GLN    HG2    441     0.0352      1.008
+   442          C     32    GLN     CD    442     0.6951      12.01
+   443          O     32    GLN    OE1    443    -0.6086         16
+   444          N     32    GLN    NE2    444    -0.9407      14.01
+   445          H     32    GLN   HE21    445     0.4251      1.008
+   446          H     32    GLN   HE22    446     0.4251      1.008
+   447          C     32    GLN      C    447     0.5973      12.01
+   448         OB     32    GLN      O    448    -0.5679         16   ; qtot 0
+; residue  33 PRO rtp PRO  q  0.0
+   449          N     33    PRO      N    449    -0.2548      14.01
+   450         CT     33    PRO     CD    450     0.0192      12.01
+   451         H1     33    PRO    HD1    451     0.0391      1.008
+   452         H1     33    PRO    HD2    452     0.0391      1.008
+   453         CT     33    PRO     CG    453     0.0189      12.01
+   454         HC     33    PRO    HG1    454     0.0213      1.008
+   455         HC     33    PRO    HG2    455     0.0213      1.008
+   456         CT     33    PRO     CB    456     -0.007      12.01
+   457         HC     33    PRO    HB1    457     0.0253      1.008
+   458         HC     33    PRO    HB2    458     0.0253      1.008
+   459         C7     33    PRO     CA    459    -0.0266      12.01
+   460         H1     33    PRO     HA    460     0.0641      1.008
+   461          C     33    PRO      C    461     0.5896      12.01
+   462         OB     33    PRO      O    462    -0.5748         16   ; qtot 0
+; residue  34 TYR rtp TYR  q  0.0
+   463          N     34    TYR      N    463    -0.4157      14.01
+   464         HB     34    TYR      H    464     0.2719      1.008
+   465         CT     34    TYR     CA    465    -0.0014      12.01
+   466         H1     34    TYR     HA    466     0.0876      1.008
+   467         CT     34    TYR     CB    467    -0.0152      12.01
+   468         HC     34    TYR    HB1    468     0.0295      1.008
+   469         HC     34    TYR    HB2    469     0.0295      1.008
+   470         CA     34    TYR     CG    470    -0.0011      12.01
+   471         CA     34    TYR    CD1    471    -0.1906      12.01
+   472         HA     34    TYR    HD1    472     0.1699      1.008
+   473         CA     34    TYR    CE1    473    -0.2341      12.01
+   474         HA     34    TYR    HE1    474     0.1656      1.008
+   475          C     34    TYR     CZ    475     0.3226      12.01
+   476         OH     34    TYR     OH    476    -0.5579         16
+   477         HO     34    TYR     HH    477     0.3992      1.008
+   478         CA     34    TYR    CE2    478    -0.2341      12.01
+   479         HA     34    TYR    HE2    479     0.1656      1.008
+   480         CA     34    TYR    CD2    480    -0.1906      12.01
+   481         HA     34    TYR    HD2    481     0.1699      1.008
+   482          C     34    TYR      C    482     0.5973      12.01
+   483         OB     34    TYR      O    483    -0.5679         16   ; qtot 0
+; residue  35 GLY rtp GLY  q  0.0
+   484          N     35    GLY      N    484    -0.4157      14.01
+   485         HB     35    GLY      H    485     0.2719      1.008
+   486         C1     35    GLY     CA    486    -0.0252      12.01
+   487         H1     35    GLY    HA1    487     0.0698      1.008
+   488         H1     35    GLY    HA2    488     0.0698      1.008
+   489          C     35    GLY      C    489     0.5973      12.01
+   490         OB     35    GLY      O    490    -0.5679         16   ; qtot 0
+; residue  36 GLN rtp GLN  q  0.0
+   491          N     36    GLN      N    491    -0.4157      14.01
+   492         HB     36    GLN      H    492     0.2719      1.008
+   493         CT     36    GLN     CA    493    -0.0031      12.01
+   494         H1     36    GLN     HA    494      0.085      1.008
+   495         CT     36    GLN     CB    495    -0.0036      12.01
+   496         HC     36    GLN    HB1    496     0.0171      1.008
+   497         HC     36    GLN    HB2    497     0.0171      1.008
+   498         C9     36    GLN     CG    498    -0.0645      12.01
+   499         HC     36    GLN    HG1    499     0.0352      1.008
+   500         HC     36    GLN    HG2    500     0.0352      1.008
+   501          C     36    GLN     CD    501     0.6951      12.01
+   502          O     36    GLN    OE1    502    -0.6086         16
+   503          N     36    GLN    NE2    503    -0.9407      14.01
+   504          H     36    GLN   HE21    504     0.4251      1.008
+   505          H     36    GLN   HE22    505     0.4251      1.008
+   506          C     36    GLN      C    506     0.5973      12.01
+   507         OB     36    GLN      O    507    -0.5679         16   ; qtot 0
+; residue  37 GLN rtp GLN  q  0.0
+   508          N     37    GLN      N    508    -0.4157      14.01
+   509         HB     37    GLN      H    509     0.2719      1.008
+   510         CT     37    GLN     CA    510    -0.0031      12.01
+   511         H1     37    GLN     HA    511      0.085      1.008
+   512         CT     37    GLN     CB    512    -0.0036      12.01
+   513         HC     37    GLN    HB1    513     0.0171      1.008
+   514         HC     37    GLN    HB2    514     0.0171      1.008
+   515         C9     37    GLN     CG    515    -0.0645      12.01
+   516         HC     37    GLN    HG1    516     0.0352      1.008
+   517         HC     37    GLN    HG2    517     0.0352      1.008
+   518          C     37    GLN     CD    518     0.6951      12.01
+   519          O     37    GLN    OE1    519    -0.6086         16
+   520          N     37    GLN    NE2    520    -0.9407      14.01
+   521          H     37    GLN   HE21    521     0.4251      1.008
+   522          H     37    GLN   HE22    522     0.4251      1.008
+   523          C     37    GLN      C    523     0.5973      12.01
+   524         OB     37    GLN      O    524    -0.5679         16   ; qtot 0
+; residue  38 SER rtp SER  q  0.0
+   525          N     38    SER      N    525    -0.4157      14.01
+   526         HB     38    SER      H    526     0.2719      1.008
+   527         CT     38    SER     CA    527    -0.0249      12.01
+   528         H1     38    SER     HA    528     0.0843      1.008
+   529         C8     38    SER     CB    529     0.2117      12.01
+   530         H1     38    SER    HB1    530     0.0352      1.008
+   531         H1     38    SER    HB2    531     0.0352      1.008
+   532         OH     38    SER     OG    532    -0.6546         16
+   533         HO     38    SER     HG    533     0.4275      1.008
+   534          C     38    SER      C    534     0.5973      12.01
+   535         OB     38    SER      O    535    -0.5679         16   ; qtot 0
+; residue  39 TYR rtp TYR  q  0.0
+   536          N     39    TYR      N    536    -0.4157      14.01
+   537         HB     39    TYR      H    537     0.2719      1.008
+   538         CT     39    TYR     CA    538    -0.0014      12.01
+   539         H1     39    TYR     HA    539     0.0876      1.008
+   540         CT     39    TYR     CB    540    -0.0152      12.01
+   541         HC     39    TYR    HB1    541     0.0295      1.008
+   542         HC     39    TYR    HB2    542     0.0295      1.008
+   543         CA     39    TYR     CG    543    -0.0011      12.01
+   544         CA     39    TYR    CD1    544    -0.1906      12.01
+   545         HA     39    TYR    HD1    545     0.1699      1.008
+   546         CA     39    TYR    CE1    546    -0.2341      12.01
+   547         HA     39    TYR    HE1    547     0.1656      1.008
+   548          C     39    TYR     CZ    548     0.3226      12.01
+   549         OH     39    TYR     OH    549    -0.5579         16
+   550         HO     39    TYR     HH    550     0.3992      1.008
+   551         CA     39    TYR    CE2    551    -0.2341      12.01
+   552         HA     39    TYR    HE2    552     0.1656      1.008
+   553         CA     39    TYR    CD2    553    -0.1906      12.01
+   554         HA     39    TYR    HD2    554     0.1699      1.008
+   555          C     39    TYR      C    555     0.5973      12.01
+   556         OB     39    TYR      O    556    -0.5679         16   ; qtot 0
+; residue  40 SER rtp SER  q  0.0
+   557          N     40    SER      N    557    -0.4157      14.01
+   558         HB     40    SER      H    558     0.2719      1.008
+   559         CT     40    SER     CA    559    -0.0249      12.01
+   560         H1     40    SER     HA    560     0.0843      1.008
+   561         C8     40    SER     CB    561     0.2117      12.01
+   562         H1     40    SER    HB1    562     0.0352      1.008
+   563         H1     40    SER    HB2    563     0.0352      1.008
+   564         OH     40    SER     OG    564    -0.6546         16
+   565         HO     40    SER     HG    565     0.4275      1.008
+   566          C     40    SER      C    566     0.5973      12.01
+   567         OB     40    SER      O    567    -0.5679         16   ; qtot 0
+; residue  41 GLY rtp GLY  q  0.0
+   568          N     41    GLY      N    568    -0.4157      14.01
+   569         HB     41    GLY      H    569     0.2719      1.008
+   570         C1     41    GLY     CA    570    -0.0252      12.01
+   571         H1     41    GLY    HA1    571     0.0698      1.008
+   572         H1     41    GLY    HA2    572     0.0698      1.008
+   573          C     41    GLY      C    573     0.5973      12.01
+   574         OB     41    GLY      O    574    -0.5679         16   ; qtot 0
+; residue  42 TYR rtp TYR  q  0.0
+   575          N     42    TYR      N    575    -0.4157      14.01
+   576         HB     42    TYR      H    576     0.2719      1.008
+   577         CT     42    TYR     CA    577    -0.0014      12.01
+   578         H1     42    TYR     HA    578     0.0876      1.008
+   579         CT     42    TYR     CB    579    -0.0152      12.01
+   580         HC     42    TYR    HB1    580     0.0295      1.008
+   581         HC     42    TYR    HB2    581     0.0295      1.008
+   582         CA     42    TYR     CG    582    -0.0011      12.01
+   583         CA     42    TYR    CD1    583    -0.1906      12.01
+   584         HA     42    TYR    HD1    584     0.1699      1.008
+   585         CA     42    TYR    CE1    585    -0.2341      12.01
+   586         HA     42    TYR    HE1    586     0.1656      1.008
+   587          C     42    TYR     CZ    587     0.3226      12.01
+   588         OH     42    TYR     OH    588    -0.5579         16
+   589         HO     42    TYR     HH    589     0.3992      1.008
+   590         CA     42    TYR    CE2    590    -0.2341      12.01
+   591         HA     42    TYR    HE2    591     0.1656      1.008
+   592         CA     42    TYR    CD2    592    -0.1906      12.01
+   593         HA     42    TYR    HD2    593     0.1699      1.008
+   594          C     42    TYR      C    594     0.5973      12.01
+   595         OB     42    TYR      O    595    -0.5679         16   ; qtot 0
+; residue  43 SER rtp SER  q  0.0
+   596          N     43    SER      N    596    -0.4157      14.01
+   597         HB     43    SER      H    597     0.2719      1.008
+   598         CT     43    SER     CA    598    -0.0249      12.01
+   599         H1     43    SER     HA    599     0.0843      1.008
+   600         C8     43    SER     CB    600     0.2117      12.01
+   601         H1     43    SER    HB1    601     0.0352      1.008
+   602         H1     43    SER    HB2    602     0.0352      1.008
+   603         OH     43    SER     OG    603    -0.6546         16
+   604         HO     43    SER     HG    604     0.4275      1.008
+   605          C     43    SER      C    605     0.5973      12.01
+   606         OB     43    SER      O    606    -0.5679         16   ; qtot 0
+; residue  44 GLN rtp CGLN q -1.0
+   607          N     44    GLN      N    607    -0.3821      14.01
+   608         HB     44    GLN      H    608     0.2681      1.008
+   609         CT     44    GLN     CA    609    -0.2248      12.01
+   610         H1     44    GLN     HA    610     0.1232      1.008
+   611         CT     44    GLN     CB    611    -0.0664      12.01
+   612         HC     44    GLN    HB1    612     0.0452      1.008
+   613         HC     44    GLN    HB2    613     0.0452      1.008
+   614         CT     44    GLN     CG    614     -0.021      12.01
+   615         HC     44    GLN    HG1    615     0.0203      1.008
+   616         HC     44    GLN    HG2    616     0.0203      1.008
+   617          C     44    GLN     CD    617     0.7093      12.01
+   618          O     44    GLN    OE1    618    -0.6098         16
+   619          N     44    GLN    NE2    619    -0.9574      14.01
+   620          H     44    GLN   HE21    620     0.4304      1.008
+   621          H     44    GLN   HE22    621     0.4304      1.008
+   622          C     44    GLN      C    622     0.7775      12.01
+   623         O2     44    GLN    OC1    623    -0.8042         16
+   624         O2     44    GLN    OC2    624    -0.8042         16   ; qtot -1
 
 [ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
     1     2     1 
     1     3     1 
     1     4     1 
@@ -2255,8 +2272,8 @@ Protein chain A     3
   622   623     1 
   622   624     1 
 
-
 [ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
     1     9     1 
     1    10     1 
     2     6     1 
@@ -3863,8 +3880,8 @@ Protein chain A     3
   618   620     1 
   618   621     1 
 
-
 [ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
     2     1     3     1 
     2     1     4     1 
     2     1     5     1 
@@ -4977,8 +4994,8 @@ Protein chain A     3
   609   622   624     1 
   623   622   624     1 
 
-
 [ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
     2     1     5     6     9 
     2     1     5     7     9 
     2     1     5     8     9 
@@ -6621,6 +6638,8 @@ Protein chain A     3
   618   617   619   620     9 
   618   617   619   621     9 
 
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3
     5    10     8     9     4 
     8    12    10    11     4 
     8    10    12    25     4    90.0        1.67360    2
@@ -7016,12 +7035,13 @@ Protein chain A     3
   617   620   619   621     4 
 
 
-
 [ moleculetype ]
 ; Name            nrexcl
 HxD          3
 
 [ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 HxD rtp HxD q 0.0
     1         c3      1    HxD      C      1 0.15675000  12.010000   ; qtot 0.156750
     2         c3      1    HxD     C1      2 -0.08215000  12.010000   ; qtot 0.074600
     3         oh      1    HxD      O      3 -0.67640000  16.000000   ; qtot -0.601800
@@ -7045,8 +7065,8 @@ HxD          3
    21         ho      1    HxD    H12     21 0.44695000   1.008000   ; qtot -0.446650
    22         ho      1    HxD    H13     22 0.44695000   1.008000   ; qtot 0.000300
 
-
 [ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
       1      2     1   0.15380 194556.000000
       1      3     1   0.14230 245517.120000
       2      8     1   0.15380 194556.000000
@@ -7069,8 +7089,8 @@ HxD          3
      16     19     1   0.10970 314553.120000
      20     22     1   0.09730 471536.800000
 
-
 [ pairs ]
+;    ai     aj funct         c0         c1         c2         c3
       1     10     1
       2     12     1
       3      8     1
@@ -7123,8 +7143,8 @@ HxD          3
      18     22     1
      19     22     1
 
-
 [ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
       1      2      8     1   111.5100476 543.083200
       2      1      3     1   110.1900474 707.932800
       2      8     10     1   111.5100476 543.083200
@@ -7164,8 +7184,8 @@ HxD          3
      18     16     20     1   110.2600474 523.000000
      19     16     20     1   110.2600474 523.000000
 
-
 [ dihedrals ]
+;    ai     aj     ak     al funct         c0         c1         c2         c3         c4         c5
       1      2      8     10     1  0.0000000  0.4602400  1
       1      2      8     10     1  180.0000771  1.2133600  2
       1      2      8     10     1  0.0000000  0.5439200  3
@@ -7229,25 +7249,25 @@ HxD          3
      19     16     20     22     1  0.0000000  0.4727920  3
 
 
-
+; Include a99sb-disp topology
 [ moleculetype ]
 ; molname	nrexcl
 SOL		1
 
 [ atoms ]
+; 	at type	      res nr  res name	at name	      cg nr	charge	   mass
 1       OW_tip4pd    	1	SOL	 OW		1	0        16.00000
 2	HW       	1	SOL	HW1		1	0.5900 	  1.00800
 3	HW	        1	SOL	HW2		1	0.5900 	  1.00800
 4	MW		1	SOL	MW4		1      -1.1800    0.00000
 
-
 [ settles ]
+; i	funct	doh	dhh ---> same as standard tip4p
 1	1	0.09572	0.15139
 
-
-[ virtual ]
+[ virtual_sites3 ]
+; Dummy from			funct	a		b
 4	1	2	3	1	0.131937768	0.131937768
-
 
 [ exclusions ]
 1	2	3	4
@@ -7256,14 +7276,14 @@ SOL		1
 4	1	2	3
 
 
-
+; Include topology for ions
 [ moleculetype ]
 ; molname       nrexcl
 CL              1
 
 [ atoms ]
+; id    at type         res nr  residu name     at name  cg nr  charge
    1    Cl                  1       CL             CL      1   -1.00000
-
 
 
 [ moleculetype ]
@@ -7271,18 +7291,17 @@ CL              1
 NA              1
 
 [ atoms ]
+; id    at type         res nr  residu name     at name  cg nr  charge
    1    Na                  1       NA             NA      1   1.00000
    
 
-
- [ system ] 
+[ system ]
 ; Name
 1,6-hexanediol+FUS in disp water
 
- [ molecules ] 
+[ molecules ]
 ; Compound       #mols
 Protein_chain_A     1
 SOL             13587
 NA                  4
 CL                  3
-
