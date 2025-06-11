@@ -42,6 +42,51 @@ def molecule_selections(queryN:list, queryM:list):
       molecule_sel.append(query_typed(*queryM))
    return molecule_sel
 
+def _parse_section(readfile,trunks):
+   first_round = True
+   output = []
+   for line in readfile[trunks:]:
+      if "[" not in line and first_round!=True and len(line.split()) != 0:
+         output.append(line)
+      elif ";" == line[0]: 
+         continue
+      elif "[" in line and first_round!=True: 
+         break
+      first_round = False
+   return output
+
+def get_molecule_atomtypes(sections,molecule:int=0):
+   atomtype_list = []
+   for i in sections['moleculetype'][molecule]['atoms']:
+      if len(i.split())>1 and ';' not in i.split()[0] and '[' not in i :
+         atomtype_list.append(i.split()[:2])
+   dataset = array(atomtype_list,dtype=object)
+   atomtypes = dataset[:,1]
+   return unique(atomtypes)
+
+def dihedraltype_array(dihedraltypes:list,prepend:str='',avoid:list=[]):
+   data = []
+   dtype = np.dtype([('i','U10'),
+                  ('j', 'U10'),  # 2nd string
+                  ('k', 'U10'),  # 3rd string
+                  ('l', 'U10'),  # 4th string
+                  ('func', 'i4'),    # 5th integer
+                  ('angle', 'f4'),    # 6th float
+                  ('K', 'f4'),    # 7th float
+                  ('mult', 'i4')])   # 8th integer])
+   for string in dihedraltypes:
+      line = string[:string.find(';')].split()
+      line[0] = prepend + line[0] if line[0] not in avoid else line[0]
+      line[3] = prepend + line[3] if line[3] not in avoid else line[3]
+      data.append((line[0], line[1], line[2], line[3], int(line[4]), float(line[5]), float(line[6]), int(line[7])))
+   return np.array(data, dtype=dtype)
+
+def dihedraltypes_strings_list(dihedraltypes):
+   stringsout = [f'{dihedraltype[0]:<5} {dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {"s"+dihedraltype[3]:<5} {dihedraltype[4]:^9}' + \
+                 f'{dihedraltype[5]:<10}{dihedraltype[5]:<10.5f}{dihedraltype[7]}\n' \
+                 for dihedraltype in dihedraltypes]
+   return stringsout
+ 
 def topology_writer(**kwargs):
    ofile = kwargs.get('outfile', 'topol')
    filepath = kwargs.get('filepath', './')
@@ -169,34 +214,20 @@ class topo2rest():
             
    def _get_scale_dehedrals(self, lambda_on=True):
       
-      dihedral_types = [i.split()[:-2] if i.split()[-2] == ';' else i.split()[:-1] if i.split()[-1] == ';' \
+      dihedral_types = [i if i.split()[-2] == ';' else i.split()[:-1] if i.split()[-1] == ';' \
                                else i.split() for i in self._sections['dihedraltypes'] if ';' not in i[:3] if '[' not in i[:3] \
                                if '\n' not in i[:3]]
+      prepend_string = 's'
+      avoid_string = ['X']
       if lambda_on:
-         dihedral_types_new = {i:[] for i in self.lambdai}
-         for dihedraltype in dihedral_types:
-            for lambdai in self.lambdai:
-               Kscaled = float32(dihedraltype[6])*lambdai
-               if len(dihedraltype) == 8:
-                  check_atom_X = isin(array(dihedraltype[:4]), array(['X']))
-                  if sum(check_atom_X) == 0:
-                     stringout = f'{"s"+dihedraltype[0]:<5} {"s"+dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {"s"+dihedraltype[3]:<5} {dihedraltype[4]:^9}{dihedraltype[5]:<10}{Kscaled:<10.5f}{dihedraltype[7]}\n'
-                     dihedral_types_new[lambdai].append(stringout)
-                  elif dihedraltype[0] == 'X':
-                     if sum(check_atom_X) == 1:
-                        stringout = f'{dihedraltype[0]:<5} {"s"+dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {"s"+dihedraltype[3]:<5} {dihedraltype[4]:^9}{dihedraltype[5]:<10}{Kscaled:<10.5f}{dihedraltype[7]}\n' 
-                        dihedral_types_new[lambdai].append(stringout)
-                     elif dihedraltype[3] == 'X':
-                        stringout = f'{dihedraltype[0]:<5} {"s"+dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {dihedraltype[3]:<5} {dihedraltype[4]:^9}{dihedraltype[5]:<10}{Kscaled:<10.5f}{dihedraltype[7]}\n' 
-                        dihedral_types_new[lambdai].append(stringout)
-                     elif dihedraltype[1] == 'X':
-                        stringout = f'{dihedraltype[0]:<5} {dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {"s"+dihedraltype[3]:<5} {dihedraltype[4]:^9}{dihedraltype[5]:<10}{Kscaled:<10.5f}{dihedraltype[7]}\n' 
-                        dihedral_types_new[lambdai].append(stringout)
-                     else: print(f'In dihedraltype: something slipped through\n{dihedraltype}')
-                     
-                  else: print(f'warning: parameter not found for {dihedraltype[:4]}')
-               else: print('warning: dihedraltype not processed:\n '+" ".join(dihedraltype))
-         self._scaled_dihedral_types = dihedral_types_new
+         dihedral_types_new = {i:None for i in self.lambdai}
+         dt = dihedraltype_array(dihedral_types, prepend_string, avoid_string)
+         for lambdai in self.lambdai:
+            dts = deepcopy(dt)
+            dts['K'] *= float32(lambdai)
+            self.scaled_dihedral_types[lambdai] = dihedraltypes_strings_list(dts)
+            dihedrals = self._sections['moleculetype'][hot]['dihedrals']
+            
       else:
          self._scaled_dihedral_types = {i:dihedral_types for i in self.lambdai}
       
@@ -204,13 +235,15 @@ class topo2rest():
          dihedrals_new = {i:[] for i in self.lambdai}
          for hot in self.hot_molecules:
             dihedrals = self._sections['moleculetype'][hot]['dihedrals']
+            dh_l8 = np.array([])
             atn2t = self.molecule_atoms[hot]
             for lambdai in self.lambdai:
+               dh_l8 = 
                df_dht = pd.read_csv(StringIO(''.join(self._scaled_dihedral_types[lambdai])),names=['i','j','k','l','func','angle','K','mult'], sep='\s+')
                dih_new = []
                warn_once = True
                for dihedral in dihedrals:
-                  dls_ = dihedral[:dihedral.find(';')].split()
+                  dls_ = 
                   if len(dls_) == 5:
                      i, j, k, l = [atn2t[int(atomnum)] for atomnum in dls_[:4]]
                      func = int(dls_[4])
@@ -279,28 +312,6 @@ class topo2rest():
          lines+=self._sections['molecules']+['\n']
          self._sections_out[lambda_i]=lines
    
-   def _parse_section(self,trunks):
-      first_round = True
-      output = []
-      for line in self.readfile[trunks:]:
-         if "[" not in line and first_round!=True and len(line.split()) != 0:
-            output.append(line)
-         elif ";" == line[0]: 
-            continue
-         elif "[" in line and first_round!=True: 
-            break
-         first_round = False
-      return output
-
-   def _get_molecule_atomtypes(self,molecule:int=0):
-      atomtype_list=[]
-      for i in self._sections['moleculetype'][molecule]['atoms']:
-         if len(i.split())>1 and ';' not in i.split()[0] and '[' not in i :
-            atomtype_list.append(i.split()[:2])
-      dataset = array(atomtype_list,dtype=object)
-      atomtypes = dataset[:,1]
-      return unique(atomtypes) 
-   
    def _get_scale_nonbonded(self, lambda_on=True):  
       if lambda_on: 
          atomtypes_new = {i:[] for i in self.lambdai}
@@ -358,7 +369,7 @@ class topo2rest():
          queryKmol_atoms = [f'Add atom index:', "int"]
          self.show_molecule_atomtypes(kappa_molecule_i)
          for atom_idx in molecule_selections(queryKmol, queryKmol_atoms): 
-            atom_names.append(self._get_molecule_atomtypes(kappa_molecule_i)[atom_idx])
+            atom_names.append(get_molecule_atomtypes(kappa_molecule_i)[atom_idx])
       
       return array(atom_names)
          
@@ -366,7 +377,7 @@ class topo2rest():
       cold = []
       for i in self.molecules.keys():
          if i not in self.hot_molecules:
-            for atoms in self._get_molecule_atomtypes(i):
+            for atoms in get_molecule_atomtypes(self._sections, i):
                cold.append(atoms)
       return cold
    
@@ -413,7 +424,7 @@ class topo2rest():
       pass
    
    def show_molecule_atomtypes(self, molecule:int=0):
-      for i in enumerate(self._get_molecule_atomtypes(molecule)): print('{}: {}'.format(*i))
+      for i in enumerate(get_molecule_atomtypes(self._sections, molecule)): print('{}: {}'.format(*i))
       pass
    
    def _ordered_molecules(self):
@@ -470,7 +481,7 @@ class topo2rest():
          is_select = [ i for i, line in enumerate(self.readfile) if section in line ]
          in_select = [f' [ {section} ] \n']
          for i in is_select:
-            in_select += self._parse_section(i)
+            in_select += _parse_section(self.readfile,i)
          self._sections[section]=in_select
       section = self.hard_order_sections[-1]
       is_select = [ i for i, line in enumerate(self.readfile) if section in line ] 
