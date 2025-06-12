@@ -22,16 +22,6 @@ def compute_se(e1:float,e2:float,s1:float,s2:float):
    sij = 0.5*(float32(s1)+float32(s2))
    return eij,sij
 
-def generate_nonbonded(at1, at2):
-   e1 = float32(at1[-1])
-   e2 = float32(at2[-1])
-   s1 = float32(at1[-2])
-   s2 = float32(at2[-2])
-   funct = str(1)
-   eij, sij = compute_se(e1,e2,s1,s2)
-   a1, a2 = at1[0], at2[0]
-   return f'{a1:>5} {a2:>4} {funct:^5} {sij:>10.4f} {eij:>8.4f}\n'
-
 def query_typed(query, qtype):
    return eval(qtype)(input(query))
 
@@ -100,7 +90,7 @@ class topo2rest():
       self._molecule_atoms = {}
       self.kappa_low_temp = 330
       self.kappa = 1.0
-      self._methods = { 'ssrest3':['lambda','kappa'], 'rest2':['lambda'], 'solvent_scaled':['kappa'] }
+      self._methods = { 'ssrest2':['lambda','kappa'], 'rest2':['lambda'], 'solvent_scaled':['kappa'] }
       
       self.hard_order_sections = [ "defaults", "atomtypes", "nonbond_params", "bondtypes", \
                                    "constrainttypes", "angletypes", "dihedraltypes","system", "molecules", "moleculetype"]
@@ -391,10 +381,20 @@ class topo2rest():
       self._scaled_atomtypes[lambdai][num] = stringout
       pass
    
-   def _append_nonbonded_kappa_fix(self, kappa_line, cold_lines):
+   def _generate_nonbonded(self, at1, at2):
+      e1 = float32(at1[-1])
+      e2 = float32(at2[-1])
+      s1 = float32(at1[-2])
+      s2 = float32(at2[-2])
+      funct = str(1)
+      eij, sij = compute_se(e1,e2,s1,s2)
+      a1, a2 = at1[0], at2[0]
+      return f'{a1:>5} {a2:>4} {funct:^5} {sij:>10.4f} {eij:>8.4f}\n'
+   
+   def _append_nonbonded_kappa_fix(self, no_kappa_line, cold_lines):
       append_nonbonded_lines = []
       for cold_line in cold_lines: 
-         line = generate_nonbonded(kappa_line,cold_line)
+         line = self._generate_nonbonded(no_kappa_line,cold_line)
          append_nonbonded_lines.append(line)
       for lambda_i in self.lambdai: self._scaled_nonbonded[lambda_i] += append_nonbonded_lines
       pass
@@ -501,8 +501,24 @@ class topo2rest():
          self.kappa = float(input('Enter the inputs (default: 1.06): ').strip() or "1.06")
       pass
    
+   def _method_solvent_scaled(self,**kwargs):
+      if kwargs.get('verbose',False): print(f'Running solvent scaling method')
+      self.nreps = kwargs.get('nreps', self.nreps)
+      self._lambdai = arange(1,self.nreps+1)
+      self._request_hot_molecules(**kwargs)
+      self._get_scale_nonbonded(lambda_on=False)
+      self.kappa_low_temp = kwargs.get('kappa_low_temp', self.kappa_low_temp)
+      self._request_kappa_params(**kwargs)
+      self._generate_nonbonded_kappa_fix(**kwargs)
+      self._get_scale_dehedrals(lambda_on=False)
+      self._get_scaled_molecules(lambda_on=False)
+      self._populate_out()
+      self._processed = True
+      pass
+   
    def _method_rest2(self, **kwargs):
       if kwargs.get('verbose',False): print(f'Running rest2 scaling method')
+      self.nreps = kwargs.get('nreps', self.nreps)
       temps = kwargs.get('temps', None)
       temps_opt = kwargs.get('temps_opt',None)
       if temps_opt is not None:
@@ -530,8 +546,9 @@ class topo2rest():
       self._processed = True
       pass
    
-   def _method_ssrest3(self, **kwargs):
-      if kwargs.get('verbose',False): print(f'Running ssrest3 scaling method')
+   def _method_ssrest2(self, **kwargs):
+      if kwargs.get('verbose',False): print(f'Running ssrest2 scaling method')
+      self.nreps = kwargs.get('nreps', self.nreps)
       temps = kwargs.get('temps', None) if not any(self.templadder) else None
       if temps: self.templadder = generate_temperature_ladder(self.nreps,*temps)
       temps_opt = kwargs.get('temps_opt',None)
@@ -560,10 +577,12 @@ class topo2rest():
       scaling_method = kwargs.get('method', None)
       if scaling_method == None:
          raise Exception(f'No scaling method selected.\n Options used: {kwargs}')
+      elif scaling_method == 'solvent_scaled':
+         self._method_solvent_scaled(**kwargs)
       elif scaling_method == 'rest2':
          self._method_rest2(**kwargs)
-      elif scaling_method == 'ssrest3':
-         self._method_ssrest3(**kwargs)
+      elif scaling_method == 'ssrest2':
+         self._method_ssrest2(**kwargs)
       else:
          raise Exception(f'\"{scaling_method}\" is not an implemented method.')
 
