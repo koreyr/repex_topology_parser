@@ -2,9 +2,7 @@
 
 
 
-from numpy import exp, log, arange, array, float32, unique, sqrt, where, ndarray, isin
-import pandas as pd
-from io import StringIO
+from numpy import exp, log, arange, array, float32, unique, sqrt, where, ndarray, isin, dtype
 from copy import deepcopy
 
 
@@ -64,9 +62,9 @@ def get_molecule_atomtypes(sections,molecule:int=0):
    atomtypes = dataset[:,1]
    return unique(atomtypes)
 
-def dihedraltype_array(dihedraltypes:list,prepend:str='',avoid:list=[]):
+def dihedraltype_array(dihedraltypes:list):
    data = []
-   dtype = np.dtype([('i','U10'),
+   dt = dtype([('i','U10'),
                   ('j', 'U10'),  # 2nd string
                   ('k', 'U10'),  # 3rd string
                   ('l', 'U10'),  # 4th string
@@ -76,15 +74,141 @@ def dihedraltype_array(dihedraltypes:list,prepend:str='',avoid:list=[]):
                   ('mult', 'i4')])   # 8th integer])
    for string in dihedraltypes:
       line = string[:string.find(';')].split()
-      line[0] = prepend + line[0] if line[0] not in avoid else line[0]
-      line[3] = prepend + line[3] if line[3] not in avoid else line[3]
       data.append((line[0], line[1], line[2], line[3], int(line[4]), float(line[5]), float(line[6]), int(line[7])))
-   return np.array(data, dtype=dtype)
+   return array(data, dtype=dt)
+
+def dihedral_array(dihedraltypes:ndarray, dihedrals:list, atom_mapping:dict, verbose=False):
+   data = []
+   search_dihedrals = []
+   dtype_dihedrals = dtype([('i','i4'),
+                  ('j', 'i4'),  # 2nd string
+                  ('k', 'i4'),  # 3rd string
+                  ('l', 'i4'),  # 4th string
+                  ('func', 'i4'),    # 5th integer
+                  ('angle', 'f4'),    # 6th float
+                  ('K', 'f4'),    # 7th float
+                  ('mult', 'i4')])   # 8th integer])
+   for string in dihedrals:
+      line = string[:string.find(';')].split()
+      if len(line) == 5:
+         search_dihedrals.append(tuple(map(int,line)))
+      elif len(line) == 8:
+         data.append((int(line[0]), int(line[1]), int(line[2]), int(line[3]), int(line[4]), float(line[5]), float(line[6]), int(line[7])))
+      elif not line:
+         continue
+      else:
+         raise RuntimeError(f'Line not processed: {line}')
+   for (i, j, k, l, func) in search_dihedrals:
+      if func == 4:
+         mask = ((isin(dihedraltypes['i'], atom_mapping[i]) & \
+               isin(dihedraltypes['j'], atom_mapping[j]) & \
+               isin(dihedraltypes['k'], atom_mapping[k]) & \
+               isin(dihedraltypes['l'], atom_mapping[l]) & \
+               isin(dihedraltypes['func'], func)) | \
+               (isin(dihedraltypes['i'], atom_mapping[l]) & \
+               isin(dihedraltypes['j'], atom_mapping[k]) & \
+               isin(dihedraltypes['k'], atom_mapping[j]) & \
+               isin(dihedraltypes['l'], atom_mapping[i]) & \
+               isin(dihedraltypes['func'], func))) & isin(dihedraltypes['func'], func)
+         mask_Xl = (isin(dihedraltypes['i'], 'X') & \
+               isin(dihedraltypes['j'], atom_mapping[j]) & \
+               isin(dihedraltypes['k'], atom_mapping[k]) & \
+               isin(dihedraltypes['l'], atom_mapping[l]) & \
+               isin(dihedraltypes['func'], func)) 
+         mask_Xll = (isin(dihedraltypes['i'], 'X') & \
+               isin(dihedraltypes['j'], 'X') & \
+               isin(dihedraltypes['k'], atom_mapping[k]) & \
+               isin(dihedraltypes['l'], atom_mapping[l]) & \
+               isin(dihedraltypes['func'], func))
+         if verbose:
+            if any(mask):
+               print(f'found complete match for {(i,j,k,l,func)}')
+               print(f'{" ".join([atom_mapping[atom] for atom in [i, j, k, l]])}')
+               print(dihedraltypes[mask])
+            elif any(mask_Xl):
+               print(f'found match three for {(i, j, k, l,func)}')
+               print(f'{" ".join([atom_mapping[atom] for atom in [i, j, k, l]])}')
+               print(dihedraltypes[mask_Xl])
+            elif any(mask_Xll):
+               print(f'found match two for {(i, j, k, l,func)}')
+               print(f'{" ".join([atom_mapping[atom] for atom in [i, j, k, l]])}')
+               print(dihedraltypes[mask_Xll])
+            else:
+               raise LookupError(f'Dihedral not found: {[i, j, k, l, func].__str__()} {[atom_mapping[atom] for atom in [i, j, k, l]].__str__()}')
+         elif not any(mask | mask_Xl | mask_Xll):
+            raise LookupError(f'Dihedral not found: {[i, j, k, l, func].__str__()} {[atom_mapping[atom] for atom in [i, j, k, l]].__str__()}')
+         
+         if any(mask):
+            for entries in dihedraltypes[mask]:
+               data.append((i, j, k, l, func, entries[5], entries[6], entries[7])) 
+         elif any(mask_Xl):
+            for entries in dihedraltypes[mask_Xl]:
+               data.append((i, j, k, l, func, entries[5], entries[6], entries[7])) 
+         else:
+            for entries in dihedraltypes[mask_Xll]:
+               data.append((i, j, k, l, func, entries[5], entries[6], entries[7]))
+            
+      if func == 9:
+         mask = ((isin(dihedraltypes['i'], atom_mapping[i]) & \
+               isin(dihedraltypes['j'], atom_mapping[j]) & \
+               isin(dihedraltypes['k'], atom_mapping[k]) & \
+               isin(dihedraltypes['l'], atom_mapping[l]) & \
+               isin(dihedraltypes['func'], func)) | \
+               (isin(dihedraltypes['i'], atom_mapping[l]) & \
+               isin(dihedraltypes['j'], atom_mapping[k]) & \
+               isin(dihedraltypes['k'], atom_mapping[j]) & \
+               isin(dihedraltypes['l'], atom_mapping[i]) & \
+               isin(dihedraltypes['func'], func))) & isin(dihedraltypes['func'], func)
+         mask_Xlr = ((isin(dihedraltypes['i'], 'X') & \
+               isin(dihedraltypes['j'], atom_mapping[j]) & \
+               isin(dihedraltypes['k'], atom_mapping[k]) & \
+               isin(dihedraltypes['l'], 'X') & \
+               isin(dihedraltypes['func'], func)) | \
+               (isin(dihedraltypes['i'], 'X') & \
+               isin(dihedraltypes['j'], atom_mapping[k]) & \
+               isin(dihedraltypes['k'], atom_mapping[j]) & \
+               isin(dihedraltypes['l'], 'X') & \
+               isin(dihedraltypes['func'], func))) & isin(dihedraltypes['func'], func)
+         if verbose:
+            if any(mask):
+               print(f'found complete match for {(i,j,k,l,func)}')
+               print(f'{" ".join([atom_mapping[atom] for atom in [i, j, k, l]])}')
+               print(dihedraltypes[mask])
+            elif any(mask_Xlr):
+               print(f'found match two for {[i, j, k, l]}')
+               print(f'{" ".join([atom_mapping[i] for i in [i, j, k, l]])}')
+               print(dihedraltypes[mask_Xlr])
+            else:
+               raise LookupError(f'Dihedral not found: {[i, j, k, l, func].__str__()} {[atom_mapping[atom] for atom in [i, j, k, l]].__str__()}')
+         elif not any(mask | mask_Xlr):
+            raise LookupError(f'Dihedral not found: {[i, j, k, l, func].__str__()} {[atom_mapping[atom] for atom in [i, j, k, l]].__str__()}')
+         if any(mask): 
+            for entries in dihedraltypes[mask]:
+               data.append((i, j, k, l, func, entries[5], entries[6], entries[7])) 
+         else:
+            for entries in dihedraltypes[ mask_Xlr]:
+               data.append((i, j, k, l, func, entries[5], entries[6], entries[7])) 
+      
+   
+   structured_array = array(data, dtype=dtype_dihedrals)
+   structured_array['func'] *= -1
+   structured_array.sort(order=['l','k','j','mult','i'])
+   structured_array.sort(order='func')
+   structured_array['func'] *= -1
+   
+   return structured_array
 
 def dihedraltypes_strings_list(dihedraltypes):
    stringsout = [f'{dihedraltype[0]:<5} {dihedraltype[1]:<5} {"s"+dihedraltype[2]:<5} {"s"+dihedraltype[3]:<5} {dihedraltype[4]:^9}' + \
                  f'{dihedraltype[5]:<10}{dihedraltype[5]:<10.5f}{dihedraltype[7]}\n' \
                  for dihedraltype in dihedraltypes]
+   return stringsout
+
+def dihedrals_strings_list(dihedrals):
+   stringsout = [f'{dihedral[0]:<5} {dihedral[1]:<5} {dihedral[2]:<5} {dihedral[3]:<5} {dihedral[4]:^9}' + \
+                 f'{dihedral[5]:<10}{dihedral[6]:<10.5f}{dihedral[7]}\n' \
+                 if len(dihedral) == 8 else f'{dihedral[0]:<5} {dihedral[1]:<5} {dihedral[2]:<5} {dihedral[3]:<5} {dihedral[4]:^9}' \
+                 for dihedral in dihedrals ]
    return stringsout
  
 def topology_writer(**kwargs):
@@ -138,7 +262,6 @@ class topo2rest():
       self._sections = {}
       self._sections_out = {}
       self._scaled_dihedrals = {}
-      self._scaled_dihedral_types = {}
       self._scaled_atomtypes = {}
       self._scaled_molecules={}
       self._scaled_nonbonded={}
@@ -214,74 +337,18 @@ class topo2rest():
             
    def _get_scale_dehedrals(self, lambda_on=True):
       
-      dihedral_types = [i if i.split()[-2] == ';' else i.split()[:-1] if i.split()[-1] == ';' \
-                               else i.split() for i in self._sections['dihedraltypes'] if ';' not in i[:3] if '[' not in i[:3] \
-                               if '\n' not in i[:3]]
-      prepend_string = 's'
-      avoid_string = ['X']
+      dihedral_types = [ i for i in self._sections['dihedraltypes'] if len(i[:i.find(';')].split()) > 4 ]
       if lambda_on:
-         dihedral_types_new = {i:None for i in self.lambdai}
-         dt = dihedraltype_array(dihedral_types, prepend_string, avoid_string)
-         for lambdai in self.lambdai:
-            dts = deepcopy(dt)
-            dts['K'] *= float32(lambdai)
-            self.scaled_dihedral_types[lambdai] = dihedraltypes_strings_list(dts)
-            dihedrals = self._sections['moleculetype'][hot]['dihedrals']
-            
-      else:
-         self._scaled_dihedral_types = {i:dihedral_types for i in self.lambdai}
-      
-      if lambda_on:
-         dihedrals_new = {i:[] for i in self.lambdai}
          for hot in self.hot_molecules:
-            dihedrals = self._sections['moleculetype'][hot]['dihedrals']
-            dh_l8 = np.array([])
-            atn2t = self.molecule_atoms[hot]
+            dihedrals = dihedral_array(dihedraltype_array(dihedral_types),self._sections['moleculetype'][hot]['dihedrals'],\
+                                                self.molecule_atoms[0])
+            unscaled_K = deepcopy(dihedrals['K'])
+            self._scaled_dihedrals[hot] = {}
             for lambdai in self.lambdai:
-               dh_l8 = 
-               df_dht = pd.read_csv(StringIO(''.join(self._scaled_dihedral_types[lambdai])),names=['i','j','k','l','func','angle','K','mult'], sep='\s+')
-               dih_new = []
-               warn_once = True
-               for dihedral in dihedrals:
-                  dls_ = 
-                  if len(dls_) == 5:
-                     i, j, k, l = [atn2t[int(atomnum)] for atomnum in dls_[:4]]
-                     func = int(dls_[4])
-                     dht_series = df_dht[(df_dht['i']=='s'+i) * (df_dht['j']=='s'+j) * (df_dht['k']=='s'+k) * (df_dht['l']=='s'+l) * (df_dht['func']==func)]
-                     dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='s'+l) * (df_dht['j']=='s'+k) * (df_dht['k']=='s'+j) * (df_dht['l']=='s'+i) * (df_dht['func']==func)]],ignore_index=True)
-                     if func==4 and dht_series.empty:
-                        dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='X') * (df_dht['k']=='s'+k) * (df_dht['l']=='s'+l) * (df_dht['func']==func)]],ignore_index=True)
-                        dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='X') * (df_dht['k']=='s'+j) * (df_dht['l']=='s'+i) * (df_dht['func']==func)]],ignore_index=True)
-                        dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='s'+j) * (df_dht['k']=='s'+k) * (df_dht['l']=='s'+l) * (df_dht['func']==func)]],ignore_index=True)
-                        dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='s'+k) * (df_dht['k']=='s'+j) * (df_dht['l']=='s'+i) * (df_dht['func']==func)]],ignore_index=True)
-                     if func==9 and dht_series.empty:
-                        if j==k:
-                           dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='s'+k) * (df_dht['k']=='s'+j) * (df_dht['l']=='X') * (df_dht['func']==func)]],ignore_index=True)
-                        else:
-                           dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='s'+j) * (df_dht['k']=='s'+k) * (df_dht['l']=='X') * (df_dht['func']==func)]],ignore_index=True)
-                           dht_series = pd.concat( [dht_series,df_dht[(df_dht['i']=='X') * (df_dht['j']=='s'+k) * (df_dht['k']=='s'+j) * (df_dht['l']=='X') * (df_dht['func']==func)]],ignore_index=True)
-                     dht_series = dht_series.drop_duplicates()
-                     dht_series.reset_index()
-                     if dht_series.empty and warn_once:
-                        warn_once = False
-                        print("Warning: Dihedral not found!")
-                        print(i,j,k,l,func,*dls_[:4])
-                        print(dht_series)
-                     for _, dht_ in dht_series.iterrows():
-                        stringout = f'{dls_[0]:<5} {dls_[1]:>5} {dls_[2]:>5} {dls_[3]:>5} {dht_["func"]:^9}{dht_["angle"]:<10}{dht_["K"]:<10.5f}{dht_["mult"]}\n'
-                        dih_new.append(stringout)
-                  elif len(dls_) == 8:
-                     Kscaled = float32(dls_[6])*lambdai
-                     stringout = f'{dls_[0]:<5} {dls_[1]:>5} {dls_[2]:>5} {dls_[3]:>5} {dls_[4]:^9}{dls_[5]:<10}{Kscaled:<10.5f}{dls_[7]}\n'
-                     dih_new.append(stringout)
-                  elif len(dls_) == 0:
-                     continue
-                  else: 
-                     print(f'Warning: incorrect parsing of dihedrals section\n expecting 5 or 8 columns found {len(dls_)}\n'+dihedral)
-               dihedrals_new[lambdai] = deepcopy(dih_new)
-            self._scaled_dihedrals[hot] = deepcopy(dihedrals_new) 
-         else:
-            for hot in self.hot_molecules:
+               dihedrals['K'] = unscaled_K * float32(lambdai)
+               self._scaled_dihedrals[hot][lambdai] = dihedrals_strings_list(dihedrals)      
+      else:
+         for hot in self.hot_molecules:
                self._scaled_dihedrals[hot] = {i:self._sections['moleculetype'][hot]['dihedrals'] for i in self.lambdai}
       pass
 
@@ -612,6 +679,7 @@ if __name__=="__main__":
    parser.add_argument('-n','--nreps', default=10, type=int, help='Number of replicas (default: %(default)s)')
    parser.add_argument('-k', '--kappa-max', default=1.06, type=float, help='Max Kappa Scaling (default: %(default)s)')  
    parser.add_argument('--kappa-low-temp', default=300, type=float, help='Replicas at or above this temperature will have active solvent scaling (default:%(default)s) ')  
+   # parser.add_argument('-t','--temps-opt', default=[], nargs='+', type=float, help='Space delimited entry of user selected temperature ladder (default: %(default)s)')
    parser.add_argument('--kappa-atomtypes', default=['OW'], nargs='+', type=str, help='Atomtypes to apply solvent scaling (default:%(default)s) ') 
    parser.add_argument('-T', '--tmin', default=300, type=float, help='Base Temperature (default: %(default)s)')
    parser.add_argument('-M', '--tmax', default=500, type=float, help='Max Temperature (default: %(default)s)')
@@ -620,7 +688,7 @@ if __name__=="__main__":
    assert args.tmin < args.tmax, 'Base replica temperature must be lower than hot replica!'
    options = {'ifile':args.topol, 
               'outfile':args.outfile, 
-              'filepath':args.outfile, 
+              'filepath':args.output, 
               'method':args.method, 
               'hot_molecules':args.hot_molecules, 
               'nreps':args.nreps, 
@@ -628,7 +696,8 @@ if __name__=="__main__":
               'temps':[args.tmin,args.tmax] , 
               'kappa_low_temp': args.kappa_low_temp, 
               'kappa_atom_names':args.kappa_atomtypes,
-              'verbose':args.verbose
+              'verbose':args.verbose,
+            #   'temps_opt':args.temps_opt
               }
    
    conversion_class = topo2rest(**options)
