@@ -13,7 +13,7 @@
 ### repex_topology_parser
 #### Currently only supports Amber Potential 
 #### without CMAP corrections
-$$ E_{\rm total} = \sum_{\rm bonds} K_r (r - r_{eq})^2 + \sum_{\rm angles} K_\theta (\theta - \theta_{eq})^2 + \sum_{\rm dihedrals} {V_n \over 2} [1 + {\rm cos}(n\phi - \gamma)] + \sum_{i<j} \epsilon_{ij} \left [ {\left(\frac{\sigma_{ij}}{R_{ij}}\right)}^{12} - {\left(\frac{\sigma_{ij}}{R_{ij}}\right)}^6 \right] + \sum_{i<j} {q_iq_j \over \epsilon R_{ij}}$$
+$$ E_{\rm total} = \sum_{\rm bonds} K_r (r - r_{eq})^2 + \sum_{\rm angles} K_\theta (\theta - \theta_{eq})^2 + \sum_{\rm dihedrals} {V_n \over 2} [1 + {\rm cos}(n\phi - \gamma)] + \sum_{i<j} \epsilon_{ij} \left [ {\left(\frac{\sigma_{ij}}{R_{ij}}\right)}^{12} - {\left(\frac{\sigma_{ij}}{R_{ij}}\right)}^6 \right] + \sum_{i<j} {q_iq_j \over \epsilon R_{ij}} $$
 ### TODO
 #### - Add CMAP lambda scaling
 #### - Extend to CHARMM, OPLS-AA
