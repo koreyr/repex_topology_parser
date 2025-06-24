@@ -206,7 +206,7 @@ def dihedraltypes_strings_list(dihedraltypes):
 
 def dihedrals_strings_list(dihedrals):
    stringsout = [f'{dihedral[0]:<5} {dihedral[1]:<5} {dihedral[2]:<5} {dihedral[3]:<5} {dihedral[4]:^9}' + \
-                 f'{dihedral[5]:<10}{dihedral[6]:<10.5f}{dihedral[7]}\n' \
+                 f'{dihedral[5]:<10.3f}{dihedral[6]:<10.5f}{dihedral[7]}\n' \
                  if len(dihedral) == 8 else f'{dihedral[0]:<5} {dihedral[1]:<5} {dihedral[2]:<5} {dihedral[3]:<5} {dihedral[4]:^9}' \
                  for dihedral in dihedrals ]
    return stringsout

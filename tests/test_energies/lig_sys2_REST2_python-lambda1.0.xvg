@@ -1,0 +1,35 @@
+# This file was created Tue Jun 24 12:44:48 2025
+# Created by:
+#  :-) GROMACS - gmx energy, 2022.3-plumed_2.8.0-dev-20220902-47c9856ee2-dirty-unknown (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx_s
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/koreyr/github/repex_topology_parser/tests/energy_test
+# Command line:
+#   gmx_s energy -f lig_sys2_REST2_python-lambda1.0.edr -o lig_sys2_REST2_python-lambda1.0.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Bond"
+@ s1 legend "Angle"
+@ s2 legend "Proper Dih."
+@ s3 legend "Per. Imp. Dih."
+@ s4 legend "LJ-14"
+@ s5 legend "Coulomb-14"
+@ s6 legend "LJ (SR)"
+@ s7 legend "Disper. corr."
+@ s8 legend "Coulomb (SR)"
+@ s9 legend "Coul. recip."
+@ s10 legend "Potential"
+    0.000000  1004.447205  3441.838867  2852.042725  221.575165  1056.753174  6044.474609  99333.109375  -4604.715332  -824452.187500  1839.849976  -713262.812500
