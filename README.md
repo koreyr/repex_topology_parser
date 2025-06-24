@@ -19,7 +19,7 @@ a^2 = b^2 + c^2
 ```
 
 ```math
-E_{\text{total}} = \sum_{\text{bonds}} K_r (r - r_{\text{eq}})^2 + \sum_{\text{angles}} K_\theta (\theta - \theta_{\text{eq}})^2 + \sum_{\text{dihedrals}} \frac{V_n}{2} (1 + \cos (n\phi - \gamma)) + \sum_{i<j} \epsilon_{ij} ( ( \frac{\sigma_{ij}}{R_{ij}} )^{12} - ( \frac{\sigma_{ij}}{R_{ij}} )^6 ) + \sum_{i<j} \frac{q_i q_j}{4 \pi \epsilon_0 R_{ij}}
+E_{\rm total} = \sum_{\rm bonds} K_r (r - r_{\rm eq})^2 + \sum_{\rm angles} K_\theta (\theta - \theta_{\rm eq})^2 + \sum_{\rm dihedrals} \frac{V_n}{2} (1 + \cos(n\phi - \gamma)) + \sum_{i\lt j} \epsilon_{ij} ( ( \frac{\sigma_{ij}}{R_{ij}} )^{12} - ( \frac{\sigma_{ij}}{R_{ij}} )^6 ) + \sum_{i\le j} \frac{q_i q_j}{4 \pi \epsilon_0 R_{ij}}
 ```
 ### TODO
 #### - Add CMAP lambda scaling
