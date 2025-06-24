@@ -13,6 +13,11 @@
 ### repex_topology_parser
 #### Currently only supports Amber Potential 
 #### without CMAP corrections
+Test katex
+```katex
+a^2 = b^2 + c^2
+```
+
 ```katex
 E_{\rm total} = \sum_{\rm bonds} K_r (r - r_{\rm eq})^2 + \sum_{\rm angles} K_\theta (\theta - \theta_{\rm eq})^2 + \sum_{\rm dihedrals} \frac{V_n}{2} (1 + \cos(n\phi - \gamma)) + \sum_{i<j} \epsilon_{ij} ( ( \frac{\sigma_{ij}}{R_{ij}} )^{12} - ( \frac{\sigma_{ij}}{R_{ij}} )^6 ) + \sum_{i<j} \frac{q_i q_j}{4 \pi \epsilon_0 R_{ij}}
 ```
