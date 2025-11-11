@@ -98,6 +98,7 @@ def dihedral_array(dihedraltypes:ndarray, dihedrals:list, atom_mapping:dict, ver
          continue
       else:
          raise RuntimeError(f'Line not processed: {line}')
+   print(search_dihedrals)
    for (i, j, k, l, func) in search_dihedrals:
       if func == 4:
          mask = ((isin(dihedraltypes['i'], atom_mapping[i]) & \
@@ -608,6 +609,21 @@ class topo2rest():
       self._processed = True
       pass
    
+   def _method_solvent_scaled(self,**kwargs):
+      if kwargs.get('verbose',False): print(f'Running solvent scaling method')
+      self.nreps = kwargs.get('nreps', self.nreps)
+      self._lambdai = arange(1,self.nreps+1)
+      self._request_hot_molecules(**kwargs)
+      self._get_scale_nonbonded(lambda_on=False)
+      self.kappa_low_temp = kwargs.get('kappa_low_temp', self.kappa_low_temp)
+      self._request_kappa_params(**kwargs)
+      self._generate_nonbonded_kappa_fix(**kwargs)
+      self._get_scale_dehedrals(lambda_on=False)
+      self._get_scaled_molecules(lambda_on=False)
+      self._populate_out()
+      self._processed = True
+      pass
+   
    def _method_ssrest3(self, **kwargs):
       if kwargs.get('verbose',False): print(f'Running ssrest3 scaling method')
       temps = kwargs.get('temps', None) if not any(self.templadder) else None
@@ -636,8 +652,12 @@ class topo2rest():
    def run(self, **kwargs):
       self.nreps = kwargs.get('nreps', self.nreps)
       scaling_method = kwargs.get('method', None)
+      if kwargs.get('verbose',False):
+         print(scaling_method)
       if scaling_method == None:
          raise Exception(f'No scaling method selected.\n Options used: {kwargs}')
+      elif scaling_method == 'solvent_scaled':
+         self._method_solvent_scaled(**kwargs)
       elif scaling_method == 'rest2':
          self._method_rest2(**kwargs)
       elif scaling_method == 'ssrest3':

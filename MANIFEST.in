@@ -1,0 +1,16 @@
+# Include source files and tests
+recursive-include src *
+recursive-include tests *
+recursive-include example_conversion *
+
+# Include example notebooks and docs
+include example.ipynb
+include README.md
+include project.toml
+include setup.py
+
+# Exclude build artifacts
+exclude *.pyc
+exclude __pycache__/
+exclude dist/
+exclude build/
